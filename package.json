@@ -1,0 +1,26 @@
+{
+  "name": "underlordsconstants",
+  "version": "1.0.0",
+  "description": "Constant data for Dota Underlords applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node tasks/updateconstants"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odota/underlordsconstants.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odota/underlordsconstants/issues"
+  },
+  "homepage": "https://github.com/odota/underlordsconstants#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "simple-vdf": "^1.1.1"
+  }
+}
