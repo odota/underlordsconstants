@@ -33,7 +33,7 @@ const sources = [
       const heroes = resObj[0];
       const strings = resObj[1];
 
-      Object.entries(heroes).map(([key, hero]) => {
+      Object.entries(heroes).forEach(([key, hero]) => {
         hero.displayName = strings[hero.displayName.replace('#', '')] || hero.displayName;
       });
 
@@ -50,7 +50,7 @@ const sources = [
       const abilities = resObj[0];
       const strings = resObj[1];
 
-      Object.entries(abilities).map(([key, ability]) => {
+      Object.entries(abilities).forEach(([key, ability]) => {
         let desc = strings[`dac_ability_${key}_Description`] ||
                     strings[`dac_ability_${key}_description`]; //lower case "d"...
         
@@ -72,8 +72,8 @@ const sources = [
         }
 
         ability.iconName = ABILITY_IMAGE_MAPPING[key] || key;
-        abilities.description = desc;
-        abilities.displayName = strings[`dac_ability_${key}`] 
+        ability.description = desc;
+        ability.displayName = strings[`dac_ability_${key}`] 
         || ABILITY_NAME_MAPPING[key]
         || key;
       });
@@ -95,7 +95,7 @@ const sources = [
       const abilityStrings = resObj[2];
       const strings = resObj[3];
 
-      Object.entries(alliances).map(([key, a]) => {
+      Object.entries(alliances).forEach(([key, a]) => {
         a.name = key.toLowerCase();
         a.displayName = abilityStrings[`dac_synergy_${a.name}`];
         let allianceHeroes = [];
@@ -114,7 +114,7 @@ const sources = [
         })
       });
 
-      return heroes;
+      return alliances;
     }
   },
   {
