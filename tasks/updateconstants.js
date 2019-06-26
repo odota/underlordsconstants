@@ -136,13 +136,11 @@ const sources = [
   },
   {
     key: "underlords_items",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json",
-    transform: resObj => resObj
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json"
   },
   {
     key: "underlords_localization_en",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt",
-    transform: resObj => resObj
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
   },
   {
     key: "underlords_localization_abilities_en",
