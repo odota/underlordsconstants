@@ -17,10 +17,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Abaddon",
-      "zh_CN": "亚巴顿"
-    },
+    "displayName": "dac_hero_name_abaddon",
     "dota_unit_name": "npc_dota_hero_abaddon",
     "draftTier": 3,
     "goldCost": 3,
@@ -42,7 +39,8 @@
     "texturename": "abaddon",
     "soundSet": "Hero_Abaddon",
     "movespeed": 325,
-    "healthBarOffset": -45
+    "healthBarOffset": -45,
+    "key": "abaddon"
   },
   "alchemist": {
     "abilities": [
@@ -62,10 +60,7 @@
       140,
       280
     ],
-    "displayName": {
-      "en": "Alchemist",
-      "zh_CN": "炼金术士"
-    },
+    "displayName": "dac_hero_name_alchemist",
     "dota_unit_name": "npc_dota_hero_alchemist",
     "draftTier": 4,
     "goldCost": 4,
@@ -93,7 +88,8 @@
     "soundSet": "Hero_Alchemist",
     "movespeed": 305,
     "healthBarOffset": 25,
-    "aiAura": true
+    "aiAura": true,
+    "key": "alchemist"
   },
   "antimage": {
     "abilities": [
@@ -113,10 +109,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Anti-Mage",
-      "zh_CN": "敌法师"
-    },
+    "displayName": "dac_hero_name_antimage",
     "dota_unit_name": "npc_dota_hero_antimage",
     "draftTier": 1,
     "goldCost": 1,
@@ -144,7 +137,8 @@
     "soundSet": "Hero_Antimage",
     "movespeed": 310,
     "healthBarOffset": -30,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "antimage"
   },
   "axe": {
     "abilities": [
@@ -164,10 +158,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Axe",
-      "zh_CN": "斧王"
-    },
+    "displayName": "dac_hero_name_axe",
     "dota_unit_name": "npc_dota_hero_axe",
     "draftTier": 1,
     "goldCost": 1,
@@ -190,7 +181,8 @@
     "texturename": "axe",
     "soundSet": "Hero_Axe",
     "movespeed": 295,
-    "healthBarOffset": -30
+    "healthBarOffset": -30,
+    "key": "axe"
   },
   "bat_rider": {
     "abilities": [
@@ -210,10 +202,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Batrider",
-      "zh_CN": "蝙蝠骑士"
-    },
+    "displayName": "dac_hero_name_bat_rider",
     "dota_unit_name": "npc_dota_hero_batrider",
     "draftTier": 1,
     "goldCost": 1,
@@ -238,7 +227,8 @@
     "projectile_model": "particles/units/heroes/hero_batrider/batrider_base_attack.vpcf",
     "soundSet": "Hero_Batrider",
     "movespeed": 290,
-    "healthBarOffset": -100
+    "healthBarOffset": -100,
+    "key": "bat_rider"
   },
   "beastmaster": {
     "abilities": [
@@ -258,10 +248,7 @@
       140,
       280
     ],
-    "displayName": {
-      "en": "Beastmaster",
-      "zh_CN": "兽王"
-    },
+    "displayName": "dac_hero_name_beast_master",
     "dota_unit_name": "npc_dota_hero_beastmaster",
     "draftTier": 2,
     "goldCost": 2,
@@ -283,7 +270,8 @@
     ],
     "texturename": "beastmaster",
     "movespeed": 305,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "beastmaster"
   },
   "bounty_hunter": {
     "abilities": [
@@ -304,10 +292,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Bounty Hunter",
-      "zh_CN": "赏金猎人"
-    },
+    "displayName": "dac_hero_name_bounty_hunter",
     "dota_unit_name": "npc_dota_hero_bounty_hunter",
     "draftTier": 1,
     "goldCost": 1,
@@ -335,7 +320,8 @@
       "particles/units/heroes/hero_bounty_hunter/bounty_hunter_windwalk_start.vpcf",
       "particles/units/heroes/hero_bounty_hunter/bounty_hunter_windwalk_end.vpcf"
     ],
-    "healthBarOffset": 20
+    "healthBarOffset": 20,
+    "key": "bounty_hunter"
   },
   "chaos_knight": {
     "abilities": [
@@ -355,10 +341,7 @@
       240,
       480
     ],
-    "displayName": {
-      "en": "Chaos Knight",
-      "zh_CN": "混沌骑士"
-    },
+    "displayName": "dac_hero_name_chaos_knight",
     "dota_unit_name": "npc_dota_hero_chaos_knight",
     "draftTier": 2,
     "goldCost": 2,
@@ -381,7 +364,8 @@
     "texturename": "chaos_knight",
     "soundSet": "Hero_ChaosKnight",
     "movespeed": 320,
-    "healthBarOffset": -30
+    "healthBarOffset": -30,
+    "key": "chaos_knight"
   },
   "clockwerk": {
     "abilities": [
@@ -405,10 +389,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Clockwerk",
-      "zh_CN": "发条技师"
-    },
+    "displayName": "dac_hero_name_clockwerk",
     "dota_unit_name": "npc_dota_hero_rattletrap",
     "draftTier": 1,
     "goldCost": 1,
@@ -431,7 +412,8 @@
     "texturename": "rattletrap",
     "soundSet": "Hero_Rattletrap",
     "movespeed": 310,
-    "healthBarOffset": 20
+    "healthBarOffset": 20,
+    "key": "clockwerk"
   },
   "crystal_maiden": {
     "abilities": [
@@ -451,10 +433,7 @@
       90,
       180
     ],
-    "displayName": {
-      "en": "Crystal Maiden",
-      "zh_CN": "冰晶圣女"
-    },
+    "displayName": "dac_hero_name_crystal_maiden",
     "dota_unit_name": "npc_dota_hero_crystal_maiden",
     "draftTier": 2,
     "goldCost": 2,
@@ -484,7 +463,8 @@
     "death_modifier": "modifier_crystal_maiden_death",
     "precache": [
       "particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
-    ]
+    ],
+    "key": "crystal_maiden"
   },
   "disruptor": {
     "abilities": [
@@ -504,10 +484,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Disruptor",
-      "zh_CN": "干扰者"
-    },
+    "displayName": "dac_hero_name_disruptor",
     "dota_unit_name": "npc_dota_hero_disruptor",
     "draftTier": 4,
     "goldCost": 4,
@@ -532,7 +509,8 @@
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
     "movespeed": 295,
-    "healthBarOffset": -90
+    "healthBarOffset": -90,
+    "key": "disruptor"
   },
   "doom": {
     "abilities": [
@@ -552,10 +530,7 @@
       240,
       480
     ],
-    "displayName": {
-      "en": "Doom",
-      "zh_CN": "末日使者"
-    },
+    "displayName": "dac_hero_name_doom",
     "dota_unit_name": "npc_dota_hero_doom_bringer",
     "draftTier": 4,
     "goldCost": 4,
@@ -578,7 +553,8 @@
     "texturename": "doom_bringer",
     "soundSet": "Hero_DoomBringer",
     "movespeed": 285,
-    "healthBarOffset": -90
+    "healthBarOffset": -90,
+    "key": "doom"
   },
   "dragon_knight": {
     "abilities": [
@@ -601,10 +577,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Dragon Knight",
-      "zh_CN": "龙骑士"
-    },
+    "displayName": "dac_hero_name_dragon_knight",
     "dota_unit_name": "npc_dota_hero_dragon_knight",
     "draftTier": 4,
     "goldCost": 4,
@@ -629,7 +602,8 @@
     "useConstantAnimationLayer": true,
     "movespeed": 295,
     "projectile_speed": 900,
-    "healthBarOffset": 0
+    "healthBarOffset": 0,
+    "key": "dragon_knight"
   },
   "drow_ranger": {
     "abilities": [
@@ -649,10 +623,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Drow Ranger",
-      "zh_CN": "卓尔游侠"
-    },
+    "displayName": "dac_hero_name_drow_ranger",
     "dota_unit_name": "npc_dota_hero_drow_ranger",
     "draftTier": 1,
     "goldCost": 1,
@@ -679,7 +650,8 @@
     "projectile_speed": 900,
     "healthBarOffset": -15,
     "aiPassiveAbility": true,
-    "aiAura": true
+    "aiAura": true,
+    "key": "drow_ranger"
   },
   "enchantress": {
     "abilities": [
@@ -699,10 +671,7 @@
       130,
       250
     ],
-    "displayName": {
-      "en": "Enchantress",
-      "zh_CN": "魅惑魔女"
-    },
+    "displayName": "dac_hero_name_enchantress",
     "dota_unit_name": "npc_dota_hero_enchantress",
     "draftTier": 1,
     "goldCost": 1,
@@ -727,7 +696,8 @@
     "projectile_model": "particles/units/heroes/hero_enchantress/enchantress_base_attack.vpcf",
     "movespeed": 315,
     "projectile_speed": 900,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "enchantress"
   },
   "enigma": {
     "abilities": [
@@ -747,10 +717,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Enigma",
-      "zh_CN": "谜团"
-    },
+    "displayName": "dac_hero_name_enigma",
     "dota_unit_name": "npc_dota_hero_enigma",
     "draftTier": 5,
     "goldCost": 5,
@@ -775,7 +742,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
     "movespeed": 290,
-    "healthBarOffset": -70
+    "healthBarOffset": -70,
+    "key": "enigma"
   },
   "furion": {
     "abilities": [
@@ -795,10 +763,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Nature's Prophet",
-      "zh_CN": "先知"
-    },
+    "displayName": "dac_hero_name_furion",
     "dota_unit_name": "npc_dota_hero_furion",
     "draftTier": 2,
     "goldCost": 2,
@@ -823,7 +788,8 @@
     "projectile_speed": 1125,
     "projectile_model": "particles/units/heroes/hero_furion/furion_base_attack.vpcf",
     "movespeed": 290,
-    "healthBarOffset": -20
+    "healthBarOffset": -20,
+    "key": "furion"
   },
   "gyrocopter": {
     "abilities": [
@@ -844,10 +810,7 @@
       160,
       320
     ],
-    "displayName": {
-      "en": "Gyrocopter",
-      "zh_CN": "矮人直升机"
-    },
+    "displayName": "dac_hero_name_gyrocopter",
     "dota_unit_name": "npc_dota_hero_gyrocopter",
     "draftTier": 5,
     "goldCost": 5,
@@ -873,7 +836,8 @@
     "projectile_model": "particles/units/heroes/hero_gyrocopter/gyro_base_attack.vpcf",
     "useConstantAnimationLayer": true,
     "movespeed": 315,
-    "healthBarOffset": -35
+    "healthBarOffset": -35,
+    "key": "gyrocopter"
   },
   "juggernaut": {
     "abilities": [
@@ -893,10 +857,7 @@
       140,
       280
     ],
-    "displayName": {
-      "en": "Juggernaut",
-      "zh_CN": "主宰"
-    },
+    "displayName": "dac_hero_name_juggernaut",
     "dota_unit_name": "npc_dota_hero_juggernaut",
     "draftTier": 2,
     "goldCost": 2,
@@ -919,7 +880,8 @@
     "texturename": "juggernaut",
     "soundSet": "Hero_Juggernaut",
     "movespeed": 300,
-    "healthBarOffset": 10
+    "healthBarOffset": 10,
+    "key": "juggernaut"
   },
   "keeper_of_the_light": {
     "abilities": [
@@ -939,10 +901,7 @@
       90,
       180
     ],
-    "displayName": {
-      "en": "Keeper of the Light",
-      "zh_CN": "光之守卫"
-    },
+    "displayName": "dac_hero_name_keeper_of_the_light",
     "dota_unit_name": "npc_dota_hero_keeper_of_the_light",
     "draftTier": 4,
     "goldCost": 4,
@@ -967,7 +926,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_base_attack.vpcf",
     "movespeed": 330,
-    "healthBarOffset": -20
+    "healthBarOffset": -20,
+    "key": "keeper_of_the_light"
   },
   "kunkka": {
     "abilities": [
@@ -987,10 +947,7 @@
       180,
       360
     ],
-    "displayName": {
-      "en": "Kunkka",
-      "zh_CN": "昆卡"
-    },
+    "displayName": "dac_hero_name_kunkka",
     "dota_unit_name": "npc_dota_hero_kunkka",
     "draftTier": 4,
     "goldCost": 4,
@@ -1013,7 +970,8 @@
     "texturename": "kunkka",
     "soundSet": "Hero_Kunkka",
     "movespeed": 300,
-    "healthBarOffset": -30
+    "healthBarOffset": -30,
+    "key": "kunkka"
   },
   "lich": {
     "abilities": [
@@ -1033,10 +991,7 @@
       90,
       180
     ],
-    "displayName": {
-      "en": "Lich",
-      "zh_CN": "巫妖"
-    },
+    "displayName": "dac_hero_name_lich",
     "dota_unit_name": "npc_dota_hero_lich",
     "draftTier": 5,
     "goldCost": 5,
@@ -1061,7 +1016,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_lich/lich_base_attack.vpcf",
     "movespeed": 295,
-    "healthBarOffset": -80
+    "healthBarOffset": -80,
+    "key": "lich"
   },
   "lina": {
     "abilities": [
@@ -1081,10 +1037,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Lina",
-      "zh_CN": "莉娜"
-    },
+    "displayName": "dac_hero_name_lina",
     "dota_unit_name": "npc_dota_hero_lina",
     "draftTier": 3,
     "goldCost": 3,
@@ -1112,7 +1065,8 @@
     "death_modifier": "modifier_lina_death",
     "precache": [
       "particles/units/heroes/hero_lina/lina_death.vpcf"
-    ]
+    ],
+    "key": "lina"
   },
   "lone_druid": {
     "abilities": [
@@ -1132,10 +1086,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Lone Druid",
-      "zh_CN": "德鲁伊"
-    },
+    "displayName": "dac_hero_name_lone_druid",
     "dota_unit_name": "npc_dota_hero_lone_druid",
     "draftTier": 4,
     "goldCost": 4,
@@ -1161,7 +1112,8 @@
     "projectile_model": "particles/units/heroes/hero_lone_druid/lone_druid_base_attack.vpcf",
     "movespeed": 325,
     "healthBarOffset": -20,
-    "aiIsMelee": true
+    "aiIsMelee": true,
+    "key": "lone_druid"
   },
   "luna": {
     "abilities": [
@@ -1181,10 +1133,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Luna",
-      "zh_CN": "露娜"
-    },
+    "displayName": "dac_hero_name_luna",
     "dota_unit_name": "npc_dota_hero_luna",
     "draftTier": 2,
     "goldCost": 2,
@@ -1210,7 +1159,8 @@
     "projectile_model": "particles/units/heroes/hero_luna/luna_base_attack.vpcf",
     "movespeed": 325,
     "healthBarOffset": -60,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "luna"
   },
   "lycan": {
     "abilities": [
@@ -1230,10 +1180,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Lycan",
-      "zh_CN": "狼人"
-    },
+    "displayName": "dac_hero_name_lycan",
     "dota_unit_name": "npc_dota_hero_lycan",
     "draftTier": 3,
     "goldCost": 3,
@@ -1256,7 +1203,8 @@
     "texturename": "lycan",
     "soundSet": "Hero_Lycan",
     "movespeed": 315,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "lycan"
   },
   "medusa": {
     "abilities": [
@@ -1277,10 +1225,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Medusa",
-      "zh_CN": "美杜莎"
-    },
+    "displayName": "dac_hero_name_medusa",
     "dota_unit_name": "npc_dota_hero_medusa",
     "draftTier": 4,
     "goldCost": 4,
@@ -1305,7 +1250,8 @@
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_medusa/medusa_base_attack.vpcf",
     "movespeed": 275,
-    "healthBarOffset": -10
+    "healthBarOffset": -10,
+    "key": "medusa"
   },
   "morphling": {
     "abilities": [
@@ -1326,10 +1272,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Morphling",
-      "zh_CN": "变体精灵"
-    },
+    "displayName": "dac_hero_name_morphling",
     "dota_unit_name": "npc_dota_hero_morphling",
     "draftTier": 2,
     "goldCost": 2,
@@ -1360,7 +1303,8 @@
     "precache": [
       "particles/units/heroes/hero_morphling/morphling_dissolve.vpcf",
       "particles/units/heroes/hero_morphling/morphling_apear.vpcf"
-    ]
+    ],
+    "key": "morphling"
   },
   "necrophos": {
     "abilities": [
@@ -1380,10 +1324,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Necrophos",
-      "zh_CN": "瘟疫法师"
-    },
+    "displayName": "dac_hero_name_necrophos",
     "dota_unit_name": "npc_dota_hero_necrolyte",
     "draftTier": 4,
     "goldCost": 4,
@@ -1408,7 +1349,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_necrolyte/necrolyte_base_attack.vpcf",
     "movespeed": 280,
-    "healthBarOffset": -10
+    "healthBarOffset": -10,
+    "key": "necrophos"
   },
   "ogre_magi": {
     "abilities": [
@@ -1428,10 +1370,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Ogre Magi",
-      "zh_CN": "食人魔魔法师"
-    },
+    "displayName": "dac_hero_name_ogre_magi",
     "dota_unit_name": "npc_dota_hero_ogre_magi",
     "draftTier": 1,
     "goldCost": 1,
@@ -1454,7 +1393,8 @@
     "texturename": "ogre_magi",
     "soundSet": "Hero_OgreMagi",
     "movespeed": 290,
-    "healthBarOffset": -15
+    "healthBarOffset": -15,
+    "key": "ogre_magi"
   },
   "omniknight": {
     "abilities": [
@@ -1474,10 +1414,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Omniknight",
-      "zh_CN": "全知骑士"
-    },
+    "displayName": "dac_hero_name_omniknight",
     "dota_unit_name": "npc_dota_hero_omniknight",
     "draftTier": 3,
     "goldCost": 3,
@@ -1500,7 +1437,8 @@
     "texturename": "omniknight",
     "soundSet": "Hero_OmniKnight",
     "movespeed": 300,
-    "healthBarOffset": -15
+    "healthBarOffset": -15,
+    "key": "omniknight"
   },
   "phantom_assassin": {
     "abilities": [
@@ -1521,10 +1459,7 @@
       180,
       360
     ],
-    "displayName": {
-      "en": "Phantom Assassin",
-      "zh_CN": "幻影刺客"
-    },
+    "displayName": "dac_hero_name_phantom_assassin",
     "dota_unit_name": "npc_dota_hero_phantom_assassin",
     "draftTier": 3,
     "goldCost": 3,
@@ -1553,7 +1488,8 @@
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_phantom_strike_end.vpcf"
     ],
     "healthBarOffset": -50,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "phantom_assassin"
   },
   "puck": {
     "abilities": [
@@ -1576,10 +1512,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Puck",
-      "zh_CN": "帕克"
-    },
+    "displayName": "dac_hero_name_puck",
     "dota_unit_name": "npc_dota_hero_puck",
     "draftTier": 2,
     "goldCost": 2,
@@ -1605,7 +1538,8 @@
     "projectile_model": "particles/units/heroes/hero_puck/puck_base_attack.vpcf",
     "useConstantAnimationLayer": true,
     "movespeed": 290,
-    "healthBarOffset": -10
+    "healthBarOffset": -10,
+    "key": "puck"
   },
   "queen_of_pain": {
     "abilities": [
@@ -1626,10 +1560,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Queen of Pain",
-      "zh_CN": "痛苦女王"
-    },
+    "displayName": "dac_hero_name_queen_of_pain",
     "dota_unit_name": "npc_dota_hero_queenofpain",
     "draftTier": 2,
     "goldCost": 2,
@@ -1659,7 +1590,8 @@
       "particles/units/heroes/hero_queenofpain/queen_blink_start.vpcf",
       "particles/units/heroes/hero_queenofpain/queen_blink_end.vpcf"
     ],
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "queen_of_pain"
   },
   "razor": {
     "abilities": [
@@ -1679,10 +1611,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Razor",
-      "zh_CN": "剃刀"
-    },
+    "displayName": "dac_hero_name_razor",
     "dota_unit_name": "npc_dota_hero_razor",
     "draftTier": 3,
     "goldCost": 3,
@@ -1708,7 +1637,8 @@
     "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
     "movespeed": 285,
     "healthBarOffset": -80,
-    "aiAura": true
+    "aiAura": true,
+    "key": "razor"
   },
   "sand_king": {
     "abilities": [
@@ -1730,10 +1660,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Sand King",
-      "zh_CN": "沙王"
-    },
+    "displayName": "dac_hero_name_sand_king",
     "dota_unit_name": "npc_dota_hero_sand_king",
     "draftTier": 3,
     "goldCost": 3,
@@ -1760,7 +1687,8 @@
     "assassin_modifier": "assassin_modifier_sand_king",
     "precache": [
       "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
-    ]
+    ],
+    "key": "sand_king"
   },
   "shadow_fiend": {
     "abilities": [
@@ -1780,10 +1708,7 @@
       160,
       320
     ],
-    "displayName": {
-      "en": "Shadow Fiend",
-      "zh_CN": "影魔"
-    },
+    "displayName": "dac_hero_name_shadow_fiend",
     "dota_unit_name": "npc_dota_hero_nevermore",
     "draftTier": 3,
     "goldCost": 3,
@@ -1809,7 +1734,8 @@
     "projectile_model": "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf",
     "movespeed": 305,
     "healthBarOffset": -20,
-    "aiAura": true
+    "aiAura": true,
+    "key": "shadow_fiend"
   },
   "shadow_shaman": {
     "abilities": [
@@ -1829,10 +1755,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Shadow Shaman",
-      "zh_CN": "暗影萨满"
-    },
+    "displayName": "dac_hero_name_shadow_shaman",
     "dota_unit_name": "npc_dota_hero_shadow_shaman",
     "draftTier": 1,
     "goldCost": 1,
@@ -1857,7 +1780,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_shadowshaman/shadowshaman_base_attack.vpcf",
     "movespeed": 285,
-    "healthBarOffset": 60
+    "healthBarOffset": 60,
+    "key": "shadow_shaman"
   },
   "slardar": {
     "abilities": [
@@ -1877,10 +1801,7 @@
       200,
       400
     ],
-    "displayName": {
-      "en": "Slardar",
-      "zh_CN": "斯拉达"
-    },
+    "displayName": "dac_hero_name_slardar",
     "dota_unit_name": "npc_dota_hero_slardar",
     "draftTier": 2,
     "goldCost": 2,
@@ -1903,7 +1824,8 @@
     "texturename": "slardar",
     "soundSet": "Hero_Slardar",
     "movespeed": 290,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "slardar"
   },
   "slark": {
     "abilities": [
@@ -1929,10 +1851,7 @@
       92,
       145
     ],
-    "displayName": {
-      "en": "Slark",
-      "zh_CN": "斯拉克"
-    },
+    "displayName": "dac_hero_name_slark",
     "dota_unit_name": "npc_dota_hero_slark",
     "draftTier": 3,
     "goldCost": 3,
@@ -1957,7 +1876,8 @@
     "movespeed": 300,
     "assassin_modifier": "assassin_modifier_slark",
     "healthBarOffset": -20,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "slark"
   },
   "sniper": {
     "abilities": [
@@ -1978,10 +1898,7 @@
       210,
       360
     ],
-    "displayName": {
-      "en": "Sniper",
-      "zh_CN": "狙击手"
-    },
+    "displayName": "dac_hero_name_sniper",
     "dota_unit_name": "npc_dota_hero_sniper",
     "draftTier": 3,
     "goldCost": 3,
@@ -2006,7 +1923,8 @@
     "projectile_speed": 3000,
     "projectile_model": "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf",
     "movespeed": 285,
-    "healthBarOffset": 10
+    "healthBarOffset": 10,
+    "key": "sniper"
   },
   "techies": {
     "abilities": [
@@ -2026,10 +1944,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Techies",
-      "zh_CN": "工程师"
-    },
+    "displayName": "dac_hero_name_techies",
     "dota_unit_name": "npc_dota_hero_techies",
     "draftTier": 5,
     "goldCost": 5,
@@ -2055,7 +1970,8 @@
     "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
     "movespeed": 310,
     "healthBarOffset": -50,
-    "aiIsMelee": true
+    "aiIsMelee": true,
+    "key": "techies"
   },
   "templar_assassin": {
     "abilities": [
@@ -2076,10 +1992,7 @@
       220,
       440
     ],
-    "displayName": {
-      "en": "Templar Assassin",
-      "zh_CN": "圣堂刺客"
-    },
+    "displayName": "dac_hero_name_templar_assassin",
     "dota_unit_name": "npc_dota_hero_templar_assassin",
     "draftTier": 4,
     "goldCost": 4,
@@ -2109,7 +2022,8 @@
       "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_start.vpcf",
       "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_end.vpcf"
     ],
-    "healthBarOffset": -50
+    "healthBarOffset": -50,
+    "key": "templar_assassin"
   },
   "terrorblade": {
     "abilities": [
@@ -2129,10 +2043,7 @@
       130,
       260
     ],
-    "displayName": {
-      "en": "Terrorblade",
-      "zh_CN": "恐怖利刃"
-    },
+    "displayName": "dac_hero_name_terrorblade",
     "dota_unit_name": "npc_dota_hero_terrorblade",
     "draftTier": 3,
     "goldCost": 3,
@@ -2163,7 +2074,8 @@
     "projectile_speed": 900,
     "precache": [
       "particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_base_attack.vpcf"
-    ]
+    ],
+    "key": "terrorblade"
   },
   "tidehunter": {
     "abilities": [
@@ -2183,10 +2095,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Tidehunter",
-      "zh_CN": "潮汐猎人"
-    },
+    "displayName": "dac_hero_name_tide_hunter",
     "dota_unit_name": "npc_dota_hero_tidehunter",
     "draftTier": 5,
     "goldCost": 5,
@@ -2210,7 +2119,8 @@
     "soundSet": "Hero_tidehunter",
     "movespeed": 300,
     "healthBarOffset": -35,
-    "aiAura": true
+    "aiAura": true,
+    "key": "tidehunter"
   },
   "timbersaw": {
     "abilities": [
@@ -2234,10 +2144,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Timbersaw",
-      "zh_CN": "伐木机"
-    },
+    "displayName": "dac_hero_name_timbersaw",
     "dota_unit_name": "npc_dota_hero_shredder",
     "draftTier": 2,
     "goldCost": 2,
@@ -2262,7 +2169,8 @@
     "useConstantAnimationLayer": true,
     "movespeed": 290,
     "healthBarOffset": -15,
-    "aiAura": true
+    "aiAura": true,
+    "key": "timbersaw"
   },
   "tinker": {
     "abilities": [
@@ -2282,10 +2190,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Tinker",
-      "zh_CN": "修补匠"
-    },
+    "displayName": "dac_hero_name_tinker",
     "dota_unit_name": "npc_dota_hero_tinker",
     "draftTier": 1,
     "goldCost": 1,
@@ -2309,7 +2214,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
     "movespeed": 290,
-    "healthBarOffset": 15
+    "healthBarOffset": 15,
+    "key": "tinker"
   },
   "tiny": {
     "abilities": [
@@ -2329,10 +2235,7 @@
       200,
       400
     ],
-    "displayName": {
-      "en": "Tiny",
-      "zh_CN": "小小"
-    },
+    "displayName": "dac_hero_name_tiny",
     "dota_unit_name": "npc_dota_hero_tiny",
     "draftTier": 1,
     "goldCost": 1,
@@ -2355,7 +2258,8 @@
     "texturename": "tiny",
     "soundSet": "Hero_Tiny",
     "movespeed": 290,
-    "healthBarOffset": 95
+    "healthBarOffset": 95,
+    "key": "tiny"
   },
   "treant_protector": {
     "abilities": [
@@ -2375,10 +2279,7 @@
       180,
       360
     ],
-    "displayName": {
-      "en": "Treant Protector",
-      "zh_CN": "树精卫士"
-    },
+    "displayName": "dac_hero_name_treant_protector",
     "dota_unit_name": "npc_dota_hero_treant",
     "draftTier": 2,
     "goldCost": 2,
@@ -2401,7 +2302,8 @@
     "texturename": "treant",
     "soundSet": "Hero_Treant",
     "movespeed": 270,
-    "healthBarOffset": -75
+    "healthBarOffset": -75,
+    "key": "treant_protector"
   },
   "troll_warlord": {
     "abilities": [
@@ -2421,10 +2323,7 @@
       200,
       400
     ],
-    "displayName": {
-      "en": "Troll Warlord",
-      "zh_CN": "巨魔战将"
-    },
+    "displayName": "dac_hero_name_troll_warlord",
     "dota_unit_name": "npc_dota_hero_troll_warlord",
     "draftTier": 4,
     "goldCost": 4,
@@ -2450,7 +2349,8 @@
     "projectile_model": "particles/units/heroes/hero_troll_warlord/troll_warlord_base_attack.vpcf",
     "movespeed": 290,
     "healthBarOffset": -30,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "troll_warlord"
   },
   "tusk": {
     "abilities": [
@@ -2470,10 +2370,7 @@
       110,
       220
     ],
-    "displayName": {
-      "en": "Tusk",
-      "zh_CN": "巨牙海民"
-    },
+    "displayName": "dac_hero_name_tusk",
     "dota_unit_name": "npc_dota_hero_tusk",
     "draftTier": 1,
     "goldCost": 1,
@@ -2496,7 +2393,8 @@
     "texturename": "tusk",
     "soundSet": "Hero_Tusk",
     "movespeed": 300,
-    "healthBarOffset": -50
+    "healthBarOffset": -50,
+    "key": "tusk"
   },
   "venomancer": {
     "abilities": [
@@ -2516,10 +2414,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Venomancer",
-      "zh_CN": "剧毒术士"
-    },
+    "displayName": "dac_hero_name_venomancer",
     "dota_unit_name": "npc_dota_hero_venomancer",
     "draftTier": 3,
     "goldCost": 3,
@@ -2544,7 +2439,8 @@
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf",
     "movespeed": 275,
-    "healthBarOffset": -30
+    "healthBarOffset": -30,
+    "key": "venomancer"
   },
   "viper": {
     "abilities": [
@@ -2568,10 +2464,7 @@
       120,
       240
     ],
-    "displayName": {
-      "en": "Viper",
-      "zh_CN": "冥界亚龙"
-    },
+    "displayName": "dac_hero_name_viper",
     "dota_unit_name": "npc_dota_hero_viper",
     "draftTier": 3,
     "goldCost": 3,
@@ -2595,7 +2488,8 @@
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_viper/viper_base_attack.vpcf",
     "movespeed": 275,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "viper"
   },
   "wind_ranger": {
     "abilities": [
@@ -2615,10 +2509,7 @@
       130,
       260
     ],
-    "displayName": {
-      "en": "Windranger",
-      "zh_CN": "风行者"
-    },
+    "displayName": "dac_hero_name_wind_ranger",
     "dota_unit_name": "npc_dota_hero_windrunner",
     "draftTier": 3,
     "goldCost": 3,
@@ -2643,7 +2534,8 @@
     "projectile_speed": 1250,
     "projectile_model": "particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf",
     "movespeed": 290,
-    "healthBarOffset": 0
+    "healthBarOffset": 0,
+    "key": "wind_ranger"
   },
   "witch_doctor": {
     "abilities": [
@@ -2663,10 +2555,7 @@
       100,
       200
     ],
-    "displayName": {
-      "en": "Witch Doctor",
-      "zh_CN": "巫医"
-    },
+    "displayName": "dac_hero_name_witch_doctor",
     "dota_unit_name": "npc_dota_hero_witch_doctor",
     "draftTier": 2,
     "goldCost": 2,
@@ -2691,7 +2580,8 @@
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_witchdoctor/witchdoctor_base_attack.vpcf",
     "movespeed": 300,
-    "healthBarOffset": -30
+    "healthBarOffset": -30,
+    "key": "witch_doctor"
   },
   "pudge": {
     "abilities": [
@@ -2711,10 +2601,7 @@
       110,
       165
     ],
-    "displayName": {
-      "en": "Pudge",
-      "zh_CN": "帕吉"
-    },
+    "displayName": "dac_hero_name_pudge",
     "dota_unit_name": "npc_dota_hero_pudge",
     "draftTier": 2,
     "goldCost": 2,
@@ -2737,7 +2624,8 @@
     "texturename": "pudge",
     "soundSet": "Hero_Pudge",
     "movespeed": 280,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "pudge"
   },
   "warlock": {
     "abilities": [
@@ -2759,10 +2647,7 @@
       120,
       220
     ],
-    "displayName": {
-      "en": "Warlock",
-      "zh_CN": "术士"
-    },
+    "displayName": "dac_hero_name_warlock",
     "dota_unit_name": "npc_dota_hero_warlock",
     "draftTier": 1,
     "goldCost": 1,
@@ -2785,7 +2670,8 @@
     "texturename": "warlock",
     "soundSet": "Hero_Warlock",
     "movespeed": 290,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "warlock"
   },
   "bloodseeker": {
     "abilities": [
@@ -2806,10 +2692,7 @@
       120,
       190
     ],
-    "displayName": {
-      "en": "Bloodseeker",
-      "zh_CN": "血魔"
-    },
+    "displayName": "dac_hero_name_bloodseeker",
     "dota_unit_name": "npc_dota_hero_bloodseeker",
     "draftTier": 1,
     "goldCost": 1,
@@ -2837,7 +2720,8 @@
       "particles/units/heroes/hero_bloodseeker/bloodseeker_rupture.vpcf"
     ],
     "healthBarOffset": 20,
-    "aiPassiveAbility": true
+    "aiPassiveAbility": true,
+    "key": "bloodseeker"
   },
   "arc_warden": {
     "abilities": [
@@ -2859,10 +2743,7 @@
       170,
       290
     ],
-    "displayName": {
-      "en": "Arc Warden",
-      "zh_CN": "天穹守望者"
-    },
+    "displayName": "dac_hero_name_arc_warden",
     "dota_unit_name": "npc_dota_hero_arc_warden",
     "draftTier": 3,
     "goldCost": 3,
@@ -2886,7 +2767,8 @@
     "soundSet": "Hero_ArcWarden",
     "movespeed": 280,
     "precache": [],
-    "healthBarOffset": 20
+    "healthBarOffset": 20,
+    "key": "arc_warden"
   },
   "mirana": {
     "abilities": [
@@ -2906,10 +2788,7 @@
       130,
       260
     ],
-    "displayName": {
-      "en": "Mirana",
-      "zh_CN": "米拉娜"
-    },
+    "displayName": "dac_hero_name_mirana",
     "dota_unit_name": "npc_dota_hero_mirana",
     "draftTier": 4,
     "goldCost": 4,
@@ -2934,7 +2813,8 @@
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_mirana/mirana_base_attack.vpcf",
     "movespeed": 310,
-    "healthBarOffset": -40
+    "healthBarOffset": -40,
+    "key": "mirana"
   },
   "venomancer_plague_ward": {
     "armor": 5,
@@ -2952,10 +2832,7 @@
       200
     ],
     "keywords": "beast",
-    "displayName": {
-      "en": "Plague Ward",
-      "zh_CN": "瘟疫守卫"
-    },
+    "displayName": "dac_name_plague_ward",
     "dota_unit_name": "npc_dota_venomancer_plague_ward_1",
     "draftTier": 0,
     "goldCost": 0,
@@ -2978,7 +2855,8 @@
     "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_plague_ward_projectile.vpcf",
     "movespeed": 0,
     "player_dmg_override": 0,
-    "disable_movement": 1
+    "disable_movement": 1,
+    "key": "venomancer_plague_ward"
   },
   "natures_prophet_tree": {
     "armor": 5,
@@ -2996,10 +2874,7 @@
       90
     ],
     "keywords": "druid",
-    "displayName": {
-      "en": "Lesser Treant",
-      "zh_CN": "小树精"
-    },
+    "displayName": "dac_name_natures_prophet_tree",
     "dota_unit_name": "natures_prophet_tree",
     "draftTier": 0,
     "goldCost": 0,
@@ -3019,7 +2894,8 @@
     ],
     "movespeed": 325,
     "player_dmg_override": 0,
-    "healthBarOffset": -80
+    "healthBarOffset": -80,
+    "key": "natures_prophet_tree"
   },
   "lone_druid_bear": {
     "abilities": [
@@ -3040,10 +2916,7 @@
       300,
       400
     ],
-    "displayName": {
-      "en": "Loyal Bear",
-      "zh_CN": "忠诚之熊"
-    },
+    "displayName": "dac_name_lone_druid_bear",
     "dota_unit_name": "lone_druid_bear",
     "draftTier": 0,
     "goldCost": 0,
@@ -3062,7 +2935,8 @@
       0.7
     ],
     "movespeed": 340,
-    "powerLevel": 3
+    "powerLevel": 3,
+    "key": "lone_druid_bear"
   },
   "lycan_wolf_spawns": {
     "baseclass": "dac_npc_lycan_wolf",
@@ -3081,10 +2955,7 @@
       150,
       200
     ],
-    "displayName": {
-      "en": "Savage Wolf",
-      "zh_CN": "野蛮灵狼"
-    },
+    "displayName": "dac_name_lycan_wolf_spawns",
     "dota_unit_name": "lycan_wolf_spawns",
     "draftTier": 0,
     "goldCost": 0,
@@ -3099,14 +2970,12 @@
     "model": "models/heroes/lycan/summon_wolves.vmdl",
     "model_scale": 0.55,
     "movespeed": 400,
-    "player_dmg_override": 0
+    "player_dmg_override": 0,
+    "key": "lycan_wolf_spawns"
   },
   "techies_bomb_unit": {
     "health": 1,
-    "displayName": {
-      "en": "Keenfolk Explosives",
-      "zh_CN": "基恩炸药"
-    },
+    "displayName": "dac_name_techies_bomb",
     "dota_unit_name": "techies_bomb",
     "draftTier": 0,
     "goldCost": 0,
@@ -3117,13 +2986,11 @@
     "movespeed": 0,
     "PowerLevel": 3,
     "disable_movement": 1,
-    "disable_attack": 1
+    "disable_attack": 1,
+    "key": "techies_bomb_unit"
   },
   "neutral_melee": {
-    "displayName": {
-      "en": "Melee Creep",
-      "zh_CN": "近战小兵"
-    },
+    "displayName": "dac_unit_neutral_melee",
     "dota_unit_name": "npc_dota_creep_goodguys_melee",
     "id": 62,
     "draftTier": 0,
@@ -3140,13 +3007,11 @@
     "attackRange": 1,
     "movespeed": 325,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_melee"
   },
   "neutral_melee_mega": {
-    "displayName": {
-      "en": "Mega Creep",
-      "zh_CN": "超级小兵"
-    },
+    "displayName": "dac_unit_neutral_melee_mega",
     "dota_unit_name": "npc_dota_creep_goodguys_melee_upgraded_mega",
     "id": 63,
     "draftTier": 0,
@@ -3163,13 +3028,11 @@
     "attackRange": 1,
     "movespeed": 325,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_melee_mega"
   },
   "neutral_ranged": {
-    "displayName": {
-      "en": "Ranged Creep",
-      "zh_CN": "远程兵"
-    },
+    "displayName": "dac_unit_neutral_ranged",
     "dota_unit_name": "npc_dota_creep_goodguys_ranged_upgraded_mega",
     "id": 64,
     "draftTier": 0,
@@ -3189,13 +3052,11 @@
     "armor": 0,
     "projectile_model": "particles/base_attacks/ranged_goodguy.vpcf",
     "projectile_speed": 600,
-    "healthBarOffset": -50
+    "healthBarOffset": -50,
+    "key": "neutral_ranged"
   },
   "neutral_golem_a": {
-    "displayName": {
-      "en": "Big Golem",
-      "zh_CN": "大傀儡"
-    },
+    "displayName": "dac_unit_neutral_golem_a",
     "dota_unit_name": "npc_dota_neutral_rock_golem",
     "id": 65,
     "draftTier": 0,
@@ -3211,13 +3072,11 @@
     "attackRange": 1,
     "movespeed": 270,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_golem_a"
   },
   "neutral_golem_b": {
-    "displayName": {
-      "en": "Small Golem",
-      "zh_CN": "小傀儡"
-    },
+    "displayName": "dac_unit_neutral_golem_b",
     "dota_unit_name": "npc_dota_neutral_mud_golem",
     "id": 66,
     "draftTier": 0,
@@ -3233,13 +3092,11 @@
     "attackRange": 1,
     "movespeed": 310,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_golem_b"
   },
   "neutral_wolf_big": {
-    "displayName": {
-      "en": "Big Wolf",
-      "zh_CN": "大狼"
-    },
+    "displayName": "dac_unit_neutral_wolf_big",
     "dota_unit_name": "npc_dota_neutral_alpha_wolf",
     "baseclass": "dac_npc_assassin",
     "id": 67,
@@ -3257,13 +3114,11 @@
     "attackRange": 1,
     "movespeed": 350,
     "magicResist": 0,
-    "armor": 10
+    "armor": 10,
+    "key": "neutral_wolf_big"
   },
   "neutral_wolf_small": {
-    "displayName": {
-      "en": "Small Wolf",
-      "zh_CN": "小狼"
-    },
+    "displayName": "dac_unit_neutral_wolf_small",
     "dota_unit_name": "npc_dota_neutral_giant_wolf",
     "baseclass": "dac_npc_assassin",
     "id": 68,
@@ -3281,13 +3136,11 @@
     "attackRange": 1,
     "movespeed": 350,
     "magicResist": 0,
-    "armor": 5
+    "armor": 5,
+    "key": "neutral_wolf_small"
   },
   "neutral_bear_a": {
-    "displayName": {
-      "en": "Tomato",
-      "zh_CN": "西红柿"
-    },
+    "displayName": "dac_unit_neutral_bear_a",
     "dota_unit_name": "npc_dota_neutral_polar_furbolg_ursa_warrior",
     "id": 69,
     "draftTier": 0,
@@ -3304,13 +3157,11 @@
     "attackRange": 1,
     "movespeed": 320,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_bear_a"
   },
   "neutral_bear_b": {
-    "displayName": {
-      "en": "Potato",
-      "zh_CN": "马铃薯"
-    },
+    "displayName": "dac_unit_neutral_bear_b",
     "dota_unit_name": "npc_dota_neutral_polar_furbolg_champion",
     "id": 70,
     "draftTier": 0,
@@ -3327,13 +3178,11 @@
     "attackRange": 1,
     "movespeed": 320,
     "magicResist": 0,
-    "armor": 0
+    "armor": 0,
+    "key": "neutral_bear_b"
   },
   "neutral_vulture_a": {
-    "displayName": {
-      "en": "Revtel Wildwing",
-      "zh_CN": "瑞文泰尔枭兽"
-    },
+    "displayName": "dac_unit_neutral_vulture_a",
     "dota_unit_name": "npc_dota_neutral_enraged_wildkin",
     "id": 71,
     "draftTier": 0,
@@ -3352,13 +3201,11 @@
     "magicResist": 25,
     "armor": 0,
     "projectile_model": "particles/units/creeps/vultures/vulture_tornado.vpcf",
-    "projectile_speed": 320
+    "projectile_speed": 320,
+    "key": "neutral_vulture_a"
   },
   "neutral_vulture_b": {
-    "displayName": {
-      "en": "Wildwing Hatchling",
-      "zh_CN": "小枭兽"
-    },
+    "displayName": "dac_unit_neutral_vulture_b",
     "dota_unit_name": "npc_dota_neutral_wildkin",
     "id": 72,
     "draftTier": 0,
@@ -3377,13 +3224,11 @@
     "magicResist": 25,
     "armor": 0,
     "projectile_model": "particles/units/creeps/vultures/vulture_tornado.vpcf",
-    "projectile_speed": 320
+    "projectile_speed": 320,
+    "key": "neutral_vulture_b"
   },
   "neutral_thunder_lizard_big": {
-    "displayName": {
-      "en": "Thunderhide Alpha",
-      "zh_CN": "雷肤兽领袖"
-    },
+    "displayName": "dac_unit_neutral_thunder_lizard_big",
     "dota_unit_name": "npc_dota_neutral_big_thunder_lizard",
     "id": 73,
     "draftTier": 0,
@@ -3402,13 +3247,11 @@
     "armor": 0,
     "healthBarOffset": 0,
     "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
-    "projectile_speed": 600
+    "projectile_speed": 600,
+    "key": "neutral_thunder_lizard_big"
   },
   "neutral_thunder_lizard_small": {
-    "displayName": {
-      "en": "Thunderhide",
-      "zh_CN": "雷肤兽"
-    },
+    "displayName": "dac_unit_neutral_thunder_lizard_small",
     "dota_unit_name": "npc_dota_neutral_small_thunder_lizard",
     "id": 74,
     "draftTier": 0,
@@ -3427,13 +3270,11 @@
     "armor": 0,
     "healthBarOffset": 0,
     "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
-    "projectile_speed": 600
+    "projectile_speed": 600,
+    "key": "neutral_thunder_lizard_small"
   },
   "neutral_black_dragon": {
-    "displayName": {
-      "en": "Black Dragon",
-      "zh_CN": "黑龙"
-    },
+    "displayName": "dac_unit_neutral_black_dragon",
     "dota_unit_name": "npc_dota_neutral_black_dragon",
     "id": 75,
     "draftTier": 0,
@@ -3454,13 +3295,11 @@
     "magicResist": 0,
     "armor": 5,
     "projectile_model": "particles/units/heroes/hero_vengeful/vengeful_magic_missle.vpcf",
-    "projectile_speed": 600
+    "projectile_speed": 600,
+    "key": "neutral_black_dragon"
   },
   "neutral_troll_dark_a": {
-    "displayName": {
-      "en": "Dark Troll Buddy",
-      "zh_CN": "黑暗巨魔小怪"
-    },
+    "displayName": "dac_unit_neutral_troll_dark_a",
     "dota_unit_name": "npc_dota_neutral_dark_troll",
     "id": 76,
     "draftTier": 0,
@@ -3477,13 +3316,11 @@
     "attackRange": 1,
     "movespeed": 270,
     "magicResist": 0,
-    "armor": 5
+    "armor": 5,
+    "key": "neutral_troll_dark_a"
   },
   "neutral_troll_dark_b": {
-    "displayName": {
-      "en": "Dark Troll Boss",
-      "zh_CN": "黑暗巨魔老怪"
-    },
+    "displayName": "dac_unit_neutral_troll_dark_b",
     "dota_unit_name": "npc_dota_neutral_dark_troll_warlord",
     "id": 77,
     "draftTier": 0,
@@ -3502,13 +3339,11 @@
     "magicResist": 0,
     "armor": 5,
     "projectile_model": "particles/econ/items/clinkz/clinkz_maraxiform/clinkz_maraxiform_searing_arrow_deso.vpcf",
-    "projectile_speed": 600
+    "projectile_speed": 600,
+    "key": "neutral_troll_dark_b"
   },
   "neutral_troll_dark_frost": {
-    "displayName": {
-      "en": "Dark Troll Priest",
-      "zh_CN": "黑暗巨魔牧师"
-    },
+    "displayName": "dac_unit_neutral_troll_dark_frost",
     "dota_unit_name": "npc_dac_creep_neutral_troll_dark_frost",
     "id": 78,
     "draftTier": 0,
@@ -3527,13 +3362,11 @@
     "magicResist": 0,
     "armor": 5,
     "projectile_model": "particles/items2_fx/skadi_projectile.vpcf",
-    "projectile_speed": 600
+    "projectile_speed": 600,
+    "key": "neutral_troll_dark_frost"
   },
   "neutral_nian": {
-    "displayName": {
-      "en": "The Year Beast",
-      "zh_CN": "年兽"
-    },
+    "displayName": "dac_unit_neutral_nian",
     "dota_unit_name": "npc_dota_goodguys_cny_beast",
     "id": 79,
     "draftTier": 0,
@@ -3556,13 +3389,11 @@
     "armor": 20,
     "healthBarOffset": -200,
     "projectile_model": "particles/items_fx/battlefury_cleave.vpcf",
-    "projectile_speed": 1000
+    "projectile_speed": 1000,
+    "key": "neutral_nian"
   },
   "neutral_roshan": {
-    "displayName": {
-      "en": "Roshan",
-      "zh_CN": "肉山"
-    },
+    "displayName": "dac_unit_neutral_roshan",
     "dota_unit_name": "npc_dota_mutation_pocket_roshan",
     "id": 80,
     "draftTier": 0,
@@ -3583,7 +3414,8 @@
     "movespeed": 270,
     "magicResist": 30,
     "armor": 30,
-    "healthBarOffset": 30
+    "healthBarOffset": 30,
+    "key": "neutral_roshan"
   },
   "eidolon": {
     "armor": 20,
@@ -3592,10 +3424,7 @@
     "attackRate": 1.5,
     "damageMin": 50,
     "damageMax": 80,
-    "displayName": {
-      "en": "dac_name_eidolon",
-      "zh_CN": "dac_name_eidolon"
-    },
+    "displayName": "dac_name_eidolon",
     "dota_unit_name": "enigma_eidolon",
     "draftTier": 0,
     "goldCost": 0,
@@ -3609,6 +3438,7 @@
     "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack_eidolon.vpcf",
     "magicResist": 50,
     "projectile_speed": 600,
-    "player_dmg_override": 0
+    "player_dmg_override": 0,
+    "key": "eidolon"
   }
 }

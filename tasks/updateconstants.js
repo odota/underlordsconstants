@@ -17,40 +17,6 @@ const ABILITY_IMAGE_MAPPING = {
   "timbersaw_whirling_death": "shredder_whirling_death"
 };
 
-const l10nSources = [
-  {
-    key: "en",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt"
-    ],
-    transform: resObj => {
-      return {...resObj[0], ...resObj[1].tokens}
-    }
-  },
-  {
-    key: "zh_CN",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_schinese.txt",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_schinese.txt"
-    ],
-    transform: resObj => {
-      return {...resObj[0], ...resObj[1].tokens}
-    }
-  }
-]
-
-let i10nStrings = {};
-
-function geti10nStrings(key) {
-  let ret = {};
-  Object.entries(i10nStrings).forEach(([lang, strings]) => {
-    ret[lang] = strings[key] || key;
-  })
-
-  return ret;
-}
-
 const sources = [
   {
     key: "underlords_heroes",
@@ -58,8 +24,10 @@ const sources = [
     transform: resObj => {
       const heroes = resObj;
       Object.entries(heroes).forEach(([key, hero]) => {
-        sKey = hero.displayName.replace('#', '');
-        hero.displayName = geti10nStrings(sKey);
+        if (hero.displayName) {
+          hero.key = key;
+          hero.displayName = hero.displayName.replace('#', '')
+        }
       });
 
       return heroes;
@@ -72,31 +40,6 @@ const sources = [
       const abilities = resObj;
 
       Object.entries(abilities).forEach(([key, ability]) => {
-        ability.displayName = geti10nStrings(`dac_ability_${key}`);
-
-        ability.description = {};
-        Object.entries(i10nStrings).forEach(([lang, strings]) => {
-          let desc = strings[`dac_ability_${key}_Description`] ||
-                    strings[`dac_ability_${key}_description`]; //lower case "d"...
-          if (desc) {
-            const matches = desc.match(ABILITY_REGEX);
-            if (matches) {
-                matches.forEach((s) => {
-                    let replace = '';
-                    const key = s.replace('{s:', '').replace('}', '');
-                    if (key in ability) {
-                        const val = ability[key];
-                        replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
-                    }
-    
-                    desc = desc.replace(s, replace);
-                })
-            }
-            desc = desc.replace(/<br>/g, '\n');
-          }
-          ability.description[lang] = desc;
-        });
-
         ability.iconName = ABILITY_IMAGE_MAPPING[key] || key;
       });
 
@@ -114,14 +57,13 @@ const sources = [
       const heroes = resObj[1];
 
       Object.entries(alliances).forEach(([key, a]) => {
-        a.name = key.toLowerCase();
-        a.displayName = geti10nStrings(`dac_synergy_${a.name}`);
-        
+        a.key = key.toLowerCase();
+
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
-          if (hero.keywords && hero.keywords.includes(a.name) && typeof hero.displayName !== 'object') {
-            sKey = hero.displayName.replace('#', '');
-            hero.displayName = geti10nStrings(sKey);
+          hero.key = k;
+          if (hero.keywords && hero.keywords.includes(a.name) && hero.draftTier > 0 && hero.displayName && hero.displayName.includes("#")) {
+            hero.displayName = hero.displayName.replace('#', '')
             allianceHeroes.push(hero);
           }
         })
@@ -144,8 +86,37 @@ const sources = [
   },
   {
     key: "underlords_localization_abilities_en",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt",
-    transform: resObj => resObj.tokens
+    url: [
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt",
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json"
+    ],
+    transform: resObj => {
+      const strings = normalize(resObj[0].tokens)
+      const abilities = resObj[1];
+
+      Object.entries(abilities).forEach(([key, ability]) => {
+        stringKey = `dac_ability_${key}_description`;
+        let desc = strings[stringKey];
+        if (desc) {
+          const matches = desc.match(ABILITY_REGEX);
+          if (matches) {
+              matches.forEach((s) => {
+                  let replace = '';
+                  const key = s.replace('{s:', '').replace('}', '');
+                  if (key in ability) {
+                      const val = ability[key];
+                      replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+                  }
+  
+                  desc = desc.replace(s, replace);
+              })
+          }
+          strings[stringKey] = desc.replace(/<br>/g, '\n');
+        }
+      });
+
+      return strings;
+    }
   }
 ];
 
@@ -156,13 +127,17 @@ function parseJson(text) {
   catch (err) {
     let vdf = simplevdf.parse(text);
     vdf = vdf[Object.keys(vdf)[0]];
-    let keys = Object.keys(vdf);
-    let normalized = {};
-    for (let key of keys) {
-      normalized[key.toLowerCase()] = vdf[key];
-    }
-    return normalized;
+    return normalize(vdf);
   }
+}
+
+function normalize(vdf) {
+  let keys = Object.keys(vdf);
+  let normalized = {};
+  for (let key of keys) {
+    normalized[key.toLowerCase()] = vdf[key];
+  }
+  return normalized;
 }
 
 async function requestData(url) {
@@ -188,12 +163,6 @@ async function processSource(s) {
 
 async function start()
 {
-  // Localization
-  for (let i = 0; i < l10nSources.length; i++) {
-    const s = l10nSources[i];
-    i10nStrings[s.key] = await processSource(s);
-  }
-
   for (let i = 0; i < sources.length; i++)
   {
     const s = sources[i];

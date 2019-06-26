@@ -22,14 +22,6 @@
       "particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl4.vpcf",
       "particles/units/heroes/hero_enchantress/enchantress_natures_attendants_heal.vpcf"
     ],
-    "displayName": {
-      "en": "Nature's Attendants",
-      "zh_CN": "自然之助"
-    },
-    "description": {
-      "en": "Enchantress summons a cloud of [3/5/7] wisps that heal all allies up to 4 cells away.\n\nFor 11 seconds, allies heal 25 health every 1.5 seconds.",
-      "zh_CN": "魅惑魔女召唤一群共 [3/5/7] 个小精灵治疗周围最多 4 格内的所有友军。\n\n友军每 1.5 秒恢复 25 生命值，持续 11 秒。"
-    },
     "iconName": "enchantress_natures_attendants"
   },
   "tiny_toss": {
@@ -57,14 +49,6 @@
     "precache": [
       "particles/units/heroes/hero_tiny/tiny_toss_impact.vpcf"
     ],
-    "displayName": {
-      "en": "Toss",
-      "zh_CN": "投掷"
-    },
-    "description": {
-      "en": "Tiny picks up a random adjacent enemy, and launches it at the farthest enemy target.\n\nAt impact, the target deals [100/200/300] damage to all enemies 1 cell away and stuns them for [1.5/2/2.5] seconds.",
-      "zh_CN": "小小随机抓起一个毗邻的敌人，将其投向对最远的敌方目标。\n\n击中时，目标对周围 1 格内的所有敌人造成 [100/200/300] 伤害，并使其眩晕 [1.5/2/2.5] 秒。"
-    },
     "iconName": "tiny_toss"
   },
   "troll_warlord_fervor": {
@@ -79,14 +63,6 @@
       9,
       12
     ],
-    "displayName": {
-      "en": "Fervor",
-      "zh_CN": "热血战魂"
-    },
-    "description": {
-      "en": "PASSIVE: Troll Warlord rains blow after blow gaining [15/20/25]% bonus increased attack speed per stack.\n\nIf Troll changes targets, the stacks drop to zero.\n\nThis effect can only stack up to [6/9/12] times.",
-      "zh_CN": "被动：巨魔战将持续攻击时，每次获得 [15/20/25]% 攻击速度加成。\n\n如果改变目标，则加成清零。\n\n此效果最多只能叠加 [6/9/12] 次。"
-    },
     "iconName": "troll_warlord_fervor"
   },
   "terrorblade_metamorph": {
@@ -112,14 +88,6 @@
       "particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf",
       "particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_transform.vpcf"
     ],
-    "displayName": {
-      "en": "Metamorphosis",
-      "zh_CN": "魔化"
-    },
-    "description": {
-      "en": "Terrorblade transforms into a powerful demon, gaining a ranged attack of 4 cells as well as [50/100/200]% bonus to damage and attack speed. Terrorblade also exchanges health values with another ally when this ability starts.",
-      "zh_CN": "恐怖利刃化身成威力巨大的恶魔，获得远程攻击 4 格的能力，以及 [50/100/200]% 的伤害与攻击速度加成。此技能开启时，恐怖利刃也与另一名友军交换生命值。"
-    },
     "iconName": "terrorblade_metamorphosis"
   },
   "slark_dark_pact": {
@@ -147,11 +115,6 @@
       "particles/units/heroes/hero_slark/slark_dark_pact_pulses.vpcf",
       "particles/units/heroes/hero_slark/slark_dark_pact_pulses_body.vpcf"
     ],
-    "displayName": {
-      "en": "Dark Pact",
-      "zh_CN": "黑暗契约"
-    },
-    "description": {},
     "iconName": "slark_dark_pact"
   },
   "slark_essence_shift": {
@@ -166,26 +129,11 @@
       4,
       5
     ],
-    "displayName": {
-      "en": "Essence Shift",
-      "zh_CN": "能量转移"
-    },
-    "description": {
-      "en": "PASSIVE: Every attack by Slark lowers his target's damage by [3/4/5] and attack speed by [3/5/7].\n\nSlark's damage and attack speed is increased by the same amount drained from his target.",
-      "zh_CN": "被动：每次斯拉克攻击都使其目标造成的伤害减少 [3/4/5] ，攻击速度降低 [3/5/7]。\n\n斯拉克造成的伤害和攻击速度等量增加。"
-    },
     "iconName": "slark_essence_shift"
   },
   "slark_pounce": {
     "maxLevel": 3,
     "disarm_duration": 3,
-    "displayName": {
-      "en": "Pounce",
-      "zh_CN": "dac_ability_slark_pounce"
-    },
-    "description": {
-      "en": "PASSIVE: After landing from a leap, Slark disarms his target for 3 seconds."
-    },
     "iconName": "slark_pounce"
   },
   "dragon_knight_breathe_fire": {
@@ -214,14 +162,6 @@
     "precache": [
       "particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf"
     ],
-    "displayName": {
-      "en": "Breathe Fire",
-      "zh_CN": "Breathe Fire"
-    },
-    "description": {
-      "en": "Unleashes a breath of fire in front of Dragon Knight that burns enemies for [200/350/500] damage and reduces the damage their attacks deal by [25/40/55] for 6 seconds.",
-      "zh_CN": "BREATHE FIRE ABILITY"
-    },
     "iconName": "dragon_knight_breathe_fire"
   },
   "dragon_knight_elder_dragon_form": {
@@ -271,14 +211,6 @@
       "particles/generic_gameplay/generic_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost.vpcf"
     ],
-    "displayName": {
-      "en": "Elder Dragon Form",
-      "zh_CN": "古龙形态"
-    },
-    "description": {
-      "en": "<i>UNLOCKED BY THE DRAGON ALLIANCE</i>\nPASSIVE: At the beginning of combat Dragon Knight takes the form of one of three powerful elder dragons, increasing his movement speed by 30% and granting him new powers.\n\nGreen Dragon:\\nAttacks deal [30/30/30] poison damage per second for [5/5/5] seconds.\n\nRed Dragon:\\nIn addition to poisoning enemies, attacks damage all enemy units 1 cell away from the target for 50% damage.\n\nBlue Dragon:\\nIn addition to poisoning enemies, attacks slows movement speed by -30% and attack speed by -30% to enemy units 1 cell away from the target for [3/3/3] seconds.",
-      "zh_CN": "龙骑士变身成为三种古龙形态之一，移动速度提升 30%，并获得新能力。\n\n碧龙：\\n攻击时造成每秒 [30/30/30] 毒性伤害，持续 [5/5/5] 秒。\n\n赤龙：\\n除了对敌人造成毒性伤害外，攻击时对目标周围 1 格内的所有敌方单位造成 50% 伤害。\n\n苍龙：\\n除了对敌人造成毒性伤害外，攻击时使目标 1 格内的敌方单位的移动速度降低 -30%，攻击速度降低 -30%，持续 [3/3/3] 秒。"
-    },
     "iconName": "dragon_knight_elder_dragon_form"
   },
   "morphling_waveform": {
@@ -305,14 +237,6 @@
       "particles/units/heroes/hero_morphling/morphling_waveform.vpcf",
       "particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf"
     ],
-    "displayName": {
-      "en": "Waveform",
-      "zh_CN": "波浪形态"
-    },
-    "description": {
-      "en": "Morphling dissolves into liquid and surges forward, damaging enemy units in his path for [150/250/350] damage.\n\nMorphling is invulnerable during Waveform.",
-      "zh_CN": "变体精灵化为波浪向前涌动，对所经之地的敌方单位造成 [150/250/350] 伤害。\n\n变体精灵在波浪形态时无懈可击。"
-    },
     "iconName": "morphling_waveform"
   },
   "viper_corrosive_skin": {
@@ -336,14 +260,6 @@
     "precache": [
       "particles/units/heroes/hero_viper/viper_corrosive_debuff.vpcf"
     ],
-    "displayName": {
-      "en": "Corrosive Skin",
-      "zh_CN": "Corrosive Skin"
-    },
-    "description": {
-      "en": "<i>UNLOCKED BY THE DRAGON ALLIANCE</i>\nPASSIVE: Viper exudes an infectious toxin that deals [20/30/40] damage per second and slows the attack speed of any enemy that damages it for 2 seconds. The acid exudate also increases Viper's magic resistance by [30/50/70].",
-      "zh_CN": "CORROSIVE SKIN ABILITY"
-    },
     "iconName": "viper_corrosive_skin"
   },
   "viper_viper_strike": {
@@ -385,14 +301,6 @@
       "particles/units/heroes/hero_viper/viper_viper_strike_debuff.vpcf",
       "particles/status_fx/status_effect_poison_viper.vpcf"
     ],
-    "displayName": {
-      "en": "Viper Strike",
-      "zh_CN": "蝮蛇突袭"
-    },
-    "description": {
-      "en": "Viper's acidic venom slows an enemy unit's movement and attack speed by [-40/-60/-80]% while also dealing [150/250/350] poison damage over time.\n\nThe slowing effect fades over the duration of the poison.",
-      "zh_CN": "冥界亚龙的酸性毒液使敌方单位的移动和攻击速度降低 [-40/-60/-80]%，并持续造成 [150/250/350] 毒性伤害。\n\n减速效果会在毒性持续时间内逐渐消退。"
-    },
     "iconName": "viper_viper_strike"
   },
   "phantom_assassin_coup_de_grace": {
@@ -409,14 +317,6 @@
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_mechanical.vpcf",
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact.vpcf"
     ],
-    "displayName": {
-      "en": "Coup de Grace",
-      "zh_CN": "恩赐解脱"
-    },
-    "description": {
-      "en": "PASSIVE: Phantom Assassin has a 10% chance of delivering a devastating [300/450/600]% critical strike to enemy units.",
-      "zh_CN": "幻影刺客有 10% 几率对敌方单位造成毁灭性的 [300/450/600]% 暴击。"
-    },
     "iconName": "phantom_assassin_coup_de_grace"
   },
   "batrider_sticky_napalm": {
@@ -455,14 +355,6 @@
       "particles/units/heroes/hero_batrider/batrider_stickynapalm_stack.vpcf",
       "particles/units/heroes/hero_batrider/batrider_napalm_damage_debuff.vpcf"
     ],
-    "displayName": {
-      "en": "Sticky Napalm",
-      "zh_CN": "粘性燃油"
-    },
-    "description": {
-      "en": "Batrider throws sticky oil, coating the ground 2 cells away from point of impact.  The oil adds [20/40/80] damage per stack to Batrider's attacks, and slows the movement and attack speed of enemies by -5%.\n\nAdditional casts of Sticky Napalm continue to increase damage and slow percentages, up to 10 stacks.",
-      "zh_CN": "蝙蝠骑士扔出烧瓶，覆盖作用点周围 2 格内的地面，每次叠加会使其攻击造成 [20/40/80] 额外伤害，并使敌人的移动和攻击速度降低 -5%。\n\n再次施加粘性燃油可继续提高伤害，增加降速百分比，最多叠加 10 次。"
-    },
     "iconName": "batrider_sticky_napalm"
   },
   "gyrocopter_call_down": {
@@ -498,14 +390,6 @@
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_second.vpcf",
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_marker.vpcf"
     ],
-    "displayName": {
-      "en": "Call Down",
-      "zh_CN": "召唤飞弹"
-    },
-    "description": {
-      "en": "Gyrocopter launches a missile strike, hitting all enemies up to 3 cells away from point of impact.\n\nTwo missiles arrive in succession, the first dealing [200/300/400] damage and 30% slow for 2 seconds; the final one deals [200/300/400] damage and 60% slow for 4 seconds.",
-      "zh_CN": "矮人直升机发射导弹，打击作用点周围最多 3 格内的所有敌方单位。\n\n两枚导弹先后到达，第一枚造成 [200/300/400] 伤害和 30% 的减速，减速持续 2 秒；第二枚造成 [200/300/400] 伤害和 60% 的减速，减速持续 4 秒。"
-    },
     "iconName": "gyrocopter_call_down"
   },
   "alchemist_acid_spray": {
@@ -533,14 +417,6 @@
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray.vpcf",
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray_debuff.vpcf"
     ],
-    "displayName": {
-      "en": "Acid Spray",
-      "zh_CN": "酸性喷雾"
-    },
-    "description": {
-      "en": "Alchemist sprays high-pressure acid, affecting enemies up to 3 cells away from the target.\n\nEnemy units who step across the contaminated terrain take [15/25/35] damage per second and have their armor reduced by [-5/-8/-11].",
-      "zh_CN": "炼金术士向目标周围最多 3 格内的敌人喷洒高压酸雾。\n\n穿过受污染地带的敌方单位每秒受到 [15/25/35] 伤害，同时护甲值减少 [-5/-8/-11]。"
-    },
     "iconName": "alchemist_acid_spray"
   },
   "keeper_of_the_light_illuminate": {
@@ -569,14 +445,6 @@
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_impact.vpcf",
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_impact_small.vpcf"
     ],
-    "displayName": {
-      "en": "Illuminate",
-      "zh_CN": "冲击波"
-    },
-    "description": {
-      "en": "The Keeper of the Light channels energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals [150/200/250] damage per second channeled.",
-      "zh_CN": "光之守卫积攒光的能量，积攒时间越长，威力越大。释放后，光波每秒造成 [150/200/250] 伤害。"
-    },
     "iconName": "keeper_of_the_light_illuminate"
   },
   "puck_phase_shift": {
@@ -589,14 +457,6 @@
     "precache": [
       "particles/units/heroes/hero_puck/puck_phase_shift.vpcf"
     ],
-    "displayName": {
-      "en": "Phase Shift",
-      "zh_CN": "Phase Shift"
-    },
-    "description": {
-      "en": "<i>UNLOCKED BY THE DRAGON ALLIANCE</i>\nPASSIVE: Just before taking damage, Puck briefly shifts into another dimension where it is immune from harm for 0.5 seconds.",
-      "zh_CN": "PHASE SHIFT ABILITY"
-    },
     "iconName": "puck_phase_shift"
   },
   "puck_illusory_orb": {
@@ -623,14 +483,6 @@
       "particles/units/heroes/hero_puck/puck_illusory_orb.vpcf",
       "particles/units/heroes/hero_puck/puck_orb_damage.vpcf"
     ],
-    "displayName": {
-      "en": "Illusory Orb",
-      "zh_CN": "幻象法球"
-    },
-    "description": {
-      "en": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way for [150/200/250] damage.",
-      "zh_CN": "帕克在直线方向发出一个魔法球，对途经的敌方单位造成 [150/200/250] 伤害。"
-    },
     "iconName": "puck_illusory_orb"
   },
   "mirana_arrow": {
@@ -660,14 +512,6 @@
     "precache": [
       "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf"
     ],
-    "displayName": {
-      "en": "Sacred Arrow",
-      "zh_CN": "月神之箭"
-    },
-    "description": {
-      "en": "Mirana fires a long-range arrow with deadly precision, stunning her target for [3/5/7] seconds and dealing [400/800/1800] damage.",
-      "zh_CN": "米拉娜射出一支绝对精准的远程箭矢，眩晕目标 [3/5/7] 秒，并造成 [400/800/1800] 伤害。"
-    },
     "iconName": "mirana_arrow"
   },
   "chaos_knight_chaos_bolt": {
@@ -702,14 +546,6 @@
       "particles/units/heroes/hero_chaos_knight/chaos_knight_chaos_bolt.vpcf",
       "particles/units/heroes/hero_chaos_knight/chaos_knight_bolt_msg.vpcf"
     ],
-    "displayName": {
-      "en": "Chaos Bolt",
-      "zh_CN": "混乱之箭"
-    },
-    "description": {
-      "en": "Chaos Knight throws a mysterious bolt of energy that stuns an enemy unit for a random duration as well as dealing a random amount of damage.",
-      "zh_CN": "混沌骑士投掷一支神秘的能量箭，对一个敌方单位造成随机时间的眩晕和随机伤害。"
-    },
     "iconName": "chaos_knight_chaos_bolt"
   },
   "slardar_amplify_damage": {
@@ -730,14 +566,6 @@
       "particles/units/heroes/hero_slardar/slardar_amp_glow.vpcf",
       "particles/status_fx/status_effect_slardar_amp_damage.vpcf"
     ],
-    "displayName": {
-      "en": "Corrosive Haze",
-      "zh_CN": "侵蚀雾霭"
-    },
-    "description": {
-      "en": "Slardar reduces enemy armor by [-15/-30/-45] for 20 seconds.",
-      "zh_CN": "斯拉达使敌人的护甲值降低 [-15/-30/-45]，持续 20 秒。"
-    },
     "iconName": "slardar_amplify_damage"
   },
   "sniper_assassinate": {
@@ -769,14 +597,6 @@
       "particles/units/heroes/hero_sniper/sniper_assassinate.vpcf",
       "particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
     ],
-    "displayName": {
-      "en": "Assassinate",
-      "zh_CN": "暗杀"
-    },
-    "description": {
-      "en": "Sniper takes aim at an enemy unit for 2 seconds, then fires a devastating shot that deals [1000/2000/3000] damage and mini-stuns the target.",
-      "zh_CN": "狙击手瞄准一个敌方单位 2 秒，然后发射一发毁灭性的子弹，对目标造成 [1000/2000/3000] 伤害及短暂眩晕。"
-    },
     "iconName": "sniper_assassinate"
   },
   "tinker_heat_seeking_missile": {
@@ -802,14 +622,6 @@
       "particles/units/heroes/hero_tinker/tinker_missile.vpcf",
       "particles/units/heroes/hero_tinker/tinker_missle_explosion.vpcf"
     ],
-    "displayName": {
-      "en": "Heat-Seeking Missile",
-      "zh_CN": "热导飞弹"
-    },
-    "description": {
-      "en": "Tinker fires a salvo of rockets at 3 random enemies dealing [250/350/450] damage on impact.",
-      "zh_CN": "修补匠对 3 名随机敌人齐射导弹，击中时造成 [250/350/450] 伤害。"
-    },
     "iconName": "tinker_heat_seeking_missile"
   },
   "axe_berserkers_call": {
@@ -834,14 +646,6 @@
       "particles/units/heroes/hero_axe/axe_beserkers_call_owner.vpcf",
       "particles/units/heroes/hero_axe/axe_beserkers_call_target.vpcf"
     ],
-    "displayName": {
-      "en": "Berserker's Call",
-      "zh_CN": "狂战士之吼"
-    },
-    "description": {
-      "en": "Axe taunts enemy units 1 cell away, forcing them to attack him.  While Berserker’s Call is active, Axe gains [15/25/35] bonus armor.",
-      "zh_CN": "斧王嘲讽周围 1 格内的敌人，强迫他们攻击自己。当狂战士之吼生效时，斧王获得 [15/25/35] 额外护甲值。"
-    },
     "iconName": "axe_berserkers_call"
   },
   "juggernaut_blade_fury": {
@@ -864,14 +668,6 @@
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf",
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_tgt.vpcf"
     ],
-    "displayName": {
-      "en": "Blade Fury",
-      "zh_CN": "剑刃风暴"
-    },
-    "description": {
-      "en": "Juggernaut spins with his blade, rendering him immune to magic and dealing [50/100/150] damage per second to enemy units 1 cell away for 5 seconds.",
-      "zh_CN": "主宰舞起剑刃，使自己对魔法免疫，并对周围 1 格内的敌方单位造成每秒 [50/100/150] 伤害，持续 5 秒。"
-    },
     "iconName": "juggernaut_blade_fury"
   },
   "lich_chain_frost": {
@@ -903,14 +699,6 @@
       "particles/units/heroes/hero_lich/lich_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost_lich.vpcf"
     ],
-    "displayName": {
-      "en": "Chain Frost",
-      "zh_CN": "连环霜冻"
-    },
-    "description": {
-      "en": "Lich releases an orb of frost that bounces between nearby enemy units up to [6/9/12] times, slowing their attack and movement speed by -65% for 2.5 seconds and dealing [200/300/400] damage each time it hits.",
-      "zh_CN": "巫妖释放一个霜冻之球，在附近敌方单位间弹跳最多 [6/9/12] 次，使其攻击和移动速度降低 -65%，持续 2.5 秒，并在每次击中时造成 [200/300/400] 伤害。"
-    },
     "iconName": "lich_chain_frost"
   },
   "witch_doctor_paralyzing_cask": {
@@ -937,14 +725,6 @@
     "precache": [
       "particles/units/heroes/hero_witchdoctor/witchdoctor_cask.vpcf"
     ],
-    "displayName": {
-      "en": "Paralyzing Cask",
-      "zh_CN": "麻痹药剂"
-    },
-    "description": {
-      "en": "Witch Doctor throws a cask of paralyzing powder that bounces [5/7/9] times between enemy units, stunning and dealing [50/75/100] damage to those it hits.",
-      "zh_CN": "巫医抛出一个装满麻痹粉末的木桶，在敌方单位间弹跳 [5/7/9] 次，眩晕击中的敌人并造成 [50/75/100] 伤害。"
-    },
     "iconName": "witch_doctor_paralyzing_cask"
   },
   "bounty_hunter_shuriken_toss": {
@@ -964,14 +744,6 @@
     "precache": [
       "particles/units/heroes/hero_bounty_hunter/bounty_hunter_suriken_toss.vpcf"
     ],
-    "displayName": {
-      "en": "Shuriken Toss",
-      "zh_CN": "投掷飞镖"
-    },
-    "description": {
-      "en": "Bounty Hunter hurls a deadly shuriken at an enemy unit, dealing [300/500/700] damage and mini-stunning the target.",
-      "zh_CN": "赏金猎人向一个敌方单位掷出一枚致命的飞镖，对目标造成 [300/500/700] 伤害和短暂眩晕。"
-    },
     "iconName": "bounty_hunter_shuriken_toss"
   },
   "sandking_burrowstrike": {
@@ -998,14 +770,6 @@
     "precache": [
       "particles/units/heroes/hero_sandking/sandking_burrowstrike.vpcf"
     ],
-    "displayName": {
-      "en": "Burrowstrike",
-      "zh_CN": "掘地穿刺"
-    },
-    "description": {
-      "en": "Sand King burrows into the ground and tunnels forward, hitting enemies for [150/250/350] damage and stunning them for 2 seconds.\nApplies a stack of Caustic Finale to all enemies hit.",
-      "zh_CN": "沙王钻入地面挖掘隧道前进，对敌人造成 [150/250/350] 伤害并使其眩晕 2 秒。\n\n对击中的所有敌人施加腐尸毒。\n\n腐尸毒\n\n被动：每当沙王击中一名敌人，便会使其目标的攻击速度降低 3 秒。如果目标在腐尸毒生效前死亡，将会爆炸，对 1 格内的友军造成伤害。"
-    },
     "iconName": "sandking_burrowstrike"
   },
   "queenofpain_scream_of_pain": {
@@ -1026,14 +790,6 @@
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain.vpcf",
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain_owner.vpcf"
     ],
-    "displayName": {
-      "en": "Scream Of Pain",
-      "zh_CN": "痛苦尖叫"
-    },
-    "description": {
-      "en": "The Queen of Pain lets loose a piercing scream around her, damaging all enemies up to 3 cells away for [200/300/400] damage.",
-      "zh_CN": "痛苦女王发出刺耳的尖叫，对周围最多 3 格内的所有敌人造成 [200/300/400] 伤害。"
-    },
     "iconName": "queenofpain_scream_of_pain"
   },
   "ogre_magi_bloodlust": {
@@ -1064,14 +820,6 @@
       "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
       "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_cast.vpcf"
     ],
-    "displayName": {
-      "en": "Bloodlust",
-      "zh_CN": "嗜血术"
-    },
-    "description": {
-      "en": "Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by [8/10/12]% and attack speed by [30/40/50]%. If cast on Ogre Magi himself, the attack speed bonus is [35/55/75]% instead.",
-      "zh_CN": "食人魔魔法师激起一个友方单位的狂暴，使其移动速度增加 [8/10/12]%，攻击速度增加 [30/40/50]%。如果对食人魔魔法师本人施加，攻击速度加成则为 [35/55/75]%。"
-    },
     "iconName": "ogre_magi_bloodlust"
   },
   "timbersaw_whirling_death": {
@@ -1095,14 +843,6 @@
     "precache": [
       "particles/units/heroes/hero_shredder/shredder_whirling_death.vpcf"
     ],
-    "displayName": {
-      "en": "Whirling Death",
-      "zh_CN": "死亡旋风"
-    },
-    "description": {
-      "en": "The sharp edges of Timbersaw's suit of armor whirl about, damaging enemies up to 2 cells away for [150/200/250] damage.",
-      "zh_CN": "伐木机盔甲锋利的刃片飞旋，对周围最多 2 格内的敌人造成 [150/200/250] 伤害。"
-    },
     "iconName": "shredder_whirling_death"
   },
   "necrophos_death_pulse": {
@@ -1128,14 +868,6 @@
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_friend.vpcf",
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_enemy.vpcf"
     ],
-    "displayName": {
-      "en": "Death Pulse",
-      "zh_CN": "死亡脉冲"
-    },
-    "description": {
-      "en": "Necrophos releases a wave of death around him affecting enemy and friendly units up to 3 cells away.\n\nDeath Pulse deals [100/150/200] damage to enemies and heals allies for [100/175/250].",
-      "zh_CN": "瘟疫法师在他周围释放死亡波动，波及周围最多 3 格内的敌方和友方单位。\n\n死亡脉冲对敌人造成 [100/150/200] 伤害，并治疗友军 [100/175/250] 生命值。"
-    },
     "iconName": "necrolyte_death_pulse"
   },
   "clockwerk_battery_assault": {
@@ -1162,14 +894,6 @@
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_assault.vpcf",
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_shrapnel.vpcf"
     ],
-    "displayName": {
-      "en": "Battery Assault",
-      "zh_CN": "弹幕冲击"
-    },
-    "description": {
-      "en": "Clockwerk discharges high-powered shrapnel at random enemy units 1 cell away for 5 seconds, dealing [50/75/100] magical damage and mini-stunning them.",
-      "zh_CN": "发条技师对周围 1 格内的随机敌方单位发射高能弹片，持续 5 秒，造成 [50/75/100] 魔法伤害及短暂眩晕。"
-    },
     "iconName": "rattletrap_battery_assault"
   },
   "templar_assassin_refraction": {
@@ -1196,14 +920,6 @@
       "particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf",
       "particles/units/heroes/hero_templar_assassin/templar_assassin_refract_hit.vpcf"
     ],
-    "displayName": {
-      "en": "Refraction",
-      "zh_CN": "折光"
-    },
-    "description": {
-      "en": "Templar Assassin becomes elusive, avoiding damage and gaining [40/60/80]% bonus to her damage.\n\nThe damage and avoidance effects are separate, and have [4/6/8] instances each.",
-      "zh_CN": "圣堂刺客变得难以捉摸，躲避伤害并获得 [40/60/80]% 的伤害加成。\n\n伤害攻击与伤害躲避效果相互独立，各有 [4/6/8] 次。"
-    },
     "iconName": "templar_assassin_refraction"
   },
   "enigma_midnight_pulse": {
@@ -1227,14 +943,6 @@
     "precache": [
       "particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf"
     ],
-    "displayName": {
-      "en": "Midnight Pulse",
-      "zh_CN": "午夜凋零"
-    },
-    "description": {
-      "en": "Enigma steeps an area in dark resonance, dealing [5/7/9]% of an enemy's max health for 10 seconds to all enemy units up to [2/3/4] cells away from the target.",
-      "zh_CN": "谜团将某个区域浸入黑暗共振中，对目标周围最多 [2/3/4] 格内的所有敌方单位造成其最大生命值 [5/7/9]% 的伤害，持续 10 秒。"
-    },
     "iconName": "enigma_midnight_pulse"
   },
   "medusa_stone_gaze": {
@@ -1267,14 +975,6 @@
       "particles/units/heroes/hero_medusa/medusa_stone_gaze_facing.vpcf",
       "particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_stoned.vpcf"
     ],
-    "displayName": {
-      "en": "Stone Gaze",
-      "zh_CN": "石化凝视"
-    },
-    "description": {
-      "en": "Any enemy unit up to 4 cells away looking at Medusa will have their movement and attack speed slowed by 30%.\n\nIf 2 seconds of total time is accumulated looking at Medusa, that unit will turn to stone.\n\nPetrified units are stunned, and take bonus 20% physical damage.",
-      "zh_CN": "在周围最多 4 格内凝视美杜莎的任何敌方单位的移动与攻击速度降低 30%。\n\n如果总凝视时间达到 2 秒，该单位将被石化。\n\n石化的单位被眩晕，并承受额外 20% 的物理伤害。"
-    },
     "iconName": "medusa_stone_gaze"
   },
   "medusa_split_shot": {
@@ -1287,13 +987,6 @@
     "range": 1,
     "extra_shots": 3,
     "precache": [],
-    "displayName": {
-      "en": "Split Shot",
-      "zh_CN": "dac_ability_medusa_split_shot"
-    },
-    "description": {
-      "en": "PASSIVE: Medusa magically splits her shot into 3 arrows, hitting additional targets within 1 cell of her primary target. These arrows deal [-40/-30/-20] percent of her normal damage."
-    },
     "iconName": "medusa_split_shot"
   },
   "treant_leech_seed": {
@@ -1317,14 +1010,6 @@
       "particles/units/heroes/hero_treant/treant_leech_seed.vpcf",
       "particles/units/heroes/hero_treant/treant_leech_seed_damage_pulse.vpcf"
     ],
-    "displayName": {
-      "en": "Leech Seed",
-      "zh_CN": "寄生种子"
-    },
-    "description": {
-      "en": "Treant Protector plants a life-sapping seed in an enemy unit, draining its health by [60/90/120] every 1.5 seconds, while simultaneously slowing its attack and movement speed by -50%.\n\nThe seed heals friendly units up to 3 cells away from the target. Lasts 5 seconds.",
-      "zh_CN": "树精在一个敌方单位体内种下一颗吸血的种子，每 1.5 秒吸收其 [60/90/120] 生命值，同时使其攻击和移动速度降低 -50%。\\n\\n种子对目标周围最多 3 格内的友方单位进行治疗。持续 5 秒。"
-    },
     "iconName": "treant_leech_seed"
   },
   "razor_plasma_field": {
@@ -1347,14 +1032,6 @@
       "particles/units/heroes/hero_razor/razor_plasmafield.vpcf",
       "particles/units/heroes/hero_razor/razor_base_attack_impact.vpcf"
     ],
-    "displayName": {
-      "en": "Plasma Field",
-      "zh_CN": "等离子场"
-    },
-    "description": {
-      "en": "Razor releases a ring of plasma that grows in power as it expands, but also zaps on contraction, slowing and dealing up to [100/175/250] to damage to enemy units up to 3 cells away.\n\nDamage and slow increases with distance from Razor.\n\nThe Plasma Field hits each unit twice, once in each direction.",
-      "zh_CN": "剃刀释放出一圈等离子，威力随扩张程度而提升，在收缩时也会对周围最多 3 格内的敌方单位造成减速和最大 [100/175/250] 的伤害。\n\n距离剃刀越远，伤害与减速越高。\n\n等离子场对每个单位造成两次伤害，每个方向各一次。"
-    },
     "iconName": "razor_plasma_field"
   },
   "shadow_fiend_requiem": {
@@ -1383,14 +1060,6 @@
       "particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf",
       "particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line.vpcf"
     ],
-    "displayName": {
-      "en": "Requiem of Souls",
-      "zh_CN": "魂之挽歌"
-    },
-    "description": {
-      "en": "Shadow Fiend channels the souls of the damned and unleashes demonic energy all around him, dealing [100/175/250] damage to anyone caught in the blast.",
-      "zh_CN": "影魔收集被诅咒的灵魂，并在其周围释放邪恶的能量，对受到爆炸冲击的所有人造成 [100/175/250] 伤害。"
-    },
     "iconName": "nevermore_requiem"
   },
   "antimage_mana_break": {
@@ -1404,14 +1073,6 @@
     "precache": [
       "particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf"
     ],
-    "displayName": {
-      "en": "Mana Break",
-      "zh_CN": "魔力损毁"
-    },
-    "description": {
-      "en": "PASSIVE: The Anti-Mage burns [30/60/90] of the opponent's mana on each attack, dealing 50% of the mana burned as damage to the target.",
-      "zh_CN": "被动：敌法师每次攻击时燃烧对手的 [30/60/90] 魔法值，并对目标造成相当于燃烧魔法值 50% 的伤害。"
-    },
     "iconName": "antimage_mana_break"
   },
   "drow_ranger_trueshot_aura": {
@@ -1422,14 +1083,6 @@
       30
     ],
     "range": 1,
-    "displayName": {
-      "en": "Precision Aura",
-      "zh_CN": "精准灵气"
-    },
-    "description": {
-      "en": "PASSIVE: Drow Ranger adds a [10/20/30]% bonus to attack speed to all allies 1 cell away.",
-      "zh_CN": "被动：卓尔游侠使 1 格内的所有友军的攻击速度提升 [10/20/30]%。"
-    },
     "iconName": "drow_ranger_trueshot"
   },
   "luna_moon_glaive": {
@@ -1443,14 +1096,6 @@
     "precache": [
       "particles/units/heroes/hero_luna/luna_moon_glaive_bounce.vpcf"
     ],
-    "displayName": {
-      "en": "Moon Glaives",
-      "zh_CN": "月刃"
-    },
-    "description": {
-      "en": "PASSIVE: Luna's glaives bounce between enemies 2 cells away.\n\nGlaives deal 30% less damage with each bounce.",
-      "zh_CN": "被动：露娜的月刃在 2 格内的敌方单位之间弹跳。\n\n月刃每次弹跳造成的伤害都会减少 30%。"
-    },
     "iconName": "luna_moon_glaive"
   },
   "tidehunter_ravage": {
@@ -1483,14 +1128,6 @@
       "particles/units/heroes/hero_tidehunter/tidehunter_ravage_cell4.vpcf",
       "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf"
     ],
-    "displayName": {
-      "en": "Ravage",
-      "zh_CN": "毁灭"
-    },
-    "description": {
-      "en": "Tidehunter slams the ground, causing tentacles to erupt in all directions, dealing [150/250/350] damage and stunning all enemy units [2/3/4] cells away for [2/2.5/3] seconds.",
-      "zh_CN": "潮汐猎人猛击地面，触手向各个方向穿出，对周围 [2/3/4] 格内的所有敌方单位造成 [150/250/350] 伤害，并使其眩晕 [2/2.5/3] 秒。"
-    },
     "iconName": "tidehunter_ravage"
   },
   "tusk_walrus_punch": {
@@ -1515,14 +1152,6 @@
       "particles/units/heroes/hero_tusk/tusk_walruspunch_tgt.vpcf",
       "particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf"
     ],
-    "displayName": {
-      "en": "Walrus PUNCH!",
-      "zh_CN": "海象神拳！"
-    },
-    "description": {
-      "en": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. Upon landing, the victim is slowed by 40%.",
-      "zh_CN": "巨牙海民打出强有力的海象神拳，把目标暴击到空中。目标落地后会减速 40%。"
-    },
     "iconName": "tusk_walrus_punch"
   },
   "omniknight_purification": {
@@ -1543,14 +1172,6 @@
       "particles/units/heroes/hero_omniknight/omniknight_purification_cast.vpcf",
       "particles/units/heroes/hero_omniknight/omniknight_purification_hit.vpcf"
     ],
-    "displayName": {
-      "en": "Purification",
-      "zh_CN": "洗礼"
-    },
-    "description": {
-      "en": "Omniknight instantly heals a friendly unit for [200/400/600] and damages all enemy units 1 cell away.",
-      "zh_CN": "全知骑士立即治疗一个友方单位 [200/400/600] 生命值，并对周围 1 格内的所有敌方单位造成伤害。"
-    },
     "iconName": "omniknight_purification"
   },
   "disruptor_static_storm": {
@@ -1586,14 +1207,6 @@
       "particles/generic_gameplay/generic_silenced.vpcf",
       "models/props_gameplay/frog.vmdl"
     ],
-    "displayName": {
-      "en": "Static Storm",
-      "zh_CN": "静态风暴"
-    },
-    "description": {
-      "en": "Disruptor creates a damaging static storm that also silences all enemy units up to 2 cells away from his target for [3/4/5] seconds.\n\nThe damage starts off weak, but ramps up in power until reaching its maximum damage of [100/150/200].",
-      "zh_CN": "干扰者制造一场破坏性的静态风暴，沉默目标周围最多 2 格内的所有敌方单位，持续 [3/4/5] 秒。\n\n伤害刚开始时很弱，但会逐渐增强，直至达到最大 [100/150/200] 伤害。"
-    },
     "iconName": "disruptor_static_storm"
   },
   "windrunner_powershot": {
@@ -1625,14 +1238,6 @@
       "particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf",
       "particles/units/heroes/hero_windrunner/windrunner_powershot_dmg.vpcf"
     ],
-    "displayName": {
-      "en": "Powershot",
-      "zh_CN": "强力击"
-    },
-    "description": {
-      "en": "Windranger charges her bow for up to 1.5 seconds for a single powerful shot, dealing up to [400/600/800] damage. For each enemy that Powershot hits, its damage is reduced by 10%.",
-      "zh_CN": "风行者为她的弓蓄力，射出一支强力箭矢，最长可蓄力 1.5 秒，造成最多 [400/600/800] 伤害。强力击每击中一名敌人，箭矢的伤害都会降低 10%。"
-    },
     "iconName": "windrunner_powershot"
   },
   "crystal_maiden_brilliance_aura": {
@@ -1648,14 +1253,6 @@
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura.vpcf",
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura_target.vpcf"
     ],
-    "displayName": {
-      "en": "Arcane Aura",
-      "zh_CN": "奥术灵气"
-    },
-    "description": {
-      "en": "PASSIVE: Every 2 seconds, Crystal Maiden grants [8/14/20] mana to all friendly units.",
-      "zh_CN": "被动：每 2 秒，冰晶圣女向所有友方单位提供附加的 [8/14/20] 魔法值恢复。"
-    },
     "iconName": "crystal_maiden_brilliance_aura"
   },
   "beastmaster_wild_axes": {
@@ -1684,14 +1281,6 @@
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxes_hit.vpcf",
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxe_debuff.vpcf"
     ],
-    "displayName": {
-      "en": "Wild Axes",
-      "zh_CN": "野性之斧"
-    },
-    "description": {
-      "en": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units along their path for [60/100/140] damage.\n\nEach axe can hit an enemy once, and amplifies subsequent damage from Beastmaster by [10/20/30]%.",
-      "zh_CN": "兽王把斧头投出去再召回，劈开沿途的敌方单位，造成 [60/100/140] 伤害。\n\n每把斧头可以击中一名敌人一次，并使来自兽王的后续伤害增加 [10/20/30]%。"
-    },
     "iconName": "beastmaster_wild_axes"
   },
   "doom_bringer_doom": {
@@ -1711,14 +1300,6 @@
       "particles/units/heroes/hero_doom_bringer/doom_bringer_doom.vpcf",
       "particles/status_fx/status_effect_doom.vpcf"
     ],
-    "displayName": {
-      "en": "Doom",
-      "zh_CN": "末日"
-    },
-    "description": {
-      "en": "Doom invokes a powerful curse that prevents an enemy from casting spells or using items, while also taking [60/90/120] damage per second.\n\nLasts 20 seconds.",
-      "zh_CN": "末日使者对敌人施加威力巨大的诅咒，使其无法施放法术或使用物品，同时每秒造成 [60/90/120] 伤害。\n\n持续 20 秒。"
-    },
     "iconName": "doom_bringer_doom"
   },
   "venomancer_plague_ward": {
@@ -1733,14 +1314,6 @@
     "precache": [
       "particles/units/heroes/hero_venomancer/venomancer_ward_cast.vpcf"
     ],
-    "displayName": {
-      "en": "Plague Ward",
-      "zh_CN": "瘟疫守卫"
-    },
-    "description": {
-      "en": "Venomancer summons a Plague Ward to fight alongside him.",
-      "zh_CN": "剧毒术士召唤瘟疫守卫一起作战。"
-    },
     "iconName": "venomancer_plague_ward"
   },
   "lina_laguna_blade": {
@@ -1764,14 +1337,6 @@
     "precache": [
       "particles/units/heroes/hero_lina/lina_spell_laguna_blade.vpcf"
     ],
-    "displayName": {
-      "en": "Laguna Blade",
-      "zh_CN": "神灭斩"
-    },
-    "description": {
-      "en": "Lina unleashes a bolt of lightning, dealing [500/750/1000] damage to a single unit.",
-      "zh_CN": "莉娜放出一道闪电，对一个单位造成 [500/750/1000] 伤害。"
-    },
     "iconName": "lina_laguna_blade"
   },
   "abaddon_aphotic_shield": {
@@ -1792,14 +1357,6 @@
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield_hit.vpcf",
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf"
     ],
-    "displayName": {
-      "en": "Aphotic Shield",
-      "zh_CN": "无光之盾"
-    },
-    "description": {
-      "en": "Abaddon protects a friendly unit with a shield that absorbs [100/300/500] damage for 10 seconds.\n\nWhen the shield is destroyed it bursts and deals [100/300/500] damage to enemies up to 2 cells away.\n\nRemoves certain types of negative buffs and stuns on cast.",
-      "zh_CN": "亚巴顿用护盾保护一个友方单位，护盾能吸收 [100/300/500] 伤害，持续 10 秒。\n\n护盾被摧毁后会爆炸，对周围最多 2 格内的敌人造成 [100/300/500] 伤害。\n\n施放时移除某些负面状态和眩晕。"
-    },
     "iconName": "abaddon_aphotic_shield"
   },
   "kunkka_ghostship": {
@@ -1843,14 +1400,6 @@
       "particles/units/heroes/hero_kunkka/kunkka_ghostship_marker.vpcf",
       "particles/status_fx/status_effect_rum.vpcf"
     ],
-    "displayName": {
-      "en": "Ghostship",
-      "zh_CN": "幽灵船"
-    },
-    "description": {
-      "en": "Kunkka summons a ghostly ship that sails through the battle before smashing apart, dealing [150/250/350] damage and stunning all enemies up to [2/3/4] cells away from the wreckage for [1.4/1.7/2] seconds.",
-      "zh_CN": "昆卡召唤一艘幽灵船驶过战场，直到船被撞成粉碎，对残骸周围最多 [2/3/4] 格内的所有敌人造成 [150/250/350] 伤害，并使其眩晕 [1.4/1.7/2] 秒。"
-    },
     "iconName": "kunkka_ghostship"
   },
   "shadow_shaman_voodoo": {
@@ -1871,14 +1420,6 @@
       "particles/units/heroes/hero_shadowshaman/shadowshaman_voodoo.vpcf",
       "models/props_gameplay/frog.vmdl"
     ],
-    "displayName": {
-      "en": "Hex",
-      "zh_CN": "妖术"
-    },
-    "description": {
-      "en": "Shadow Shaman transforms an enemy unit into a harmless creature, disabling their attacks and abilities for [4/6/8] seconds.",
-      "zh_CN": "暗影萨满将一个敌方单位变成人畜无害的生物，使其无法攻击和使用技能 [4/6/8] 秒。"
-    },
     "iconName": "shadow_shaman_voodoo"
   },
   "natures_prophet_summon_tree": {
@@ -1889,14 +1430,6 @@
     "manaCost": 50,
     "summonID": 58,
     "animationlength": 1.97,
-    "displayName": {
-      "en": "Nature's Call",
-      "zh_CN": "自然的呼唤"
-    },
-    "description": {
-      "en": "Nature's Prophet summons a Treant from the edge of the board. This Treant is considered a druid.",
-      "zh_CN": "先知从棋盘边缘召唤一名树精。此树精被视为德鲁伊。"
-    },
     "iconName": "furion_force_of_nature"
   },
   "lone_druid_summon_bear": {
@@ -1910,14 +1443,6 @@
     "precache": [
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_spawn.vpcf"
     ],
-    "displayName": {
-      "en": "Summon Spirit Bear",
-      "zh_CN": "熊灵伙伴"
-    },
-    "description": {
-      "en": "Summons a powerful Spirit Bear companion.",
-      "zh_CN": "召唤一名威力巨大的熊灵伙伴。"
-    },
     "iconName": "lone_druid_spirit_link"
   },
   "lycan_wolf_spawn_shift": {
@@ -1945,14 +1470,6 @@
       "particles/units/heroes/hero_lycan/lycan_summon_wolves_cast.vpcf",
       "particles/units/heroes/hero_lycan/lycan_summon_wolves_spawn.vpcf"
     ],
-    "displayName": {
-      "en": "Summon Wolves",
-      "zh_CN": "召狼"
-    },
-    "description": {
-      "en": "Lycan summons two wolves to fight alongside him.\n\nLycan then transforms and gains [30/40/50]% to his max health, his move speed is boosted to 650 and gains 40% chance to critically attack for [150/175/200]% bonus damage.",
-      "zh_CN": "狼人召唤两头狼一起并肩作战。\n\n随后狼人可变身，最大生命值增加 [30/40/50]%，移动速度增至 650 并有 40% 几率进行暴击，造成 [150/175/200]% 额外伤害。"
-    },
     "iconName": "lycan_shapeshift"
   },
   "techies_bomb": {
@@ -1973,14 +1490,6 @@
     "precache": [
       "particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
     ],
-    "displayName": {
-      "en": "Remote Mines",
-      "zh_CN": "遥控炸弹"
-    },
-    "description": {
-      "en": "The gang plants an explosive that detonates after 3 seconds and deals [700/1100/1500] damage to targets 4 cells away.\n\nDoes half-damage to enemies half the max distance away.",
-      "zh_CN": "这伙人放好炸弹，在 3 秒后引爆，对 4 格内的目标造成 [700/1100/1500] 伤害。\n\n对影响范围中较远半程的敌人造成的伤害量减半。"
-    },
     "iconName": "techies_remote_mines"
   },
   "sven_great_cleave": {
@@ -1992,14 +1501,6 @@
     "precache": [
       "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
     ],
-    "displayName": {
-      "en": "Great Cleave",
-      "zh_CN": "巨力挥舞"
-    },
-    "description": {
-      "en": "PASSIVE: This unit's melee attacks strike nearby enemies.",
-      "zh_CN": "被动：此单位近战攻击附近的敌人。"
-    },
     "iconName": "sven_great_cleave"
   },
   "lone_druid_spirit_bear_entangle": {
@@ -2010,11 +1511,6 @@
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_entangle.vpcf",
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_entangle_body.vpcf"
     ],
-    "displayName": {
-      "en": "Entangling Claws",
-      "zh_CN": "缠绕之爪"
-    },
-    "description": {},
     "iconName": "lone_druid_spirit_bear_entangle"
   },
   "pudge_meathook": {
@@ -2038,14 +1534,6 @@
       "particles/units/heroes/hero_pudge/pudge_meathook.vpcf",
       "particles/units/heroes/hero_pudge/pudge_meathook_impact.vpcf"
     ],
-    "displayName": {
-      "en": "Meat Hook",
-      "zh_CN": "肉钩"
-    },
-    "description": {
-      "en": "Pudge launches a bloody hook towards his farthest enemy, dragging the victim back and dealing [150/220/290] damage.\n\nPudge and allies 1 cell away will direct their attacks to the victim until it dies.",
-      "zh_CN": "帕吉向距离最远的一个敌人射出血腥的肉钩，将其钩到身边，并造成 [150/220/290] 伤害。\n\n帕吉与周围 1 格内的友军对该敌人进行攻击，直至其死亡。"
-    },
     "iconName": "pudge_meat_hook"
   },
   "pudge_pound": {
@@ -2073,11 +1561,6 @@
     "precache": [
       "particles/units/heroes/hero_pudge/pudge_dismember.vpcf"
     ],
-    "displayName": {
-      "en": "dac_ability_pudge_pound",
-      "zh_CN": "dac_ability_pudge_pound"
-    },
-    "description": {},
     "iconName": "pudge_pound"
   },
   "warlock_shadow_word": {
@@ -2107,14 +1590,6 @@
       "particles/units/heroes/hero_warlock/warlock_shadow_word_debuff.vpcf",
       "particles/units/heroes/hero_warlock/warlock_shadow_word_buff.vpcf"
     ],
-    "displayName": {
-      "en": "Shadow Word",
-      "zh_CN": "暗言术"
-    },
-    "description": {
-      "en": "Warlock whispers an incantation, restoring [75/150/200] health to a friendly unit, or damaging an enemy unit for [100/150/200], every second for 6 seconds.",
-      "zh_CN": "术士低声说出一个咒语，每秒治疗一个友方单位 [75/150/200] 生命值，或每秒对一个敌方单位造成 [100/150/200] 伤害，持续 6 秒。"
-    },
     "iconName": "warlock_shadow_word"
   },
   "bloodseeker_blood_rage": {
@@ -2125,14 +1600,6 @@
     "precache": [
       "particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf"
     ],
-    "displayName": {
-      "en": "Bloodrage",
-      "zh_CN": "血怒"
-    },
-    "description": {
-      "en": "PASSIVE: Every second Bloodseeker takes damage equal to 7% of his max health.\n\nFor every % of health missing, he gains 5% attack speed.\n\nOn a kill, he regains 35% of his max health.",
-      "zh_CN": "被动：血魔每秒受到的伤害相当于其最大生命值的 7%。\n\n每损失百分之一的生命值，血魔获得 5% 的攻击速度加成。\n\n击杀时恢复最大生命值的 35%。"
-    },
     "iconName": "bloodseeker_bloodrage"
   },
   "arc_warden_magnetic_field": {
@@ -2161,11 +1628,6 @@
       "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
       "particles/units/heroes/hero_arc_warden/arc_warden_magnetic_cast.vpcf"
     ],
-    "displayName": {
-      "en": "dac_ability_arc_warden_magnetic_field",
-      "zh_CN": "dac_ability_arc_warden_magnetic_field"
-    },
-    "description": {},
     "iconName": "arc_warden_magnetic_field"
   },
   "arc_warden_tempest_double": {
@@ -2182,14 +1644,6 @@
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_buff.vpcf",
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_eyes.vpcf"
     ],
-    "displayName": {
-      "en": "Tempest Double",
-      "zh_CN": "风暴双雄"
-    },
-    "description": {
-      "en": "Arc Warden creates a copy of himself.\n\nThe duplicate can use all of Arc Warden's current items and spells and has separate cooldowns, but generates -50% mana from outgoing attacks, and no mana upon receiving damage.",
-      "zh_CN": "天穹守望者自我复制。\n\n复制体可以使用天穹守望者当前的所有物品和法术，且冷却时间单独计算。攻击时产生 -50% 的魔法值，而受到伤害时不产生魔法值。"
-    },
     "iconName": "arc_warden_tempest_double"
   },
   "sandking_caustic_finale": {
@@ -2213,26 +1667,11 @@
       "particles/units/heroes/hero_sandking/sandking_caustic_finale_debuff.vpcf",
       "particles/units/heroes/hero_sandking/sandking_caustic_finale_explode.vpcf"
     ],
-    "displayName": {
-      "en": "Caustic Finale",
-      "zh_CN": "dac_ability_sandking_caustic_finale"
-    },
-    "description": {
-      "en": "PASSIVE: Whenever Sand King hits an enemy he reduces his target's attack speed by -30 for 3 seconds.  If a target dies while Caustic Finale is active it will explode, dealing [45/90/180] damage to its allies 1 cell away."
-    },
     "iconName": "sandking_caustic_finale"
   },
   "black_dragon_splash_attack": {
     "splash_radius": 1,
     "splash_damage_percent": 50,
-    "displayName": {
-      "en": "Splash Attack",
-      "zh_CN": "溅射攻击"
-    },
-    "description": {
-      "en": "PASSIVE: Black Dragon's ranged attack deals splash damage to units 1 cell away of the Dragon's target.",
-      "zh_CN": "被动：黑龙的远程攻击对其目标周围 1 格内的单位造成溅射伤害。"
-    },
     "iconName": "black_dragon_splash_attack"
   }
 }
