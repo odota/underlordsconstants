@@ -26,8 +26,8 @@
     "color": "178 65 26",
     "name": "beast",
     "displayName": {
-      "underlords_heroes": "dac_synergy_beast",
-      "underlords_abilities": "dac_synergy_beast"
+      "en": "Savage",
+      "zh_CN": "野人"
     },
     "heroes": [
       {
@@ -47,8 +47,8 @@
         ],
         "keywords": "beast",
         "displayName": {
-          "underlords_heroes": "dac_name_plague_ward",
-          "underlords_abilities": "dac_name_plague_ward"
+          "en": "Plague Ward",
+          "zh_CN": "瘟疫守卫"
         },
         "dota_unit_name": "npc_dota_venomancer_plague_ward_1",
         "draftTier": 0,
@@ -94,8 +94,8 @@
           400
         ],
         "displayName": {
-          "underlords_heroes": "dac_name_lone_druid_bear",
-          "underlords_abilities": "dac_name_lone_druid_bear"
+          "en": "Loyal Bear",
+          "zh_CN": "忠诚之熊"
         },
         "dota_unit_name": "lone_druid_bear",
         "draftTier": 0,
@@ -135,8 +135,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_name_lycan_wolf_spawns",
-          "underlords_abilities": "dac_name_lycan_wolf_spawns"
+          "en": "Savage Wolf",
+          "zh_CN": "野蛮灵狼"
         },
         "dota_unit_name": "lycan_wolf_spawns",
         "draftTier": 0,
@@ -173,8 +173,8 @@
           250
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_enchantress",
-          "underlords_abilities": "dac_hero_name_enchantress"
+          "en": "Enchantress",
+          "zh_CN": "魅惑魔女"
         },
         "dota_unit_name": "npc_dota_hero_enchantress",
         "draftTier": 1,
@@ -221,8 +221,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_tusk",
-          "underlords_abilities": "dac_hero_name_tusk"
+          "en": "Tusk",
+          "zh_CN": "巨牙海民"
         },
         "dota_unit_name": "npc_dota_hero_tusk",
         "draftTier": 1,
@@ -267,8 +267,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_lycan",
-          "underlords_abilities": "dac_hero_name_lycan"
+          "en": "Lycan",
+          "zh_CN": "狼人"
         },
         "dota_unit_name": "npc_dota_hero_lycan",
         "draftTier": 3,
@@ -315,8 +315,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_sand_king",
-          "underlords_abilities": "dac_hero_name_sand_king"
+          "en": "Sand King",
+          "zh_CN": "沙王"
         },
         "dota_unit_name": "npc_dota_hero_sand_king",
         "draftTier": 3,
@@ -365,8 +365,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_venomancer",
-          "underlords_abilities": "dac_hero_name_venomancer"
+          "en": "Venomancer",
+          "zh_CN": "剧毒术士"
         },
         "dota_unit_name": "npc_dota_hero_venomancer",
         "draftTier": 3,
@@ -413,8 +413,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_lone_druid",
-          "underlords_abilities": "dac_hero_name_lone_druid"
+          "en": "Lone Druid",
+          "zh_CN": "德鲁伊"
         },
         "dota_unit_name": "npc_dota_hero_lone_druid",
         "draftTier": 4,
@@ -462,8 +462,8 @@
     ],
     "name": "demon",
     "displayName": {
-      "underlords_heroes": "dac_synergy_demon",
-      "underlords_abilities": "dac_synergy_demon"
+      "en": "Demon",
+      "zh_CN": "恶魔"
     },
     "heroes": [
       {
@@ -485,8 +485,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_antimage",
-          "underlords_abilities": "dac_hero_name_antimage"
+          "en": "Anti-Mage",
+          "zh_CN": "敌法师"
         },
         "dota_unit_name": "npc_dota_hero_antimage",
         "draftTier": 1,
@@ -536,8 +536,8 @@
           480
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_chaos_knight",
-          "underlords_abilities": "dac_hero_name_chaos_knight"
+          "en": "Chaos Knight",
+          "zh_CN": "混沌骑士"
         },
         "dota_unit_name": "npc_dota_hero_chaos_knight",
         "draftTier": 2,
@@ -583,8 +583,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_queen_of_pain",
-          "underlords_abilities": "dac_hero_name_queen_of_pain"
+          "en": "Queen of Pain",
+          "zh_CN": "痛苦女王"
         },
         "dota_unit_name": "npc_dota_hero_queenofpain",
         "draftTier": 2,
@@ -636,8 +636,8 @@
           320
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_shadow_fiend",
-          "underlords_abilities": "dac_hero_name_shadow_fiend"
+          "en": "Shadow Fiend",
+          "zh_CN": "影魔"
         },
         "dota_unit_name": "npc_dota_hero_nevermore",
         "draftTier": 3,
@@ -685,8 +685,8 @@
           260
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_terrorblade",
-          "underlords_abilities": "dac_hero_name_terrorblade"
+          "en": "Terrorblade",
+          "zh_CN": "恐怖利刃"
         },
         "dota_unit_name": "npc_dota_hero_terrorblade",
         "draftTier": 3,
@@ -739,8 +739,8 @@
           480
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_doom",
-          "underlords_abilities": "dac_hero_name_doom"
+          "en": "Doom",
+          "zh_CN": "末日使者"
         },
         "dota_unit_name": "npc_dota_hero_doom_bringer",
         "draftTier": 4,
@@ -780,8 +780,8 @@
     "color": "255 81 27",
     "name": "dragon",
     "displayName": {
-      "underlords_heroes": "dac_synergy_dragon",
-      "underlords_abilities": "dac_synergy_dragon"
+      "en": "Dragon",
+      "zh_CN": "龙族"
     },
     "heroes": [
       {
@@ -806,8 +806,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_puck",
-          "underlords_abilities": "dac_hero_name_puck"
+          "en": "Puck",
+          "zh_CN": "帕克"
         },
         "dota_unit_name": "npc_dota_hero_puck",
         "draftTier": 2,
@@ -859,8 +859,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_viper",
-          "underlords_abilities": "dac_hero_name_viper"
+          "en": "Viper",
+          "zh_CN": "冥界亚龙"
         },
         "dota_unit_name": "npc_dota_hero_viper",
         "draftTier": 3,
@@ -909,8 +909,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_dragon_knight",
-          "underlords_abilities": "dac_hero_name_dragon_knight"
+          "en": "Dragon Knight",
+          "zh_CN": "龙骑士"
         },
         "dota_unit_name": "npc_dota_hero_dragon_knight",
         "draftTier": 4,
@@ -955,8 +955,8 @@
     ],
     "name": "dwarf",
     "displayName": {
-      "underlords_heroes": "dac_synergy_dwarf",
-      "underlords_abilities": "dac_synergy_dwarf"
+      "en": "Deadeye",
+      "zh_CN": "神枪手"
     },
     "heroes": [
       {
@@ -979,8 +979,8 @@
           360
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_sniper",
-          "underlords_abilities": "dac_hero_name_sniper"
+          "en": "Sniper",
+          "zh_CN": "狙击手"
         },
         "dota_unit_name": "npc_dota_hero_sniper",
         "draftTier": 3,
@@ -1028,8 +1028,8 @@
           320
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_gyrocopter",
-          "underlords_abilities": "dac_hero_name_gyrocopter"
+          "en": "Gyrocopter",
+          "zh_CN": "矮人直升机"
         },
         "dota_unit_name": "npc_dota_hero_gyrocopter",
         "draftTier": 5,
@@ -1080,8 +1080,8 @@
     "color": "0 128 128",
     "name": "element",
     "displayName": {
-      "underlords_heroes": "dac_synergy_element",
-      "underlords_abilities": "dac_synergy_element"
+      "en": "Primordial",
+      "zh_CN": "太古"
     },
     "heroes": [
       {
@@ -1092,8 +1092,8 @@
         "damageMin": 50,
         "damageMax": 80,
         "displayName": {
-          "underlords_heroes": "dac_name_eidolon",
-          "underlords_abilities": "dac_name_eidolon"
+          "en": "dac_name_eidolon",
+          "zh_CN": "dac_name_eidolon"
         },
         "dota_unit_name": "enigma_eidolon",
         "draftTier": 0,
@@ -1129,8 +1129,8 @@
           400
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_tiny",
-          "underlords_abilities": "dac_hero_name_tiny"
+          "en": "Tiny",
+          "zh_CN": "小小"
         },
         "dota_unit_name": "npc_dota_hero_tiny",
         "draftTier": 1,
@@ -1176,8 +1176,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_morphling",
-          "underlords_abilities": "dac_hero_name_morphling"
+          "en": "Morphling",
+          "zh_CN": "变体精灵"
         },
         "dota_unit_name": "npc_dota_hero_morphling",
         "draftTier": 2,
@@ -1230,8 +1230,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_razor",
-          "underlords_abilities": "dac_hero_name_razor"
+          "en": "Razor",
+          "zh_CN": "剃刀"
         },
         "dota_unit_name": "npc_dota_hero_razor",
         "draftTier": 3,
@@ -1281,8 +1281,8 @@
           290
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_arc_warden",
-          "underlords_abilities": "dac_hero_name_arc_warden"
+          "en": "Arc Warden",
+          "zh_CN": "天穹守望者"
         },
         "dota_unit_name": "npc_dota_hero_arc_warden",
         "draftTier": 3,
@@ -1328,8 +1328,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_enigma",
-          "underlords_abilities": "dac_hero_name_enigma"
+          "en": "Enigma",
+          "zh_CN": "谜团"
         },
         "dota_unit_name": "npc_dota_hero_enigma",
         "draftTier": 5,
@@ -1386,8 +1386,8 @@
     "color": "95 151 208",
     "name": "elf",
     "displayName": {
-      "underlords_heroes": "dac_synergy_elf",
-      "underlords_abilities": "dac_synergy_elf"
+      "en": "Elusive",
+      "zh_CN": "无踪"
     },
     "heroes": [
       {
@@ -1409,8 +1409,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_furion",
-          "underlords_abilities": "dac_hero_name_furion"
+          "en": "Nature's Prophet",
+          "zh_CN": "先知"
         },
         "dota_unit_name": "npc_dota_hero_furion",
         "draftTier": 2,
@@ -1457,8 +1457,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_luna",
-          "underlords_abilities": "dac_hero_name_luna"
+          "en": "Luna",
+          "zh_CN": "露娜"
         },
         "dota_unit_name": "npc_dota_hero_luna",
         "draftTier": 2,
@@ -1506,8 +1506,8 @@
           360
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_treant_protector",
-          "underlords_abilities": "dac_hero_name_treant_protector"
+          "en": "Treant Protector",
+          "zh_CN": "树精卫士"
         },
         "dota_unit_name": "npc_dota_hero_treant",
         "draftTier": 2,
@@ -1553,8 +1553,8 @@
           360
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_phantom_assassin",
-          "underlords_abilities": "dac_hero_name_phantom_assassin"
+          "en": "Phantom Assassin",
+          "zh_CN": "幻影刺客"
         },
         "dota_unit_name": "npc_dota_hero_phantom_assassin",
         "draftTier": 3,
@@ -1605,8 +1605,8 @@
           260
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_wind_ranger",
-          "underlords_abilities": "dac_hero_name_wind_ranger"
+          "en": "Windranger",
+          "zh_CN": "风行者"
         },
         "dota_unit_name": "npc_dota_hero_windrunner",
         "draftTier": 3,
@@ -1654,8 +1654,8 @@
           440
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_templar_assassin",
-          "underlords_abilities": "dac_hero_name_templar_assassin"
+          "en": "Templar Assassin",
+          "zh_CN": "圣堂刺客"
         },
         "dota_unit_name": "npc_dota_hero_templar_assassin",
         "draftTier": 4,
@@ -1707,8 +1707,8 @@
           260
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_mirana",
-          "underlords_abilities": "dac_hero_name_mirana"
+          "en": "Mirana",
+          "zh_CN": "米拉娜"
         },
         "dota_unit_name": "npc_dota_hero_mirana",
         "draftTier": 4,
@@ -1762,8 +1762,8 @@
     ],
     "name": "goblin",
     "displayName": {
-      "underlords_heroes": "dac_synergy_goblin",
-      "underlords_abilities": "dac_synergy_goblin"
+      "en": "Scrappy",
+      "zh_CN": "好斗"
     },
     "heroes": [
       {
@@ -1786,8 +1786,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_bounty_hunter",
-          "underlords_abilities": "dac_hero_name_bounty_hunter"
+          "en": "Bounty Hunter",
+          "zh_CN": "赏金猎人"
         },
         "dota_unit_name": "npc_dota_hero_bounty_hunter",
         "draftTier": 1,
@@ -1841,8 +1841,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_clockwerk",
-          "underlords_abilities": "dac_hero_name_clockwerk"
+          "en": "Clockwerk",
+          "zh_CN": "发条技师"
         },
         "dota_unit_name": "npc_dota_hero_rattletrap",
         "draftTier": 1,
@@ -1887,8 +1887,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_tinker",
-          "underlords_abilities": "dac_hero_name_tinker"
+          "en": "Tinker",
+          "zh_CN": "修补匠"
         },
         "dota_unit_name": "npc_dota_hero_tinker",
         "draftTier": 1,
@@ -1938,8 +1938,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_timbersaw",
-          "underlords_abilities": "dac_hero_name_timbersaw"
+          "en": "Timbersaw",
+          "zh_CN": "伐木机"
         },
         "dota_unit_name": "npc_dota_hero_shredder",
         "draftTier": 2,
@@ -1986,8 +1986,8 @@
           280
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_alchemist",
-          "underlords_abilities": "dac_hero_name_alchemist"
+          "en": "Alchemist",
+          "zh_CN": "炼金术士"
         },
         "dota_unit_name": "npc_dota_hero_alchemist",
         "draftTier": 4,
@@ -2037,8 +2037,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_techies",
-          "underlords_abilities": "dac_hero_name_techies"
+          "en": "Techies",
+          "zh_CN": "工程师"
         },
         "dota_unit_name": "npc_dota_hero_techies",
         "draftTier": 5,
@@ -2097,8 +2097,8 @@
     "color": "2 200 156",
     "name": "human",
     "displayName": {
-      "underlords_heroes": "dac_synergy_human",
-      "underlords_abilities": "dac_synergy_human"
+      "en": "Human",
+      "zh_CN": "人族"
     },
     "heroes": [
       {
@@ -2121,8 +2121,8 @@
           190
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_bloodseeker",
-          "underlords_abilities": "dac_hero_name_bloodseeker"
+          "en": "Bloodseeker",
+          "zh_CN": "血魔"
         },
         "dota_unit_name": "npc_dota_hero_bloodseeker",
         "draftTier": 1,
@@ -2172,8 +2172,8 @@
           180
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_crystal_maiden",
-          "underlords_abilities": "dac_hero_name_crystal_maiden"
+          "en": "Crystal Maiden",
+          "zh_CN": "冰晶圣女"
         },
         "dota_unit_name": "npc_dota_hero_crystal_maiden",
         "draftTier": 2,
@@ -2225,8 +2225,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_lina",
-          "underlords_abilities": "dac_hero_name_lina"
+          "en": "Lina",
+          "zh_CN": "莉娜"
         },
         "dota_unit_name": "npc_dota_hero_lina",
         "draftTier": 3,
@@ -2276,8 +2276,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_omniknight",
-          "underlords_abilities": "dac_hero_name_omniknight"
+          "en": "Omniknight",
+          "zh_CN": "全知骑士"
         },
         "dota_unit_name": "npc_dota_hero_omniknight",
         "draftTier": 3,
@@ -2322,8 +2322,8 @@
           180
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_keeper_of_the_light",
-          "underlords_abilities": "dac_hero_name_keeper_of_the_light"
+          "en": "Keeper of the Light",
+          "zh_CN": "光之守卫"
         },
         "dota_unit_name": "npc_dota_hero_keeper_of_the_light",
         "draftTier": 4,
@@ -2370,8 +2370,8 @@
           360
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_kunkka",
-          "underlords_abilities": "dac_hero_name_kunkka"
+          "en": "Kunkka",
+          "zh_CN": "昆卡"
         },
         "dota_unit_name": "npc_dota_hero_kunkka",
         "draftTier": 4,
@@ -2420,8 +2420,8 @@
     "color": "72 63 162",
     "name": "naga",
     "displayName": {
-      "underlords_heroes": "dac_synergy_naga",
-      "underlords_abilities": "dac_synergy_naga"
+      "en": "Scaled",
+      "zh_CN": "鳞甲"
     },
     "heroes": [
       {
@@ -2443,8 +2443,8 @@
           400
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_slardar",
-          "underlords_abilities": "dac_hero_name_slardar"
+          "en": "Slardar",
+          "zh_CN": "斯拉达"
         },
         "dota_unit_name": "npc_dota_hero_slardar",
         "draftTier": 2,
@@ -2495,8 +2495,8 @@
           145
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_slark",
-          "underlords_abilities": "dac_hero_name_slark"
+          "en": "Slark",
+          "zh_CN": "斯拉克"
         },
         "dota_unit_name": "npc_dota_hero_slark",
         "draftTier": 3,
@@ -2544,8 +2544,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_medusa",
-          "underlords_abilities": "dac_hero_name_medusa"
+          "en": "Medusa",
+          "zh_CN": "美杜莎"
         },
         "dota_unit_name": "npc_dota_hero_medusa",
         "draftTier": 4,
@@ -2592,8 +2592,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_tide_hunter",
-          "underlords_abilities": "dac_hero_name_tide_hunter"
+          "en": "Tidehunter",
+          "zh_CN": "潮汐猎人"
         },
         "dota_unit_name": "npc_dota_hero_tidehunter",
         "draftTier": 5,
@@ -2637,14 +2637,14 @@
     "color": "85 107 47",
     "name": "ogre",
     "displayName": {
-      "underlords_heroes": "dac_synergy_ogre",
-      "underlords_abilities": "dac_synergy_ogre"
+      "en": "Blood-Bound",
+      "zh_CN": "血亲"
     },
     "heroes": [
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_bear_a",
-          "underlords_abilities": "dac_unit_neutral_bear_a"
+          "en": "Tomato",
+          "zh_CN": "西红柿"
         },
         "dota_unit_name": "npc_dota_neutral_polar_furbolg_ursa_warrior",
         "id": 69,
@@ -2666,8 +2666,8 @@
       },
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_bear_b",
-          "underlords_abilities": "dac_unit_neutral_bear_b"
+          "en": "Potato",
+          "zh_CN": "马铃薯"
         },
         "dota_unit_name": "npc_dota_neutral_polar_furbolg_champion",
         "id": 70,
@@ -2706,8 +2706,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_ogre_magi",
-          "underlords_abilities": "dac_hero_name_ogre_magi"
+          "en": "Ogre Magi",
+          "zh_CN": "食人魔魔法师"
         },
         "dota_unit_name": "npc_dota_hero_ogre_magi",
         "draftTier": 1,
@@ -2754,8 +2754,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_warlock",
-          "underlords_abilities": "dac_hero_name_warlock"
+          "en": "Warlock",
+          "zh_CN": "术士"
         },
         "dota_unit_name": "npc_dota_hero_warlock",
         "draftTier": 1,
@@ -2804,8 +2804,8 @@
     "color": "166 27 27",
     "name": "orc",
     "displayName": {
-      "underlords_heroes": "dac_synergy_orc",
-      "underlords_abilities": "dac_synergy_orc"
+      "en": "Brawny",
+      "zh_CN": "悍将"
     },
     "heroes": [
       {
@@ -2827,8 +2827,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_axe",
-          "underlords_abilities": "dac_hero_name_axe"
+          "en": "Axe",
+          "zh_CN": "斧王"
         },
         "dota_unit_name": "npc_dota_hero_axe",
         "draftTier": 1,
@@ -2873,8 +2873,8 @@
           280
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_beast_master",
-          "underlords_abilities": "dac_hero_name_beast_master"
+          "en": "Beastmaster",
+          "zh_CN": "兽王"
         },
         "dota_unit_name": "npc_dota_hero_beastmaster",
         "draftTier": 2,
@@ -2918,8 +2918,8 @@
           280
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_juggernaut",
-          "underlords_abilities": "dac_hero_name_juggernaut"
+          "en": "Juggernaut",
+          "zh_CN": "主宰"
         },
         "dota_unit_name": "npc_dota_hero_juggernaut",
         "draftTier": 2,
@@ -2964,8 +2964,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_disruptor",
-          "underlords_abilities": "dac_hero_name_disruptor"
+          "en": "Disruptor",
+          "zh_CN": "干扰者"
         },
         "dota_unit_name": "npc_dota_hero_disruptor",
         "draftTier": 4,
@@ -3023,14 +3023,14 @@
     ],
     "name": "troll",
     "displayName": {
-      "underlords_heroes": "dac_synergy_troll",
-      "underlords_abilities": "dac_synergy_troll"
+      "en": "Troll",
+      "zh_CN": "巨魔"
     },
     "heroes": [
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_troll_dark_a",
-          "underlords_abilities": "dac_unit_neutral_troll_dark_a"
+          "en": "Dark Troll Buddy",
+          "zh_CN": "黑暗巨魔小怪"
         },
         "dota_unit_name": "npc_dota_neutral_dark_troll",
         "id": 76,
@@ -3052,8 +3052,8 @@
       },
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_troll_dark_b",
-          "underlords_abilities": "dac_unit_neutral_troll_dark_b"
+          "en": "Dark Troll Boss",
+          "zh_CN": "黑暗巨魔老怪"
         },
         "dota_unit_name": "npc_dota_neutral_dark_troll_warlord",
         "id": 77,
@@ -3077,8 +3077,8 @@
       },
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_troll_dark_frost",
-          "underlords_abilities": "dac_unit_neutral_troll_dark_frost"
+          "en": "Dark Troll Priest",
+          "zh_CN": "黑暗巨魔牧师"
         },
         "dota_unit_name": "npc_dac_creep_neutral_troll_dark_frost",
         "id": 78,
@@ -3119,8 +3119,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_bat_rider",
-          "underlords_abilities": "dac_hero_name_bat_rider"
+          "en": "Batrider",
+          "zh_CN": "蝙蝠骑士"
         },
         "dota_unit_name": "npc_dota_hero_batrider",
         "draftTier": 1,
@@ -3167,8 +3167,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_shadow_shaman",
-          "underlords_abilities": "dac_hero_name_shadow_shaman"
+          "en": "Shadow Shaman",
+          "zh_CN": "暗影萨满"
         },
         "dota_unit_name": "npc_dota_hero_shadow_shaman",
         "draftTier": 1,
@@ -3215,8 +3215,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_witch_doctor",
-          "underlords_abilities": "dac_hero_name_witch_doctor"
+          "en": "Witch Doctor",
+          "zh_CN": "巫医"
         },
         "dota_unit_name": "npc_dota_hero_witch_doctor",
         "draftTier": 2,
@@ -3263,8 +3263,8 @@
           400
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_troll_warlord",
-          "underlords_abilities": "dac_hero_name_troll_warlord"
+          "en": "Troll Warlord",
+          "zh_CN": "巨魔战将"
         },
         "dota_unit_name": "npc_dota_hero_troll_warlord",
         "draftTier": 4,
@@ -3322,8 +3322,8 @@
     "color": "79 213 101",
     "name": "undead",
     "displayName": {
-      "underlords_heroes": "dac_synergy_undead",
-      "underlords_abilities": "dac_synergy_undead"
+      "en": "Heartless",
+      "zh_CN": "无情"
     },
     "heroes": [
       {
@@ -3345,8 +3345,8 @@
           200
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_drow_ranger",
-          "underlords_abilities": "dac_hero_name_drow_ranger"
+          "en": "Drow Ranger",
+          "zh_CN": "卓尔游侠"
         },
         "dota_unit_name": "npc_dota_hero_drow_ranger",
         "draftTier": 1,
@@ -3395,8 +3395,8 @@
           165
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_pudge",
-          "underlords_abilities": "dac_hero_name_pudge"
+          "en": "Pudge",
+          "zh_CN": "帕吉"
         },
         "dota_unit_name": "npc_dota_hero_pudge",
         "draftTier": 2,
@@ -3441,8 +3441,8 @@
           220
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_abaddon",
-          "underlords_abilities": "dac_hero_name_abaddon"
+          "en": "Abaddon",
+          "zh_CN": "亚巴顿"
         },
         "dota_unit_name": "npc_dota_hero_abaddon",
         "draftTier": 3,
@@ -3486,8 +3486,8 @@
           240
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_necrophos",
-          "underlords_abilities": "dac_hero_name_necrophos"
+          "en": "Necrophos",
+          "zh_CN": "瘟疫法师"
         },
         "dota_unit_name": "npc_dota_hero_necrolyte",
         "draftTier": 4,
@@ -3534,8 +3534,8 @@
           180
         ],
         "displayName": {
-          "underlords_heroes": "dac_hero_name_lich",
-          "underlords_abilities": "dac_hero_name_lich"
+          "en": "Lich",
+          "zh_CN": "巫妖"
         },
         "dota_unit_name": "npc_dota_hero_lich",
         "draftTier": 5,
@@ -3576,8 +3576,8 @@
     "color": "192 192 192",
     "name": "satyr",
     "displayName": {
-      "underlords_heroes": "dac_synergy_satyr",
-      "underlords_abilities": "dac_synergy_satyr"
+      "en": "Satyr",
+      "zh_CN": "萨特"
     },
     "heroes": []
   },
@@ -3613,14 +3613,14 @@
     "color": "153 50 204",
     "name": "assassin",
     "displayName": {
-      "underlords_heroes": "dac_synergy_assassin",
-      "underlords_abilities": "dac_synergy_assassin"
+      "en": "Assassin",
+      "zh_CN": "刺客"
     },
     "heroes": [
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_wolf_big",
-          "underlords_abilities": "dac_unit_neutral_wolf_big"
+          "en": "Big Wolf",
+          "zh_CN": "大狼"
         },
         "dota_unit_name": "npc_dota_neutral_alpha_wolf",
         "baseclass": "dac_npc_assassin",
@@ -3643,8 +3643,8 @@
       },
       {
         "displayName": {
-          "underlords_heroes": "dac_unit_neutral_wolf_small",
-          "underlords_abilities": "dac_unit_neutral_wolf_small"
+          "en": "Small Wolf",
+          "zh_CN": "小狼"
         },
         "dota_unit_name": "npc_dota_neutral_giant_wolf",
         "baseclass": "dac_npc_assassin",
@@ -3693,8 +3693,8 @@
     "color": "139 0 139",
     "name": "demonhunter",
     "displayName": {
-      "underlords_heroes": "dac_synergy_demonhunter",
-      "underlords_abilities": "dac_synergy_demonhunter"
+      "en": "Demon Hunter",
+      "zh_CN": "恶魔猎人"
     },
     "heroes": []
   },
@@ -3715,8 +3715,8 @@
     "color": "34 139 34",
     "name": "druid",
     "displayName": {
-      "underlords_heroes": "dac_synergy_druid",
-      "underlords_abilities": "dac_synergy_druid"
+      "en": "Druid",
+      "zh_CN": "德鲁伊"
     },
     "heroes": [
       {
@@ -3736,8 +3736,8 @@
         ],
         "keywords": "druid",
         "displayName": {
-          "underlords_heroes": "dac_name_natures_prophet_tree",
-          "underlords_abilities": "dac_name_natures_prophet_tree"
+          "en": "Lesser Treant",
+          "zh_CN": "小树精"
         },
         "dota_unit_name": "natures_prophet_tree",
         "draftTier": 0,
@@ -3788,8 +3788,8 @@
     "color": "255 118 82",
     "name": "hunter",
     "displayName": {
-      "underlords_heroes": "dac_synergy_hunter",
-      "underlords_abilities": "dac_synergy_hunter"
+      "en": "Hunter",
+      "zh_CN": "猎人"
     },
     "heroes": []
   },
@@ -3836,8 +3836,8 @@
     "color": "255 227 39",
     "name": "knight",
     "displayName": {
-      "underlords_heroes": "dac_synergy_knight",
-      "underlords_abilities": "dac_synergy_knight"
+      "en": "Knight",
+      "zh_CN": "骑士"
     },
     "heroes": []
   },
@@ -3865,8 +3865,8 @@
     "color": "88 221 233",
     "name": "mage",
     "displayName": {
-      "underlords_heroes": "dac_synergy_mage",
-      "underlords_abilities": "dac_synergy_mage"
+      "en": "Mage",
+      "zh_CN": "法师"
     },
     "heroes": []
   },
@@ -3894,8 +3894,8 @@
     ],
     "name": "mech",
     "displayName": {
-      "underlords_heroes": "dac_synergy_mech",
-      "underlords_abilities": "dac_synergy_mech"
+      "en": "Inventor",
+      "zh_CN": "发明家"
     },
     "heroes": []
   },
@@ -3917,8 +3917,8 @@
     "color": "52 159 100",
     "name": "shaman",
     "displayName": {
-      "underlords_heroes": "dac_synergy_shaman",
-      "underlords_abilities": "dac_synergy_shaman"
+      "en": "Shaman",
+      "zh_CN": "萨满"
     },
     "heroes": []
   },
@@ -3952,8 +3952,8 @@
     "color": "228 110 213",
     "name": "warlock",
     "displayName": {
-      "underlords_heroes": "dac_synergy_warlock",
-      "underlords_abilities": "dac_synergy_warlock"
+      "en": "Warlock",
+      "zh_CN": "术士"
     },
     "heroes": []
   },
@@ -3984,8 +3984,8 @@
     "color": "28 103 180",
     "name": "warrior",
     "displayName": {
-      "underlords_heroes": "dac_synergy_warrior",
-      "underlords_abilities": "dac_synergy_warrior"
+      "en": "Warrior",
+      "zh_CN": "勇士"
     },
     "heroes": []
   }

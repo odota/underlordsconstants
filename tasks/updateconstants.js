@@ -192,7 +192,7 @@ async function start()
 {
   // Localization
   for (let i = 0; i < l10nSources.length; i++) {
-    const s = sources[i];
+    const s = l10nSources[i];
     i10nStrings[s.key] = await processSource(s);
   }
 
