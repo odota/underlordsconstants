@@ -17,24 +17,49 @@ const ABILITY_IMAGE_MAPPING = {
   "timbersaw_whirling_death": "shredder_whirling_death"
 };
 
-const ABILITY_NAME_MAPPING = {
-  "medusa_split_shot": "Split Shot",
-  "sandking_caustic_finale": "Caustic Finale"
-};
+const l10nSources = [
+  {
+    key: "en",
+    url: [
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt",
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt"
+    ],
+    transform: resObj => {
+      return {...resObj[0], ...resObj[1].tokens}
+    }
+  },
+  {
+    key: "zh_CN",
+    url: [
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_schinese.txt",
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_schinese.txt"
+    ],
+    transform: resObj => {
+      return {...resObj[0], ...resObj[1].tokens}
+    }
+  }
+]
+
+let i10nStrings = {};
+
+function geti10nStrings(key) {
+  let ret = {};
+  Object.entries(i10nStrings).forEach(([lang, strings]) => {
+    ret[lang] = strings[key] || key;
+  })
+
+  return ret;
+}
 
 const sources = [
   {
     key: "underlords_heroes",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
-    ],
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json",
     transform: resObj => {
-      const heroes = resObj[0];
-      const strings = resObj[1];
-
+      const heroes = resObj;
       Object.entries(heroes).forEach(([key, hero]) => {
-        hero.displayName = strings[hero.displayName.replace('#', '')] || hero.displayName;
+        sKey = hero.displayName.replace('#', '');
+        hero.displayName = geti10nStrings(sKey);
       });
 
       return heroes;
@@ -42,40 +67,37 @@ const sources = [
   },
   {
     key: "underlords_abilities",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt"
-    ],
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json",
     transform: resObj => {
-      const abilities = resObj[0];
-      const strings = resObj[1];
+      const abilities = resObj;
 
       Object.entries(abilities).forEach(([key, ability]) => {
-        let desc = strings[`dac_ability_${key}_Description`] ||
+        ability.displayName = geti10nStrings(`dac_ability_${key}`);
+
+        ability.description = {};
+        Object.entries(i10nStrings).forEach(([lang, strings]) => {
+          let desc = strings[`dac_ability_${key}_Description`] ||
                     strings[`dac_ability_${key}_description`]; //lower case "d"...
-        
-        if (desc) {
-          const matches = desc.match(ABILITY_REGEX);
-          if (matches) {
-              matches.forEach((s) => {
-                  let replace = '';
-                  const key = s.replace('{s:', '').replace('}', '');
-                  if (key in ability) {
-                      const val = ability[key];
-                      replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
-                  }
-  
-                  desc = desc.replace(s, replace);
-              })
+          if (desc) {
+            const matches = desc.match(ABILITY_REGEX);
+            if (matches) {
+                matches.forEach((s) => {
+                    let replace = '';
+                    const key = s.replace('{s:', '').replace('}', '');
+                    if (key in ability) {
+                        const val = ability[key];
+                        replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+                    }
+    
+                    desc = desc.replace(s, replace);
+                })
+            }
+            desc = desc.replace(/<br>/g, '\n');
           }
-          desc = desc.replace(/<br>/g, '\n');
-        }
+          ability.description[lang] = desc;
+        });
 
         ability.iconName = ABILITY_IMAGE_MAPPING[key] || key;
-        ability.description = desc;
-        ability.displayName = strings[`dac_ability_${key}`] 
-        || ABILITY_NAME_MAPPING[key]
-        || key;
       });
 
       return abilities;
@@ -85,31 +107,26 @@ const sources = [
     key: "underlords_alliances",
     url: [
       "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/synergies.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
+      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json"
     ],
     transform: resObj => {
       const alliances = resObj[0];
       const heroes = resObj[1];
-      const abilityStrings = resObj[2];
-      const strings = resObj[3];
 
       Object.entries(alliances).forEach(([key, a]) => {
         a.name = key.toLowerCase();
-        a.displayName = abilityStrings[`dac_synergy_${a.name}`];
+        a.displayName = geti10nStrings(`dac_synergy_${a.name}`);
+        
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
           if (hero.keywords && hero.keywords.includes(a.name) && hero.displayName.includes('#')) {
-            hero.displayName = strings[hero.displayName.replace('#', '')] || hero.displayName;
+            sKey = hero.displayName.replace('#', '');
+            hero.displayName = geti10nStrings(sKey);
             allianceHeroes.push(hero);
           }
         })
 
         a.heroes = allianceHeroes.sort((x, y) => {
-          if (x.draftTier === y.draftTier) {
-            return x.displayName > y.displayName ? 1 : -1;
-          }
           return x.draftTier > y.draftTier ? 1: -1;
         })
       });
@@ -156,11 +173,7 @@ async function requestData(url) {
   return parseJson(body);
 }
 
-async function start()
-{
-  for (let i = 0;i < sources.length; i++)
-  {
-    const s = sources[i];
+async function processSource(s) {
     let body = null;
     if (Array.isArray(s.url)) {
       body = await Promise.all(s.url.map(async (url) => requestData(url)))
@@ -172,6 +185,22 @@ async function start()
       body = s.transform(body);
     }
 
+    return body;
+}
+
+async function start()
+{
+  // Localization
+  for (let i = 0;i < l10nSources.length; i++) {
+    const s = sources[i];
+    body = processSource(s);
+    i10nStrings[s.key] = body;
+  }
+
+  for (let i = 0;i < sources.length; i++)
+  {
+    const s = sources[i];
+    body = processSource(s);
     fs.writeFileSync('./build/' + s.key + '.json', JSON.stringify(body, null, 2));
   }
 
