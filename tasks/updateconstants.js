@@ -17,65 +17,17 @@ const ABILITY_IMAGE_MAPPING = {
   "timbersaw_whirling_death": "shredder_whirling_death"
 };
 
-const ABILITY_NAME_MAPPING = {
-  "medusa_split_shot": "Split Shot",
-  "sandking_caustic_finale": "Caustic Finale"
-};
-
 const sources = [
   {
     key: "underlords_heroes",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
-    ],
-    transform: resObj => {
-      const heroes = resObj[0];
-      const strings = resObj[1];
-
-      Object.entries(heroes).forEach(([key, hero]) => {
-        hero.displayName = strings[hero.displayName.replace('#', '')] || hero.displayName;
-      });
-
-      return heroes;
-    }
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json"
   },
   {
     key: "underlords_abilities",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt"
-    ],
-    transform: resObj => {
-      const abilities = resObj[0];
-      const strings = resObj[1];
-
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json",
+    transform: abilities => {
       Object.entries(abilities).forEach(([key, ability]) => {
-        let desc = strings[`dac_ability_${key}_Description`] ||
-                    strings[`dac_ability_${key}_description`]; //lower case "d"...
-        
-        if (desc) {
-          const matches = desc.match(ABILITY_REGEX);
-          if (matches) {
-              matches.forEach((s) => {
-                  let replace = '';
-                  const key = s.replace('{s:', '').replace('}', '');
-                  if (key in ability) {
-                      const val = ability[key];
-                      replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
-                  }
-  
-                  desc = desc.replace(s, replace);
-              })
-          }
-          desc = desc.replace(/<br>/g, '\n');
-        }
-
         ability.iconName = ABILITY_IMAGE_MAPPING[key] || key;
-        ability.description = desc;
-        ability.displayName = strings[`dac_ability_${key}`] 
-        || ABILITY_NAME_MAPPING[key]
-        || key;
       });
 
       return abilities;
@@ -86,22 +38,16 @@ const sources = [
     url: [
       "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/synergies.json",
       "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
     ],
     transform: resObj => {
       const alliances = resObj[0];
       const heroes = resObj[1];
-      const abilityStrings = resObj[2];
-      const strings = resObj[3];
 
       Object.entries(alliances).forEach(([key, a]) => {
         a.name = key.toLowerCase();
-        a.displayName = abilityStrings[`dac_synergy_${a.name}`];
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
-          if (hero.keywords && hero.keywords.includes(a.name) && hero.displayName.includes('#')) {
-            hero.displayName = strings[hero.displayName.replace('#', '')] || hero.displayName;
+          if (hero.keywords && hero.keywords.includes(a.name)) {
             allianceHeroes.push(hero);
           }
         })
@@ -119,13 +65,11 @@ const sources = [
   },
   {
     key: "underlords_items",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json",
-    transform: resObj => resObj
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json"
   },
   {
     key: "underlords_localization_en",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt",
-    transform: resObj => resObj
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
   },
   {
     key: "underlords_localization_abilities_en",

@@ -22,8 +22,7 @@
       "particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl4.vpcf",
       "particles/units/heroes/hero_enchantress/enchantress_natures_attendants_heal.vpcf"
     ],
-    "iconName": "enchantress_natures_attendants",
-    "displayName": "enchantress_natures_attendants"
+    "iconName": "enchantress_natures_attendants"
   },
   "tiny_toss": {
     "maxLevel": 3,
@@ -50,8 +49,7 @@
     "precache": [
       "particles/units/heroes/hero_tiny/tiny_toss_impact.vpcf"
     ],
-    "iconName": "tiny_toss",
-    "displayName": "tiny_toss"
+    "iconName": "tiny_toss"
   },
   "troll_warlord_fervor": {
     "maxLevel": 3,
@@ -65,8 +63,7 @@
       9,
       12
     ],
-    "iconName": "troll_warlord_fervor",
-    "displayName": "troll_warlord_fervor"
+    "iconName": "troll_warlord_fervor"
   },
   "terrorblade_metamorph": {
     "maxLevel": 3,
@@ -91,8 +88,7 @@
       "particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf",
       "particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_transform.vpcf"
     ],
-    "iconName": "terrorblade_metamorphosis",
-    "displayName": "terrorblade_metamorph"
+    "iconName": "terrorblade_metamorphosis"
   },
   "slark_dark_pact": {
     "maxLevel": 3,
@@ -119,8 +115,7 @@
       "particles/units/heroes/hero_slark/slark_dark_pact_pulses.vpcf",
       "particles/units/heroes/hero_slark/slark_dark_pact_pulses_body.vpcf"
     ],
-    "iconName": "slark_dark_pact",
-    "displayName": "slark_dark_pact"
+    "iconName": "slark_dark_pact"
   },
   "slark_essence_shift": {
     "maxLevel": 3,
@@ -134,14 +129,12 @@
       4,
       5
     ],
-    "iconName": "slark_essence_shift",
-    "displayName": "slark_essence_shift"
+    "iconName": "slark_essence_shift"
   },
   "slark_pounce": {
     "maxLevel": 3,
     "disarm_duration": 3,
-    "iconName": "slark_pounce",
-    "displayName": "slark_pounce"
+    "iconName": "slark_pounce"
   },
   "dragon_knight_breathe_fire": {
     "maxLevel": 3,
@@ -169,8 +162,7 @@
     "precache": [
       "particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf"
     ],
-    "iconName": "dragon_knight_breathe_fire",
-    "displayName": "dragon_knight_breathe_fire"
+    "iconName": "dragon_knight_breathe_fire"
   },
   "dragon_knight_elder_dragon_form": {
     "maxLevel": 3,
@@ -219,8 +211,7 @@
       "particles/generic_gameplay/generic_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost.vpcf"
     ],
-    "iconName": "dragon_knight_elder_dragon_form",
-    "displayName": "dragon_knight_elder_dragon_form"
+    "iconName": "dragon_knight_elder_dragon_form"
   },
   "morphling_waveform": {
     "maxLevel": 3,
@@ -246,8 +237,7 @@
       "particles/units/heroes/hero_morphling/morphling_waveform.vpcf",
       "particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf"
     ],
-    "iconName": "morphling_waveform",
-    "displayName": "morphling_waveform"
+    "iconName": "morphling_waveform"
   },
   "viper_corrosive_skin": {
     "maxLevel": 3,
@@ -270,8 +260,7 @@
     "precache": [
       "particles/units/heroes/hero_viper/viper_corrosive_debuff.vpcf"
     ],
-    "iconName": "viper_corrosive_skin",
-    "displayName": "viper_corrosive_skin"
+    "iconName": "viper_corrosive_skin"
   },
   "viper_viper_strike": {
     "maxLevel": 3,
@@ -312,8 +301,7 @@
       "particles/units/heroes/hero_viper/viper_viper_strike_debuff.vpcf",
       "particles/status_fx/status_effect_poison_viper.vpcf"
     ],
-    "iconName": "viper_viper_strike",
-    "displayName": "viper_viper_strike"
+    "iconName": "viper_viper_strike"
   },
   "phantom_assassin_coup_de_grace": {
     "maxLevel": 3,
@@ -329,8 +317,7 @@
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_mechanical.vpcf",
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact.vpcf"
     ],
-    "iconName": "phantom_assassin_coup_de_grace",
-    "displayName": "phantom_assassin_coup_de_grace"
+    "iconName": "phantom_assassin_coup_de_grace"
   },
   "batrider_sticky_napalm": {
     "maxLevel": 3,
@@ -368,8 +355,7 @@
       "particles/units/heroes/hero_batrider/batrider_stickynapalm_stack.vpcf",
       "particles/units/heroes/hero_batrider/batrider_napalm_damage_debuff.vpcf"
     ],
-    "iconName": "batrider_sticky_napalm",
-    "displayName": "batrider_sticky_napalm"
+    "iconName": "batrider_sticky_napalm"
   },
   "gyrocopter_call_down": {
     "maxLevel": 3,
@@ -404,8 +390,7 @@
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_second.vpcf",
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_marker.vpcf"
     ],
-    "iconName": "gyrocopter_call_down",
-    "displayName": "gyrocopter_call_down"
+    "iconName": "gyrocopter_call_down"
   },
   "alchemist_acid_spray": {
     "maxLevel": 3,
@@ -432,8 +417,7 @@
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray.vpcf",
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray_debuff.vpcf"
     ],
-    "iconName": "alchemist_acid_spray",
-    "displayName": "alchemist_acid_spray"
+    "iconName": "alchemist_acid_spray"
   },
   "keeper_of_the_light_illuminate": {
     "maxLevel": 3,
@@ -461,8 +445,7 @@
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_impact.vpcf",
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_impact_small.vpcf"
     ],
-    "iconName": "keeper_of_the_light_illuminate",
-    "displayName": "keeper_of_the_light_illuminate"
+    "iconName": "keeper_of_the_light_illuminate"
   },
   "puck_phase_shift": {
     "cooldown": [
@@ -474,8 +457,7 @@
     "precache": [
       "particles/units/heroes/hero_puck/puck_phase_shift.vpcf"
     ],
-    "iconName": "puck_phase_shift",
-    "displayName": "puck_phase_shift"
+    "iconName": "puck_phase_shift"
   },
   "puck_illusory_orb": {
     "maxLevel": 3,
@@ -501,8 +483,7 @@
       "particles/units/heroes/hero_puck/puck_illusory_orb.vpcf",
       "particles/units/heroes/hero_puck/puck_orb_damage.vpcf"
     ],
-    "iconName": "puck_illusory_orb",
-    "displayName": "puck_illusory_orb"
+    "iconName": "puck_illusory_orb"
   },
   "mirana_arrow": {
     "maxLevel": 3,
@@ -531,8 +512,7 @@
     "precache": [
       "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf"
     ],
-    "iconName": "mirana_arrow",
-    "displayName": "mirana_arrow"
+    "iconName": "mirana_arrow"
   },
   "chaos_knight_chaos_bolt": {
     "maxLevel": 3,
@@ -566,8 +546,7 @@
       "particles/units/heroes/hero_chaos_knight/chaos_knight_chaos_bolt.vpcf",
       "particles/units/heroes/hero_chaos_knight/chaos_knight_bolt_msg.vpcf"
     ],
-    "iconName": "chaos_knight_chaos_bolt",
-    "displayName": "chaos_knight_chaos_bolt"
+    "iconName": "chaos_knight_chaos_bolt"
   },
   "slardar_amplify_damage": {
     "maxLevel": 3,
@@ -587,8 +566,7 @@
       "particles/units/heroes/hero_slardar/slardar_amp_glow.vpcf",
       "particles/status_fx/status_effect_slardar_amp_damage.vpcf"
     ],
-    "iconName": "slardar_amplify_damage",
-    "displayName": "slardar_amplify_damage"
+    "iconName": "slardar_amplify_damage"
   },
   "sniper_assassinate": {
     "maxLevel": 3,
@@ -619,8 +597,7 @@
       "particles/units/heroes/hero_sniper/sniper_assassinate.vpcf",
       "particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
     ],
-    "iconName": "sniper_assassinate",
-    "displayName": "sniper_assassinate"
+    "iconName": "sniper_assassinate"
   },
   "tinker_heat_seeking_missile": {
     "maxLevel": 3,
@@ -645,8 +622,7 @@
       "particles/units/heroes/hero_tinker/tinker_missile.vpcf",
       "particles/units/heroes/hero_tinker/tinker_missle_explosion.vpcf"
     ],
-    "iconName": "tinker_heat_seeking_missile",
-    "displayName": "tinker_heat_seeking_missile"
+    "iconName": "tinker_heat_seeking_missile"
   },
   "axe_berserkers_call": {
     "maxLevel": 3,
@@ -670,8 +646,7 @@
       "particles/units/heroes/hero_axe/axe_beserkers_call_owner.vpcf",
       "particles/units/heroes/hero_axe/axe_beserkers_call_target.vpcf"
     ],
-    "iconName": "axe_berserkers_call",
-    "displayName": "axe_berserkers_call"
+    "iconName": "axe_berserkers_call"
   },
   "juggernaut_blade_fury": {
     "maxLevel": 3,
@@ -693,8 +668,7 @@
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf",
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_tgt.vpcf"
     ],
-    "iconName": "juggernaut_blade_fury",
-    "displayName": "juggernaut_blade_fury"
+    "iconName": "juggernaut_blade_fury"
   },
   "lich_chain_frost": {
     "maxLevel": 3,
@@ -725,8 +699,7 @@
       "particles/units/heroes/hero_lich/lich_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost_lich.vpcf"
     ],
-    "iconName": "lich_chain_frost",
-    "displayName": "lich_chain_frost"
+    "iconName": "lich_chain_frost"
   },
   "witch_doctor_paralyzing_cask": {
     "maxLevel": 3,
@@ -752,8 +725,7 @@
     "precache": [
       "particles/units/heroes/hero_witchdoctor/witchdoctor_cask.vpcf"
     ],
-    "iconName": "witch_doctor_paralyzing_cask",
-    "displayName": "witch_doctor_paralyzing_cask"
+    "iconName": "witch_doctor_paralyzing_cask"
   },
   "bounty_hunter_shuriken_toss": {
     "maxLevel": 3,
@@ -772,8 +744,7 @@
     "precache": [
       "particles/units/heroes/hero_bounty_hunter/bounty_hunter_suriken_toss.vpcf"
     ],
-    "iconName": "bounty_hunter_shuriken_toss",
-    "displayName": "bounty_hunter_shuriken_toss"
+    "iconName": "bounty_hunter_shuriken_toss"
   },
   "sandking_burrowstrike": {
     "maxLevel": 3,
@@ -799,8 +770,7 @@
     "precache": [
       "particles/units/heroes/hero_sandking/sandking_burrowstrike.vpcf"
     ],
-    "iconName": "sandking_burrowstrike",
-    "displayName": "sandking_burrowstrike"
+    "iconName": "sandking_burrowstrike"
   },
   "queenofpain_scream_of_pain": {
     "maxLevel": 3,
@@ -820,8 +790,7 @@
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain.vpcf",
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain_owner.vpcf"
     ],
-    "iconName": "queenofpain_scream_of_pain",
-    "displayName": "queenofpain_scream_of_pain"
+    "iconName": "queenofpain_scream_of_pain"
   },
   "ogre_magi_bloodlust": {
     "maxLevel": 3,
@@ -851,8 +820,7 @@
       "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
       "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_cast.vpcf"
     ],
-    "iconName": "ogre_magi_bloodlust",
-    "displayName": "ogre_magi_bloodlust"
+    "iconName": "ogre_magi_bloodlust"
   },
   "timbersaw_whirling_death": {
     "maxLevel": 3,
@@ -875,8 +843,7 @@
     "precache": [
       "particles/units/heroes/hero_shredder/shredder_whirling_death.vpcf"
     ],
-    "iconName": "shredder_whirling_death",
-    "displayName": "timbersaw_whirling_death"
+    "iconName": "shredder_whirling_death"
   },
   "necrophos_death_pulse": {
     "maxLevel": 3,
@@ -901,8 +868,7 @@
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_friend.vpcf",
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_enemy.vpcf"
     ],
-    "iconName": "necrolyte_death_pulse",
-    "displayName": "necrophos_death_pulse"
+    "iconName": "necrolyte_death_pulse"
   },
   "clockwerk_battery_assault": {
     "maxLevel": 3,
@@ -928,8 +894,7 @@
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_assault.vpcf",
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_shrapnel.vpcf"
     ],
-    "iconName": "rattletrap_battery_assault",
-    "displayName": "clockwerk_battery_assault"
+    "iconName": "rattletrap_battery_assault"
   },
   "templar_assassin_refraction": {
     "maxLevel": 3,
@@ -955,8 +920,7 @@
       "particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf",
       "particles/units/heroes/hero_templar_assassin/templar_assassin_refract_hit.vpcf"
     ],
-    "iconName": "templar_assassin_refraction",
-    "displayName": "templar_assassin_refraction"
+    "iconName": "templar_assassin_refraction"
   },
   "enigma_midnight_pulse": {
     "maxLevel": 3,
@@ -979,8 +943,7 @@
     "precache": [
       "particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf"
     ],
-    "iconName": "enigma_midnight_pulse",
-    "displayName": "enigma_midnight_pulse"
+    "iconName": "enigma_midnight_pulse"
   },
   "medusa_stone_gaze": {
     "maxLevel": 3,
@@ -1012,8 +975,7 @@
       "particles/units/heroes/hero_medusa/medusa_stone_gaze_facing.vpcf",
       "particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_stoned.vpcf"
     ],
-    "iconName": "medusa_stone_gaze",
-    "displayName": "medusa_stone_gaze"
+    "iconName": "medusa_stone_gaze"
   },
   "medusa_split_shot": {
     "maxLevel": 3,
@@ -1025,8 +987,7 @@
     "range": 1,
     "extra_shots": 3,
     "precache": [],
-    "iconName": "medusa_split_shot",
-    "displayName": "Split Shot"
+    "iconName": "medusa_split_shot"
   },
   "treant_leech_seed": {
     "maxLevel": 3,
@@ -1049,8 +1010,7 @@
       "particles/units/heroes/hero_treant/treant_leech_seed.vpcf",
       "particles/units/heroes/hero_treant/treant_leech_seed_damage_pulse.vpcf"
     ],
-    "iconName": "treant_leech_seed",
-    "displayName": "treant_leech_seed"
+    "iconName": "treant_leech_seed"
   },
   "razor_plasma_field": {
     "maxLevel": 3,
@@ -1072,8 +1032,7 @@
       "particles/units/heroes/hero_razor/razor_plasmafield.vpcf",
       "particles/units/heroes/hero_razor/razor_base_attack_impact.vpcf"
     ],
-    "iconName": "razor_plasma_field",
-    "displayName": "razor_plasma_field"
+    "iconName": "razor_plasma_field"
   },
   "shadow_fiend_requiem": {
     "maxLevel": 3,
@@ -1101,8 +1060,7 @@
       "particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf",
       "particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line.vpcf"
     ],
-    "iconName": "nevermore_requiem",
-    "displayName": "shadow_fiend_requiem"
+    "iconName": "nevermore_requiem"
   },
   "antimage_mana_break": {
     "maxLevel": 3,
@@ -1115,8 +1073,7 @@
     "precache": [
       "particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf"
     ],
-    "iconName": "antimage_mana_break",
-    "displayName": "antimage_mana_break"
+    "iconName": "antimage_mana_break"
   },
   "drow_ranger_trueshot_aura": {
     "maxLevel": 3,
@@ -1126,8 +1083,7 @@
       30
     ],
     "range": 1,
-    "iconName": "drow_ranger_trueshot",
-    "displayName": "drow_ranger_trueshot_aura"
+    "iconName": "drow_ranger_trueshot"
   },
   "luna_moon_glaive": {
     "bounces": [
@@ -1140,8 +1096,7 @@
     "precache": [
       "particles/units/heroes/hero_luna/luna_moon_glaive_bounce.vpcf"
     ],
-    "iconName": "luna_moon_glaive",
-    "displayName": "luna_moon_glaive"
+    "iconName": "luna_moon_glaive"
   },
   "tidehunter_ravage": {
     "maxLevel": 3,
@@ -1173,8 +1128,7 @@
       "particles/units/heroes/hero_tidehunter/tidehunter_ravage_cell4.vpcf",
       "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf"
     ],
-    "iconName": "tidehunter_ravage",
-    "displayName": "tidehunter_ravage"
+    "iconName": "tidehunter_ravage"
   },
   "tusk_walrus_punch": {
     "maxLevel": 3,
@@ -1198,8 +1152,7 @@
       "particles/units/heroes/hero_tusk/tusk_walruspunch_tgt.vpcf",
       "particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf"
     ],
-    "iconName": "tusk_walrus_punch",
-    "displayName": "tusk_walrus_punch"
+    "iconName": "tusk_walrus_punch"
   },
   "omniknight_purification": {
     "maxLevel": 3,
@@ -1219,8 +1172,7 @@
       "particles/units/heroes/hero_omniknight/omniknight_purification_cast.vpcf",
       "particles/units/heroes/hero_omniknight/omniknight_purification_hit.vpcf"
     ],
-    "iconName": "omniknight_purification",
-    "displayName": "omniknight_purification"
+    "iconName": "omniknight_purification"
   },
   "disruptor_static_storm": {
     "maxLevel": 3,
@@ -1255,8 +1207,7 @@
       "particles/generic_gameplay/generic_silenced.vpcf",
       "models/props_gameplay/frog.vmdl"
     ],
-    "iconName": "disruptor_static_storm",
-    "displayName": "disruptor_static_storm"
+    "iconName": "disruptor_static_storm"
   },
   "windrunner_powershot": {
     "maxLevel": 3,
@@ -1287,8 +1238,7 @@
       "particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf",
       "particles/units/heroes/hero_windrunner/windrunner_powershot_dmg.vpcf"
     ],
-    "iconName": "windrunner_powershot",
-    "displayName": "windrunner_powershot"
+    "iconName": "windrunner_powershot"
   },
   "crystal_maiden_brilliance_aura": {
     "maxLevel": 3,
@@ -1303,8 +1253,7 @@
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura.vpcf",
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura_target.vpcf"
     ],
-    "iconName": "crystal_maiden_brilliance_aura",
-    "displayName": "crystal_maiden_brilliance_aura"
+    "iconName": "crystal_maiden_brilliance_aura"
   },
   "beastmaster_wild_axes": {
     "maxLevel": 3,
@@ -1332,8 +1281,7 @@
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxes_hit.vpcf",
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxe_debuff.vpcf"
     ],
-    "iconName": "beastmaster_wild_axes",
-    "displayName": "beastmaster_wild_axes"
+    "iconName": "beastmaster_wild_axes"
   },
   "doom_bringer_doom": {
     "maxLevel": 3,
@@ -1352,8 +1300,7 @@
       "particles/units/heroes/hero_doom_bringer/doom_bringer_doom.vpcf",
       "particles/status_fx/status_effect_doom.vpcf"
     ],
-    "iconName": "doom_bringer_doom",
-    "displayName": "doom_bringer_doom"
+    "iconName": "doom_bringer_doom"
   },
   "venomancer_plague_ward": {
     "maxLevel": 3,
@@ -1367,8 +1314,7 @@
     "precache": [
       "particles/units/heroes/hero_venomancer/venomancer_ward_cast.vpcf"
     ],
-    "iconName": "venomancer_plague_ward",
-    "displayName": "venomancer_plague_ward"
+    "iconName": "venomancer_plague_ward"
   },
   "lina_laguna_blade": {
     "maxLevel": 3,
@@ -1391,8 +1337,7 @@
     "precache": [
       "particles/units/heroes/hero_lina/lina_spell_laguna_blade.vpcf"
     ],
-    "iconName": "lina_laguna_blade",
-    "displayName": "lina_laguna_blade"
+    "iconName": "lina_laguna_blade"
   },
   "abaddon_aphotic_shield": {
     "maxLevel": 3,
@@ -1412,8 +1357,7 @@
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield_hit.vpcf",
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf"
     ],
-    "iconName": "abaddon_aphotic_shield",
-    "displayName": "abaddon_aphotic_shield"
+    "iconName": "abaddon_aphotic_shield"
   },
   "kunkka_ghostship": {
     "maxLevel": 3,
@@ -1456,8 +1400,7 @@
       "particles/units/heroes/hero_kunkka/kunkka_ghostship_marker.vpcf",
       "particles/status_fx/status_effect_rum.vpcf"
     ],
-    "iconName": "kunkka_ghostship",
-    "displayName": "kunkka_ghostship"
+    "iconName": "kunkka_ghostship"
   },
   "shadow_shaman_voodoo": {
     "maxLevel": 3,
@@ -1477,8 +1420,7 @@
       "particles/units/heroes/hero_shadowshaman/shadowshaman_voodoo.vpcf",
       "models/props_gameplay/frog.vmdl"
     ],
-    "iconName": "shadow_shaman_voodoo",
-    "displayName": "shadow_shaman_voodoo"
+    "iconName": "shadow_shaman_voodoo"
   },
   "natures_prophet_summon_tree": {
     "maxLevel": 3,
@@ -1488,8 +1430,7 @@
     "manaCost": 50,
     "summonID": 58,
     "animationlength": 1.97,
-    "iconName": "furion_force_of_nature",
-    "displayName": "natures_prophet_summon_tree"
+    "iconName": "furion_force_of_nature"
   },
   "lone_druid_summon_bear": {
     "maxLevel": 3,
@@ -1502,8 +1443,7 @@
     "precache": [
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_spawn.vpcf"
     ],
-    "iconName": "lone_druid_spirit_link",
-    "displayName": "lone_druid_summon_bear"
+    "iconName": "lone_druid_spirit_link"
   },
   "lycan_wolf_spawn_shift": {
     "maxLevel": 3,
@@ -1530,8 +1470,7 @@
       "particles/units/heroes/hero_lycan/lycan_summon_wolves_cast.vpcf",
       "particles/units/heroes/hero_lycan/lycan_summon_wolves_spawn.vpcf"
     ],
-    "iconName": "lycan_shapeshift",
-    "displayName": "lycan_wolf_spawn_shift"
+    "iconName": "lycan_shapeshift"
   },
   "techies_bomb": {
     "maxLevel": 3,
@@ -1551,8 +1490,7 @@
     "precache": [
       "particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
     ],
-    "iconName": "techies_remote_mines",
-    "displayName": "techies_bomb"
+    "iconName": "techies_remote_mines"
   },
   "sven_great_cleave": {
     "maxLevel": 1,
@@ -1563,8 +1501,7 @@
     "precache": [
       "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
     ],
-    "iconName": "sven_great_cleave",
-    "displayName": "sven_great_cleave"
+    "iconName": "sven_great_cleave"
   },
   "lone_druid_spirit_bear_entangle": {
     "maxLevel": 3,
@@ -1574,8 +1511,7 @@
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_entangle.vpcf",
       "particles/units/heroes/hero_lone_druid/lone_druid_bear_entangle_body.vpcf"
     ],
-    "iconName": "lone_druid_spirit_bear_entangle",
-    "displayName": "lone_druid_spirit_bear_entangle"
+    "iconName": "lone_druid_spirit_bear_entangle"
   },
   "pudge_meathook": {
     "maxLevel": 3,
@@ -1598,8 +1534,7 @@
       "particles/units/heroes/hero_pudge/pudge_meathook.vpcf",
       "particles/units/heroes/hero_pudge/pudge_meathook_impact.vpcf"
     ],
-    "iconName": "pudge_meat_hook",
-    "displayName": "pudge_meathook"
+    "iconName": "pudge_meat_hook"
   },
   "pudge_pound": {
     "maxLevel": 3,
@@ -1626,8 +1561,7 @@
     "precache": [
       "particles/units/heroes/hero_pudge/pudge_dismember.vpcf"
     ],
-    "iconName": "pudge_pound",
-    "displayName": "pudge_pound"
+    "iconName": "pudge_pound"
   },
   "warlock_shadow_word": {
     "maxLevel": 3,
@@ -1656,8 +1590,7 @@
       "particles/units/heroes/hero_warlock/warlock_shadow_word_debuff.vpcf",
       "particles/units/heroes/hero_warlock/warlock_shadow_word_buff.vpcf"
     ],
-    "iconName": "warlock_shadow_word",
-    "displayName": "warlock_shadow_word"
+    "iconName": "warlock_shadow_word"
   },
   "bloodseeker_blood_rage": {
     "maxLevel": 3,
@@ -1667,8 +1600,7 @@
     "precache": [
       "particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf"
     ],
-    "iconName": "bloodseeker_bloodrage",
-    "displayName": "bloodseeker_blood_rage"
+    "iconName": "bloodseeker_bloodrage"
   },
   "arc_warden_magnetic_field": {
     "maxLevel": 3,
@@ -1696,8 +1628,7 @@
       "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
       "particles/units/heroes/hero_arc_warden/arc_warden_magnetic_cast.vpcf"
     ],
-    "iconName": "arc_warden_magnetic_field",
-    "displayName": "arc_warden_magnetic_field"
+    "iconName": "arc_warden_magnetic_field"
   },
   "arc_warden_tempest_double": {
     "maxLevel": 3,
@@ -1713,8 +1644,7 @@
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_buff.vpcf",
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_eyes.vpcf"
     ],
-    "iconName": "arc_warden_tempest_double",
-    "displayName": "arc_warden_tempest_double"
+    "iconName": "arc_warden_tempest_double"
   },
   "sandking_caustic_finale": {
     "maxLevel": 3,
@@ -1737,13 +1667,11 @@
       "particles/units/heroes/hero_sandking/sandking_caustic_finale_debuff.vpcf",
       "particles/units/heroes/hero_sandking/sandking_caustic_finale_explode.vpcf"
     ],
-    "iconName": "sandking_caustic_finale",
-    "displayName": "Caustic Finale"
+    "iconName": "sandking_caustic_finale"
   },
   "black_dragon_splash_attack": {
     "splash_radius": 1,
     "splash_damage_percent": 50,
-    "iconName": "black_dragon_splash_attack",
-    "displayName": "black_dragon_splash_attack"
+    "iconName": "black_dragon_splash_attack"
   }
 }
