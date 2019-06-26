@@ -120,9 +120,9 @@
     "id": 11,
     "keywords": "elf demonhunter",
     "magicResist": [
-      10,
-      20,
-      30
+      30,
+      40,
+      50
     ],
     "maxmana": 100,
     "model": "models/heroes/antimage/antimage.vmdl",
@@ -325,14 +325,14 @@
     "attackRange": 1,
     "attackRate": 1.3,
     "damageMin": [
-      40,
-      80,
-      160
+      55,
+      110,
+      200
     ],
     "damageMax": [
-      110,
-      220,
-      440
+      130,
+      240,
+      480
     ],
     "displayName": "#dac_hero_name_chaos_knight",
     "dota_unit_name": "npc_dota_hero_chaos_knight",
@@ -546,6 +546,9 @@
   },
   "dragon_knight": {
     "abilities": [
+      "dragon_knight_breathe_fire"
+    ],
+    "extra_abilities": [
       "dragon_knight_elder_dragon_form"
     ],
     "armor": 10,
@@ -567,11 +570,11 @@
     "draftTier": 4,
     "goldCost": 4,
     "health": [
-      800,
-      1600,
-      3200
+      1000,
+      2000,
+      4000
     ],
-    "healthRegen": 0,
+    "healthRegen": 10,
     "id": 49,
     "keywords": "human dragon knight",
     "magicResist": 0,
@@ -884,15 +887,15 @@
     "draftTier": 4,
     "goldCost": 4,
     "health": [
-      650,
-      1300,
-      2600
+      550,
+      1100,
+      2200
     ],
     "healthRegen": 0,
     "id": 43,
     "keywords": "human mage",
     "magicResist": 0,
-    "maxmana": 100,
+    "maxmana": 150,
     "model": "models/heroes/keeper_of_the_light/keeper_of_the_light.vmdl",
     "model_scale": [
       0.65,
@@ -1460,6 +1463,9 @@
     "abilities": [
       "puck_illusory_orb"
     ],
+    "extra_abilities": [
+      "puck_phase_shift"
+    ],
     "armor": 5,
     "attackAnimationPoint": 0.5,
     "attackRange": 3,
@@ -1784,7 +1790,8 @@
   },
   "slark": {
     "abilities": [
-      "slark_essence_shift"
+      "slark_essence_shift",
+      "slark_pounce"
     ],
     "baseclass": "dac_npc_assassin",
     "armor": 5,
@@ -2386,6 +2393,9 @@
   "viper": {
     "abilities": [
       "viper_viper_strike"
+    ],
+    "extra_abilities": [
+      "viper_corrosive_skin"
     ],
     "baseclass": "dac_npc_assassin",
     "armor": 5,
