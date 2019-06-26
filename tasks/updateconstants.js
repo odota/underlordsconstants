@@ -119,7 +119,7 @@ const sources = [
         
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
-          if (hero.keywords && hero.keywords.includes(a.name) && hero.displayName.includes('#')) {
+          if (hero.keywords && hero.keywords.includes(a.name) && typeof hero.displayName !== 'object') {
             sKey = hero.displayName.replace('#', '');
             hero.displayName = geti10nStrings(sKey);
             allianceHeroes.push(hero);
@@ -191,17 +191,15 @@ async function processSource(s) {
 async function start()
 {
   // Localization
-  for (let i = 0;i < l10nSources.length; i++) {
+  for (let i = 0; i < l10nSources.length; i++) {
     const s = sources[i];
-    body = processSource(s);
-    i10nStrings[s.key] = body;
+    i10nStrings[s.key] = await processSource(s);
   }
 
-  for (let i = 0;i < sources.length; i++)
+  for (let i = 0; i < sources.length; i++)
   {
     const s = sources[i];
-    body = processSource(s);
-    fs.writeFileSync('./build/' + s.key + '.json', JSON.stringify(body, null, 2));
+    fs.writeFileSync('./build/' + s.key + '.json', JSON.stringify(await processSource(s), null, 2));
   }
 
   // Reference built files in index.js
