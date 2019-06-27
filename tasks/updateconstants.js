@@ -55,15 +55,17 @@ const sources = [
     transform: resObj => {
       const alliances = resObj[0];
       const heroes = resObj[1];
-
       Object.entries(alliances).forEach(([key, a]) => {
         a.key = key.toLowerCase();
 
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
           hero.key = k;
-          if (hero.keywords && hero.keywords.includes(a.name) && hero.draftTier > 0 && hero.displayName && hero.displayName.includes("#")) {
-            hero.displayName = hero.displayName.replace('#', '')
+          if (hero.keywords && hero.keywords.includes(a.key) && hero.draftTier > 0) {
+            if (hero.displayName && hero.displayName.includes("#")) {
+              hero.displayName = hero.displayName.replace('#', '')
+            }
+
             allianceHeroes.push(hero);
           }
         })
