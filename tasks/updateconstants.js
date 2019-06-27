@@ -53,10 +53,10 @@ const sources = [
       "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/units.json"
     ],
     transform: resObj => {
-      const alliances = resObj[0];
+      const alliances = normalize(resObj[0]);
       const heroes = resObj[1];
       Object.entries(alliances).forEach(([key, a]) => {
-        a.key = key.toLowerCase();
+        a.key = key;
 
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
@@ -133,11 +133,11 @@ function parseJson(text) {
   }
 }
 
-function normalize(vdf) {
-  let keys = Object.keys(vdf);
+function normalize(json) {
+  let keys = Object.keys(json);
   let normalized = {};
   for (let key of keys) {
-    normalized[key.toLowerCase()] = vdf[key];
+    normalized[key.toLowerCase()] = json[key];
   }
   return normalized;
 }

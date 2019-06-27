@@ -1,5 +1,5 @@
 {
-  "Beast": {
+  "beast": {
     "type": "Race",
     "levels": [
       {
@@ -305,7 +305,7 @@
       }
     ]
   },
-  "Demon": {
+  "demon": {
     "type": "Race",
     "levels": [
       {
@@ -612,7 +612,7 @@
       }
     ]
   },
-  "Dragon": {
+  "dragon": {
     "type": "Race",
     "levels": [
       {
@@ -774,7 +774,7 @@
       }
     ]
   },
-  "Dwarf": {
+  "dwarf": {
     "type": "Race",
     "levels": [
       {
@@ -886,7 +886,7 @@
       }
     ]
   },
-  "Element": {
+  "element": {
     "type": "Race",
     "levels": [
       {
@@ -1145,7 +1145,7 @@
       }
     ]
   },
-  "Elf": {
+  "elf": {
     "type": "Race",
     "levels": [
       {
@@ -1605,7 +1605,7 @@
       }
     ]
   },
-  "Goblin": {
+  "goblin": {
     "type": "Race",
     "levels": [
       {
@@ -1920,7 +1920,7 @@
       }
     ]
   },
-  "Human": {
+  "human": {
     "type": "Race",
     "levels": [
       {
@@ -2327,7 +2327,7 @@
       }
     ]
   },
-  "Naga": {
+  "naga": {
     "type": "Race",
     "levels": [
       {
@@ -2538,7 +2538,7 @@
       }
     ]
   },
-  "Ogre": {
+  "ogre": {
     "type": "Race",
     "levels": [
       {
@@ -2645,7 +2645,7 @@
       }
     ]
   },
-  "Orc": {
+  "orc": {
     "type": "Race",
     "levels": [
       {
@@ -2845,7 +2845,7 @@
       }
     ]
   },
-  "Troll": {
+  "troll": {
     "type": "Race",
     "levels": [
       {
@@ -3060,7 +3060,7 @@
       }
     ]
   },
-  "Undead": {
+  "undead": {
     "type": "Race",
     "levels": [
       {
@@ -3316,7 +3316,7 @@
       }
     ]
   },
-  "Satyr": {
+  "satyr": {
     "type": "Race",
     "levels": [
       {
@@ -3328,7 +3328,7 @@
     "key": "satyr",
     "heroes": []
   },
-  "Assassin": {
+  "assassin": {
     "type": "Class",
     "levels": [
       {
@@ -3821,7 +3821,7 @@
       }
     ]
   },
-  "DemonHunter": {
+  "demonhunter": {
     "type": "Class",
     "levels": [
       {
@@ -3950,7 +3950,7 @@
       }
     ]
   },
-  "Druid": {
+  "druid": {
     "type": "Class",
     "levels": [
       {
@@ -4152,7 +4152,7 @@
       }
     ]
   },
-  "Hunter": {
+  "hunter": {
     "type": "Class",
     "levels": [
       {
@@ -4603,7 +4603,7 @@
       }
     ]
   },
-  "Knight": {
+  "knight": {
     "type": "Class",
     "levels": [
       {
@@ -4921,7 +4921,7 @@
       }
     ]
   },
-  "Mage": {
+  "mage": {
     "type": "Class",
     "levels": [
       {
@@ -5280,7 +5280,7 @@
       }
     ]
   },
-  "Mech": {
+  "mech": {
     "type": "Class",
     "levels": [
       {
@@ -5544,7 +5544,7 @@
       }
     ]
   },
-  "Shaman": {
+  "shaman": {
     "type": "Class",
     "levels": [
       {
@@ -5703,7 +5703,7 @@
       }
     ]
   },
-  "Warlock": {
+  "warlock": {
     "type": "Class",
     "levels": [
       {
@@ -6061,7 +6061,7 @@
       }
     ]
   },
-  "Warrior": {
+  "warrior": {
     "type": "Class",
     "levels": [
       {
