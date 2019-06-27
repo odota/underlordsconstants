@@ -1,104 +1,112 @@
 {
   "claymore": {
     "id": 10001,
-    "displayName": "#dac_item_claymore",
-    "description": "#dac_item_claymore_desc",
+    "displayName": "dac_item_claymore",
+    "description": "dac_item_claymore_desc",
     "tier": 1,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
     "attack_damage": 21,
-    "icon": "claymore"
+    "icon": "claymore",
+    "key": "claymore"
   },
   "void_stone": {
     "id": 10002,
     "tier": 2,
-    "type": "equipment_support",
+    "type": "support",
     "aiRequiresAbility": true,
-    "displayName": "#dac_item_void_stone",
-    "description": "#dac_item_void_stone_desc",
+    "displayName": "dac_item_void_stone",
+    "description": "dac_item_void_stone_desc",
     "requires_ability": true,
     "mana_gain": 100,
     "precache": [
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura_target.vpcf"
     ],
-    "icon": "void_stone"
+    "icon": "void_stone",
+    "key": "void_stone"
   },
   "mana_sponge": {
     "id": 10003,
     "tier": 1,
-    "type": "equipment_support",
+    "type": "support",
     "aiRequiresAbility": true,
     "aiTierOffset": -0.5,
-    "displayName": "#dac_item_mana_sponge",
-    "description": "#dac_item_mana_sponge_desc",
+    "displayName": "dac_item_mana_sponge",
+    "description": "dac_item_mana_sponge_desc",
     "requires_ability": true,
     "damage_taken_mana_gain": 50,
     "precache": [
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura_target.vpcf"
     ],
-    "icon": "mana_sponge"
+    "icon": "mana_sponge",
+    "key": "mana_sponge"
   },
   "tranquil_boots": {
     "id": 10005,
     "tier": 1,
-    "type": "equipment_support",
-    "displayName": "#dac_item_tranquil_boots",
-    "description": "#dac_item_tranquil_boots_desc",
+    "type": "support",
+    "displayName": "dac_item_tranquil_boots",
+    "description": "dac_item_tranquil_boots_desc",
     "movement_speed": 100,
     "health_regen": 16,
-    "icon": "tranquil_boots"
+    "icon": "tranquil_boots",
+    "key": "tranquil_boots"
   },
   "octarine_fragment": {
     "id": 10006,
     "tier": 2,
-    "type": "equipment_support",
+    "type": "support",
     "aiRequiresAbility": true,
     "aiTierOffset": 0.5,
-    "displayName": "#dac_item_octarine_fragment",
-    "description": "#dac_item_octarine_fragment_desc",
+    "displayName": "dac_item_octarine_fragment",
+    "description": "dac_item_octarine_fragment_desc",
     "requires_ability": true,
     "cooldown_percentage": 50,
-    "icon": "octarine_fragment"
+    "icon": "octarine_fragment",
+    "key": "octarine_fragment"
   },
   "vitality_booster": {
     "id": 10007,
     "tier": 1,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_vitality_booster",
-    "description": "#dac_item_vitality_booster_desc",
+    "type": "defensive",
+    "displayName": "dac_item_vitality_booster",
+    "description": "dac_item_vitality_booster_desc",
     "health_bonus": 250,
-    "icon": "vitality_booster"
+    "icon": "vitality_booster",
+    "key": "vitality_booster"
   },
   "cloak": {
     "id": 10008,
     "tier": 1,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_cloak",
-    "description": "#dac_item_cloak_desc",
+    "type": "defensive",
+    "displayName": "dac_item_cloak",
+    "description": "dac_item_cloak_desc",
     "bonus_magical_resistance": 15,
-    "icon": "cloak"
+    "icon": "cloak",
+    "key": "cloak"
   },
   "blink_dagger": {
     "id": 10009,
     "tier": 2,
-    "type": "equipment_support",
+    "type": "support",
     "aiSkip": true,
-    "displayName": "#dac_item_blink_dagger",
-    "description": "#dac_item_blink_dagger_desc",
+    "displayName": "dac_item_blink_dagger",
+    "description": "dac_item_blink_dagger_desc",
     "cooldown": 65,
     "precache": [
       "particles/items/blink_dagger/blink_dagger_end.vpcf"
     ],
-    "icon": "blink_dagger"
+    "icon": "blink_dagger",
+    "key": "blink_dagger"
   },
   "mask_of_madness": {
     "id": 10010,
     "tier": 2,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiRequiresPassive": true,
     "aiPrefAttackDPS": true,
-    "displayName": "#dac_item_mask_of_madness",
-    "description": "#dac_item_mask_of_madness_desc",
+    "displayName": "dac_item_mask_of_madness",
+    "description": "dac_item_mask_of_madness_desc",
     "lifesteal_percentage": 10,
     "attack_speed": 40,
     "precache": [
@@ -106,63 +114,68 @@
       "particles/generic_gameplay/generic_silenced.vpcf",
       "particles/items2_fx/mask_of_madness.vpcf"
     ],
-    "icon": "mask_of_madness"
+    "icon": "mask_of_madness",
+    "key": "mask_of_madness"
   },
   "blade_mail": {
     "id": 10011,
     "tier": 2,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_blade_mail",
-    "description": "#dac_item_blade_mail_desc",
+    "type": "defensive",
+    "displayName": "dac_item_blade_mail",
+    "description": "dac_item_blade_mail_desc",
     "damage_taken_reflect_percentage": 30,
-    "icon": "blade_mail"
+    "icon": "blade_mail",
+    "key": "blade_mail"
   },
   "battle_fury": {
     "id": 10012,
     "tier": 4,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiIsMelee": true,
     "aiPrefAttackDPS": true,
-    "displayName": "#dac_item_battle_fury",
-    "description": "#dac_item_battle_fury_desc",
+    "displayName": "dac_item_battle_fury",
+    "description": "dac_item_battle_fury_desc",
     "cleave_damage_pct": 30,
     "melee_only": true,
     "precache": [
       "particles/items_fx/battlefury_cleave.vpcf"
     ],
-    "icon": "battle_fury"
+    "icon": "battle_fury",
+    "key": "battle_fury"
   },
   "dagon": {
     "id": 10013,
     "tier": 4,
-    "type": "equipment_offensive",
-    "displayName": "#dac_item_dagon",
-    "description": "#dac_item_dagon_desc",
+    "type": "offensive",
+    "displayName": "dac_item_dagon",
+    "description": "dac_item_dagon_desc",
     "cooldown": 65,
     "ability_damage": 800,
     "health_trigger_percentage": 50,
     "precache": [
       "particles/items_fx/dagon.vpcf"
     ],
-    "icon": "dagon"
+    "icon": "dagon",
+    "key": "dagon"
   },
   "sacred_relic": {
     "id": 10014,
     "tier": 3,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "displayName": "#dac_item_sacred_relic",
-    "description": "#dac_item_sacred_relic_desc",
+    "displayName": "dac_item_sacred_relic",
+    "description": "dac_item_sacred_relic_desc",
     "attack_damage": 60,
-    "icon": "sacred_relic"
+    "icon": "sacred_relic",
+    "key": "sacred_relic"
   },
   "maelstrom": {
     "id": 10015,
     "tier": 4,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "displayName": "#dac_item_maelstrom",
-    "description": "#dac_item_maelstrom_desc",
+    "displayName": "dac_item_maelstrom",
+    "description": "dac_item_maelstrom_desc",
     "bolt_chance_percentage": 25,
     "bolt_damage": 100,
     "bolt_targets": 4,
@@ -172,57 +185,61 @@
     "precache": [
       "particles/items_fx/chain_lightning.vpcf"
     ],
-    "icon": "maelstrom"
+    "icon": "maelstrom",
+    "key": "maelstrom"
   },
   "refresher_orb": {
     "id": 10016,
     "tier": 4,
-    "type": "equipment_support",
+    "type": "support",
     "aiRequiresAbility": true,
     "aiTierOffset": -0.5,
-    "displayName": "#dac_item_refresher_orb",
-    "description": "#dac_item_refresher_orb_desc",
+    "displayName": "dac_item_refresher_orb",
+    "description": "dac_item_refresher_orb_desc",
     "requires_ability": true,
     "cooldown": 65,
     "precache": [
       "particles/items2_fx/refresher.vpcf"
     ],
-    "icon": "refresher_orb"
+    "icon": "refresher_orb",
+    "key": "refresher_orb"
   },
   "heart_of_tarrasque": {
     "id": 10017,
     "tier": 5,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_heart_of_tarrasque",
-    "description": "#dac_item_heart_of_tarrasque_desc",
+    "type": "defensive",
+    "displayName": "dac_item_heart_of_tarrasque",
+    "description": "dac_item_heart_of_tarrasque_desc",
     "health_bonus": 1000,
     "bonus_hp_regen": 2,
     "precache": [
       "particles/items/heart_of_tarrasque/heart_tarrasque.vpcf"
     ],
-    "icon": "heart"
+    "icon": "heart",
+    "key": "heart_of_tarrasque"
   },
   "divine_rapier": {
     "id": 10018,
     "tier": 5,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
     "drops_on_death": true,
     "highlander": true,
-    "displayName": "#dac_item_divine_rapier",
-    "description": "#dac_item_divine_rapier_desc",
+    "displayName": "dac_item_divine_rapier",
+    "description": "dac_item_divine_rapier_desc",
     "attack_damage": 330,
-    "icon": "divine_rapier"
+    "icon": "divine_rapier",
+    "key": "divine_rapier"
   },
   "assault_cuirass": {
     "id": 10019,
     "tier": 5,
-    "type": "equipment_defensive",
+    "type": "defensive",
     "aiIsMelee": true,
     "aiAura": true,
     "aiTierOffset": 0.5,
-    "displayName": "#dac_item_assault_cuirass",
-    "description": "#dac_item_assault_cuirass_desc",
+    "displayName": "dac_item_assault_cuirass",
+    "description": "dac_item_assault_cuirass_desc",
     "attack_speed_buff": 15,
     "armor_buff": 10,
     "attack_speed_debuff": -15,
@@ -233,14 +250,15 @@
       "particles/units/heroes/hero_dazzle/dazzle_armor_enemy.vpcf",
       "particles/units/heroes/hero_dazzle/dazzle_armor_friend.vpcf"
     ],
-    "icon": "assault_cuirass"
+    "icon": "assault_cuirass",
+    "key": "assault_cuirass"
   },
   "black_king_bar": {
     "id": 10020,
     "tier": 4,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_black_king_bar",
-    "description": "#dac_item_black_king_bar_desc",
+    "type": "defensive",
+    "displayName": "dac_item_black_king_bar",
+    "description": "dac_item_black_king_bar_desc",
     "mana_trigger_percentage": 100,
     "magic_immune_duration": 7,
     "cooldown": 65,
@@ -248,14 +266,15 @@
       "particles/items_fx/black_king_bar_avatar.vpcf",
       "particles/status_fx/status_effect_avatar.vpcf"
     ],
-    "icon": "black_king_bar"
+    "icon": "black_king_bar",
+    "key": "black_king_bar"
   },
   "mekansm": {
     "id": 10021,
     "tier": 3,
-    "type": "equipment_support",
-    "displayName": "#dac_item_mekansm",
-    "description": "#dac_item_mekansm_desc",
+    "type": "support",
+    "displayName": "dac_item_mekansm",
+    "description": "dac_item_mekansm_desc",
     "manaCost": 0,
     "heal_radius": 3,
     "heal_amount": 250,
@@ -265,29 +284,31 @@
       "particles/items2_fx/mekanism.vpcf",
       "particles/items2_fx/mekanism_recipient.vpcf"
     ],
-    "icon": "mekansm"
+    "icon": "mekansm",
+    "key": "mekansm"
   },
   "daedalus": {
     "id": 10022,
     "tier": 4,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "displayName": "#dac_item_daedalus",
-    "description": "#dac_item_daedalus_desc",
+    "displayName": "dac_item_daedalus",
+    "description": "dac_item_daedalus_desc",
     "attack_damage": 80,
     "bonus_damage_chance": 30,
     "bonus_damage_multiplier": 235,
-    "icon": "daedalus"
+    "icon": "daedalus",
+    "key": "daedalus"
   },
   "radiance": {
     "id": 10023,
     "tier": 4,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiIsMelee": true,
     "aiAura": true,
     "aiTierOffset": 1,
-    "displayName": "#dac_item_radiance",
-    "description": "#dac_item_radiance_desc",
+    "displayName": "dac_item_radiance",
+    "description": "dac_item_radiance_desc",
     "allow_duplicates": false,
     "attack_damage": 0,
     "radius": 2,
@@ -296,14 +317,15 @@
       "particles/items2_fx/radiance_owner.vpcf",
       "particles/items2_fx/radiance.vpcf"
     ],
-    "icon": "radiance"
+    "icon": "radiance",
+    "key": "radiance"
   },
   "skadi": {
     "id": 10024,
     "tier": 3,
-    "type": "equipment_offensive",
-    "displayName": "#dac_item_skadi",
-    "description": "#dac_item_skadi_desc",
+    "type": "offensive",
+    "displayName": "dac_item_skadi",
+    "description": "dac_item_skadi_desc",
     "bonus_health": 400,
     "cold_duration_melee": 5,
     "cold_duration_ranged": 2.5,
@@ -314,58 +336,63 @@
       "particles/generic_gameplay/generic_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost.vpcf"
     ],
-    "icon": "skadi"
+    "icon": "skadi",
+    "key": "skadi"
   },
   "gloves_of_haste": {
     "id": 10025,
-    "displayName": "#dac_item_gloves_of_haste",
-    "description": "#dac_item_gloves_of_haste_desc",
+    "displayName": "dac_item_gloves_of_haste",
+    "description": "dac_item_gloves_of_haste_desc",
     "tier": 1,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackDPS": true,
     "attack_speed": 20,
-    "icon": "gloves_of_haste"
+    "icon": "gloves_of_haste",
+    "key": "gloves_of_haste"
   },
   "moon_shard": {
     "id": 10026,
-    "displayName": "#dac_item_moon_shard",
-    "description": "#dac_item_moon_shard_desc",
+    "displayName": "dac_item_moon_shard",
+    "description": "dac_item_moon_shard_desc",
     "tier": 4,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackDPS": true,
     "attack_speed": 80,
-    "icon": "moon_shard"
+    "icon": "moon_shard",
+    "key": "moon_shard"
   },
   "chainmail": {
     "id": 10027,
-    "displayName": "#dac_item_chainmail",
-    "description": "#dac_item_chainmail_desc",
+    "displayName": "dac_item_chainmail",
+    "description": "dac_item_chainmail_desc",
     "tier": 1,
-    "type": "equipment_defensive",
+    "type": "defensive",
     "bonus_armor": 10,
-    "icon": "chainmail"
+    "icon": "chainmail",
+    "key": "chainmail"
   },
   "blight_stone": {
     "id": 10028,
-    "displayName": "#dac_item_blight_stone",
-    "description": "#dac_item_blight_stone_desc",
+    "displayName": "dac_item_blight_stone",
+    "description": "dac_item_blight_stone_desc",
     "tier": 1,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackDPS": true,
     "target_armor": -3,
     "duration": 5,
     "precache": [
       "particles/units/heroes/hero_slardar/slardar_broken_shield.vpcf"
     ],
-    "icon": "blight_stone"
+    "icon": "blight_stone",
+    "key": "blight_stone"
   },
   "arcane_boots": {
     "id": 10029,
     "tier": 2,
-    "type": "equipment_support",
+    "type": "support",
     "aiAura": true,
-    "displayName": "#dac_item_arcane_boots",
-    "description": "#dac_item_arcane_boots_desc",
+    "displayName": "dac_item_arcane_boots",
+    "description": "dac_item_arcane_boots_desc",
     "manaCost": 0,
     "replenish_radius": 1,
     "replenish_amount": 25,
@@ -376,14 +403,15 @@
       "particles/items_fx/arcane_boots.vpcf",
       "particles/items_fx/arcane_boots_recipient.vpcf"
     ],
-    "icon": "arcane_boots"
+    "icon": "arcane_boots",
+    "key": "arcane_boots"
   },
   "shivas_guard": {
     "id": 10030,
     "tier": 5,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_shivas_guard",
-    "description": "#dac_item_shivas_guard_desc",
+    "type": "defensive",
+    "displayName": "dac_item_shivas_guard",
+    "description": "dac_item_shivas_guard_desc",
     "bonus_armor": 10,
     "blast_speed": 350,
     "blast_radius": 384,
@@ -398,50 +426,54 @@
       "particles/generic_gameplay/generic_slowed_cold.vpcf",
       "particles/status_fx/status_effect_frost.vpcf"
     ],
-    "icon": "shivas_guard"
+    "icon": "shivas_guard",
+    "key": "shivas_guard"
   },
   "hood_of_defiance": {
     "id": 10031,
     "tier": 3,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_hood_of_defiance",
-    "description": "#dac_item_hood_of_defiance_desc",
+    "type": "defensive",
+    "displayName": "dac_item_hood_of_defiance",
+    "description": "dac_item_hood_of_defiance_desc",
     "bonus_magical_resistance": 50,
     "health_regen": 10,
-    "icon": "hood"
+    "icon": "hood",
+    "key": "hood_of_defiance"
   },
   "vanguard": {
     "id": 10032,
     "tier": 3,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_vanguard",
-    "description": "#dac_item_vanguard_desc",
+    "type": "defensive",
+    "displayName": "dac_item_vanguard",
+    "description": "dac_item_vanguard_desc",
     "bonus_health": 250,
     "block_damage": 70,
     "block_chance": 50,
-    "icon": "vanguard"
+    "icon": "vanguard",
+    "key": "vanguard"
   },
   "basher": {
     "id": 10033,
     "tier": 3,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "displayName": "#dac_item_basher",
-    "description": "#dac_item_basher_desc",
+    "displayName": "dac_item_basher",
+    "description": "dac_item_basher_desc",
     "cooldown": 2.3,
     "bash_chance": 25,
     "bash_duration": 1.5,
     "bonus_chance_damage": 100,
     "attack_damage": 25,
-    "icon": "basher"
+    "icon": "basher",
+    "key": "basher"
   },
   "bloodthorn": {
     "id": 10034,
     "tier": 5,
-    "type": "equipment_offensive",
+    "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "displayName": "#dac_item_bloodthorn",
-    "description": "#dac_item_bloodthorn_desc",
+    "displayName": "dac_item_bloodthorn",
+    "description": "dac_item_bloodthorn_desc",
     "cooldown": 10,
     "attack_damage": 70,
     "mana_trigger_percentage": 75,
@@ -451,14 +483,15 @@
       "particles/items/bloodthorn/bloodthorn.vpcf",
       "particles/generic_gameplay/generic_silenced.vpcf"
     ],
-    "icon": "bloodthorn"
+    "icon": "bloodthorn",
+    "key": "bloodthorn"
   },
   "pipe": {
     "id": 10035,
     "tier": 4,
-    "type": "equipment_defensive",
-    "displayName": "#dac_item_pipe_of_insight",
-    "description": "#dac_item_pipe_of_insight_desc",
+    "type": "defensive",
+    "displayName": "dac_item_pipe_of_insight",
+    "description": "dac_item_pipe_of_insight_desc",
     "bonus_magical_resistance": 50,
     "cooldown": 65,
     "barrier_radius": 1,
@@ -469,12 +502,13 @@
       "particles/items2_fx/pipe_of_insight_launch.vpcf",
       "particles/items2_fx/pipe_of_insight.vpcf"
     ],
-    "icon": "pipe_of_insight"
+    "icon": "pipe_of_insight",
+    "key": "pipe"
   },
   "summoning_stone": {
     "id": 10500,
-    "displayName": "#dac_item_summoning_stone",
-    "description": "#dac_item_summoning_stone_desc",
+    "displayName": "dac_item_summoning_stone",
+    "description": "dac_item_summoning_stone_desc",
     "tier": 2,
     "type": "global",
     "aiSkip": true,
@@ -484,71 +518,77 @@
         "attack_speed_bonus": 30
       }
     },
-    "icon": "summoning_stone"
+    "icon": "summoning_stone",
+    "key": "summoning_stone"
   },
   "better_units_in_shop": {
     "id": 10521,
-    "displayName": "#dac_item_better_units_in_shop",
-    "description": "#dac_item_better_units_in_shop_desc",
+    "displayName": "dac_item_better_units_in_shop",
+    "description": "dac_item_better_units_in_shop_desc",
     "tier": 3,
     "type": "global",
     "allow_duplicates": false,
     "global": {
       "shop_units_level_modifier": 1
     },
-    "icon": "better_units"
+    "icon": "better_units",
+    "key": "better_units_in_shop"
   },
   "additional_unit_cap": {
     "id": 10523,
-    "displayName": "#dac_item_additional_unit_cap_in_shop",
-    "description": "#dac_item_additional_unit_cap_in_shop_desc",
+    "displayName": "dac_item_additional_unit_cap_in_shop",
+    "description": "dac_item_additional_unit_cap_in_shop_desc",
     "tier": 5,
     "type": "global",
     "aiTierOffset": 2,
     "global": {
       "unit_cap_modifier": 1
     },
-    "icon": "add_unit_cap"
+    "icon": "add_unit_cap",
+    "key": "additional_unit_cap"
   },
   "cheaper_units": {
     "id": 10524,
-    "displayName": "#dac_item_cheaper_units_in_shop",
-    "description": "#dac_item_cheaper_units_in_shop_desc",
+    "displayName": "dac_item_cheaper_units_in_shop",
+    "description": "dac_item_cheaper_units_in_shop_desc",
     "tier": 4,
     "type": "global",
     "allow_duplicates": false,
     "global": {
       "unit_cost_modifier": -1
     },
-    "icon": "cheaper_units"
+    "icon": "cheaper_units",
+    "key": "cheaper_units"
   },
   "extra_damage_per_unit": {
     "id": 10525,
-    "displayName": "#dac_item_extra_damage_per_unit",
-    "description": "#dac_item_extra_damage_per_unit_desc",
+    "displayName": "dac_item_extra_damage_per_unit",
+    "description": "dac_item_extra_damage_per_unit_desc",
     "tier": 4,
     "aiTierOffset": -2,
     "type": "global",
     "global": {
       "extra_damage_per_unit_to_player": 1
     },
-    "icon": "extra_damage_unit"
+    "icon": "extra_damage_unit",
+    "key": "extra_damage_per_unit"
   },
   "gold_on_defeat": {
     "id": 10526,
-    "displayName": "#dac_item_gold_on_defeat",
-    "description": "#dac_item_gold_on_defeat_desc",
+    "displayName": "dac_item_gold_on_defeat",
+    "description": "dac_item_gold_on_defeat_desc",
     "tier": 2,
     "type": "global",
     "global": {
       "extra_gold_on_defeat": 1
     },
-    "icon": "gold_on_defeat"
+    "icon": "gold_on_defeat",
+    "key": "gold_on_defeat"
   },
   "free_first_reroll": {
     "id": 10527,
-    "displayName": "#dac_item_free_first_reroll",
-    "description": "#dac_item_free_first_reroll_desc",
+    "displayName": "dac_item_free_first_reroll",
+    "description": "dac_item_free_first_reroll_desc",
     "tier": 5,
     "type": "global",
     "allow_duplicates": false,
@@ -556,12 +596,13 @@
     "global": {
       "first_reroll_cost_modifier": -2
     },
-    "icon": "free_first_reroll"
+    "icon": "free_first_reroll",
+    "key": "free_first_reroll"
   },
   "humans_turn_undead": {
     "id": 10528,
-    "displayName": "#dac_item_humans_turn_undead",
-    "description": "#dac_item_humans_turn_undead_desc",
+    "displayName": "dac_item_humans_turn_undead",
+    "description": "dac_item_humans_turn_undead_desc",
     "tier": 2,
     "type": "global",
     "allow_duplicates": false,
@@ -572,36 +613,39 @@
         "replace_with": "undead"
       }
     },
-    "icon": "humans_undead"
+    "icon": "humans_undead",
+    "key": "humans_turn_undead"
   },
   "extra_items": {
     "id": 10529,
-    "displayName": "#dac_item_extra_items",
-    "description": "#dac_item_extra_items_desc",
+    "displayName": "dac_item_extra_items",
+    "description": "dac_item_extra_items_desc",
     "tier": 1,
     "type": "global",
     "allow_duplicates": false,
     "global": {
       "extra_items_offered": 1
     },
-    "icon": "extra_items"
+    "icon": "extra_items",
+    "key": "extra_items"
   },
   "better_items": {
     "id": 10530,
-    "displayName": "#dac_item_better_items",
-    "description": "#dac_item_better_items_desc",
+    "displayName": "dac_item_better_items",
+    "description": "dac_item_better_items_desc",
     "tier": 2,
     "type": "global",
     "allow_duplicates": false,
     "global": {
       "item_level_modifier": 1
     },
-    "icon": "better_items"
+    "icon": "better_items",
+    "key": "better_items"
   },
   "bonus_damage_on_low_life": {
     "id": 10531,
-    "displayName": "#dac_item_bonus_damage_on_low_life",
-    "description": "#dac_item_bonus_damage_on_low_life_desc",
+    "displayName": "dac_item_bonus_damage_on_low_life",
+    "description": "dac_item_bonus_damage_on_low_life_desc",
     "tier": 5,
     "type": "global",
     "aiRequiresLowHealth": true,
@@ -609,23 +653,25 @@
       "damage_per_missing_health": 0.2,
       "extra_mana_gain_per_missing_health": 0.2
     },
-    "icon": "bonus_damage_lowlife"
+    "icon": "bonus_damage_lowlife",
+    "key": "bonus_damage_on_low_life"
   },
   "prevent_next_life_loss": {
     "id": 10533,
-    "displayName": "#dac_item_prevent_next_life_loss",
-    "description": "#dac_item_prevent_next_life_loss_desc",
+    "displayName": "dac_item_prevent_next_life_loss",
+    "description": "dac_item_prevent_next_life_loss_desc",
     "tier": 2,
     "type": "global",
     "global": {
       "prevent_next_life_loss": true
     },
-    "icon": "prevent_next_death"
+    "icon": "prevent_next_death",
+    "key": "prevent_next_life_loss"
   },
   "mechs_explode_on_death": {
     "id": 10540,
-    "displayName": "#dac_item_mechs_explode_on_death",
-    "description": "#dac_item_mechs_explode_on_death_desc",
+    "displayName": "dac_item_mechs_explode_on_death",
+    "description": "dac_item_mechs_explode_on_death_desc",
     "tier": 1,
     "type": "global",
     "aiSynergyKeyword": "Mech",
@@ -635,12 +681,13 @@
         "range_in_cells": 1
       }
     },
-    "icon": "mechs_explode"
+    "icon": "mechs_explode",
+    "key": "mechs_explode_on_death"
   },
   "trolls_have_aspd_aura": {
     "id": 10541,
-    "displayName": "#dac_item_trolls_have_aspd_aura",
-    "description": "#dac_item_trolls_have_aspd_aura_desc",
+    "displayName": "dac_item_trolls_have_aspd_aura",
+    "description": "dac_item_trolls_have_aspd_aura_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Troll",
@@ -654,12 +701,13 @@
     "precache": [
       "particles/generic_gameplay/generic_attackspeed.vpcf"
     ],
-    "icon": "trolls_have_aura"
+    "icon": "trolls_have_aura",
+    "key": "trolls_have_aspd_aura"
   },
   "goblins_give_gold_on_last_hit": {
     "id": 10542,
-    "displayName": "#dac_item_goblins_give_gold_on_last_hit",
-    "description": "#dac_item_goblins_give_gold_on_last_hit_desc",
+    "displayName": "dac_item_goblins_give_gold_on_last_hit",
+    "description": "dac_item_goblins_give_gold_on_last_hit_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Goblin",
@@ -672,12 +720,13 @@
     "precache": [
       "particles/gameplay/gold/gold_gain.vpcf"
     ],
-    "icon": "goblins_give_gold"
+    "icon": "goblins_give_gold",
+    "key": "goblins_give_gold_on_last_hit"
   },
   "orcs_get_extra_hp": {
     "id": 10543,
-    "displayName": "#dac_item_orcs_get_extra_hp",
-    "description": "#dac_item_orcs_get_extra_hp_desc",
+    "displayName": "dac_item_orcs_get_extra_hp",
+    "description": "dac_item_orcs_get_extra_hp_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Orc",
@@ -690,12 +739,13 @@
     "precache": [
       "particles/items/orc_brutality/orc_brutality.vpcf"
     ],
-    "icon": "orcs_get_hp"
+    "icon": "orcs_get_hp",
+    "key": "orcs_get_extra_hp"
   },
   "demon_hunters_steal_demon": {
     "id": 10544,
-    "displayName": "#dac_item_demon_hunters_steal_demon",
-    "description": "#dac_item_demon_hunters_steal_demon_desc",
+    "displayName": "dac_item_demon_hunters_steal_demon",
+    "description": "dac_item_demon_hunters_steal_demon_desc",
     "tier": 1,
     "type": "global",
     "aiSynergyKeyword": "DemonHunter",
@@ -707,12 +757,13 @@
     "precache": [
       "particles/gameplay/synergy/demon/demon_buff.vpcf"
     ],
-    "icon": "demonhunters_steal_demon"
+    "icon": "demonhunters_steal_demon",
+    "key": "demon_hunters_steal_demon"
   },
   "naga_skin": {
     "id": 10545,
-    "displayName": "#dac_item_naga_skin",
-    "description": "#dac_item_naga_skin_desc",
+    "displayName": "dac_item_naga_skin",
+    "description": "dac_item_naga_skin_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Naga",
@@ -722,12 +773,13 @@
         "dot_duration": 3
       }
     },
-    "icon": "naga_skin"
+    "icon": "naga_skin",
+    "key": "naga_skin"
   },
   "knight_absorption": {
     "id": 10546,
-    "displayName": "#dac_item_knights_absorption",
-    "description": "#dac_item_knights_absorption_desc",
+    "displayName": "dac_item_knights_absorption",
+    "description": "dac_item_knights_absorption_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Knight",
@@ -741,12 +793,13 @@
     "precache": [
       "particles/items/knight_absorption/knight_absorption_buff.vpcf"
     ],
-    "icon": "knight_absorption"
+    "icon": "knight_absorption",
+    "key": "knight_absorption"
   },
   "druids_heal_over_time_on_death": {
     "id": 10547,
-    "displayName": "#dac_item_druids_heal_over_time_on_death",
-    "description": "#dac_item_druids_heal_over_time_on_death_desc",
+    "displayName": "dac_item_druids_heal_over_time_on_death",
+    "description": "dac_item_druids_heal_over_time_on_death_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Druid",
@@ -763,12 +816,13 @@
       "particles/gameplay/synergy/druids/druid_death.vpcf",
       "particles/items_fx/healing_tango.vpcf"
     ],
-    "icon": "druids_heal_over_time"
+    "icon": "druids_heal_over_time",
+    "key": "druids_heal_over_time_on_death"
   },
   "beast_bleed": {
     "id": 10548,
-    "displayName": "#dac_item_beast_bleed",
-    "description": "#dac_item_beast_bleed_desc",
+    "displayName": "dac_item_beast_bleed",
+    "description": "dac_item_beast_bleed_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Beast",
@@ -781,12 +835,13 @@
     "precache": [
       "particles/generic_gameplay/generic_bleed.vpcf"
     ],
-    "icon": "beast_bleed"
+    "icon": "beast_bleed",
+    "key": "beast_bleed"
   },
   "warriors_never_die": {
     "id": 10549,
-    "displayName": "#dac_item_warriors_never_die",
-    "description": "#dac_item_warriors_never_die_desc",
+    "displayName": "dac_item_warriors_never_die",
+    "description": "dac_item_warriors_never_die_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Warrior",
@@ -799,12 +854,13 @@
     "precache": [
       "particles/items/warriors_never_die/warriors_never_die.vpcf"
     ],
-    "icon": "warriors_never_die"
+    "icon": "warriors_never_die",
+    "key": "warriors_never_die"
   },
   "undeads_stop_healing": {
     "id": 10550,
-    "displayName": "#dac_item_undeads_stop_healing",
-    "description": "#dac_item_undeads_stop_healing_desc",
+    "displayName": "dac_item_undeads_stop_healing",
+    "description": "dac_item_undeads_stop_healing_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Undead",
@@ -813,12 +869,13 @@
         "healing_prevented": 25
       }
     },
-    "icon": "undeads_stop_healing"
+    "icon": "undeads_stop_healing",
+    "key": "undeads_stop_healing"
   },
   "dragons_hoard": {
     "id": 10551,
-    "displayName": "#dac_item_dragons_hoard",
-    "description": "#dac_item_dragons_hoard_desc",
+    "displayName": "dac_item_dragons_hoard",
+    "description": "dac_item_dragons_hoard_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Dragon",
@@ -827,12 +884,13 @@
         "damage_pct": 1
       }
     },
-    "icon": "dragons_hoard"
+    "icon": "dragons_hoard",
+    "key": "dragons_hoard"
   },
   "mages_ghost_when_low_health": {
     "id": 10552,
-    "displayName": "#dac_item_mages_ghost_on_low_health",
-    "description": "#dac_item_mages_ghost_on_low_health_desc",
+    "displayName": "dac_item_mages_ghost_on_low_health",
+    "description": "dac_item_mages_ghost_on_low_health_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Mage",
@@ -845,24 +903,26 @@
     "precache": [
       "particles/items2_fx/refresher.vpcf"
     ],
-    "icon": "mages_ghost"
+    "icon": "mages_ghost",
+    "key": "mages_ghost_when_low_health"
   },
   "elementals_spawn_eidolons": {
     "id": 10553,
-    "displayName": "#dac_item_elementals_spawn_eidolons",
-    "description": "#dac_item_elementals_spawn_eidolons_desc",
+    "displayName": "dac_item_elementals_spawn_eidolons",
+    "description": "dac_item_elementals_spawn_eidolons_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Element",
     "global": {
       "elementals_spawn_eidolons": true
     },
-    "icon": "eidolons"
+    "icon": "eidolons",
+    "key": "elementals_spawn_eidolons"
   },
   "hunters_band": {
     "id": 10554,
-    "displayName": "#dac_item_hunters_band",
-    "description": "#dac_item_hunters_band_desc",
+    "displayName": "dac_item_hunters_band",
+    "description": "dac_item_hunters_band_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Hunter",
@@ -871,12 +931,13 @@
         "attack_bonus_pct": 10
       }
     },
-    "icon": "hunters_band"
+    "icon": "hunters_band",
+    "key": "hunters_band"
   },
   "warlocks_spell_lifesteal": {
     "id": 10555,
-    "displayName": "#dac_item_warlocks_spell_lifesteal",
-    "description": "#dac_item_warlocks_spell_lifesteal_desc",
+    "displayName": "dac_item_warlocks_spell_lifesteal",
+    "description": "dac_item_warlocks_spell_lifesteal_desc",
     "tier": 1,
     "type": "global",
     "aiSynergyKeyword": "Warlock",
@@ -890,12 +951,13 @@
     "precache": [
       "particles/items3_fx/octarine_core_lifesteal.vpcf"
     ],
-    "icon": "warlocks_lifesteal"
+    "icon": "warlocks_lifesteal",
+    "key": "warlocks_spell_lifesteal"
   },
   "humans_debuff_resist": {
     "id": 10556,
-    "displayName": "#dac_item_humans_debuff_resist",
-    "description": "#dac_item_humans_debuff_resist_desc",
+    "displayName": "dac_item_humans_debuff_resist",
+    "description": "dac_item_humans_debuff_resist_desc",
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Human",
@@ -904,12 +966,13 @@
         "debuff_resist": 50
       }
     },
-    "icon": "humans_debuff_resist"
+    "icon": "humans_debuff_resist",
+    "key": "humans_debuff_resist"
   },
   "elves_start_invisible": {
     "id": 10557,
-    "displayName": "#dac_item_elves_start_invisible",
-    "description": "#dac_item_elves_start_invisible_desc",
+    "displayName": "dac_item_elves_start_invisible",
+    "description": "dac_item_elves_start_invisible_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Elf",
@@ -918,12 +981,13 @@
         "invisibility_duration": 3
       }
     },
-    "icon": "elves_start_invisible"
+    "icon": "elves_start_invisible",
+    "key": "elves_start_invisible"
   },
   "assassins_blind_on_landing": {
     "id": 10558,
-    "displayName": "#dac_item_assassins_blind_on_landing",
-    "description": "#dac_item_assassins_blind_on_landing_desc",
+    "displayName": "dac_item_assassins_blind_on_landing",
+    "description": "dac_item_assassins_blind_on_landing_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Assassin",
@@ -937,12 +1001,13 @@
     "precache": [
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_blinding_light_debuff.vpcf"
     ],
-    "icon": "assassins_blind"
+    "icon": "assassins_blind",
+    "key": "assassins_blind_on_landing"
   },
   "shamans_hex_attackers": {
     "id": 10559,
-    "displayName": "#dac_item_shamans_hex_attackers",
-    "description": "#dac_item_shamans_hex_attackers_desc",
+    "displayName": "dac_item_shamans_hex_attackers",
+    "description": "dac_item_shamans_hex_attackers_desc",
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Shaman",
@@ -952,6 +1017,7 @@
         "hops": 3
       }
     },
-    "icon": "shamans_hex_attackers"
+    "icon": "shamans_hex_attackers",
+    "key": "shamans_hex_attackers"
   }
 }

@@ -80,7 +80,17 @@ const sources = [
   },
   {
     key: "underlords_items",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json"
+    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json",
+    transform: items => {
+      Object.entries(items).forEach(([key, item]) => {
+        item.displayName = item.displayName.replace('#', '');
+        item.description = item.description.replace('#', '');
+        item.type = item.type.replace('equipment_', '');
+        item.key = key;
+      });
+
+      return items;
+    }
   },
   {
     key: "underlords_localization_en",
