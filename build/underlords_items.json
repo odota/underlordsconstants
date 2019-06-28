@@ -614,6 +614,7 @@
       }
     },
     "icon": "humans_undead",
+    "highlight_keywords": "human",
     "key": "humans_turn_undead"
   },
   "extra_items": {
@@ -682,6 +683,7 @@
       }
     },
     "icon": "mechs_explode",
+    "highlight_keywords": "mech",
     "key": "mechs_explode_on_death"
   },
   "trolls_have_aspd_aura": {
@@ -702,6 +704,7 @@
       "particles/generic_gameplay/generic_attackspeed.vpcf"
     ],
     "icon": "trolls_have_aura",
+    "highlight_keywords": "troll",
     "key": "trolls_have_aspd_aura"
   },
   "goblins_give_gold_on_last_hit": {
@@ -721,6 +724,7 @@
       "particles/gameplay/gold/gold_gain.vpcf"
     ],
     "icon": "goblins_give_gold",
+    "highlight_keywords": "goblin",
     "key": "goblins_give_gold_on_last_hit"
   },
   "orcs_get_extra_hp": {
@@ -740,6 +744,7 @@
       "particles/items/orc_brutality/orc_brutality.vpcf"
     ],
     "icon": "orcs_get_hp",
+    "highlight_keywords": "orc",
     "key": "orcs_get_extra_hp"
   },
   "demon_hunters_steal_demon": {
@@ -758,6 +763,7 @@
       "particles/gameplay/synergy/demon/demon_buff.vpcf"
     ],
     "icon": "demonhunters_steal_demon",
+    "highlight_keywords": "demonhunter demon",
     "key": "demon_hunters_steal_demon"
   },
   "naga_skin": {
@@ -774,6 +780,7 @@
       }
     },
     "icon": "naga_skin",
+    "highlight_keywords": "naga",
     "key": "naga_skin"
   },
   "knight_absorption": {
@@ -794,6 +801,7 @@
       "particles/items/knight_absorption/knight_absorption_buff.vpcf"
     ],
     "icon": "knight_absorption",
+    "highlight_keywords": "knight",
     "key": "knight_absorption"
   },
   "druids_heal_over_time_on_death": {
@@ -817,6 +825,7 @@
       "particles/items_fx/healing_tango.vpcf"
     ],
     "icon": "druids_heal_over_time",
+    "highlight_keywords": "druid",
     "key": "druids_heal_over_time_on_death"
   },
   "beast_bleed": {
@@ -836,6 +845,7 @@
       "particles/generic_gameplay/generic_bleed.vpcf"
     ],
     "icon": "beast_bleed",
+    "highlight_keywords": "beast",
     "key": "beast_bleed"
   },
   "warriors_never_die": {
@@ -855,6 +865,7 @@
       "particles/items/warriors_never_die/warriors_never_die.vpcf"
     ],
     "icon": "warriors_never_die",
+    "highlight_keywords": "warrior",
     "key": "warriors_never_die"
   },
   "undeads_stop_healing": {
@@ -870,6 +881,7 @@
       }
     },
     "icon": "undeads_stop_healing",
+    "highlight_keywords": "undead",
     "key": "undeads_stop_healing"
   },
   "dragons_hoard": {
@@ -885,6 +897,7 @@
       }
     },
     "icon": "dragons_hoard",
+    "highlight_keywords": "dragon",
     "key": "dragons_hoard"
   },
   "mages_ghost_when_low_health": {
@@ -904,6 +917,7 @@
       "particles/items2_fx/refresher.vpcf"
     ],
     "icon": "mages_ghost",
+    "highlight_keywords": "mage",
     "key": "mages_ghost_when_low_health"
   },
   "elementals_spawn_eidolons": {
@@ -917,6 +931,7 @@
       "elementals_spawn_eidolons": true
     },
     "icon": "eidolons",
+    "highlight_keywords": "element",
     "key": "elementals_spawn_eidolons"
   },
   "hunters_band": {
@@ -932,6 +947,7 @@
       }
     },
     "icon": "hunters_band",
+    "highlight_keywords": "hunter",
     "key": "hunters_band"
   },
   "warlocks_spell_lifesteal": {
@@ -952,6 +968,7 @@
       "particles/items3_fx/octarine_core_lifesteal.vpcf"
     ],
     "icon": "warlocks_lifesteal",
+    "highlight_keywords": "warlock",
     "key": "warlocks_spell_lifesteal"
   },
   "humans_debuff_resist": {
@@ -967,6 +984,7 @@
       }
     },
     "icon": "humans_debuff_resist",
+    "highlight_keywords": "human",
     "key": "humans_debuff_resist"
   },
   "elves_start_invisible": {
@@ -982,6 +1000,7 @@
       }
     },
     "icon": "elves_start_invisible",
+    "highlight_keywords": "elf",
     "key": "elves_start_invisible"
   },
   "assassins_blind_on_landing": {
@@ -1002,6 +1021,7 @@
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_blinding_light_debuff.vpcf"
     ],
     "icon": "assassins_blind",
+    "highlight_keywords": "assassin",
     "key": "assassins_blind_on_landing"
   },
   "shamans_hex_attackers": {
@@ -1018,6 +1038,7 @@
       }
     },
     "icon": "shamans_hex_attackers",
+    "highlight_keywords": "shaman",
     "key": "shamans_hex_attackers"
   }
 }

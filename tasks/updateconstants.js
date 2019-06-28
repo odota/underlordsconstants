@@ -17,6 +17,35 @@ const ABILITY_IMAGE_MAPPING = {
   "timbersaw_whirling_death": "shredder_whirling_death"
 };
 
+const LANGUAGE_MAPPING = {
+  "brazilian": "pt-BR",
+  "bulgarian": "bg",
+  "czech": "cs",
+  "danish": "da",
+  "dutch": "nl",
+  "english": "en",
+  "finnish": "fi",
+  "german": "de",
+  "hungarian": "hu",
+  "italian": "it",
+  "japanese": "ja",
+  "koreana": "ko",
+  "latam": "es-419",
+  "norwegian": "no",
+  "polish": "pl",
+  "portuguese": "pt",
+  "romanian": "ro",
+  "russian": "ru",
+  "schinese": "zh-CN",
+  "spanish": "es",
+  "swedish": "sv",
+  "tchinese": "zh-TW",
+  "thai": "th",
+  "turkish": "tr",
+  "ukrainian": "uk",
+  "vietnamese": "vn",
+};
+
 const sources = [
   {
     key: "underlords_heroes",
@@ -91,46 +120,36 @@ const sources = [
 
       return items;
     }
-  },
-  {
-    key: "underlords_localization_en",
-    url: "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_english.txt"
-  },
-  {
-    key: "underlords_localization_abilities_en",
-    url: [
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_english.txt",
-      "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json"
-    ],
-    transform: resObj => {
-      const strings = normalize(resObj[0].tokens)
-      const abilities = resObj[1];
-
-      Object.entries(abilities).forEach(([key, ability]) => {
-        stringKey = `dac_ability_${key}_description`;
-        let desc = strings[stringKey];
-        if (desc) {
-          const matches = desc.match(ABILITY_REGEX);
-          if (matches) {
-              matches.forEach((s) => {
-                  let replace = '';
-                  const key = s.replace('{s:', '').replace('}', '');
-                  if (key in ability) {
-                      const val = ability[key];
-                      replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
-                  }
-  
-                  desc = desc.replace(s, replace);
-              })
-          }
-          strings[stringKey] = desc.replace(/<br>/g, '\n');
-        }
-      });
-
-      return strings;
-    }
   }
 ];
+
+function transformAbilities (resObj) {
+  const strings = normalize(resObj[0].tokens)
+  const abilities = resObj[1];
+
+  Object.entries(abilities).forEach(([key, ability]) => {
+    stringKey = `dac_ability_${key}_description`;
+    let desc = strings[stringKey];
+    if (desc) {
+      const matches = desc.match(ABILITY_REGEX);
+      if (matches) {
+          matches.forEach((s) => {
+              let replace = '';
+              const key = s.replace('{s:', '').replace('}', '');
+              if (key in ability) {
+                  const val = ability[key];
+                  replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+              }
+
+              desc = desc.replace(s, replace);
+          })
+      }
+      strings[stringKey] = desc.replace(/<br>/g, '\n');
+    }
+  });
+
+  return strings;
+}
 
 function parseJson(text) {
   try {
@@ -175,9 +194,25 @@ async function processSource(s) {
 
 async function start()
 {
+  Object.entries(LANGUAGE_MAPPING).forEach(([key, val]) => {
+    sources.push({
+      key: `underlords_localization_${val}`,
+      url: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_${key}.txt`
+    });
+    sources.push({
+      key: `underlords_localization_abilities_${val}`,
+      url: [
+        `https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/resource/localization/dac_abilities_${key}.txt`,
+        "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/abilities.json"
+      ],
+      transform: transformAbilities
+    });
+  })
+
   for (let i = 0; i < sources.length; i++)
   {
     const s = sources[i];
+    console.log(s);
     fs.writeFileSync('./build/' + s.key + '.json', JSON.stringify(await processSource(s), null, 2));
   }
 

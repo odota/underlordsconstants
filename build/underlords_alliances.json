@@ -4624,23 +4624,23 @@
     ],
     "physical_reduction": [
       -15,
-      -25,
-      -35
+      -20,
+      -30
     ],
     "magical_reduction": [
       -15,
-      -25,
-      -35
+      -20,
+      -30
     ],
     "physical_reduction_extra": [
+      -15,
       -20,
-      -25,
-      -30
+      -25
     ],
     "magical_reduction_extra": [
+      -15,
       -20,
-      -25,
-      -30
+      -25
     ],
     "duration": 1,
     "color": "255 227 39",
