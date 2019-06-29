@@ -90,12 +90,16 @@ const sources = [
         let allianceHeroes = [];
         Object.entries(heroes).forEach(([k, hero]) => {
           hero.key = k;
-          if (hero.keywords && hero.keywords.includes(a.key) && hero.draftTier > 0) {
-            if (hero.displayName && hero.displayName.includes("#")) {
-              hero.displayName = hero.displayName.replace('#', '')
-            }
-
-            allianceHeroes.push(hero);
+          if (hero.keywords) {
+            hero.keywords.split(" ").forEach((e) => {
+              if (a.key === e && hero.draftTier > 0) {
+                if (hero.displayName && hero.displayName.includes("#")) {
+                  hero.displayName = hero.displayName.replace('#', '')
+                }
+    
+                allianceHeroes.push(hero);
+              }
+            })
           }
         })
 

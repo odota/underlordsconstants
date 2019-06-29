@@ -324,55 +324,6 @@
     "heroes": [
       {
         "abilities": [
-          "antimage_mana_break"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_antimage",
-        "dota_unit_name": "npc_dota_hero_antimage",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 11,
-        "keywords": "elf demonhunter",
-        "magicResist": [
-          30,
-          40,
-          50
-        ],
-        "maxmana": 100,
-        "model": "models/heroes/antimage/antimage.vmdl",
-        "model_scale": [
-          0.6,
-          0.65,
-          0.8
-        ],
-        "texturename": "antimage",
-        "soundSet": "Hero_Antimage",
-        "movespeed": 310,
-        "healthBarOffset": -30,
-        "aiPassiveAbility": true,
-        "key": "antimage"
-      },
-      {
-        "abilities": [
           "chaos_knight_chaos_bolt"
         ],
         "armor": 5,
@@ -4180,55 +4131,6 @@
     "heroes": [
       {
         "abilities": [
-          "antimage_mana_break"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_antimage",
-        "dota_unit_name": "npc_dota_hero_antimage",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 11,
-        "keywords": "elf demonhunter",
-        "magicResist": [
-          30,
-          40,
-          50
-        ],
-        "maxmana": 100,
-        "model": "models/heroes/antimage/antimage.vmdl",
-        "model_scale": [
-          0.6,
-          0.65,
-          0.8
-        ],
-        "texturename": "antimage",
-        "soundSet": "Hero_Antimage",
-        "movespeed": 310,
-        "healthBarOffset": -30,
-        "aiPassiveAbility": true,
-        "key": "antimage"
-      },
-      {
-        "abilities": [
           "drow_ranger_trueshot_aura"
         ],
         "armor": 5,
@@ -4364,58 +4266,6 @@
         "movespeed": 285,
         "healthBarOffset": 10,
         "key": "sniper"
-      },
-      {
-        "abilities": [
-          "terrorblade_metamorph"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          65,
-          130,
-          260
-        ],
-        "displayName": "dac_hero_name_terrorblade",
-        "dota_unit_name": "npc_dota_hero_terrorblade",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          650,
-          1300,
-          2600
-        ],
-        "healthRegen": 0,
-        "id": 36,
-        "keywords": "demon demonhunter",
-        "magicResist": [
-          10,
-          20,
-          30
-        ],
-        "maxmana": 100,
-        "model": "models/heroes/terrorblade/terrorblade.vmdl",
-        "model_scale": [
-          0.65,
-          0.8,
-          0.95
-        ],
-        "texturename": "terrorblade",
-        "soundSet": "Hero_Terrorblade",
-        "movespeed": 310,
-        "healthBarOffset": -10,
-        "projectile_speed": 900,
-        "precache": [
-          "particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_base_attack.vpcf"
-        ],
-        "key": "terrorblade"
       },
       {
         "abilities": [
