@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const simplevdf = require('simple-vdf');
-const ABILITY_REGEX = /({s:[^}]*})/g;
+const STRING_REPLACE_REGEX = /({s:[^}]*})/g;
 const ABILITY_IMAGE_MAPPING = {
   "bloodseeker_blood_rage": "bloodseeker_bloodrage",
   "clockwerk_battery_assault":  "rattletrap_battery_assault",
@@ -135,7 +135,7 @@ function transformAbilities (resObj) {
     stringKey = `dac_ability_${key}_description`;
     let desc = strings[stringKey];
     if (desc) {
-      const matches = desc.match(ABILITY_REGEX);
+      const matches = desc.match(STRING_REPLACE_REGEX);
       if (matches) {
           matches.forEach((s) => {
               let replace = '';
@@ -150,6 +150,36 @@ function transformAbilities (resObj) {
       }
       strings[stringKey] = desc.replace(/<br>/g, '\n');
     }
+  });
+
+  return strings;
+}
+
+function transformLocalization (resObj) {
+  const strings = resObj[0];
+  const synergies = resObj[1];
+
+  Object.entries(synergies).forEach(([key, synergy]) => {
+    synergy.levels.forEach((l, i) => {
+      stringKey = `dac_synergy_desc_${key.toLocaleLowerCase()}_${i+1}`;
+      let desc = strings[stringKey];
+      if (desc) {
+        const matches = desc.match(STRING_REPLACE_REGEX);
+        if (matches) {
+          matches.forEach((s) => {
+              let replace = '';
+              const key = s.replace('{s:', '').replace('}', '');
+              if (key in synergy) {
+                  const val = synergy[key];
+                  replace = Array.isArray(val) ? val[i] : val;
+              }
+
+              desc = desc.replace(s, replace);
+          })
+        }
+        strings[stringKey] = desc.replace(/<br>/g, '\n');
+      }
+    })
   });
 
   return strings;
@@ -201,7 +231,11 @@ async function start()
   Object.entries(LANGUAGE_MAPPING).forEach(([key, val]) => {
     sources.push({
       key: `underlords_localization_${val}`,
-      url: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_${key}.txt`
+      url: [
+        `https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_${key}.txt`,
+        'https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/synergies.json'
+      ],
+      transform: transformLocalization
     });
     sources.push({
       key: `underlords_localization_abilities_${val}`,
