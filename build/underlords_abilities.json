@@ -46,6 +46,7 @@
       2.5
     ],
     "animationlength": 0.77,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_tiny/tiny_toss_impact.vpcf"
     ],
@@ -110,6 +111,7 @@
     ],
     "total_pulses": 10,
     "pulse_interval": 0.1,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_slark/slark_dark_pact_start.vpcf",
       "particles/units/heroes/hero_slark/slark_dark_pact_pulses.vpcf",
@@ -134,6 +136,7 @@
   "slark_pounce": {
     "maxLevel": 3,
     "disarm_duration": 3,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "iconName": "slark_pounce"
   },
   "dragon_knight_breathe_fire": {
@@ -148,6 +151,9 @@
       40,
       55
     ],
+    "castPoint": 0.27,
+    "animationLength": 0.72,
+    "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
     "start_radius": 150,
     "end_radius": 250,
     "range": 3,
@@ -159,6 +165,7 @@
       6
     ],
     "manaCost": 100,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf"
     ],
@@ -199,6 +206,7 @@
     ],
     "frost_aoe": 1,
     "animationlength": 0.001,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "models/heroes/dragon_knight/dragon_knight_dragon.vmdl",
       "particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_corrosive.vpcf",
@@ -233,6 +241,7 @@
       350
     ],
     "animationlength": 2.97,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_morphling/morphling_waveform.vpcf",
       "particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf"
@@ -257,6 +266,7 @@
       40
     ],
     "dot_duration": 2,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_viper/viper_corrosive_debuff.vpcf"
     ],
@@ -295,6 +305,7 @@
     "max_charges": 2,
     "charge_restore_time": 30,
     "animationlength": 1,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_viper/viper_viper_strike_warmup.vpcf",
       "particles/units/heroes/hero_viper/viper_viper_strike_beam.vpcf",
@@ -312,6 +323,7 @@
       600
     ],
     "animationlength": 0.01,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_ambient_blade.vpcf",
       "particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_mechanical.vpcf",
@@ -348,6 +360,7 @@
       10
     ],
     "animationlength": 1,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_batrider/batrider_stickynapalm_impact.vpcf",
       "particles/units/heroes/hero_batrider/batrider_stickynapalm_debuff.vpcf",
@@ -385,6 +398,7 @@
       275
     ],
     "animationlength": 1.07,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_first.vpcf",
       "particles/units/heroes/hero_gyrocopter/gyro_calldown_second.vpcf",
@@ -412,6 +426,7 @@
     "tick_rate": 1,
     "animationlength": 0.9,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray_cast.vpcf",
       "particles/units/heroes/hero_alchemist/alchemist_acid_spray.vpcf",
@@ -439,6 +454,7 @@
     "range": 1000,
     "speed": 1050,
     "animationlength": 3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_charge.vpcf",
       "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate.vpcf",
@@ -479,6 +495,7 @@
     "orb_speed": 651,
     "orb_vision": 450,
     "animationlength": 0.4,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_puck/puck_illusory_orb.vpcf",
       "particles/units/heroes/hero_puck/puck_orb_damage.vpcf"
@@ -509,6 +526,7 @@
       7
     ],
     "animationlength": 0.5,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf"
     ],
@@ -542,6 +560,7 @@
       4
     ],
     "animationlength": 1.3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_chaos_knight/chaos_knight_chaos_bolt.vpcf",
       "particles/units/heroes/hero_chaos_knight/chaos_knight_bolt_msg.vpcf"
@@ -593,6 +612,7 @@
     "scepter_radius": 20,
     "scepter_crit_bonus": 20,
     "animationlength": 3.3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_sniper/sniper_assassinate.vpcf",
       "particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
@@ -617,6 +637,7 @@
     ],
     "projectile_speed": 500,
     "animationlength": 1.3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_tinker/tinker_missile_dud.vpcf",
       "particles/units/heroes/hero_tinker/tinker_missile.vpcf",
@@ -663,6 +684,7 @@
       100,
       150
     ],
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_null.vpcf",
       "particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf",
@@ -694,6 +716,7 @@
       300,
       400
     ],
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_lich/lich_chain_frost.vpcf",
       "particles/units/heroes/hero_lich/lich_slowed_cold.vpcf",
@@ -722,6 +745,7 @@
     "speed": 1000,
     "delay": 0.3,
     "animationlength": 0.8,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_witchdoctor/witchdoctor_cask.vpcf"
     ],
@@ -741,6 +765,7 @@
     ],
     "speed": 1000,
     "animationlength": 0.83,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_bounty_hunter/bounty_hunter_suriken_toss.vpcf"
     ],
@@ -767,6 +792,7 @@
     "distance_cells": 4,
     "stun_duration": 2,
     "animationlength": 0.83,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_sandking/sandking_burrowstrike.vpcf"
     ],
@@ -786,6 +812,7 @@
       400
     ],
     "animationlength": 0.67,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain.vpcf",
       "particles/units/heroes/hero_queenofpain/queen_scream_of_pain_owner.vpcf"
@@ -840,6 +867,7 @@
       250
     ],
     "whirling_tick": 0.3,
+    "damageType": "#DAC_InGame_DamageType_Pure",
     "precache": [
       "particles/units/heroes/hero_shredder/shredder_whirling_death.vpcf"
     ],
@@ -864,6 +892,7 @@
       250
     ],
     "animationlength": 0.83,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_friend.vpcf",
       "particles/units/heroes/hero_necrolyte/necrolyte_pulse_enemy.vpcf"
@@ -890,6 +919,7 @@
     "stun": 0.1,
     "animationlength": 0.97,
     "duration": 5,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_assault.vpcf",
       "particles/units/heroes/hero_rattletrap/rattletrap_battery_shrapnel.vpcf"
@@ -940,6 +970,7 @@
     ],
     "duration": 10,
     "animationlength": 1.2,
+    "damageType": "#DAC_InGame_DamageType_Pure",
     "precache": [
       "particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf"
     ],
@@ -1002,6 +1033,7 @@
     ],
     "damage_interval": 1.5,
     "animationlength": 1,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_treant/treant_leech_seed.vpcf",
       "particles/units/heroes/hero_treant/treant_leech_seed_damage_pulse.vpcf"
@@ -1024,6 +1056,7 @@
     "speed": 636,
     "damage_interval": 1.5,
     "animationlength": 1,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_razor/razor_plasmafield.vpcf",
       "particles/units/heroes/hero_razor/razor_base_attack_impact.vpcf"
@@ -1051,6 +1084,7 @@
       10
     ],
     "animationlength": 2.47,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_nevermore/nevermore_wings.vpcf",
       "particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf",
@@ -1089,6 +1123,7 @@
     ],
     "range": 2,
     "damage_reduction_percent": 30,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_luna/luna_moon_glaive_bounce.vpcf"
     ],
@@ -1117,6 +1152,7 @@
     ],
     "castAnimation": "ACT_DOTA_CAST_ABILITY_4",
     "animationlength": 0.97,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_tidehunter/tidehunter_ravage_cell1.vpcf",
       "particles/units/heroes/hero_tidehunter/tidehunter_ravage_cell2.vpcf",
@@ -1140,6 +1176,7 @@
       400
     ],
     "move_slow": 40,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_tusk/tusk_walruspunch_start.vpcf",
       "particles/units/heroes/hero_tusk/tusk_walruspunch_hand.vpcf",
@@ -1163,6 +1200,7 @@
       600
     ],
     "animationlength": 1.83,
+    "damageType": "#DAC_InGame_DamageType_Pure",
     "precache": [
       "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf",
       "particles/units/heroes/hero_omniknight/omniknight_purification_cast.vpcf",
@@ -1197,6 +1235,8 @@
       5
     ],
     "animationlength": 0.7,
+    "miss_chance": 25,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_disruptor/disruptor_static_storm.vpcf",
       "particles/units/heroes/hero_disruptor/disruptor_static_storm_bolt_hero.vpcf",
@@ -1229,6 +1269,7 @@
       3000
     ],
     "animationlength": 2,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_windrunner/windrunner_spell_powershot_channel.vpcf",
       "particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf",
@@ -1272,6 +1313,7 @@
     "duration": 10,
     "animationlength": 0.97,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf",
       "particles/units/heroes/hero_beastmaster/beastmaster_wildaxes_hit.vpcf",
@@ -1292,6 +1334,7 @@
       90,
       120
     ],
+    "damageType": "#DAC_InGame_DamageType_Pure",
     "precache": [
       "particles/units/heroes/hero_doom_bringer/doom_bringer_doom.vpcf",
       "particles/status_fx/status_effect_doom.vpcf"
@@ -1300,13 +1343,23 @@
   },
   "venomancer_plague_ward": {
     "maxLevel": 3,
-    "castPoint": 0.5,
+    "castPoint": 0.13,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_3",
-    "cooldown": 5,
+    "cooldown": [
+      5,
+      6,
+      7
+    ],
     "manaCost": 100,
     "animationlength": 0.73,
     "duration": 40,
     "summonID": 56,
+    "num_wards": [
+      1,
+      2,
+      4
+    ],
+    "ward_magic_resist": 50,
     "precache": [
       "particles/units/heroes/hero_venomancer/venomancer_ward_cast.vpcf"
     ],
@@ -1330,6 +1383,7 @@
     ],
     "cast_range_scepter": 600,
     "damage_delay": 0.25,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_lina/lina_spell_laguna_blade.vpcf"
     ],
@@ -1349,6 +1403,7 @@
     ],
     "radius": 2,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_2",
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield_hit.vpcf",
       "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf"
@@ -1391,6 +1446,7 @@
       250,
       350
     ],
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_kunkka/kunkka_ghost_ship.vpcf",
       "particles/units/heroes/hero_kunkka/kunkka_ghostship_marker.vpcf",
@@ -1483,6 +1539,7 @@
     ],
     "range": 4,
     "summonID": 61,
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
     ],
@@ -1526,6 +1583,7 @@
       220,
       290
     ],
+    "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
       "particles/units/heroes/hero_pudge/pudge_meathook.vpcf",
       "particles/units/heroes/hero_pudge/pudge_meathook_impact.vpcf"
@@ -1561,27 +1619,28 @@
   },
   "warlock_shadow_word": {
     "maxLevel": 3,
-    "castPoint": 0.5,
+    "castPoint": 0.4,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_2",
     "cooldown": [
-      20,
-      20,
-      20
+      6,
+      6,
+      6
     ],
     "manaCost": 100,
-    "animationlength": 1.17,
+    "animationlength": 1.16,
     "damage_tick": [
+      50,
       100,
-      150,
-      200
+      150
     ],
     "heal_tick": [
-      75,
-      150,
-      200
+      50,
+      125,
+      175
     ],
     "ally_health_pct": 50,
-    "duration": 6,
+    "duration": 3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/units/heroes/hero_warlock/warlock_shadow_word_debuff.vpcf",
       "particles/units/heroes/hero_warlock/warlock_shadow_word_buff.vpcf"
@@ -1658,6 +1717,7 @@
     "duration": 3.5,
     "attack_slow": -30,
     "slow_duration": 3,
+    "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/items2_fx/orb_of_venom.vpcf",
       "particles/units/heroes/hero_sandking/sandking_caustic_finale_debuff.vpcf",

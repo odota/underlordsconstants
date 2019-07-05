@@ -92,7 +92,8 @@
     "aiSkip": true,
     "displayName": "dac_item_blink_dagger",
     "description": "dac_item_blink_dagger_desc",
-    "cooldown": 65,
+    "cooldown": 15,
+    "mana_gain": 50,
     "precache": [
       "particles/items/blink_dagger/blink_dagger_end.vpcf"
     ],
@@ -309,7 +310,7 @@
     "aiTierOffset": 1,
     "displayName": "dac_item_radiance",
     "description": "dac_item_radiance_desc",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "attack_damage": 0,
     "radius": 2,
     "aura_damage": 60,
@@ -505,6 +506,48 @@
     "icon": "pipe_of_insight",
     "key": "pipe"
   },
+  "bloodbound_hat": {
+    "id": 10036,
+    "tier": 2,
+    "type": "support",
+    "aiSkip": true,
+    "add_synergy_on_equip": "Ogre",
+    "displayName": "dac_item_bloodbound_hat",
+    "description": "dac_item_bloodbound_hat_desc",
+    "icon": "big_time_contract",
+    "key": "bloodbound_hat"
+  },
+  "sheepstick": {
+    "id": 10037,
+    "tier": 4,
+    "type": "support",
+    "displayName": "dac_item_sheepstick",
+    "description": "dac_item_sheepstick_desc",
+    "cooldown": 15,
+    "sheep_duration": 4,
+    "sheep_movement_speed": 100,
+    "precache": [
+      "models/props_gameplay/pig.vmdl",
+      "particles/items_fx/item_sheepstick.vpcf"
+    ],
+    "icon": "scythe_of_vyse",
+    "key": "sheepstick"
+  },
+  "force_staff": {
+    "id": 10038,
+    "tier": 3,
+    "type": "support",
+    "displayName": "dac_item_force_staff",
+    "description": "dac_item_force_staff_desc",
+    "cooldown": 10,
+    "push_length": 6,
+    "precache": [
+      "particles/items_fx/force_staff.vpcf",
+      "particles/status_fx/status_effect_forcestaff.vpcf"
+    ],
+    "icon": "force_staff",
+    "key": "force_staff"
+  },
   "summoning_stone": {
     "id": 10500,
     "displayName": "dac_item_summoning_stone",
@@ -527,7 +570,7 @@
     "description": "dac_item_better_units_in_shop_desc",
     "tier": 3,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "shop_units_level_modifier": 1
     },
@@ -553,7 +596,7 @@
     "description": "dac_item_cheaper_units_in_shop_desc",
     "tier": 4,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "unit_cost_modifier": -1
     },
@@ -591,7 +634,7 @@
     "description": "dac_item_free_first_reroll_desc",
     "tier": 5,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "aiTierOffset": -2,
     "global": {
       "first_reroll_cost_modifier": -2
@@ -605,7 +648,7 @@
     "description": "dac_item_humans_turn_undead_desc",
     "tier": 2,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "aiSynergyKeyword": "Human",
     "global": {
       "synergy_replacement": {
@@ -623,7 +666,7 @@
     "description": "dac_item_extra_items_desc",
     "tier": 1,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "extra_items_offered": 1
     },
@@ -636,7 +679,7 @@
     "description": "dac_item_better_items_desc",
     "tier": 2,
     "type": "global",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "item_level_modifier": 1
     },
@@ -696,7 +739,7 @@
     "aiAura": true,
     "global": {
       "trolls_aspd_aura": {
-        "attack_speed_bonus": 25,
+        "attack_speed_buff": 25,
         "range_in_cells": 1
       }
     },
@@ -790,7 +833,7 @@
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Knight",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "knight_absorption": {
         "physical_reduction": -10,
@@ -907,7 +950,7 @@
     "tier": 3,
     "type": "global",
     "aiSynergyKeyword": "Mage",
-    "allow_duplicates": false,
+    "max_allowed": 1,
     "global": {
       "mages_ghost_when_low_health": {
         "health_percent_trigger": 30
@@ -978,6 +1021,7 @@
     "tier": 2,
     "type": "global",
     "aiSynergyKeyword": "Human",
+    "max_allowed": 2,
     "global": {
       "humans_debuff_resist": {
         "debuff_resist": 50
@@ -1033,7 +1077,7 @@
     "aiSynergyKeyword": "Shaman",
     "global": {
       "shamans_hex_attackers": {
-        "percent_chance": 5,
+        "percent_chance": 17,
         "hops": 3
       }
     },

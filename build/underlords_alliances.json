@@ -233,9 +233,9 @@
         "draftTier": 3,
         "goldCost": 3,
         "health": [
-          500,
-          1000,
-          2000
+          550,
+          1100,
+          2200
         ],
         "healthRegen": 0,
         "id": 27,
@@ -457,7 +457,7 @@
           0.85
         ],
         "texturename": "nevermore",
-        "soundSet": "Hero_Nervermore",
+        "soundSet": "Hero_Nevermore",
         "projectile_speed": 1200,
         "projectile_model": "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf",
         "movespeed": 305,
@@ -1861,7 +1861,7 @@
           0.6
         ],
         "texturename": "techies",
-        "soundSet": "Hero_Technies",
+        "soundSet": "Hero_Techies",
         "projectile_speed": 900,
         "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
         "movespeed": 310,
@@ -2699,6 +2699,7 @@
           0.65,
           0.8
         ],
+        "soundSet": "Hero_Beastmaster",
         "texturename": "beastmaster",
         "movespeed": 305,
         "healthBarOffset": -40,
@@ -2777,7 +2778,7 @@
         ],
         "healthRegen": 0,
         "id": 47,
-        "keywords": "orc shaman",
+        "keywords": "orc shaman warlock",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -3780,7 +3781,7 @@
         "affects_all_enemies_with_keyword": true,
         "special_keyword": "demon",
         "cumulative": true,
-        "modifier_name": "demonhunter_immunity",
+        "modifier_name": "demonhunter_disable_demons",
         "unitcount": 1
       },
       {
@@ -4215,6 +4216,7 @@
           0.65,
           0.8
         ],
+        "soundSet": "Hero_Beastmaster",
         "texturename": "beastmaster",
         "movespeed": 305,
         "healthBarOffset": -40,
@@ -5384,7 +5386,7 @@
           0.6
         ],
         "texturename": "techies",
-        "soundSet": "Hero_Technies",
+        "soundSet": "Hero_Techies",
         "projectile_speed": 900,
         "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
         "movespeed": 310,
@@ -5399,16 +5401,14 @@
     "levels": [
       {
         "id": 20043,
-        "unitcount": 2,
-        "affects_random_enemy": true
+        "unitcount": 3,
+        "affects_all_enemy_units": true
       }
     ],
     "base_modifiers": [
       "modifier_bonus_mana_per_hit"
     ],
-    "delay": 1,
-    "duration": 6,
-    "movespeed": 140,
+    "mana_dampen": -200,
     "color": "52 159 100",
     "key": "shaman",
     "heroes": [
@@ -5534,7 +5534,7 @@
         ],
         "healthRegen": 0,
         "id": 47,
-        "keywords": "orc shaman",
+        "keywords": "orc shaman warlock",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -5559,27 +5559,31 @@
       {
         "id": 20044,
         "unitcount": 2,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       },
       {
         "id": 20045,
         "unitcount": 4,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       },
       {
         "id": 20046,
         "unitcount": 6,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       }
+    ],
+    "precache": [
+      "particles/gameplay/synergy/warlock/warlock_link.vpcf"
     ],
     "base_modifiers": [
       "modifier_bonus_mana_per_hit"
     ],
     "lifesteal_pct": [
-      15,
-      30,
-      50
+      50,
+      100,
+      150
     ],
+    "duration": 3,
     "color": "228 110 213",
     "key": "warlock",
     "heroes": [
@@ -5714,7 +5718,7 @@
           0.85
         ],
         "texturename": "nevermore",
-        "soundSet": "Hero_Nervermore",
+        "soundSet": "Hero_Nevermore",
         "projectile_speed": 1200,
         "projectile_model": "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf",
         "movespeed": 305,
@@ -5745,9 +5749,9 @@
         "draftTier": 3,
         "goldCost": 3,
         "health": [
-          500,
-          1000,
-          2000
+          550,
+          1100,
+          2200
         ],
         "healthRegen": 0,
         "id": 27,
@@ -5816,6 +5820,52 @@
         "healthBarOffset": 25,
         "aiAura": true,
         "key": "alchemist"
+      },
+      {
+        "abilities": [
+          "disruptor_static_storm"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          50,
+          100,
+          200
+        ],
+        "displayName": "dac_hero_name_disruptor",
+        "dota_unit_name": "npc_dota_hero_disruptor",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 47,
+        "keywords": "orc shaman warlock",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/disruptor/disruptor.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "disruptor",
+        "soundSet": "Hero_Disruptor",
+        "projectile_speed": 1200,
+        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
+        "movespeed": 295,
+        "healthBarOffset": -90,
+        "key": "disruptor"
       },
       {
         "abilities": [

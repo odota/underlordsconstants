@@ -268,6 +268,7 @@
       0.65,
       0.8
     ],
+    "soundSet": "Hero_Beastmaster",
     "texturename": "beastmaster",
     "movespeed": 305,
     "healthBarOffset": -40,
@@ -495,7 +496,7 @@
     ],
     "healthRegen": 0,
     "id": 47,
-    "keywords": "orc shaman",
+    "keywords": "orc shaman warlock",
     "magicResist": 0,
     "maxmana": 100,
     "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -1729,7 +1730,7 @@
       0.85
     ],
     "texturename": "nevermore",
-    "soundSet": "Hero_Nervermore",
+    "soundSet": "Hero_Nevermore",
     "projectile_speed": 1200,
     "projectile_model": "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf",
     "movespeed": 305,
@@ -1965,7 +1966,7 @@
       0.6
     ],
     "texturename": "techies",
-    "soundSet": "Hero_Technies",
+    "soundSet": "Hero_Techies",
     "projectile_speed": 900,
     "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
     "movespeed": 310,
@@ -2419,9 +2420,9 @@
     "draftTier": 3,
     "goldCost": 3,
     "health": [
-      500,
-      1000,
-      2000
+      550,
+      1100,
+      2200
     ],
     "healthRegen": 0,
     "id": 27,
@@ -2821,26 +2822,14 @@
     "attackAnimationPoint": 0.3,
     "attackRange": 6,
     "attackRate": 1.4,
-    "damageMin": [
-      50,
-      100,
-      150
-    ],
-    "damageMax": [
-      100,
-      150,
-      200
-    ],
+    "damageMin": 50,
+    "damageMax": 100,
     "keywords": "beast",
     "displayName": "dac_name_plague_ward",
     "dota_unit_name": "npc_dota_venomancer_plague_ward_1",
     "draftTier": 0,
     "goldCost": 0,
-    "health": [
-      200,
-      300,
-      400
-    ],
+    "health": 200,
     "model_scale": [
       0.4,
       0.5,
