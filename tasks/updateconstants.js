@@ -1,7 +1,8 @@
 const axios = require('axios');
 const fs = require('fs');
 const simplevdf = require('simple-vdf');
-const STRING_REPLACE_REGEX = /({s:[^}]*})/g;
+const STRING_REPLACE_REGEX = /({(s|d):[^}]*})/g;
+const STRING_REPLACE_KEY_REGEX = /({s:)|({d:)|(})/g;
 const ABILITY_IMAGE_MAPPING = {
   "bloodseeker_blood_rage": "bloodseeker_bloodrage",
   "clockwerk_battery_assault":  "rattletrap_battery_assault",
@@ -127,6 +128,24 @@ const sources = [
   }
 ];
 
+function replacePlaceholders(str, values) {
+  const matches = str.match(STRING_REPLACE_REGEX);
+  if (matches) {
+    matches.forEach((s) => {
+        let replace = '';
+        const key = s.replace(STRING_REPLACE_KEY_REGEX, '');
+        if (key in values) {
+            const val = values[key];
+            replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+        }
+
+        str = str.replace(s, replace);
+    })
+  }
+
+  return str;
+}
+
 function transformAbilities (resObj) {
   const strings = normalize(resObj[0].tokens)
   const abilities = resObj[1];
@@ -135,19 +154,7 @@ function transformAbilities (resObj) {
     stringKey = `dac_ability_${key}_description`;
     let desc = strings[stringKey];
     if (desc) {
-      const matches = desc.match(STRING_REPLACE_REGEX);
-      if (matches) {
-          matches.forEach((s) => {
-              let replace = '';
-              const key = s.replace('{s:', '').replace('}', '');
-              if (key in ability) {
-                  const val = ability[key];
-                  replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
-              }
-
-              desc = desc.replace(s, replace);
-          })
-      }
+      desc = replacePlaceholders(desc, ability);
       strings[stringKey] = desc.replace(/<br>/g, '\n');
     }
   });
@@ -158,29 +165,27 @@ function transformAbilities (resObj) {
 function transformLocalization (resObj) {
   const strings = resObj[0];
   const synergies = resObj[1];
+  const items = resObj[2];
 
   Object.entries(synergies).forEach(([key, synergy]) => {
     synergy.levels.forEach((l, i) => {
       stringKey = `dac_synergy_desc_${key.toLocaleLowerCase()}_${i+1}`;
       let desc = strings[stringKey];
       if (desc) {
-        const matches = desc.match(STRING_REPLACE_REGEX);
-        if (matches) {
-          matches.forEach((s) => {
-              let replace = '';
-              const key = s.replace('{s:', '').replace('}', '');
-              if (key in synergy) {
-                  const val = synergy[key];
-                  replace = Array.isArray(val) ? val[i] : val;
-              }
-
-              desc = desc.replace(s, replace);
-          })
-        }
+        desc = replacePlaceholders(desc, synergy);
         strings[stringKey] = desc.replace(/<br>/g, '\n');
       }
     })
   });
+
+  Object.entries(items).forEach(([key, item]) => {
+    stringKey = `dac_item_${key}_desc`;
+    let desc = strings[stringKey];
+    if (desc) {
+      desc = replacePlaceholders(desc, item);
+      strings[stringKey] = desc.replace(/<br>/g, '\n');
+    }
+  })
 
   return strings;
 }
@@ -233,7 +238,8 @@ async function start()
       key: `underlords_localization_${val}`,
       url: [
         `https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/panorama/localization/dac_${key}.txt`,
-        'https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/synergies.json'
+        'https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/synergies.json',
+        'https://raw.githubusercontent.com/SteamDatabase/GameTracking-Underlords/master/game/dac/pak01_dir/scripts/items.json'
       ],
       transform: transformLocalization
     });
