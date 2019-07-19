@@ -172,7 +172,19 @@ function transformLocalization (resObj) {
       stringKey = `dac_synergy_desc_${key.toLocaleLowerCase()}_${i+1}`;
       let desc = strings[stringKey];
       if (desc) {
-        desc = replacePlaceholders(desc, synergy);
+        const matches = desc.match(STRING_REPLACE_REGEX);
+        if (matches) {
+          matches.forEach((s) => {
+              let replace = '';
+              const key = s.replace(STRING_REPLACE_KEY_REGEX, '');
+              if (key in synergy) {
+                  const val = synergy[key];
+                  replace = Array.isArray(val) ? val[i] : val;
+              }
+      
+              desc = desc.replace(s, replace);
+          })
+        }
         strings[stringKey] = desc.replace(/<br>/g, '\n');
       }
     })
@@ -182,7 +194,22 @@ function transformLocalization (resObj) {
     stringKey = `dac_item_${key}_desc`;
     let desc = strings[stringKey];
     if (desc) {
-      desc = replacePlaceholders(desc, item);
+      const matches = desc.match(STRING_REPLACE_REGEX);
+      if (matches) {
+        matches.forEach((s) => {
+            let replace = '';
+            const replaceKey = s.replace(STRING_REPLACE_KEY_REGEX, '');
+            if (replaceKey in item) {
+                const val = item[replaceKey];
+                replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+            } else if ("global" in item && key in item["global"]) {
+              const val = item["global"][key][replaceKey];
+              replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
+            }
+    
+            desc = desc.replace(s, replace);
+        })
+      }
       strings[stringKey] = desc.replace(/<br>/g, '\n');
     }
   })
