@@ -95,9 +95,9 @@
         "draftTier": 1,
         "goldCost": 1,
         "health": [
-          650,
-          1300,
-          2600
+          700,
+          1400,
+          2800
         ],
         "healthRegen": 0,
         "id": 4,
@@ -118,100 +118,6 @@
       },
       {
         "abilities": [
-          "lycan_wolf_spawn_shift"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.55,
-        "attackRange": 1,
-        "attackRate": 1.1,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_lycan",
-        "dota_unit_name": "npc_dota_hero_lycan",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          750,
-          1500,
-          3000
-        ],
-        "healthRegen": 0,
-        "id": 26,
-        "keywords": "human beast warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/lycan/lycan.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "lycan",
-        "soundSet": "Hero_Lycan",
-        "movespeed": 315,
-        "healthBarOffset": -40,
-        "key": "lycan"
-      },
-      {
-        "abilities": [
-          "sandking_burrowstrike",
-          "sandking_caustic_finale"
-        ],
-        "baseclass": "dac_npc_assassin",
-        "armor": 10,
-        "attackAnimationPoint": 0.53,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_sand_king",
-        "dota_unit_name": "npc_dota_hero_sand_king",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          550,
-          1100,
-          2200
-        ],
-        "healthRegen": 5,
-        "id": 33,
-        "keywords": "beast assassin",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/sand_king/sand_king.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "sand_king",
-        "soundSet": "Hero_SandKing",
-        "movespeed": 290,
-        "healthBarOffset": 0,
-        "assassin_modifier": "assassin_modifier_sand_king",
-        "precache": [
-          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
-        ],
-        "key": "sand_king"
-      },
-      {
-        "abilities": [
           "venomancer_plague_ward"
         ],
         "armor": 0,
@@ -224,18 +130,18 @@
           200
         ],
         "damageMax": [
-          60,
-          120,
-          240
+          55,
+          110,
+          220
         ],
         "displayName": "dac_hero_name_venomancer",
         "dota_unit_name": "npc_dota_hero_venomancer",
-        "draftTier": 3,
-        "goldCost": 3,
+        "draftTier": 1,
+        "goldCost": 1,
         "health": [
-          550,
-          1100,
-          2200
+          500,
+          1000,
+          2000
         ],
         "healthRegen": 0,
         "id": 27,
@@ -255,6 +161,50 @@
         "movespeed": 275,
         "healthBarOffset": -30,
         "key": "venomancer"
+      },
+      {
+        "abilities": [
+          "lycan_wolf_spawn_shift"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.55,
+        "attackRange": 1,
+        "attackRate": 1.1,
+        "damageMin": [
+          50,
+          100,
+          240
+        ],
+        "damageMax": [
+          60,
+          120,
+          288
+        ],
+        "displayName": "dac_hero_name_lycan",
+        "dota_unit_name": "npc_dota_hero_lycan",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3600
+        ],
+        "healthRegen": 0,
+        "id": 26,
+        "keywords": "human beast warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/lycan/lycan.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "lycan",
+        "soundSet": "Hero_Lycan",
+        "movespeed": 315,
+        "healthBarOffset": -40,
+        "key": "lycan"
       },
       {
         "abilities": [
@@ -287,7 +237,7 @@
         "id": 50,
         "keywords": "beast druid",
         "magicResist": 20,
-        "maxmana": 100,
+        "maxmana": 60,
         "model": "models/heroes/lone_druid/lone_druid.vmdl",
         "model_scale": [
           0.7,
@@ -302,6 +252,56 @@
         "healthBarOffset": -20,
         "aiIsMelee": true,
         "key": "lone_druid"
+      },
+      {
+        "abilities": [
+          "sandking_burrowstrike",
+          "sandking_caustic_finale"
+        ],
+        "baseclass": "dac_npc_assassin",
+        "armor": 10,
+        "attackAnimationPoint": 0.53,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          70,
+          140,
+          270
+        ],
+        "damageMax": [
+          80,
+          160,
+          320
+        ],
+        "displayName": "dac_hero_name_sand_king",
+        "dota_unit_name": "npc_dota_hero_sand_king",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          750,
+          1500,
+          3200
+        ],
+        "healthRegen": 5,
+        "id": 33,
+        "keywords": "beast assassin",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/sand_king/sand_king.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "sand_king",
+        "soundSet": "Hero_SandKing",
+        "movespeed": 290,
+        "healthBarOffset": 0,
+        "assassin_modifier": "assassin_modifier_sand_king",
+        "precache": [
+          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
+        ],
+        "key": "sand_king"
       }
     ]
   },
@@ -371,7 +371,7 @@
           "queenofpain_scream_of_pain"
         ],
         "baseclass": "dac_npc_assassin",
-        "armor": 0,
+        "armor": 5,
         "attackAnimationPoint": 0.56,
         "attackRange": 3,
         "attackRate": 1.2,
@@ -429,12 +429,12 @@
         "damageMin": [
           70,
           140,
-          280
+          336
         ],
         "damageMax": [
           80,
           160,
-          320
+          384
         ],
         "displayName": "dac_hero_name_shadow_fiend",
         "dota_unit_name": "npc_dota_hero_nevermore",
@@ -476,12 +476,12 @@
         "damageMin": [
           45,
           90,
-          180
+          216
         ],
         "damageMax": [
           65,
           130,
-          260
+          312
         ],
         "displayName": "dac_hero_name_terrorblade",
         "dota_unit_name": "npc_dota_hero_terrorblade",
@@ -490,7 +490,7 @@
         "health": [
           650,
           1300,
-          2600
+          3120
         ],
         "healthRegen": 0,
         "id": 36,
@@ -609,7 +609,7 @@
         "id": 18,
         "keywords": "elf dragon mage",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 60,
         "model": "models/heroes/puck/puck.vmdl",
         "model_scale": [
           0.65,
@@ -640,12 +640,12 @@
         "damageMin": [
           50,
           100,
-          150
+          240
         ],
         "damageMax": [
           60,
           120,
-          240
+          360
         ],
         "displayName": "dac_hero_name_viper",
         "dota_unit_name": "npc_dota_hero_viper",
@@ -654,7 +654,7 @@
         "health": [
           550,
           1100,
-          2200
+          3000
         ],
         "id": 37,
         "keywords": "dragon assassin",
@@ -748,16 +748,20 @@
         "armor": 5,
         "attackAnimationPoint": 0.17,
         "attackRange": 7,
-        "attackRate": 1.6,
+        "attackRate": [
+          1.6,
+          1.6,
+          1.3
+        ],
         "damageMin": [
           125,
           180,
-          330
+          396
         ],
         "damageMax": [
           150,
           210,
-          360
+          432
         ],
         "displayName": "dac_hero_name_sniper",
         "dota_unit_name": "npc_dota_hero_sniper",
@@ -766,7 +770,7 @@
         "health": [
           450,
           900,
-          1800
+          2160
         ],
         "healthRegen": 0,
         "id": 35,
@@ -852,11 +856,59 @@
       }
     ],
     "stun_chance": 30,
+    "stun_chance_ranged": 10,
     "stun_duration": 4,
     "bonus_physical_damage": 0,
     "color": "0 128 128",
     "key": "element",
     "heroes": [
+      {
+        "abilities": [
+          "razor_plasma_field"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 3,
+        "attackRate": 1.1,
+        "damageMin": [
+          40,
+          80,
+          160
+        ],
+        "damageMax": [
+          50,
+          100,
+          200
+        ],
+        "displayName": "dac_hero_name_razor",
+        "dota_unit_name": "npc_dota_hero_razor",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 29,
+        "keywords": "element mage",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/razor/razor.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "razor",
+        "soundSet": "Hero_Razor",
+        "projectile_speed": 2000,
+        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
+        "movespeed": 285,
+        "healthBarOffset": -80,
+        "aiAura": true,
+        "key": "razor"
+      },
       {
         "abilities": [
           "tiny_toss"
@@ -909,7 +961,7 @@
         "armor": 5,
         "attackAnimationPoint": 0.5,
         "attackRange": 3,
-        "attackRate": 1.3,
+        "attackRate": 1.1,
         "damageMin": [
           45,
           90,
@@ -933,7 +985,7 @@
         "id": 23,
         "keywords": "element assassin",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 75,
         "model": "models/heroes/morphling/morphling.vmdl",
         "model_scale": [
           0.6,
@@ -956,53 +1008,6 @@
       },
       {
         "abilities": [
-          "razor_plasma_field"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 3,
-        "attackRate": 1.1,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_razor",
-        "dota_unit_name": "npc_dota_hero_razor",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          750,
-          1500,
-          3000
-        ],
-        "healthRegen": 0,
-        "id": 29,
-        "keywords": "element mage",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/razor/razor.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "razor",
-        "soundSet": "Hero_Razor",
-        "projectile_speed": 2000,
-        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
-        "movespeed": 285,
-        "healthBarOffset": -80,
-        "aiAura": true,
-        "key": "razor"
-      },
-      {
-        "abilities": [
           "arc_warden_tempest_double"
         ],
         "armor": 5,
@@ -1010,16 +1015,20 @@
         "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
         "attackAnimationPoint": 0.3,
         "attackRange": 4,
-        "attackRate": 1.7,
+        "attackRate": [
+          1.7,
+          1.5,
+          1.3
+        ],
         "damageMin": [
           75,
           150,
-          250
+          300
         ],
         "damageMax": [
           85,
           170,
-          290
+          350
         ],
         "displayName": "dac_hero_name_arc_warden",
         "dota_unit_name": "npc_dota_hero_arc_warden",
@@ -1028,7 +1037,7 @@
         "health": [
           600,
           1100,
-          2200
+          2650
         ],
         "healthRegen": 0,
         "id": 84,
@@ -1077,7 +1086,7 @@
         ],
         "healthRegen": 5,
         "id": 54,
-        "keywords": "element warlock",
+        "keywords": "element shaman",
         "magicResist": 40,
         "maxmana": 100,
         "model": "models/heroes/enigma/enigma.vmdl",
@@ -1299,7 +1308,7 @@
         "id": 18,
         "keywords": "elf dragon mage",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 60,
         "model": "models/heroes/puck/puck.vmdl",
         "model_scale": [
           0.65,
@@ -1317,47 +1326,49 @@
       },
       {
         "abilities": [
-          "treant_leech_seed"
+          "windrunner_powershot"
         ],
         "armor": 5,
-        "attackAnimationPoint": 0.6,
-        "attackRange": 1,
-        "attackRate": 2,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 4,
+        "attackRate": 0.9,
         "damageMin": [
-          60,
-          120,
-          240
+          50,
+          100,
+          230
         ],
         "damageMax": [
-          90,
-          180,
-          360
+          60,
+          120,
+          260
         ],
-        "displayName": "dac_hero_name_treant_protector",
-        "dota_unit_name": "npc_dota_hero_treant",
+        "displayName": "dac_hero_name_wind_ranger",
+        "dota_unit_name": "npc_dota_hero_windrunner",
         "draftTier": 2,
         "goldCost": 2,
         "health": [
-          650,
-          1300,
+          550,
+          1100,
           2300
         ],
         "healthRegen": 0,
-        "id": 22,
-        "keywords": "elf druid",
+        "id": 30,
+        "keywords": "elf hunter",
         "magicResist": 0,
         "maxmana": 100,
-        "model": "models/heroes/treant_protector/treant_protector.vmdl",
+        "model": "models/heroes/windrunner/windrunner.vmdl",
         "model_scale": [
-          0.65,
-          0.7,
-          0.8
+          0.75,
+          0.8,
+          0.9
         ],
-        "texturename": "treant",
-        "soundSet": "Hero_Treant",
-        "movespeed": 270,
-        "healthBarOffset": -75,
-        "key": "treant_protector"
+        "texturename": "windrunner",
+        "soundSet": "Hero_Windrunner",
+        "projectile_speed": 1250,
+        "projectile_model": "particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": 0,
+        "key": "wind_ranger"
       },
       {
         "abilities": [
@@ -1371,12 +1382,12 @@
         "damageMin": [
           70,
           140,
-          280
+          300
         ],
         "damageMax": [
           90,
           180,
-          360
+          400
         ],
         "displayName": "dac_hero_name_phantom_assassin",
         "dota_unit_name": "npc_dota_hero_phantom_assassin",
@@ -1412,49 +1423,47 @@
       },
       {
         "abilities": [
-          "windrunner_powershot"
+          "treant_leech_seed"
         ],
         "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 4,
-        "attackRate": 0.9,
+        "attackAnimationPoint": 0.6,
+        "attackRange": 1,
+        "attackRate": 2,
         "damageMin": [
           60,
           120,
           240
         ],
         "damageMax": [
-          65,
-          130,
-          260
+          90,
+          180,
+          360
         ],
-        "displayName": "dac_hero_name_wind_ranger",
-        "dota_unit_name": "npc_dota_hero_windrunner",
+        "displayName": "dac_hero_name_treant_protector",
+        "dota_unit_name": "npc_dota_hero_treant",
         "draftTier": 3,
         "goldCost": 3,
         "health": [
-          550,
-          1100,
-          2200
+          750,
+          1500,
+          2500
         ],
         "healthRegen": 0,
-        "id": 30,
-        "keywords": "elf hunter",
+        "id": 22,
+        "keywords": "elf druid",
         "magicResist": 0,
         "maxmana": 100,
-        "model": "models/heroes/windrunner/windrunner.vmdl",
+        "model": "models/heroes/treant_protector/treant_protector.vmdl",
         "model_scale": [
-          0.75,
-          0.8,
-          0.9
+          0.65,
+          0.7,
+          0.8
         ],
-        "texturename": "windrunner",
-        "soundSet": "Hero_Windrunner",
-        "projectile_speed": 1250,
-        "projectile_model": "particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": 0,
-        "key": "wind_ranger"
+        "texturename": "treant",
+        "soundSet": "Hero_Treant",
+        "movespeed": 270,
+        "healthBarOffset": -75,
+        "key": "treant_protector"
       },
       {
         "abilities": [
@@ -1517,14 +1526,14 @@
         "attackRange": 4,
         "attackRate": 1,
         "damageMin": [
-          55,
-          110,
-          220
+          66,
+          132,
+          264
         ],
         "damageMax": [
-          65,
-          130,
-          260
+          78,
+          156,
+          312
         ],
         "displayName": "dac_hero_name_mirana",
         "dota_unit_name": "npc_dota_hero_mirana",
@@ -1539,7 +1548,7 @@
         "id": 86,
         "keywords": "elf hunter",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 70,
         "model": "models/heroes/mirana/mirana.vmdl",
         "model_scale": [
           0.6,
@@ -1561,8 +1570,13 @@
     "levels": [
       {
         "id": 20011,
-        "unitcount": 3,
-        "affects_random_ally": true
+        "unitcount": 2,
+        "affects_random_ally_with_keyword": true
+      },
+      {
+        "id": 20013,
+        "unitcount": 4,
+        "affects_all_allies_with_keyword": true
       },
       {
         "id": 20012,
@@ -1576,7 +1590,8 @@
     "hp_regen_disadvantage": 8,
     "color": "184 199 44",
     "precache": [
-      "particles/gameplay/synergy/goblin/goblin_buff.vpcf"
+      "particles/gameplay/synergy/scrappy/scrappy_buff_lvl1.vpcf",
+      "particles/gameplay/synergy/scrappy/scrappy_buff_lvl2.vpcf"
     ],
     "key": "goblin",
     "heroes": [
@@ -1632,99 +1647,6 @@
       },
       {
         "abilities": [
-          "clockwerk_battery_assault"
-        ],
-        "armor": [
-          5,
-          7,
-          9
-        ],
-        "attackAnimationPoint": 0.33,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_clockwerk",
-        "dota_unit_name": "npc_dota_hero_rattletrap",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 7,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/rattletrap/rattletrap.vmdl",
-        "model_scale": [
-          0.75,
-          0.85,
-          1
-        ],
-        "texturename": "rattletrap",
-        "soundSet": "Hero_Rattletrap",
-        "movespeed": 310,
-        "healthBarOffset": 20,
-        "key": "clockwerk"
-      },
-      {
-        "abilities": [
-          "tinker_heat_seeking_missile"
-        ],
-        "armor": 10,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          40,
-          80,
-          160
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_tinker",
-        "dota_unit_name": "npc_dota_hero_tinker",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 10,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tinker/tinker.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tinker",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": 15,
-        "key": "tinker"
-      },
-      {
-        "abilities": [
           "timbersaw_whirling_death"
         ],
         "armor": [
@@ -1772,6 +1694,99 @@
         "healthBarOffset": -15,
         "aiAura": true,
         "key": "timbersaw"
+      },
+      {
+        "abilities": [
+          "clockwerk_battery_assault"
+        ],
+        "armor": [
+          5,
+          7,
+          10
+        ],
+        "attackAnimationPoint": 0.33,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          55,
+          110,
+          220
+        ],
+        "damageMax": [
+          65,
+          130,
+          260
+        ],
+        "displayName": "dac_hero_name_clockwerk",
+        "dota_unit_name": "npc_dota_hero_rattletrap",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          800,
+          1600,
+          3200
+        ],
+        "healthRegen": 0,
+        "id": 7,
+        "keywords": "goblin mech",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/rattletrap/rattletrap.vmdl",
+        "model_scale": [
+          0.75,
+          0.85,
+          1
+        ],
+        "texturename": "rattletrap",
+        "soundSet": "Hero_Rattletrap",
+        "movespeed": 310,
+        "healthBarOffset": 20,
+        "key": "clockwerk"
+      },
+      {
+        "abilities": [
+          "tinker_heat_seeking_missile"
+        ],
+        "armor": 10,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          50,
+          100,
+          225
+        ],
+        "damageMax": [
+          60,
+          120,
+          275
+        ],
+        "displayName": "dac_hero_name_tinker",
+        "dota_unit_name": "npc_dota_hero_tinker",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3500
+        ],
+        "healthRegen": 0,
+        "id": 10,
+        "keywords": "goblin mech",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tinker/tinker.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tinker",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": 15,
+        "key": "tinker"
       },
       {
         "abilities": [
@@ -2060,12 +2075,12 @@
         "damageMin": [
           50,
           100,
-          200
+          240
         ],
         "damageMax": [
           60,
           120,
-          240
+          288
         ],
         "displayName": "dac_hero_name_lycan",
         "dota_unit_name": "npc_dota_hero_lycan",
@@ -2074,7 +2089,7 @@
         "health": [
           750,
           1500,
-          3000
+          3600
         ],
         "healthRegen": 0,
         "id": 26,
@@ -2104,12 +2119,12 @@
         "damageMin": [
           40,
           80,
-          160
+          190
         ],
         "damageMax": [
           50,
           100,
-          200
+          240
         ],
         "displayName": "dac_hero_name_omniknight",
         "dota_unit_name": "npc_dota_hero_omniknight",
@@ -2118,7 +2133,7 @@
         "health": [
           700,
           1400,
-          2800
+          3360
         ],
         "healthRegen": 0,
         "id": 28,
@@ -2360,12 +2375,12 @@
         "damageMin": [
           50,
           72,
-          105
+          126
         ],
         "damageMax": [
           60,
           92,
-          145
+          174
         ],
         "displayName": "dac_hero_name_slark",
         "dota_unit_name": "npc_dota_hero_slark",
@@ -2374,7 +2389,7 @@
         "health": [
           500,
           1000,
-          2000
+          2400
         ],
         "healthRegen": 5,
         "id": 34,
@@ -2397,6 +2412,51 @@
       },
       {
         "abilities": [
+          "tidehunter_ravage"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.6,
+        "attackRange": 1,
+        "attackRate": 2,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_tide_hunter",
+        "dota_unit_name": "npc_dota_hero_tidehunter",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          850,
+          1700,
+          3400
+        ],
+        "healthRegen": 0,
+        "id": 53,
+        "keywords": "naga warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tidehunter/tidehunter.vmdl",
+        "model_scale": [
+          0.6,
+          0.65,
+          0.75
+        ],
+        "texturename": "tidehunter",
+        "soundSet": "Hero_tidehunter",
+        "movespeed": 300,
+        "healthBarOffset": -35,
+        "aiAura": true,
+        "key": "tidehunter"
+      },
+      {
+        "abilities": [
           "medusa_stone_gaze",
           "medusa_split_shot"
         ],
@@ -2416,8 +2476,8 @@
         ],
         "displayName": "dac_hero_name_medusa",
         "dota_unit_name": "npc_dota_hero_medusa",
-        "draftTier": 4,
-        "goldCost": 4,
+        "draftTier": 5,
+        "goldCost": 5,
         "health": [
           850,
           1700,
@@ -2441,51 +2501,6 @@
         "movespeed": 275,
         "healthBarOffset": -10,
         "key": "medusa"
-      },
-      {
-        "abilities": [
-          "tidehunter_ravage"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.6,
-        "attackRange": 1,
-        "attackRate": 2,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_tide_hunter",
-        "dota_unit_name": "npc_dota_hero_tidehunter",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          950,
-          1900,
-          3800
-        ],
-        "healthRegen": 5,
-        "id": 53,
-        "keywords": "naga hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tidehunter/tidehunter.vmdl",
-        "model_scale": [
-          0.6,
-          0.65,
-          0.75
-        ],
-        "texturename": "tidehunter",
-        "soundSet": "Hero_tidehunter",
-        "movespeed": 300,
-        "healthBarOffset": -35,
-        "aiAura": true,
-        "key": "tidehunter"
       }
     ]
   },
@@ -2499,7 +2514,7 @@
       }
     ],
     "enrage_bonus_pct": [
-      100
+      125
     ],
     "color": "85 107 47",
     "key": "ogre",
@@ -2512,15 +2527,15 @@
         "attackAnimationPoint": 0.3,
         "attackRange": 1,
         "attackRate": 1.4,
-        "damageMax": [
-          65,
-          130,
-          260
-        ],
         "damageMin": [
           55,
           110,
           220
+        ],
+        "damageMax": [
+          65,
+          130,
+          260
         ],
         "displayName": "dac_hero_name_ogre_magi",
         "dota_unit_name": "npc_dota_hero_ogre_magi",
@@ -2816,7 +2831,7 @@
       65
     ],
     "attack_speed_bonus_others": [
-      0,
+      10,
       30
     ],
     "color": "158 110 74",
@@ -2970,25 +2985,25 @@
         "armor": 5,
         "attackAnimationPoint": 0.3,
         "attackRange": 3,
-        "attackRate": 1.1,
+        "attackRate": 1,
         "damageMin": [
-          90,
           180,
-          360
+          360,
+          520
         ],
         "damageMax": [
-          100,
           200,
-          400
+          400,
+          600
         ],
         "displayName": "dac_hero_name_troll_warlord",
         "dota_unit_name": "npc_dota_hero_troll_warlord",
-        "draftTier": 4,
-        "goldCost": 4,
+        "draftTier": 5,
+        "goldCost": 5,
         "health": [
-          900,
-          1800,
-          3600
+          1200,
+          2000,
+          4000
         ],
         "healthRegen": 0,
         "id": 42,
@@ -3032,9 +3047,9 @@
       }
     ],
     "armor_debuff": [
-      -5,
-      -10,
-      -20
+      5,
+      10,
+      15
     ],
     "color": "79 213 101",
     "key": "undead",
@@ -3142,12 +3157,12 @@
         "damageMin": [
           45,
           90,
-          180
+          216
         ],
         "damageMax": [
           55,
           110,
-          220
+          264
         ],
         "displayName": "dac_hero_name_abaddon",
         "dota_unit_name": "npc_dota_hero_abaddon",
@@ -3420,7 +3435,7 @@
         "armor": 5,
         "attackAnimationPoint": 0.5,
         "attackRange": 3,
-        "attackRate": 1.3,
+        "attackRate": 1.1,
         "damageMin": [
           45,
           90,
@@ -3444,7 +3459,7 @@
         "id": 23,
         "keywords": "element assassin",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 75,
         "model": "models/heroes/morphling/morphling.vmdl",
         "model_scale": [
           0.6,
@@ -3470,7 +3485,7 @@
           "queenofpain_scream_of_pain"
         ],
         "baseclass": "dac_npc_assassin",
-        "armor": 0,
+        "armor": 5,
         "attackAnimationPoint": 0.56,
         "attackRange": 3,
         "attackRate": 1.2,
@@ -3529,12 +3544,12 @@
         "damageMin": [
           70,
           140,
-          280
+          300
         ],
         "damageMax": [
           90,
           180,
-          360
+          400
         ],
         "displayName": "dac_hero_name_phantom_assassin",
         "dota_unit_name": "npc_dota_hero_phantom_assassin",
@@ -3570,56 +3585,6 @@
       },
       {
         "abilities": [
-          "sandking_burrowstrike",
-          "sandking_caustic_finale"
-        ],
-        "baseclass": "dac_npc_assassin",
-        "armor": 10,
-        "attackAnimationPoint": 0.53,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_sand_king",
-        "dota_unit_name": "npc_dota_hero_sand_king",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          550,
-          1100,
-          2200
-        ],
-        "healthRegen": 5,
-        "id": 33,
-        "keywords": "beast assassin",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/sand_king/sand_king.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "sand_king",
-        "soundSet": "Hero_SandKing",
-        "movespeed": 290,
-        "healthBarOffset": 0,
-        "assassin_modifier": "assassin_modifier_sand_king",
-        "precache": [
-          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
-        ],
-        "key": "sand_king"
-      },
-      {
-        "abilities": [
           "slark_essence_shift",
           "slark_pounce"
         ],
@@ -3635,12 +3600,12 @@
         "damageMin": [
           50,
           72,
-          105
+          126
         ],
         "damageMax": [
           60,
           92,
-          145
+          174
         ],
         "displayName": "dac_hero_name_slark",
         "dota_unit_name": "npc_dota_hero_slark",
@@ -3649,7 +3614,7 @@
         "health": [
           500,
           1000,
-          2000
+          2400
         ],
         "healthRegen": 5,
         "id": 34,
@@ -3685,12 +3650,12 @@
         "damageMin": [
           50,
           100,
-          150
+          240
         ],
         "damageMax": [
           60,
           120,
-          240
+          360
         ],
         "displayName": "dac_hero_name_viper",
         "dota_unit_name": "npc_dota_hero_viper",
@@ -3699,7 +3664,7 @@
         "health": [
           550,
           1100,
-          2200
+          3000
         ],
         "id": 37,
         "keywords": "dragon assassin",
@@ -3718,6 +3683,56 @@
         "movespeed": 275,
         "healthBarOffset": -40,
         "key": "viper"
+      },
+      {
+        "abilities": [
+          "sandking_burrowstrike",
+          "sandking_caustic_finale"
+        ],
+        "baseclass": "dac_npc_assassin",
+        "armor": 10,
+        "attackAnimationPoint": 0.53,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          70,
+          140,
+          270
+        ],
+        "damageMax": [
+          80,
+          160,
+          320
+        ],
+        "displayName": "dac_hero_name_sand_king",
+        "dota_unit_name": "npc_dota_hero_sand_king",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          750,
+          1500,
+          3200
+        ],
+        "healthRegen": 5,
+        "id": 33,
+        "keywords": "beast assassin",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/sand_king/sand_king.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "sand_king",
+        "soundSet": "Hero_SandKing",
+        "movespeed": 290,
+        "healthBarOffset": 0,
+        "assassin_modifier": "assassin_modifier_sand_king",
+        "precache": [
+          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
+        ],
+        "key": "sand_king"
       },
       {
         "abilities": [
@@ -3859,12 +3874,12 @@
         "damageMin": [
           45,
           90,
-          180
+          216
         ],
         "damageMax": [
           65,
           130,
-          260
+          312
         ],
         "displayName": "dac_hero_name_terrorblade",
         "dota_unit_name": "npc_dota_hero_terrorblade",
@@ -3873,7 +3888,7 @@
         "health": [
           650,
           1300,
-          2600
+          3120
         ],
         "healthRegen": 0,
         "id": 36,
@@ -4031,12 +4046,12 @@
         ],
         "displayName": "dac_hero_name_treant_protector",
         "dota_unit_name": "npc_dota_hero_treant",
-        "draftTier": 2,
-        "goldCost": 2,
+        "draftTier": 3,
+        "goldCost": 3,
         "health": [
-          650,
-          1300,
-          2300
+          750,
+          1500,
+          2500
         ],
         "healthRegen": 0,
         "id": 22,
@@ -4086,7 +4101,7 @@
         "id": 50,
         "keywords": "beast druid",
         "magicResist": 20,
-        "maxmana": 100,
+        "maxmana": 60,
         "model": "models/heroes/lone_druid/lone_druid.vmdl",
         "model_scale": [
           0.7,
@@ -4224,53 +4239,6 @@
       },
       {
         "abilities": [
-          "sniper_assassinate"
-        ],
-        "baseclass": "dac_npc_dwarf",
-        "armor": 5,
-        "attackAnimationPoint": 0.17,
-        "attackRange": 7,
-        "attackRate": 1.6,
-        "damageMin": [
-          125,
-          180,
-          330
-        ],
-        "damageMax": [
-          150,
-          210,
-          360
-        ],
-        "displayName": "dac_hero_name_sniper",
-        "dota_unit_name": "npc_dota_hero_sniper",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          450,
-          900,
-          1800
-        ],
-        "healthRegen": 0,
-        "id": 35,
-        "keywords": "dwarf hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/sniper/sniper.vmdl",
-        "model_scale": [
-          0.7,
-          0.85,
-          1
-        ],
-        "texturename": "sniper",
-        "soundSet": "Hero_Sniper",
-        "projectile_speed": 3000,
-        "projectile_model": "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf",
-        "movespeed": 285,
-        "healthBarOffset": 10,
-        "key": "sniper"
-      },
-      {
-        "abilities": [
           "windrunner_powershot"
         ],
         "armor": 5,
@@ -4278,23 +4246,23 @@
         "attackRange": 4,
         "attackRate": 0.9,
         "damageMin": [
-          60,
-          120,
-          240
+          50,
+          100,
+          230
         ],
         "damageMax": [
-          65,
-          130,
+          60,
+          120,
           260
         ],
         "displayName": "dac_hero_name_wind_ranger",
         "dota_unit_name": "npc_dota_hero_windrunner",
-        "draftTier": 3,
-        "goldCost": 3,
+        "draftTier": 2,
+        "goldCost": 2,
         "health": [
           550,
           1100,
-          2200
+          2300
         ],
         "healthRegen": 0,
         "id": 30,
@@ -4317,6 +4285,103 @@
       },
       {
         "abilities": [
+          "sniper_assassinate"
+        ],
+        "baseclass": "dac_npc_dwarf",
+        "armor": 5,
+        "attackAnimationPoint": 0.17,
+        "attackRange": 7,
+        "attackRate": [
+          1.6,
+          1.6,
+          1.3
+        ],
+        "damageMin": [
+          125,
+          180,
+          396
+        ],
+        "damageMax": [
+          150,
+          210,
+          432
+        ],
+        "displayName": "dac_hero_name_sniper",
+        "dota_unit_name": "npc_dota_hero_sniper",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          450,
+          900,
+          2160
+        ],
+        "healthRegen": 0,
+        "id": 35,
+        "keywords": "dwarf hunter",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/sniper/sniper.vmdl",
+        "model_scale": [
+          0.7,
+          0.85,
+          1
+        ],
+        "texturename": "sniper",
+        "soundSet": "Hero_Sniper",
+        "projectile_speed": 3000,
+        "projectile_model": "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf",
+        "movespeed": 285,
+        "healthBarOffset": 10,
+        "key": "sniper"
+      },
+      {
+        "abilities": [
+          "mirana_arrow"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.5,
+        "attackRange": 4,
+        "attackRate": 1,
+        "damageMin": [
+          66,
+          132,
+          264
+        ],
+        "damageMax": [
+          78,
+          156,
+          312
+        ],
+        "displayName": "dac_hero_name_mirana",
+        "dota_unit_name": "npc_dota_hero_mirana",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          750,
+          1500,
+          3000
+        ],
+        "healthRegen": 0,
+        "id": 86,
+        "keywords": "elf hunter",
+        "magicResist": 0,
+        "maxmana": 70,
+        "model": "models/heroes/mirana/mirana.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "mirana",
+        "soundSet": "Hero_Mirana",
+        "projectile_speed": 1200,
+        "projectile_model": "particles/units/heroes/hero_mirana/mirana_base_attack.vpcf",
+        "movespeed": 310,
+        "healthBarOffset": -40,
+        "key": "mirana"
+      },
+      {
+        "abilities": [
           "medusa_stone_gaze",
           "medusa_split_shot"
         ],
@@ -4336,8 +4401,8 @@
         ],
         "displayName": "dac_hero_name_medusa",
         "dota_unit_name": "npc_dota_hero_medusa",
-        "draftTier": 4,
-        "goldCost": 4,
+        "draftTier": 5,
+        "goldCost": 5,
         "health": [
           850,
           1700,
@@ -4361,97 +4426,6 @@
         "movespeed": 275,
         "healthBarOffset": -10,
         "key": "medusa"
-      },
-      {
-        "abilities": [
-          "mirana_arrow"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.5,
-        "attackRange": 4,
-        "attackRate": 1,
-        "damageMin": [
-          55,
-          110,
-          220
-        ],
-        "damageMax": [
-          65,
-          130,
-          260
-        ],
-        "displayName": "dac_hero_name_mirana",
-        "dota_unit_name": "npc_dota_hero_mirana",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          750,
-          1500,
-          3000
-        ],
-        "healthRegen": 0,
-        "id": 86,
-        "keywords": "elf hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/mirana/mirana.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "mirana",
-        "soundSet": "Hero_Mirana",
-        "projectile_speed": 1200,
-        "projectile_model": "particles/units/heroes/hero_mirana/mirana_base_attack.vpcf",
-        "movespeed": 310,
-        "healthBarOffset": -40,
-        "key": "mirana"
-      },
-      {
-        "abilities": [
-          "tidehunter_ravage"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.6,
-        "attackRange": 1,
-        "attackRate": 2,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_tide_hunter",
-        "dota_unit_name": "npc_dota_hero_tidehunter",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          950,
-          1900,
-          3800
-        ],
-        "healthRegen": 5,
-        "id": 53,
-        "keywords": "naga hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tidehunter/tidehunter.vmdl",
-        "model_scale": [
-          0.6,
-          0.65,
-          0.75
-        ],
-        "texturename": "tidehunter",
-        "soundSet": "Hero_tidehunter",
-        "movespeed": 300,
-        "healthBarOffset": -35,
-        "aiAura": true,
-        "key": "tidehunter"
       }
     ]
   },
@@ -4475,24 +4449,24 @@
       }
     ],
     "physical_reduction": [
-      -15,
-      -20,
-      -30
+      15,
+      20,
+      25
     ],
     "magical_reduction": [
-      -15,
-      -20,
-      -30
+      15,
+      20,
+      25
     ],
     "physical_reduction_extra": [
-      -15,
-      -20,
-      -25
+      15,
+      20,
+      25
     ],
     "magical_reduction_extra": [
-      -15,
-      -20,
-      -25
+      15,
+      20,
+      25
     ],
     "duration": 1,
     "color": "255 227 39",
@@ -4646,12 +4620,12 @@
         "damageMin": [
           45,
           90,
-          180
+          216
         ],
         "damageMax": [
           55,
           110,
-          220
+          264
         ],
         "displayName": "dac_hero_name_abaddon",
         "dota_unit_name": "npc_dota_hero_abaddon",
@@ -4689,12 +4663,12 @@
         "damageMin": [
           40,
           80,
-          160
+          190
         ],
         "damageMax": [
           50,
           100,
-          200
+          240
         ],
         "displayName": "dac_hero_name_omniknight",
         "dota_unit_name": "npc_dota_hero_omniknight",
@@ -4703,7 +4677,7 @@
         "health": [
           700,
           1400,
-          2800
+          3360
         ],
         "healthRegen": 0,
         "id": 28,
@@ -4791,8 +4765,8 @@
       "modifier_bonus_mana_per_hit"
     ],
     "magic_resist_debuff": [
-      -40,
-      -100
+      40,
+      100
     ],
     "color": "88 221 233",
     "key": "mage",
@@ -4805,15 +4779,15 @@
         "attackAnimationPoint": 0.3,
         "attackRange": 1,
         "attackRate": 1.4,
-        "damageMax": [
-          65,
-          130,
-          260
-        ],
         "damageMin": [
           55,
           110,
           220
+        ],
+        "damageMax": [
+          65,
+          130,
+          260
         ],
         "displayName": "dac_hero_name_ogre_magi",
         "dota_unit_name": "npc_dota_hero_ogre_magi",
@@ -4840,6 +4814,53 @@
         "movespeed": 290,
         "healthBarOffset": -15,
         "key": "ogre_magi"
+      },
+      {
+        "abilities": [
+          "razor_plasma_field"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 3,
+        "attackRate": 1.1,
+        "damageMin": [
+          40,
+          80,
+          160
+        ],
+        "damageMax": [
+          50,
+          100,
+          200
+        ],
+        "displayName": "dac_hero_name_razor",
+        "dota_unit_name": "npc_dota_hero_razor",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 29,
+        "keywords": "element mage",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/razor/razor.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "razor",
+        "soundSet": "Hero_Razor",
+        "projectile_speed": 2000,
+        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
+        "movespeed": 285,
+        "healthBarOffset": -80,
+        "aiAura": true,
+        "key": "razor"
       },
       {
         "abilities": [
@@ -4926,7 +4947,7 @@
         "id": 18,
         "keywords": "elf dragon mage",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 60,
         "model": "models/heroes/puck/puck.vmdl",
         "model_scale": [
           0.65,
@@ -4990,53 +5011,6 @@
           "particles/units/heroes/hero_lina/lina_death.vpcf"
         ],
         "key": "lina"
-      },
-      {
-        "abilities": [
-          "razor_plasma_field"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 3,
-        "attackRate": 1.1,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_razor",
-        "dota_unit_name": "npc_dota_hero_razor",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          750,
-          1500,
-          3000
-        ],
-        "healthRegen": 0,
-        "id": 29,
-        "keywords": "element mage",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/razor/razor.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "razor",
-        "soundSet": "Hero_Razor",
-        "projectile_speed": 2000,
-        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
-        "movespeed": 285,
-        "healthBarOffset": -80,
-        "aiAura": true,
-        "key": "razor"
       },
       {
         "abilities": [
@@ -5158,99 +5132,6 @@
     "heroes": [
       {
         "abilities": [
-          "clockwerk_battery_assault"
-        ],
-        "armor": [
-          5,
-          7,
-          9
-        ],
-        "attackAnimationPoint": 0.33,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_clockwerk",
-        "dota_unit_name": "npc_dota_hero_rattletrap",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 7,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/rattletrap/rattletrap.vmdl",
-        "model_scale": [
-          0.75,
-          0.85,
-          1
-        ],
-        "texturename": "rattletrap",
-        "soundSet": "Hero_Rattletrap",
-        "movespeed": 310,
-        "healthBarOffset": 20,
-        "key": "clockwerk"
-      },
-      {
-        "abilities": [
-          "tinker_heat_seeking_missile"
-        ],
-        "armor": 10,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          40,
-          80,
-          160
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_tinker",
-        "dota_unit_name": "npc_dota_hero_tinker",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 10,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tinker/tinker.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tinker",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": 15,
-        "key": "tinker"
-      },
-      {
-        "abilities": [
           "timbersaw_whirling_death"
         ],
         "armor": [
@@ -5298,6 +5179,99 @@
         "healthBarOffset": -15,
         "aiAura": true,
         "key": "timbersaw"
+      },
+      {
+        "abilities": [
+          "clockwerk_battery_assault"
+        ],
+        "armor": [
+          5,
+          7,
+          10
+        ],
+        "attackAnimationPoint": 0.33,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          55,
+          110,
+          220
+        ],
+        "damageMax": [
+          65,
+          130,
+          260
+        ],
+        "displayName": "dac_hero_name_clockwerk",
+        "dota_unit_name": "npc_dota_hero_rattletrap",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          800,
+          1600,
+          3200
+        ],
+        "healthRegen": 0,
+        "id": 7,
+        "keywords": "goblin mech",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/rattletrap/rattletrap.vmdl",
+        "model_scale": [
+          0.75,
+          0.85,
+          1
+        ],
+        "texturename": "rattletrap",
+        "soundSet": "Hero_Rattletrap",
+        "movespeed": 310,
+        "healthBarOffset": 20,
+        "key": "clockwerk"
+      },
+      {
+        "abilities": [
+          "tinker_heat_seeking_missile"
+        ],
+        "armor": 10,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          50,
+          100,
+          225
+        ],
+        "damageMax": [
+          60,
+          120,
+          275
+        ],
+        "displayName": "dac_hero_name_tinker",
+        "dota_unit_name": "npc_dota_hero_tinker",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3500
+        ],
+        "healthRegen": 0,
+        "id": 10,
+        "keywords": "goblin mech",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tinker/tinker.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tinker",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": 15,
+        "key": "tinker"
       },
       {
         "abilities": [
@@ -5467,16 +5441,20 @@
         "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
         "attackAnimationPoint": 0.3,
         "attackRange": 4,
-        "attackRate": 1.7,
+        "attackRate": [
+          1.7,
+          1.5,
+          1.3
+        ],
         "damageMin": [
           75,
           150,
-          250
+          300
         ],
         "damageMax": [
           85,
           170,
-          290
+          350
         ],
         "displayName": "dac_hero_name_arc_warden",
         "dota_unit_name": "npc_dota_hero_arc_warden",
@@ -5485,7 +5463,7 @@
         "health": [
           600,
           1100,
-          2200
+          2650
         ],
         "healthRegen": 0,
         "id": 84,
@@ -5550,6 +5528,52 @@
         "movespeed": 295,
         "healthBarOffset": -90,
         "key": "disruptor"
+      },
+      {
+        "abilities": [
+          "enigma_midnight_pulse"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 3,
+        "attackRate": 1.5,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_enigma",
+        "dota_unit_name": "npc_dota_hero_enigma",
+        "draftTier": 5,
+        "goldCost": 5,
+        "health": [
+          1000,
+          2000,
+          4000
+        ],
+        "healthRegen": 5,
+        "id": 54,
+        "keywords": "element shaman",
+        "magicResist": 40,
+        "maxmana": 100,
+        "model": "models/heroes/enigma/enigma.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "enigma",
+        "soundSet": "Hero_Enigma",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": -70,
+        "key": "enigma"
       }
     ]
   },
@@ -5580,13 +5604,59 @@
     ],
     "lifesteal_pct": [
       50,
-      100,
-      150
+      80,
+      130
     ],
     "duration": 3,
     "color": "228 110 213",
     "key": "warlock",
     "heroes": [
+      {
+        "abilities": [
+          "venomancer_plague_ward"
+        ],
+        "armor": 0,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 3,
+        "attackRate": 1.2,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_venomancer",
+        "dota_unit_name": "npc_dota_hero_venomancer",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 27,
+        "keywords": "beast warlock",
+        "magicResist": 20,
+        "maxmana": 100,
+        "model": "models/heroes/venomancer/venomancer.vmdl",
+        "model_scale": [
+          0.45,
+          0.5,
+          0.6
+        ],
+        "texturename": "venomancer",
+        "soundSet": "Hero_Venomancer",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf",
+        "movespeed": 275,
+        "healthBarOffset": -30,
+        "key": "venomancer"
+      },
       {
         "abilities": [
           "warlock_shadow_word"
@@ -5690,12 +5760,12 @@
         "damageMin": [
           70,
           140,
-          280
+          336
         ],
         "damageMax": [
           80,
           160,
-          320
+          384
         ],
         "displayName": "dac_hero_name_shadow_fiend",
         "dota_unit_name": "npc_dota_hero_nevermore",
@@ -5725,52 +5795,6 @@
         "healthBarOffset": -20,
         "aiAura": true,
         "key": "shadow_fiend"
-      },
-      {
-        "abilities": [
-          "venomancer_plague_ward"
-        ],
-        "armor": 0,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 3,
-        "attackRate": 1.2,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_venomancer",
-        "dota_unit_name": "npc_dota_hero_venomancer",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          550,
-          1100,
-          2200
-        ],
-        "healthRegen": 0,
-        "id": 27,
-        "keywords": "beast warlock",
-        "magicResist": 20,
-        "maxmana": 100,
-        "model": "models/heroes/venomancer/venomancer.vmdl",
-        "model_scale": [
-          0.45,
-          0.5,
-          0.6
-        ],
-        "texturename": "venomancer",
-        "soundSet": "Hero_Venomancer",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf",
-        "movespeed": 275,
-        "healthBarOffset": -30,
-        "key": "venomancer"
       },
       {
         "abilities": [
@@ -5912,52 +5936,6 @@
         "movespeed": 280,
         "healthBarOffset": -10,
         "key": "necrophos"
-      },
-      {
-        "abilities": [
-          "enigma_midnight_pulse"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 3,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_enigma",
-        "dota_unit_name": "npc_dota_hero_enigma",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          1000,
-          2000,
-          4000
-        ],
-        "healthRegen": 5,
-        "id": 54,
-        "keywords": "element warlock",
-        "magicResist": 40,
-        "maxmana": 100,
-        "model": "models/heroes/enigma/enigma.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "enigma",
-        "soundSet": "Hero_Enigma",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": -70,
-        "key": "enigma"
       }
     ]
   },
@@ -6034,6 +6012,50 @@
       },
       {
         "abilities": [
+          "tusk_walrus_punch"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 1,
+        "attackRate": 1.2,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_tusk",
+        "dota_unit_name": "npc_dota_hero_tusk",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 4,
+        "keywords": "beast warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tuskarr/tuskarr.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tusk",
+        "soundSet": "Hero_Tusk",
+        "movespeed": 300,
+        "healthBarOffset": -50,
+        "key": "tusk"
+      },
+      {
+        "abilities": [
           "tiny_toss"
         ],
         "armor": 5,
@@ -6075,50 +6097,6 @@
         "movespeed": 290,
         "healthBarOffset": 95,
         "key": "tiny"
-      },
-      {
-        "abilities": [
-          "tusk_walrus_punch"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_tusk",
-        "dota_unit_name": "npc_dota_hero_tusk",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          650,
-          1300,
-          2600
-        ],
-        "healthRegen": 0,
-        "id": 4,
-        "keywords": "beast warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tuskarr/tuskarr.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tusk",
-        "soundSet": "Hero_Tusk",
-        "movespeed": 300,
-        "healthBarOffset": -50,
-        "key": "tusk"
       },
       {
         "abilities": [
@@ -6166,50 +6144,6 @@
       },
       {
         "abilities": [
-          "slardar_amplify_damage"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          70,
-          140,
-          280
-        ],
-        "damageMax": [
-          100,
-          200,
-          400
-        ],
-        "displayName": "dac_hero_name_slardar",
-        "dota_unit_name": "npc_dota_hero_slardar",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          650,
-          1300,
-          2600
-        ],
-        "healthRegen": 0,
-        "id": 20,
-        "keywords": "naga warrior",
-        "magicResist": 0,
-        "maxmana": 75,
-        "model": "models/heroes/slardar/slardar.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "slardar",
-        "soundSet": "Hero_Slardar",
-        "movespeed": 290,
-        "healthBarOffset": -40,
-        "key": "slardar"
-      },
-      {
-        "abilities": [
           "pudge_meathook"
         ],
         "armor": 5,
@@ -6254,6 +6188,50 @@
       },
       {
         "abilities": [
+          "slardar_amplify_damage"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 1,
+        "attackRate": 1.2,
+        "damageMin": [
+          70,
+          140,
+          280
+        ],
+        "damageMax": [
+          100,
+          200,
+          400
+        ],
+        "displayName": "dac_hero_name_slardar",
+        "dota_unit_name": "npc_dota_hero_slardar",
+        "draftTier": 2,
+        "goldCost": 2,
+        "health": [
+          650,
+          1300,
+          2600
+        ],
+        "healthRegen": 0,
+        "id": 20,
+        "keywords": "naga warrior",
+        "magicResist": 0,
+        "maxmana": 75,
+        "model": "models/heroes/slardar/slardar.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "slardar",
+        "soundSet": "Hero_Slardar",
+        "movespeed": 290,
+        "healthBarOffset": -40,
+        "key": "slardar"
+      },
+      {
+        "abilities": [
           "lycan_wolf_spawn_shift"
         ],
         "armor": 5,
@@ -6263,12 +6241,12 @@
         "damageMin": [
           50,
           100,
-          200
+          240
         ],
         "damageMax": [
           60,
           120,
-          240
+          288
         ],
         "displayName": "dac_hero_name_lycan",
         "dota_unit_name": "npc_dota_hero_lycan",
@@ -6277,7 +6255,7 @@
         "health": [
           750,
           1500,
-          3000
+          3600
         ],
         "healthRegen": 0,
         "id": 26,
@@ -6342,6 +6320,51 @@
       },
       {
         "abilities": [
+          "tidehunter_ravage"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.6,
+        "attackRange": 1,
+        "attackRate": 2,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_tide_hunter",
+        "dota_unit_name": "npc_dota_hero_tidehunter",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          850,
+          1700,
+          3400
+        ],
+        "healthRegen": 0,
+        "id": 53,
+        "keywords": "naga warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tidehunter/tidehunter.vmdl",
+        "model_scale": [
+          0.6,
+          0.65,
+          0.75
+        ],
+        "texturename": "tidehunter",
+        "soundSet": "Hero_tidehunter",
+        "movespeed": 300,
+        "healthBarOffset": -35,
+        "aiAura": true,
+        "key": "tidehunter"
+      },
+      {
+        "abilities": [
           "kunkka_ghostship"
         ],
         "armor": 10,
@@ -6391,25 +6414,25 @@
         "armor": 5,
         "attackAnimationPoint": 0.3,
         "attackRange": 3,
-        "attackRate": 1.1,
+        "attackRate": 1,
         "damageMin": [
-          90,
           180,
-          360
+          360,
+          520
         ],
         "damageMax": [
-          100,
           200,
-          400
+          400,
+          600
         ],
         "displayName": "dac_hero_name_troll_warlord",
         "dota_unit_name": "npc_dota_hero_troll_warlord",
-        "draftTier": 4,
-        "goldCost": 4,
+        "draftTier": 5,
+        "goldCost": 5,
         "health": [
-          900,
-          1800,
-          3600
+          1200,
+          2000,
+          4000
         ],
         "healthRegen": 0,
         "id": 42,
@@ -6432,5 +6455,150 @@
         "key": "troll_warlord"
       }
     ]
+  },
+  "megawarrior": {
+    "type": "Class",
+    "levels": [
+      {
+        "id": 20050,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "armor_bonus": [
+      20
+    ],
+    "color": "28 103 180",
+    "key": "megawarrior",
+    "heroes": []
+  },
+  "megaassassin": {
+    "type": "Class",
+    "levels": [
+      {
+        "id": 20051,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "crit_chance": [
+      25
+    ],
+    "crit_bonus": [
+      300
+    ],
+    "color": "153 50 204",
+    "key": "megaassassin",
+    "heroes": []
+  },
+  "megabloodbound": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20052,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "enrage_bonus_pct": [
+      500
+    ],
+    "color": "85 107 47",
+    "key": "megabloodbound",
+    "heroes": []
+  },
+  "megaelusive": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20053,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "evasion_bonus": [
+      75
+    ],
+    "color": "95 151 208",
+    "key": "megaelusive",
+    "heroes": []
+  },
+  "megawarlock": {
+    "type": "Class",
+    "levels": [
+      {
+        "id": 20054,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "precache": [
+      "particles/gameplay/synergy/warlock/warlock_link.vpcf"
+    ],
+    "base_modifiers": [
+      "modifier_bonus_mana_per_hit"
+    ],
+    "lifesteal_pct": [
+      200
+    ],
+    "duration": 6,
+    "color": "228 110 213",
+    "key": "megawarlock",
+    "heroes": []
+  },
+  "megascaled": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20055,
+        "unitcount": 1,
+        "affects_all_allied_units": true
+      }
+    ],
+    "magic_resist": [
+      75
+    ],
+    "color": "72 63 162",
+    "key": "megascaled",
+    "heroes": []
+  },
+  "megatroll": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20056,
+        "unitcount": 3,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "attack_speed_bonus_trolls": [
+      50
+    ],
+    "attack_speed_bonus_others": [
+      50
+    ],
+    "color": "158 110 74",
+    "precache": [
+      "particles/generic_gameplay/generic_attackspeed.vpcf"
+    ],
+    "key": "megatroll",
+    "heroes": []
+  },
+  "megademon": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20057,
+        "unitcount": 1,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "damage_bonus_pct": 100,
+    "color": "222 33 33",
+    "precache": [
+      "particles/gameplay/synergy/demon/demon_buff.vpcf"
+    ],
+    "key": "megademon",
+    "heroes": []
   }
 }

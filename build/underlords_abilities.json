@@ -226,11 +226,11 @@
     "castPoint": 0.25,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
     "cooldown": [
-      10,
       8,
-      6
+      6,
+      4
     ],
-    "manaCost": 100,
+    "manaCost": 75,
     "speed": 1250,
     "width": 200,
     "distance_cells": 4,
@@ -316,7 +316,11 @@
   },
   "phantom_assassin_coup_de_grace": {
     "maxLevel": 3,
-    "crit_chance": 10,
+    "crit_chance": [
+      15,
+      20,
+      25
+    ],
     "crit_bonus": [
       300,
       450,
@@ -484,7 +488,7 @@
       4,
       3
     ],
-    "manaCost": 100,
+    "manaCost": 60,
     "damage": [
       150,
       200,
@@ -511,7 +515,7 @@
       8,
       8
     ],
-    "manaCost": 100,
+    "manaCost": 70,
     "damage": [
       400,
       800,
@@ -626,13 +630,17 @@
     "cooldown": [
       8,
       6,
-      4
+      0.5
     ],
     "manaCost": 100,
-    "targets": 3,
+    "targets": [
+      2,
+      3,
+      4
+    ],
     "damage_per_missile": [
-      250,
       350,
+      450,
       450
     ],
     "projectile_speed": 500,
@@ -877,7 +885,7 @@
     "maxLevel": 3,
     "castPoint": 0.3,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
-    "cooldown": 5,
+    "cooldown": 7.5,
     "manaCost": 100,
     "radius": 3,
     "projectile_speed": 400,
@@ -910,7 +918,11 @@
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
     "manaCost": 100,
     "radius_in_cells": 1,
-    "damage_tick": 0.7,
+    "damage_tick": [
+      0.7,
+      0.7,
+      0.35
+    ],
     "damage": [
       50,
       75,
@@ -959,9 +971,9 @@
     "cooldown": 20,
     "manaCost": 100,
     "radius": [
+      1,
       2,
-      3,
-      4
+      3
     ],
     "damage_percent": [
       5,
@@ -1010,9 +1022,13 @@
   },
   "medusa_split_shot": {
     "maxLevel": 3,
-    "damage_modifier": -40,
+    "damage_modifier": -20,
     "range": 1,
-    "extra_shots": 3,
+    "extra_shots": [
+      2,
+      3,
+      4
+    ],
     "precache": [],
     "iconName": "medusa_split_shot"
   },
@@ -1024,12 +1040,12 @@
     "manaCost": 100,
     "duration": 5,
     "movement_slow": -50,
-    "radius": 3,
+    "radius": 1,
     "projectile_speed": 600,
     "leech_damage": [
-      60,
-      90,
-      120
+      80,
+      110,
+      150
     ],
     "damage_interval": 1.5,
     "animationlength": 1,
@@ -1048,9 +1064,9 @@
     "manaCost": 100,
     "damage_min": 10,
     "damage_max": [
+      50,
       100,
-      175,
-      250
+      150
     ],
     "radius": 3,
     "speed": 636,
@@ -1135,20 +1151,20 @@
     "cooldown": 30,
     "manaCost": 100,
     "cells": [
+      1,
       2,
-      3,
-      4
+      3
     ],
     "projectile_speed": 725,
     "duration": [
       2,
-      2.5,
+      2.25,
       3
     ],
     "damage": [
+      100,
       150,
-      250,
-      350
+      250
     ],
     "castAnimation": "ACT_DOTA_CAST_ABILITY_4",
     "animationlength": 0.97,
@@ -1197,7 +1213,7 @@
     "heal": [
       200,
       400,
-      600
+      720
     ],
     "animationlength": 1.83,
     "damageType": "#DAC_InGame_DamageType_Pure",
@@ -1252,9 +1268,9 @@
     "cooldown": 10,
     "manaCost": 100,
     "powershot_damage": [
+      200,
       400,
-      600,
-      800
+      600
     ],
     "damage_reduction": 10,
     "arrow_width": [
@@ -1356,8 +1372,8 @@
     "summonID": 56,
     "num_wards": [
       1,
-      2,
-      4
+      1,
+      3
     ],
     "ward_magic_resist": 50,
     "precache": [
@@ -1379,7 +1395,7 @@
     "damage": [
       500,
       750,
-      1000
+      1200
     ],
     "cast_range_scepter": 600,
     "damage_delay": 0.25,
@@ -1399,7 +1415,7 @@
     "damage_absorb": [
       100,
       300,
-      500
+      600
     ],
     "radius": 2,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_2",
@@ -1414,7 +1430,7 @@
     "maxLevel": 3,
     "castPoint": 0.5,
     "castAnimation": "ACT_DOTA_CAST_GHOST_SHIP",
-    "cooldown": 10,
+    "cooldown": 15,
     "manaCost": 100,
     "animationlength": 0.7,
     "ghostship_distance": 2000,
@@ -1442,9 +1458,9 @@
     "ghostship_speed": 650,
     "ghostship_absorb": 0,
     "ability_damage": [
+      50,
       150,
-      250,
-      350
+      250
     ],
     "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
@@ -1481,7 +1497,7 @@
     "cooldown": 6,
     "manaCost": 50,
     "summonID": 58,
-    "animationlength": 1.97,
+    "animationlength": 1,
     "iconName": "furion_force_of_nature"
   },
   "lone_druid_summon_bear": {
@@ -1489,7 +1505,7 @@
     "castPoint": 0.3,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_1",
     "cooldown": 60,
-    "manaCost": 100,
+    "manaCost": 60,
     "summonID": 59,
     "animationlength": 1.3,
     "precache": [
@@ -1537,7 +1553,11 @@
       1100,
       1500
     ],
-    "range": 4,
+    "range": [
+      3,
+      3,
+      4
+    ],
     "summonID": 61,
     "damageType": "#DAC_InGame_DamageType_Physical",
     "precache": [
@@ -1705,18 +1725,18 @@
     "maxLevel": 3,
     "radius_cell": 1,
     "damage_aoe": [
-      50,
-      100,
-      150
+      60,
+      110,
+      160
     ],
     "damage_expired": [
-      45,
-      90,
-      180
+      55,
+      100,
+      190
     ],
     "duration": 3.5,
-    "attack_slow": -30,
-    "slow_duration": 3,
+    "attack_slow": -35,
+    "slow_duration": 3.5,
     "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/items2_fx/orb_of_venom.vpcf",
@@ -1727,7 +1747,12 @@
   },
   "black_dragon_splash_attack": {
     "splash_radius": 1,
-    "splash_damage_percent": 50,
+    "splash_damage_percent": 150,
     "iconName": "black_dragon_splash_attack"
+  },
+  "roshan_spell_immune": {
+    "cooldown": 60,
+    "magic_immune_duration": 60,
+    "iconName": "roshan_spell_immune"
   }
 }
