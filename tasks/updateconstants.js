@@ -191,7 +191,7 @@ function transformLocalization (resObj) {
   });
 
   Object.entries(items).forEach(([key, item]) => {
-    stringKey = `dac_item_${key}_desc`;
+    stringKey = "description" in item ? item.description.replace("#", '') : `dac_item_${key}_desc`;
     let desc = strings[stringKey];
     if (desc) {
       const matches = desc.match(STRING_REPLACE_REGEX);
@@ -206,11 +206,13 @@ function transformLocalization (resObj) {
               const val = item["global"][key][replaceKey];
               replace = Array.isArray(val) ? `[${val.join('/')}]` : val;
             }
-    
+
             desc = desc.replace(s, replace);
         })
       }
       strings[stringKey] = desc.replace(/<br>/g, '\n');
+    } else {
+      console.log("did not find description for ", key, stringKey);
     }
   })
 
