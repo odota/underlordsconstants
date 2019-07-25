@@ -191,7 +191,7 @@
         ],
         "healthRegen": 0,
         "id": 26,
-        "keywords": "human beast warrior",
+        "keywords": "human beast hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/lycan/lycan.vmdl",
@@ -855,10 +855,8 @@
         "affects_all_allied_units": true
       }
     ],
-    "stun_chance": 30,
-    "stun_chance_ranged": 10,
-    "stun_duration": 4,
-    "bonus_physical_damage": 0,
+    "slow_attack_speed": 50,
+    "slow_chance": 25,
     "color": "0 128 128",
     "key": "element",
     "heroes": [
@@ -1010,15 +1008,16 @@
         "abilities": [
           "arc_warden_tempest_double"
         ],
+        "baseclass": "dac_npc_arc_warden",
         "armor": 5,
         "projectile_speed": 900,
         "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
         "attackAnimationPoint": 0.3,
         "attackRange": 4,
         "attackRate": [
-          1.7,
-          1.5,
-          1.3
+          1,
+          1,
+          1
         ],
         "damageMin": [
           75,
@@ -1032,18 +1031,18 @@
         ],
         "displayName": "dac_hero_name_arc_warden",
         "dota_unit_name": "npc_dota_hero_arc_warden",
-        "draftTier": 3,
-        "goldCost": 3,
+        "draftTier": 4,
+        "goldCost": 4,
         "health": [
-          600,
-          1100,
-          2650
+          700,
+          1400,
+          2800
         ],
         "healthRegen": 0,
         "id": 84,
         "keywords": "element shaman",
         "magicResist": 5,
-        "maxmana": 100,
+        "maxmana": 0,
         "model": "models/heroes/arc_warden/arc_warden.vmdl",
         "model_scale": [
           0.66,
@@ -1574,7 +1573,7 @@
         "affects_random_ally_with_keyword": true
       },
       {
-        "id": 20013,
+        "id": 20058,
         "unitcount": 4,
         "affects_all_allies_with_keyword": true
       },
@@ -1700,9 +1699,9 @@
           "clockwerk_battery_assault"
         ],
         "armor": [
-          5,
-          7,
-          10
+          10,
+          13,
+          15
         ],
         "attackAnimationPoint": 0.33,
         "attackRange": 1,
@@ -1722,9 +1721,9 @@
         "draftTier": 3,
         "goldCost": 3,
         "health": [
-          800,
-          1600,
-          3200
+          950,
+          1800,
+          3500
         ],
         "healthRegen": 0,
         "id": 7,
@@ -1747,19 +1746,19 @@
         "abilities": [
           "tinker_heat_seeking_missile"
         ],
-        "armor": 10,
+        "armor": 5,
         "attackAnimationPoint": 0.36,
         "attackRange": 4,
-        "attackRate": 1.5,
+        "attackRate": 1.3,
         "damageMin": [
-          50,
-          100,
-          225
-        ],
-        "damageMax": [
           60,
           120,
-          275
+          270
+        ],
+        "damageMax": [
+          72,
+          144,
+          330
         ],
         "displayName": "dac_hero_name_tinker",
         "dota_unit_name": "npc_dota_hero_tinker",
@@ -2093,7 +2092,7 @@
         ],
         "healthRegen": 0,
         "id": 26,
-        "keywords": "human beast warrior",
+        "keywords": "human beast hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/lycan/lycan.vmdl",
@@ -2465,14 +2464,14 @@
         "attackRange": 4,
         "attackRate": 1,
         "damageMin": [
-          50,
-          100,
-          200
+          75,
+          150,
+          300
         ],
         "damageMax": [
-          60,
-          120,
-          240
+          80,
+          160,
+          320
         ],
         "displayName": "dac_hero_name_medusa",
         "dota_unit_name": "npc_dota_hero_medusa",
@@ -2727,16 +2726,20 @@
         "armor": 5,
         "attackAnimationPoint": 0.33,
         "attackRange": 1,
-        "attackRate": 1.1,
+        "attackRate": [
+          1.1,
+          1,
+          0.8
+        ],
         "damageMin": [
           65,
-          130,
-          260
+          140,
+          280
         ],
         "damageMax": [
           70,
-          140,
-          280
+          150,
+          300
         ],
         "displayName": "dac_hero_name_juggernaut",
         "dota_unit_name": "npc_dota_hero_juggernaut",
@@ -2818,7 +2821,7 @@
       {
         "id": 20021,
         "unitcount": 2,
-        "affects_all_allies_with_keyword": true
+        "affects_all_allied_units": true
       },
       {
         "id": 20022,
@@ -4285,6 +4288,50 @@
       },
       {
         "abilities": [
+          "lycan_wolf_spawn_shift"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.55,
+        "attackRange": 1,
+        "attackRate": 1.1,
+        "damageMin": [
+          50,
+          100,
+          240
+        ],
+        "damageMax": [
+          60,
+          120,
+          288
+        ],
+        "displayName": "dac_hero_name_lycan",
+        "dota_unit_name": "npc_dota_hero_lycan",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3600
+        ],
+        "healthRegen": 0,
+        "id": 26,
+        "keywords": "human beast hunter",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/lycan/lycan.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "lycan",
+        "soundSet": "Hero_Lycan",
+        "movespeed": 315,
+        "healthBarOffset": -40,
+        "key": "lycan"
+      },
+      {
+        "abilities": [
           "sniper_assassinate"
         ],
         "baseclass": "dac_npc_dwarf",
@@ -4390,14 +4437,14 @@
         "attackRange": 4,
         "attackRate": 1,
         "damageMin": [
-          50,
-          100,
-          200
+          75,
+          150,
+          300
         ],
         "damageMax": [
-          60,
-          120,
-          240
+          80,
+          160,
+          320
         ],
         "displayName": "dac_hero_name_medusa",
         "dota_unit_name": "npc_dota_hero_medusa",
@@ -5185,9 +5232,9 @@
           "clockwerk_battery_assault"
         ],
         "armor": [
-          5,
-          7,
-          10
+          10,
+          13,
+          15
         ],
         "attackAnimationPoint": 0.33,
         "attackRange": 1,
@@ -5207,9 +5254,9 @@
         "draftTier": 3,
         "goldCost": 3,
         "health": [
-          800,
-          1600,
-          3200
+          950,
+          1800,
+          3500
         ],
         "healthRegen": 0,
         "id": 7,
@@ -5232,19 +5279,19 @@
         "abilities": [
           "tinker_heat_seeking_missile"
         ],
-        "armor": 10,
+        "armor": 5,
         "attackAnimationPoint": 0.36,
         "attackRange": 4,
-        "attackRate": 1.5,
+        "attackRate": 1.3,
         "damageMin": [
-          50,
-          100,
-          225
-        ],
-        "damageMax": [
           60,
           120,
-          275
+          270
+        ],
+        "damageMax": [
+          72,
+          144,
+          330
         ],
         "displayName": "dac_hero_name_tinker",
         "dota_unit_name": "npc_dota_hero_tinker",
@@ -5434,57 +5481,6 @@
       },
       {
         "abilities": [
-          "arc_warden_tempest_double"
-        ],
-        "armor": 5,
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
-        "attackAnimationPoint": 0.3,
-        "attackRange": 4,
-        "attackRate": [
-          1.7,
-          1.5,
-          1.3
-        ],
-        "damageMin": [
-          75,
-          150,
-          300
-        ],
-        "damageMax": [
-          85,
-          170,
-          350
-        ],
-        "displayName": "dac_hero_name_arc_warden",
-        "dota_unit_name": "npc_dota_hero_arc_warden",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          600,
-          1100,
-          2650
-        ],
-        "healthRegen": 0,
-        "id": 84,
-        "keywords": "element shaman",
-        "magicResist": 5,
-        "maxmana": 100,
-        "model": "models/heroes/arc_warden/arc_warden.vmdl",
-        "model_scale": [
-          0.66,
-          0.75,
-          0.9
-        ],
-        "texturename": "arcwarden",
-        "soundSet": "Hero_ArcWarden",
-        "movespeed": 280,
-        "precache": [],
-        "healthBarOffset": 20,
-        "key": "arc_warden"
-      },
-      {
-        "abilities": [
           "disruptor_static_storm"
         ],
         "armor": 5,
@@ -5528,6 +5524,58 @@
         "movespeed": 295,
         "healthBarOffset": -90,
         "key": "disruptor"
+      },
+      {
+        "abilities": [
+          "arc_warden_tempest_double"
+        ],
+        "baseclass": "dac_npc_arc_warden",
+        "armor": 5,
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
+        "attackAnimationPoint": 0.3,
+        "attackRange": 4,
+        "attackRate": [
+          1,
+          1,
+          1
+        ],
+        "damageMin": [
+          75,
+          150,
+          300
+        ],
+        "damageMax": [
+          85,
+          170,
+          350
+        ],
+        "displayName": "dac_hero_name_arc_warden",
+        "dota_unit_name": "npc_dota_hero_arc_warden",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 84,
+        "keywords": "element shaman",
+        "magicResist": 5,
+        "maxmana": 0,
+        "model": "models/heroes/arc_warden/arc_warden.vmdl",
+        "model_scale": [
+          0.66,
+          0.75,
+          0.9
+        ],
+        "texturename": "arcwarden",
+        "soundSet": "Hero_ArcWarden",
+        "movespeed": 280,
+        "precache": [],
+        "healthBarOffset": 20,
+        "key": "arc_warden"
       },
       {
         "abilities": [
@@ -6012,50 +6060,6 @@
       },
       {
         "abilities": [
-          "tusk_walrus_punch"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_tusk",
-        "dota_unit_name": "npc_dota_hero_tusk",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 4,
-        "keywords": "beast warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tuskarr/tuskarr.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tusk",
-        "soundSet": "Hero_Tusk",
-        "movespeed": 300,
-        "healthBarOffset": -50,
-        "key": "tusk"
-      },
-      {
-        "abilities": [
           "tiny_toss"
         ],
         "armor": 5,
@@ -6100,21 +6104,69 @@
       },
       {
         "abilities": [
+          "tusk_walrus_punch"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 1,
+        "attackRate": 1.2,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_tusk",
+        "dota_unit_name": "npc_dota_hero_tusk",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 4,
+        "keywords": "beast warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tuskarr/tuskarr.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tusk",
+        "soundSet": "Hero_Tusk",
+        "movespeed": 300,
+        "healthBarOffset": -50,
+        "key": "tusk"
+      },
+      {
+        "abilities": [
           "juggernaut_blade_fury"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.33,
         "attackRange": 1,
-        "attackRate": 1.1,
+        "attackRate": [
+          1.1,
+          1,
+          0.8
+        ],
         "damageMin": [
           65,
-          130,
-          260
+          140,
+          280
         ],
         "damageMax": [
           70,
-          140,
-          280
+          150,
+          300
         ],
         "displayName": "dac_hero_name_juggernaut",
         "dota_unit_name": "npc_dota_hero_juggernaut",
@@ -6141,50 +6193,6 @@
         "movespeed": 300,
         "healthBarOffset": 10,
         "key": "juggernaut"
-      },
-      {
-        "abilities": [
-          "pudge_meathook"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.5,
-        "attackRange": 1,
-        "attackRate": 1.7,
-        "damageMin": [
-          45,
-          90,
-          135
-        ],
-        "damageMax": [
-          55,
-          110,
-          165
-        ],
-        "displayName": "dac_hero_name_pudge",
-        "dota_unit_name": "npc_dota_hero_pudge",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          1000,
-          2500,
-          5500
-        ],
-        "healthRegen": 0,
-        "id": 81,
-        "keywords": "undead warrior",
-        "magicResist": 5,
-        "maxmana": 100,
-        "model": "models/heroes/pudge/pudge.vmdl",
-        "model_scale": [
-          0.7,
-          0.8,
-          0.9
-        ],
-        "texturename": "pudge",
-        "soundSet": "Hero_Pudge",
-        "movespeed": 280,
-        "healthBarOffset": -40,
-        "key": "pudge"
       },
       {
         "abilities": [
@@ -6232,47 +6240,47 @@
       },
       {
         "abilities": [
-          "lycan_wolf_spawn_shift"
+          "pudge_meathook"
         ],
         "armor": 5,
-        "attackAnimationPoint": 0.55,
+        "attackAnimationPoint": 0.5,
         "attackRange": 1,
-        "attackRate": 1.1,
+        "attackRate": 1.7,
         "damageMin": [
-          50,
-          100,
-          240
+          45,
+          90,
+          135
         ],
         "damageMax": [
-          60,
-          120,
-          288
+          55,
+          110,
+          165
         ],
-        "displayName": "dac_hero_name_lycan",
-        "dota_unit_name": "npc_dota_hero_lycan",
-        "draftTier": 3,
-        "goldCost": 3,
+        "displayName": "dac_hero_name_pudge",
+        "dota_unit_name": "npc_dota_hero_pudge",
+        "draftTier": 2,
+        "goldCost": 2,
         "health": [
-          750,
-          1500,
-          3600
+          1000,
+          2500,
+          5500
         ],
         "healthRegen": 0,
-        "id": 26,
-        "keywords": "human beast warrior",
-        "magicResist": 0,
+        "id": 81,
+        "keywords": "undead warrior",
+        "magicResist": 5,
         "maxmana": 100,
-        "model": "models/heroes/lycan/lycan.vmdl",
+        "model": "models/heroes/pudge/pudge.vmdl",
         "model_scale": [
           0.7,
-          0.75,
-          0.85
+          0.8,
+          0.9
         ],
-        "texturename": "lycan",
-        "soundSet": "Hero_Lycan",
-        "movespeed": 315,
+        "texturename": "pudge",
+        "soundSet": "Hero_Pudge",
+        "movespeed": 280,
         "healthBarOffset": -40,
-        "key": "lycan"
+        "key": "pudge"
       },
       {
         "abilities": [
@@ -6320,6 +6328,50 @@
       },
       {
         "abilities": [
+          "kunkka_ghostship"
+        ],
+        "armor": 10,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          75,
+          150,
+          300
+        ],
+        "damageMax": [
+          90,
+          180,
+          360
+        ],
+        "displayName": "dac_hero_name_kunkka",
+        "dota_unit_name": "npc_dota_hero_kunkka",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          950,
+          1900,
+          3800
+        ],
+        "healthRegen": 0,
+        "id": 41,
+        "keywords": "human warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/kunkka/kunkka.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "kunkka",
+        "soundSet": "Hero_Kunkka",
+        "movespeed": 300,
+        "healthBarOffset": -30,
+        "key": "kunkka"
+      },
+      {
+        "abilities": [
           "tidehunter_ravage"
         ],
         "armor": 5,
@@ -6362,50 +6414,6 @@
         "healthBarOffset": -35,
         "aiAura": true,
         "key": "tidehunter"
-      },
-      {
-        "abilities": [
-          "kunkka_ghostship"
-        ],
-        "armor": 10,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          75,
-          150,
-          300
-        ],
-        "damageMax": [
-          90,
-          180,
-          360
-        ],
-        "displayName": "dac_hero_name_kunkka",
-        "dota_unit_name": "npc_dota_hero_kunkka",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          950,
-          1900,
-          3800
-        ],
-        "healthRegen": 0,
-        "id": 41,
-        "keywords": "human warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/kunkka/kunkka.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "kunkka",
-        "soundSet": "Hero_Kunkka",
-        "movespeed": 300,
-        "healthBarOffset": -30,
-        "key": "kunkka"
       },
       {
         "abilities": [

@@ -857,6 +857,36 @@
     ],
     "iconName": "ogre_magi_bloodlust"
   },
+  "thunder_lizard_bloodlust": {
+    "maxLevel": 3,
+    "castPoint": 0.45,
+    "castAnimation": "ACT_DOTA_CAST_ABILITY_3",
+    "cooldown": 5,
+    "manaCost": 100,
+    "animationlength": 1.03,
+    "modelscale": 25,
+    "bonus_movement_speed": [
+      8,
+      10,
+      12
+    ],
+    "bonus_attack_speed": [
+      30,
+      40,
+      50
+    ],
+    "self_bonus": [
+      35,
+      55,
+      75
+    ],
+    "duration": 30,
+    "precache": [
+      "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
+      "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_cast.vpcf"
+    ],
+    "iconName": "thunder_lizard_bloodlust"
+  },
   "timbersaw_whirling_death": {
     "maxLevel": 3,
     "castPoint": 0.5,
@@ -1041,11 +1071,11 @@
     "duration": 5,
     "movement_slow": -50,
     "radius": 1,
-    "projectile_speed": 600,
+    "projectile_speed": 800,
     "leech_damage": [
-      80,
-      110,
-      150
+      100,
+      150,
+      200
     ],
     "damage_interval": 1.5,
     "animationlength": 1,
@@ -1709,11 +1739,8 @@
     "maxLevel": 3,
     "castPoint": 0.15,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_4",
-    "cooldown": 60,
-    "manaCost": 100,
+    "cooldown": 0,
     "animationlength": 1.07,
-    "mana_dampen_incoming": -100,
-    "mana_dampen_outgoing": -50,
     "precache": [
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf",
       "particles/units/heroes/hero_arc_warden/arc_warden_tempest_buff.vpcf",
