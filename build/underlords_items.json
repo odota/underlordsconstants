@@ -6,7 +6,7 @@
     "tier": 1,
     "type": "offensive",
     "aiPrefAttackSpeed": true,
-    "attack_damage": 21,
+    "attack_damage": 30,
     "icon": "claymore",
     "key": "claymore"
   },
@@ -35,6 +35,7 @@
     "description": "dac_item_mana_sponge_desc",
     "requires_ability": true,
     "damage_taken_mana_gain": 50,
+    "debuff_resist": 50,
     "precache": [
       "particles/units/heroes/hero_crystalmaiden/cm_brilliance_aura_target.vpcf"
     ],
@@ -48,13 +49,13 @@
     "displayName": "dac_item_tranquil_boots",
     "description": "dac_item_tranquil_boots_desc",
     "movement_speed": 100,
-    "health_regen": 16,
+    "health_regen": 25,
     "icon": "tranquil_boots",
     "key": "tranquil_boots"
   },
   "octarine_fragment": {
     "id": 10006,
-    "tier": 2,
+    "tier": 3,
     "type": "support",
     "aiRequiresAbility": true,
     "aiTierOffset": 0.5,
@@ -77,6 +78,7 @@
   },
   "cloak": {
     "id": 10008,
+    "disabled": true,
     "tier": 1,
     "type": "defensive",
     "displayName": "dac_item_cloak",
@@ -348,7 +350,7 @@
     "tier": 1,
     "type": "offensive",
     "aiPrefAttackDPS": true,
-    "attack_speed": 20,
+    "attack_speed": 25,
     "icon": "gloves_of_haste",
     "key": "gloves_of_haste"
   },
@@ -369,7 +371,7 @@
     "description": "dac_item_chainmail_desc",
     "tier": 1,
     "type": "defensive",
-    "bonus_armor": 7,
+    "bonus_armor": 10,
     "icon": "chainmail",
     "key": "chainmail"
   },
@@ -433,7 +435,7 @@
   },
   "hood_of_defiance": {
     "id": 10031,
-    "tier": 3,
+    "tier": 1,
     "type": "defensive",
     "displayName": "dac_item_hood_of_defiance",
     "description": "dac_item_hood_of_defiance_desc",
@@ -513,6 +515,7 @@
     "type": "support",
     "aiSkip": true,
     "add_synergy_on_equip": "Ogre",
+    "health_bonus": 250,
     "displayName": "dac_item_bloodbound_hat",
     "description": "dac_item_bloodbound_hat_desc",
     "icon": "big_time_contract",
@@ -548,6 +551,51 @@
     ],
     "icon": "force_staff",
     "key": "force_staff"
+  },
+  "never_die_hat": {
+    "id": 10039,
+    "displayName": "dac_item_never_die_hat",
+    "description": "dac_item_never_die_hat_desc",
+    "tier": 2,
+    "type": "defensive",
+    "invulnerability_duration": 4,
+    "bonus_armor": 5,
+    "precache": [
+      "particles/items/warriors_never_die/warriors_never_die.vpcf"
+    ],
+    "icon": "helm_of_undying",
+    "key": "never_die_hat"
+  },
+  "gold_on_last_hit_hat": {
+    "id": 10040,
+    "displayName": "dac_item_gold_on_last_hit_hat",
+    "description": "dac_item_gold_on_last_hit_hat_desc",
+    "tier": 3,
+    "type": "offensive",
+    "percent_chance": 30,
+    "gold": 1,
+    "target_health_percent": 20,
+    "target_crit_multiplier": 200,
+    "precache": [
+      "particles/gameplay/gold/gold_gain.vpcf"
+    ],
+    "icon": "poaching_knife",
+    "key": "gold_on_last_hit_hat"
+  },
+  "final_flash_hat": {
+    "id": 10041,
+    "displayName": "dac_item_final_flash_hat",
+    "description": "dac_item_final_flash_hat_desc",
+    "tier": 3,
+    "type": "support",
+    "health_percent_trigger": 30,
+    "target_magic_resistance": 30,
+    "debuff_duration": 3,
+    "precache": [
+      "particles/items2_fx/refresher.vpcf"
+    ],
+    "icon": "desperation_bracer",
+    "key": "final_flash_hat"
   },
   "summoning_stone": {
     "id": 10500,
@@ -611,6 +659,7 @@
     "tier": 3,
     "aiTierOffset": -2,
     "type": "global",
+    "disabled": true,
     "global": {
       "extra_damage_per_unit_to_player": 1
     },
@@ -725,6 +774,7 @@
     "description": "dac_item_mechs_explode_on_death_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Mech",
     "global": {
       "mechs_explode_on_death": {
@@ -746,6 +796,7 @@
     "description": "dac_item_trolls_have_aspd_aura_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Troll",
     "aiAura": true,
     "global": {
@@ -771,6 +822,7 @@
     "description": "dac_item_goblins_give_gold_on_last_hit_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Goblin",
     "global": {
       "goblins_give_gold": {
@@ -795,6 +847,7 @@
     "description": "dac_item_orcs_get_extra_hp_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Orc",
     "aiTierOffset": 1,
     "global": {
@@ -819,6 +872,7 @@
     "description": "dac_item_demon_hunters_steal_demon_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "DemonHunter",
     "global": {
       "demon_hunters_steal_demon": {
@@ -842,6 +896,7 @@
     "description": "dac_item_naga_skin_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Naga",
     "global": {
       "naga_skin": {
@@ -863,6 +918,7 @@
     "description": "dac_item_knights_absorption_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Knight",
     "max_allowed": 1,
     "global": {
@@ -892,6 +948,7 @@
     "description": "dac_item_druids_heal_over_time_on_death_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Druid",
     "aiAura": true,
     "global": {
@@ -920,6 +977,7 @@
     "description": "dac_item_beast_bleed_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Beast",
     "global": {
       "beast_bleed": {
@@ -944,6 +1002,7 @@
     "description": "dac_item_warriors_never_die_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Warrior",
     "aiTierOffset": 1,
     "global": {
@@ -968,6 +1027,7 @@
     "description": "dac_item_undeads_stop_healing_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Undead",
     "global": {
       "undeads_stop_healing": {
@@ -988,6 +1048,7 @@
     "description": "dac_item_dragons_hoard_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Dragon",
     "global": {
       "dragons_hoard": {
@@ -1008,6 +1069,7 @@
     "description": "dac_item_mages_ghost_on_low_health_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Mage",
     "max_allowed": 1,
     "global": {
@@ -1032,6 +1094,7 @@
     "description": "dac_item_elementals_spawn_eidolons_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Element",
     "global": {
       "elementals_spawn_eidolons": {
@@ -1052,6 +1115,7 @@
     "description": "dac_item_hunters_band_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Hunter",
     "global": {
       "hunters_band": {
@@ -1072,6 +1136,7 @@
     "description": "dac_item_warlocks_spell_lifesteal_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Warlock",
     "aiAura": true,
     "global": {
@@ -1097,6 +1162,7 @@
     "description": "dac_item_humans_debuff_resist_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Human",
     "max_allowed": 2,
     "global": {
@@ -1118,6 +1184,7 @@
     "description": "dac_item_elves_start_invisible_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Elf",
     "global": {
       "elves_start_invisible": {
@@ -1139,6 +1206,7 @@
     "description": "dac_item_assassins_blind_on_landing_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Assassin",
     "global": {
       "assassins_blind": {
@@ -1164,6 +1232,7 @@
     "description": "dac_item_shamans_hex_attackers_desc",
     "tier": 6,
     "type": "alliance",
+    "disabled": true,
     "aiSynergyKeyword": "Shaman",
     "global": {
       "shamans_hex_attackers": {
@@ -1184,6 +1253,7 @@
     "displayName": "dac_item_discount_rerolls",
     "description": "dac_item_discount_rerolls_desc",
     "tier": 4,
+    "disabled": true,
     "type": "global",
     "max_allowed": 1,
     "aiTierOffset": 1,
@@ -1192,5 +1262,20 @@
     },
     "icon": "free_first_reroll",
     "key": "discount_rerolls"
+  },
+  "lower_healing": {
+    "id": 10561,
+    "displayName": "dac_item_lower_healing",
+    "description": "dac_item_lower_healing_desc",
+    "tier": 3,
+    "type": "global",
+    "max_allowed": 2,
+    "global": {
+      "lower_healing": {
+        "healing_prevented": 50
+      }
+    },
+    "icon": "dawning_of_ristul",
+    "key": "lower_healing"
   }
 }

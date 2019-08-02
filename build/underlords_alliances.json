@@ -25,285 +25,7 @@
     ],
     "color": "178 65 26",
     "key": "beast",
-    "heroes": [
-      {
-        "abilities": [
-          "enchantress_natures_attendants"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 2,
-        "attackRate": 1.5,
-        "damageMin": [
-          60,
-          110,
-          210
-        ],
-        "damageMax": [
-          70,
-          130,
-          250
-        ],
-        "displayName": "dac_hero_name_enchantress",
-        "dota_unit_name": "npc_dota_hero_enchantress",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          400,
-          800,
-          1500
-        ],
-        "healthRegen": 0,
-        "id": 2,
-        "keywords": "beast druid",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/enchantress/enchantress.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "enchantress",
-        "soundSet": "Hero_Enchantress",
-        "projectile_model": "particles/units/heroes/hero_enchantress/enchantress_base_attack.vpcf",
-        "movespeed": 315,
-        "projectile_speed": 900,
-        "healthBarOffset": -40,
-        "key": "enchantress"
-      },
-      {
-        "abilities": [
-          "tusk_walrus_punch"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 1,
-        "attackRate": 1.2,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_tusk",
-        "dota_unit_name": "npc_dota_hero_tusk",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 4,
-        "keywords": "beast warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tuskarr/tuskarr.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tusk",
-        "soundSet": "Hero_Tusk",
-        "movespeed": 300,
-        "healthBarOffset": -50,
-        "key": "tusk"
-      },
-      {
-        "abilities": [
-          "venomancer_plague_ward"
-        ],
-        "armor": 0,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 3,
-        "attackRate": 1.2,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_venomancer",
-        "dota_unit_name": "npc_dota_hero_venomancer",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 27,
-        "keywords": "beast warlock",
-        "magicResist": 20,
-        "maxmana": 100,
-        "model": "models/heroes/venomancer/venomancer.vmdl",
-        "model_scale": [
-          0.45,
-          0.5,
-          0.6
-        ],
-        "texturename": "venomancer",
-        "soundSet": "Hero_Venomancer",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf",
-        "movespeed": 275,
-        "healthBarOffset": -30,
-        "key": "venomancer"
-      },
-      {
-        "abilities": [
-          "lycan_wolf_spawn_shift"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.55,
-        "attackRange": 1,
-        "attackRate": 1.1,
-        "damageMin": [
-          50,
-          100,
-          240
-        ],
-        "damageMax": [
-          60,
-          120,
-          288
-        ],
-        "displayName": "dac_hero_name_lycan",
-        "dota_unit_name": "npc_dota_hero_lycan",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          750,
-          1500,
-          3600
-        ],
-        "healthRegen": 0,
-        "id": 26,
-        "keywords": "human beast hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/lycan/lycan.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "lycan",
-        "soundSet": "Hero_Lycan",
-        "movespeed": 315,
-        "healthBarOffset": -40,
-        "key": "lycan"
-      },
-      {
-        "abilities": [
-          "lone_druid_summon_bear"
-        ],
-        "armor": 0,
-        "attackAnimationPoint": 0.33,
-        "attackRange": 3,
-        "attackRate": 1.3,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_lone_druid",
-        "dota_unit_name": "npc_dota_hero_lone_druid",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          800,
-          1600,
-          3000
-        ],
-        "healthRegen": 0,
-        "id": 50,
-        "keywords": "beast druid",
-        "magicResist": 20,
-        "maxmana": 60,
-        "model": "models/heroes/lone_druid/lone_druid.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "lone_druid",
-        "soundSet": "Hero_LoneDruid",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_lone_druid/lone_druid_base_attack.vpcf",
-        "movespeed": 325,
-        "healthBarOffset": -20,
-        "aiIsMelee": true,
-        "key": "lone_druid"
-      },
-      {
-        "abilities": [
-          "sandking_burrowstrike",
-          "sandking_caustic_finale"
-        ],
-        "baseclass": "dac_npc_assassin",
-        "armor": 10,
-        "attackAnimationPoint": 0.53,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          70,
-          140,
-          270
-        ],
-        "damageMax": [
-          80,
-          160,
-          320
-        ],
-        "displayName": "dac_hero_name_sand_king",
-        "dota_unit_name": "npc_dota_hero_sand_king",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          750,
-          1500,
-          3200
-        ],
-        "healthRegen": 5,
-        "id": 33,
-        "keywords": "beast assassin",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/sand_king/sand_king.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "sand_king",
-        "soundSet": "Hero_SandKing",
-        "movespeed": 290,
-        "healthBarOffset": 0,
-        "assassin_modifier": "assassin_modifier_sand_king",
-        "precache": [
-          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
-        ],
-        "key": "sand_king"
-      }
-    ]
+    "heroes": []
   },
   "demon": {
     "type": "Race",
@@ -424,7 +146,7 @@
         ],
         "armor": 5,
         "attackAnimationPoint": 0.5,
-        "attackRange": 4,
+        "attackRange": 3,
         "attackRate": 1.1,
         "damageMin": [
           70,
@@ -821,7 +543,7 @@
         ],
         "healthRegen": 0,
         "id": 51,
-        "keywords": "dwarf mech",
+        "keywords": "dwarf inventor",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/gyro/gyro.vmdl",
@@ -858,251 +580,11 @@
     "slow_attack_speed": 50,
     "slow_chance": 25,
     "color": "0 128 128",
+    "precache": [
+      "particles/gameplay/synergy/primordial/primordial_slow.vpcf"
+    ],
     "key": "element",
-    "heroes": [
-      {
-        "abilities": [
-          "razor_plasma_field"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 3,
-        "attackRate": 1.1,
-        "damageMin": [
-          40,
-          80,
-          160
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_razor",
-        "dota_unit_name": "npc_dota_hero_razor",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 29,
-        "keywords": "element mage",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/razor/razor.vmdl",
-        "model_scale": [
-          0.7,
-          0.75,
-          0.85
-        ],
-        "texturename": "razor",
-        "soundSet": "Hero_Razor",
-        "projectile_speed": 2000,
-        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
-        "movespeed": 285,
-        "healthBarOffset": -80,
-        "aiAura": true,
-        "key": "razor"
-      },
-      {
-        "abilities": [
-          "tiny_toss"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 1,
-        "attackRate": 1.9,
-        "damageMin": [
-          60,
-          120,
-          240
-        ],
-        "damageMax": [
-          100,
-          200,
-          400
-        ],
-        "displayName": "dac_hero_name_tiny",
-        "dota_unit_name": "npc_dota_hero_tiny",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          650,
-          1300,
-          2600
-        ],
-        "healthRegen": 0,
-        "id": 12,
-        "keywords": "element warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": [
-          "models/heroes/tiny_01/tiny_01.vmdl",
-          "models/heroes/tiny_02/tiny_02.vmdl",
-          "models/heroes/tiny_03/tiny_03.vmdl"
-        ],
-        "model_scale": 0.85,
-        "texturename": "tiny",
-        "soundSet": "Hero_Tiny",
-        "movespeed": 290,
-        "healthBarOffset": 95,
-        "key": "tiny"
-      },
-      {
-        "abilities": [
-          "morphling_waveform"
-        ],
-        "baseclass": "dac_npc_assassin",
-        "armor": 5,
-        "attackAnimationPoint": 0.5,
-        "attackRange": 3,
-        "attackRate": 1.1,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_morphling",
-        "dota_unit_name": "npc_dota_hero_morphling",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          500,
-          1000,
-          2000
-        ],
-        "healthRegen": 0,
-        "id": 23,
-        "keywords": "element assassin",
-        "magicResist": 0,
-        "maxmana": 75,
-        "model": "models/heroes/morphling/morphling.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "morphling",
-        "soundSet": "Hero_Morphling",
-        "projectile_speed": 1300,
-        "projectile_model": "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf",
-        "useConstantAnimationLayer": true,
-        "movespeed": 280,
-        "healthBarOffset": -10,
-        "assassin_modifier": "assassin_modifier_morphling",
-        "precache": [
-          "particles/units/heroes/hero_morphling/morphling_dissolve.vpcf",
-          "particles/units/heroes/hero_morphling/morphling_apear.vpcf"
-        ],
-        "key": "morphling"
-      },
-      {
-        "abilities": [
-          "arc_warden_tempest_double"
-        ],
-        "baseclass": "dac_npc_arc_warden",
-        "armor": 5,
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
-        "attackAnimationPoint": 0.3,
-        "attackRange": 4,
-        "attackRate": [
-          1,
-          1,
-          1
-        ],
-        "damageMin": [
-          75,
-          150,
-          300
-        ],
-        "damageMax": [
-          85,
-          170,
-          350
-        ],
-        "displayName": "dac_hero_name_arc_warden",
-        "dota_unit_name": "npc_dota_hero_arc_warden",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 84,
-        "keywords": "element shaman",
-        "magicResist": 5,
-        "maxmana": 0,
-        "model": "models/heroes/arc_warden/arc_warden.vmdl",
-        "model_scale": [
-          0.66,
-          0.75,
-          0.9
-        ],
-        "texturename": "arcwarden",
-        "soundSet": "Hero_ArcWarden",
-        "movespeed": 280,
-        "precache": [],
-        "healthBarOffset": 20,
-        "key": "arc_warden"
-      },
-      {
-        "abilities": [
-          "enigma_midnight_pulse"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 3,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_enigma",
-        "dota_unit_name": "npc_dota_hero_enigma",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          1000,
-          2000,
-          4000
-        ],
-        "healthRegen": 5,
-        "id": 54,
-        "keywords": "element shaman",
-        "magicResist": 40,
-        "maxmana": 100,
-        "model": "models/heroes/enigma/enigma.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "enigma",
-        "soundSet": "Hero_Enigma",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": -70,
-        "key": "enigma"
-      }
-    ]
+    "heroes": []
   },
   "elf": {
     "type": "Race",
@@ -1120,7 +602,7 @@
       {
         "id": 20010,
         "unitcount": 9,
-        "affects_all_allies_with_keyword": true
+        "affects_all_allied_units": true
       }
     ],
     "evasion_bonus": [
@@ -1677,7 +1159,7 @@
         ],
         "healthRegen": 0,
         "id": 16,
-        "keywords": "goblin mech",
+        "keywords": "goblin inventor",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/shredder/shredder.vmdl",
@@ -1727,7 +1209,7 @@
         ],
         "healthRegen": 0,
         "id": 7,
-        "keywords": "goblin mech",
+        "keywords": "goblin inventor",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/rattletrap/rattletrap.vmdl",
@@ -1771,7 +1253,7 @@
         ],
         "healthRegen": 0,
         "id": 10,
-        "keywords": "goblin mech",
+        "keywords": "goblin inventor",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/tinker/tinker.vmdl",
@@ -1865,7 +1347,7 @@
         ],
         "healthRegen": 5,
         "id": 55,
-        "keywords": "goblin mech",
+        "keywords": "goblin inventor",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/techies/techies.vmdl",
@@ -1965,57 +1447,6 @@
       },
       {
         "abilities": [
-          "crystal_maiden_brilliance_aura"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.55,
-        "attackRange": 4,
-        "attackRate": 1.7,
-        "damageMin": [
-          40,
-          80,
-          160
-        ],
-        "damageMax": [
-          45,
-          90,
-          180
-        ],
-        "displayName": "dac_hero_name_crystal_maiden",
-        "dota_unit_name": "npc_dota_hero_crystal_maiden",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          450,
-          900,
-          1800
-        ],
-        "healthRegen": 0,
-        "id": 13,
-        "keywords": "human mage",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/crystal_maiden/crystal_maiden.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "crystal_maiden",
-        "soundSet": "Hero_Crystal",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf",
-        "movespeed": 275,
-        "healthBarOffset": -20,
-        "aiPassiveAbility": true,
-        "death_modifier": "modifier_crystal_maiden_death",
-        "precache": [
-          "particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
-        ],
-        "key": "crystal_maiden"
-      },
-      {
-        "abilities": [
           "lina_laguna_blade"
         ],
         "armor": 5,
@@ -2034,8 +1465,8 @@
         ],
         "displayName": "dac_hero_name_lina",
         "dota_unit_name": "npc_dota_hero_lina",
-        "draftTier": 3,
-        "goldCost": 3,
+        "draftTier": 2,
+        "goldCost": 2,
         "health": [
           550,
           1100,
@@ -2062,6 +1493,57 @@
           "particles/units/heroes/hero_lina/lina_death.vpcf"
         ],
         "key": "lina"
+      },
+      {
+        "abilities": [
+          "crystal_maiden_brilliance_aura"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.55,
+        "attackRange": 4,
+        "attackRate": 1.7,
+        "damageMin": [
+          40,
+          80,
+          160
+        ],
+        "damageMax": [
+          45,
+          90,
+          180
+        ],
+        "displayName": "dac_hero_name_crystal_maiden",
+        "dota_unit_name": "npc_dota_hero_crystal_maiden",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          550,
+          1100,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 13,
+        "keywords": "human mage",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/crystal_maiden/crystal_maiden.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "crystal_maiden",
+        "soundSet": "Hero_Crystal",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf",
+        "movespeed": 275,
+        "healthBarOffset": -20,
+        "aiPassiveAbility": true,
+        "death_modifier": "modifier_crystal_maiden_death",
+        "precache": [
+          "particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
+        ],
+        "key": "crystal_maiden"
       },
       {
         "abilities": [
@@ -2092,7 +1574,7 @@
         ],
         "healthRegen": 0,
         "id": 26,
-        "keywords": "human beast hunter",
+        "keywords": "human savage hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/lycan/lycan.vmdl",
@@ -2630,190 +2112,7 @@
     ],
     "color": "166 27 27",
     "key": "orc",
-    "heroes": [
-      {
-        "abilities": [
-          "axe_berserkers_call"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.5,
-        "attackRange": 1,
-        "attackRate": 1.5,
-        "damageMin": [
-          50,
-          100,
-          200
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_axe",
-        "dota_unit_name": "npc_dota_hero_axe",
-        "draftTier": 1,
-        "goldCost": 1,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 1,
-        "keywords": "orc warrior",
-        "magicResist": 0,
-        "maxmana": 50,
-        "model": "models/heroes/axe/axe.vmdl",
-        "model_scale": [
-          0.75,
-          0.8,
-          0.9
-        ],
-        "texturename": "axe",
-        "soundSet": "Hero_Axe",
-        "movespeed": 295,
-        "healthBarOffset": -30,
-        "key": "axe"
-      },
-      {
-        "abilities": [
-          "beastmaster_wild_axes"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.3,
-        "attackRange": 1,
-        "attackRate": 1.1,
-        "damageMin": [
-          60,
-          120,
-          240
-        ],
-        "damageMax": [
-          70,
-          140,
-          280
-        ],
-        "displayName": "dac_hero_name_beast_master",
-        "dota_unit_name": "npc_dota_hero_beastmaster",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          600,
-          1200,
-          2400
-        ],
-        "healthRegen": 0,
-        "id": 14,
-        "keywords": "orc hunter",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/beastmaster/beastmaster.vmdl",
-        "model_scale": [
-          0.55,
-          0.65,
-          0.8
-        ],
-        "soundSet": "Hero_Beastmaster",
-        "texturename": "beastmaster",
-        "movespeed": 305,
-        "healthBarOffset": -40,
-        "key": "beastmaster"
-      },
-      {
-        "abilities": [
-          "juggernaut_blade_fury"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.33,
-        "attackRange": 1,
-        "attackRate": [
-          1.1,
-          1,
-          0.8
-        ],
-        "damageMin": [
-          65,
-          140,
-          280
-        ],
-        "damageMax": [
-          70,
-          150,
-          300
-        ],
-        "displayName": "dac_hero_name_juggernaut",
-        "dota_unit_name": "npc_dota_hero_juggernaut",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          600,
-          1200,
-          2400
-        ],
-        "healthRegen": 0,
-        "id": 15,
-        "keywords": "orc warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/juggernaut/juggernaut.vmdl",
-        "model_scale": [
-          0.75,
-          0.8,
-          0.9
-        ],
-        "texturename": "juggernaut",
-        "soundSet": "Hero_Juggernaut",
-        "movespeed": 300,
-        "healthBarOffset": 10,
-        "key": "juggernaut"
-      },
-      {
-        "abilities": [
-          "disruptor_static_storm"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_disruptor",
-        "dota_unit_name": "npc_dota_hero_disruptor",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 47,
-        "keywords": "orc shaman warlock",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/disruptor/disruptor.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "disruptor",
-        "soundSet": "Hero_Disruptor",
-        "projectile_speed": 1200,
-        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
-        "movespeed": 295,
-        "healthBarOffset": -90,
-        "key": "disruptor"
-      }
-    ]
+    "heroes": []
   },
   "troll": {
     "type": "Race",
@@ -3327,6 +2626,9 @@
       400,
       500
     ],
+    "blind_duration": 2,
+    "blind_chance": 50,
+    "mana_gain_reduction": 50,
     "color": "153 50 204",
     "key": "assassin",
     "heroes": [
@@ -3460,7 +2762,7 @@
         ],
         "healthRegen": 0,
         "id": 23,
-        "keywords": "element assassin",
+        "keywords": "primordial assassin",
         "magicResist": 0,
         "maxmana": 75,
         "model": "models/heroes/morphling/morphling.vmdl",
@@ -3718,7 +3020,7 @@
         ],
         "healthRegen": 5,
         "id": 33,
-        "keywords": "beast assassin",
+        "keywords": "savage assassin",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/sand_king/sand_king.vmdl",
@@ -3805,15 +3107,26 @@
       {
         "id": 20031,
         "unitcount": 2,
+        "cumulative": true,
         "affects_all_allies_with_keyword": true,
         "special_keyword": "demon",
         "modifier_name": "demonhunter_demon_buff"
+      },
+      {
+        "id": 20068,
+        "unitcount": 1,
+        "cumulative": true,
+        "hidden": true,
+        "affects_all_allies_with_keyword": true,
+        "special_keyword": "demonhunter",
+        "modifier_name": "demonhunter_demon_self_buff"
       }
     ],
     "damage_bonus_pct": [
       0,
       50
     ],
+    "demon_damage_bonus_pct": 30,
     "color": "139 0 139",
     "key": "demonhunter",
     "heroes": [
@@ -3966,7 +3279,7 @@
         ],
         "healthRegen": 0,
         "id": 2,
-        "keywords": "beast druid",
+        "keywords": "savage druid",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/enchantress/enchantress.vmdl",
@@ -4102,7 +3415,7 @@
         ],
         "healthRegen": 0,
         "id": 50,
-        "keywords": "beast druid",
+        "keywords": "savage druid",
         "magicResist": 20,
         "maxmana": 60,
         "model": "models/heroes/lone_druid/lone_druid.vmdl",
@@ -4225,7 +3538,7 @@
         ],
         "healthRegen": 0,
         "id": 14,
-        "keywords": "orc hunter",
+        "keywords": "brawny hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/beastmaster/beastmaster.vmdl",
@@ -4315,7 +3628,7 @@
         ],
         "healthRegen": 0,
         "id": 26,
-        "keywords": "human beast hunter",
+        "keywords": "human savage hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/lycan/lycan.vmdl",
@@ -4891,7 +4204,7 @@
         ],
         "healthRegen": 0,
         "id": 29,
-        "keywords": "element mage",
+        "keywords": "primordial mage",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/razor/razor.vmdl",
@@ -4911,54 +4224,52 @@
       },
       {
         "abilities": [
-          "crystal_maiden_brilliance_aura"
+          "lina_laguna_blade"
         ],
         "armor": 5,
-        "attackAnimationPoint": 0.55,
+        "attackAnimationPoint": 0.75,
         "attackRange": 4,
-        "attackRate": 1.7,
+        "attackRate": 1.6,
         "damageMin": [
-          40,
-          80,
-          160
+          50,
+          100,
+          200
         ],
         "damageMax": [
-          45,
-          90,
-          180
+          55,
+          110,
+          220
         ],
-        "displayName": "dac_hero_name_crystal_maiden",
-        "dota_unit_name": "npc_dota_hero_crystal_maiden",
+        "displayName": "dac_hero_name_lina",
+        "dota_unit_name": "npc_dota_hero_lina",
         "draftTier": 2,
         "goldCost": 2,
         "health": [
-          450,
-          900,
-          1800
+          550,
+          1100,
+          2200
         ],
-        "healthRegen": 0,
-        "id": 13,
+        "id": 39,
         "keywords": "human mage",
         "magicResist": 0,
         "maxmana": 100,
-        "model": "models/heroes/crystal_maiden/crystal_maiden.vmdl",
+        "model": "models/heroes/lina/lina.vmdl",
         "model_scale": [
           0.6,
           0.75,
           0.9
         ],
-        "texturename": "crystal_maiden",
-        "soundSet": "Hero_Crystal",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf",
-        "movespeed": 275,
-        "healthBarOffset": -20,
-        "aiPassiveAbility": true,
-        "death_modifier": "modifier_crystal_maiden_death",
+        "texturename": "lina",
+        "soundSet": "Hero_Lina",
+        "projectile_speed": 1000,
+        "projectile_model": "particles/units/heroes/hero_lina/lina_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": 0,
+        "death_modifier": "modifier_lina_death",
         "precache": [
-          "particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
+          "particles/units/heroes/hero_lina/lina_death.vpcf"
         ],
-        "key": "crystal_maiden"
+        "key": "lina"
       },
       {
         "abilities": [
@@ -5012,52 +4323,54 @@
       },
       {
         "abilities": [
-          "lina_laguna_blade"
+          "crystal_maiden_brilliance_aura"
         ],
         "armor": 5,
-        "attackAnimationPoint": 0.75,
+        "attackAnimationPoint": 0.55,
         "attackRange": 4,
-        "attackRate": 1.6,
+        "attackRate": 1.7,
         "damageMin": [
-          50,
-          100,
-          200
+          40,
+          80,
+          160
         ],
         "damageMax": [
-          55,
-          110,
-          220
+          45,
+          90,
+          180
         ],
-        "displayName": "dac_hero_name_lina",
-        "dota_unit_name": "npc_dota_hero_lina",
+        "displayName": "dac_hero_name_crystal_maiden",
+        "dota_unit_name": "npc_dota_hero_crystal_maiden",
         "draftTier": 3,
         "goldCost": 3,
         "health": [
           550,
           1100,
-          2200
+          2000
         ],
-        "id": 39,
+        "healthRegen": 0,
+        "id": 13,
         "keywords": "human mage",
         "magicResist": 0,
         "maxmana": 100,
-        "model": "models/heroes/lina/lina.vmdl",
+        "model": "models/heroes/crystal_maiden/crystal_maiden.vmdl",
         "model_scale": [
           0.6,
           0.75,
           0.9
         ],
-        "texturename": "lina",
-        "soundSet": "Hero_Lina",
-        "projectile_speed": 1000,
-        "projectile_model": "particles/units/heroes/hero_lina/lina_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": 0,
-        "death_modifier": "modifier_lina_death",
+        "texturename": "crystal_maiden",
+        "soundSet": "Hero_Crystal",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf",
+        "movespeed": 275,
+        "healthBarOffset": -20,
+        "aiPassiveAbility": true,
+        "death_modifier": "modifier_crystal_maiden_death",
         "precache": [
-          "particles/units/heroes/hero_lina/lina_death.vpcf"
+          "particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
         ],
-        "key": "lina"
+        "key": "crystal_maiden"
       },
       {
         "abilities": [
@@ -5176,246 +4489,7 @@
       "particles/gameplay/synergy/mech/mech_buff.vpcf"
     ],
     "key": "mech",
-    "heroes": [
-      {
-        "abilities": [
-          "timbersaw_whirling_death"
-        ],
-        "armor": [
-          6,
-          8,
-          10
-        ],
-        "attackAnimationPoint": 0.36,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          55,
-          110,
-          220
-        ],
-        "damageMax": [
-          60,
-          120,
-          240
-        ],
-        "displayName": "dac_hero_name_timbersaw",
-        "dota_unit_name": "npc_dota_hero_shredder",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          800,
-          1600,
-          3200
-        ],
-        "healthRegen": 0,
-        "id": 16,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/shredder/shredder.vmdl",
-        "model_scale": [
-          0.6,
-          0.75,
-          0.9
-        ],
-        "texturename": "shredder",
-        "soundSet": "Hero_Shredder",
-        "useConstantAnimationLayer": true,
-        "movespeed": 290,
-        "healthBarOffset": -15,
-        "aiAura": true,
-        "key": "timbersaw"
-      },
-      {
-        "abilities": [
-          "clockwerk_battery_assault"
-        ],
-        "armor": [
-          10,
-          13,
-          15
-        ],
-        "attackAnimationPoint": 0.33,
-        "attackRange": 1,
-        "attackRate": 1.4,
-        "damageMin": [
-          55,
-          110,
-          220
-        ],
-        "damageMax": [
-          65,
-          130,
-          260
-        ],
-        "displayName": "dac_hero_name_clockwerk",
-        "dota_unit_name": "npc_dota_hero_rattletrap",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          950,
-          1800,
-          3500
-        ],
-        "healthRegen": 0,
-        "id": 7,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/rattletrap/rattletrap.vmdl",
-        "model_scale": [
-          0.75,
-          0.85,
-          1
-        ],
-        "texturename": "rattletrap",
-        "soundSet": "Hero_Rattletrap",
-        "movespeed": 310,
-        "healthBarOffset": 20,
-        "key": "clockwerk"
-      },
-      {
-        "abilities": [
-          "tinker_heat_seeking_missile"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.36,
-        "attackRange": 4,
-        "attackRate": 1.3,
-        "damageMin": [
-          60,
-          120,
-          270
-        ],
-        "damageMax": [
-          72,
-          144,
-          330
-        ],
-        "displayName": "dac_hero_name_tinker",
-        "dota_unit_name": "npc_dota_hero_tinker",
-        "draftTier": 3,
-        "goldCost": 3,
-        "health": [
-          750,
-          1500,
-          3500
-        ],
-        "healthRegen": 0,
-        "id": 10,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/tinker/tinker.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "tinker",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
-        "movespeed": 290,
-        "healthBarOffset": 15,
-        "key": "tinker"
-      },
-      {
-        "abilities": [
-          "gyrocopter_call_down"
-        ],
-        "baseclass": "dac_npc_dwarf",
-        "armor": 15,
-        "attackAnimationPoint": 0.2,
-        "attackRange": 6,
-        "attackRate": 0.9,
-        "damageMin": [
-          75,
-          150,
-          300
-        ],
-        "damageMax": [
-          80,
-          160,
-          320
-        ],
-        "displayName": "dac_hero_name_gyrocopter",
-        "dota_unit_name": "npc_dota_hero_gyrocopter",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          900,
-          1800,
-          3600
-        ],
-        "healthRegen": 0,
-        "id": 51,
-        "keywords": "dwarf mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/gyro/gyro.vmdl",
-        "model_scale": [
-          0.8,
-          0.85,
-          0.95
-        ],
-        "texturename": "gyrocopter",
-        "soundSet": "Hero_Gyrocopter",
-        "projectile_speed": 3000,
-        "projectile_model": "particles/units/heroes/hero_gyrocopter/gyro_base_attack.vpcf",
-        "useConstantAnimationLayer": true,
-        "movespeed": 315,
-        "healthBarOffset": -35,
-        "key": "gyrocopter"
-      },
-      {
-        "abilities": [
-          "techies_bomb"
-        ],
-        "armor": 10,
-        "attackAnimationPoint": 0.5,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          55,
-          110,
-          220
-        ],
-        "displayName": "dac_hero_name_techies",
-        "dota_unit_name": "npc_dota_hero_techies",
-        "draftTier": 5,
-        "goldCost": 5,
-        "health": [
-          1000,
-          2000,
-          4000
-        ],
-        "healthRegen": 5,
-        "id": 55,
-        "keywords": "goblin mech",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/techies/techies.vmdl",
-        "model_scale": [
-          0.4,
-          0.5,
-          0.6
-        ],
-        "texturename": "techies",
-        "soundSet": "Hero_Techies",
-        "projectile_speed": 900,
-        "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
-        "movespeed": 310,
-        "healthBarOffset": -50,
-        "aiIsMelee": true,
-        "key": "techies"
-      }
-    ]
+    "heroes": []
   },
   "shaman": {
     "type": "Class",
@@ -5423,13 +4497,14 @@
       {
         "id": 20043,
         "unitcount": 3,
-        "affects_all_enemy_units": true
+        "affects_all_allies_with_keyword": true
       }
     ],
     "base_modifiers": [
       "modifier_bonus_mana_per_hit"
     ],
-    "mana_dampen": -200,
+    "hops": 4,
+    "percent_chance": 17,
     "color": "52 159 100",
     "key": "shaman",
     "heroes": [
@@ -5508,7 +4583,7 @@
         ],
         "healthRegen": 0,
         "id": 47,
-        "keywords": "orc shaman warlock",
+        "keywords": "brawny shaman warlock",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -5561,7 +4636,7 @@
         ],
         "healthRegen": 0,
         "id": 84,
-        "keywords": "element shaman",
+        "keywords": "primordial shaman",
         "magicResist": 5,
         "maxmana": 0,
         "model": "models/heroes/arc_warden/arc_warden.vmdl",
@@ -5606,7 +4681,7 @@
         ],
         "healthRegen": 5,
         "id": 54,
-        "keywords": "element shaman",
+        "keywords": "primordial shaman",
         "magicResist": 40,
         "maxmana": 100,
         "model": "models/heroes/enigma/enigma.vmdl",
@@ -5655,7 +4730,7 @@
       80,
       130
     ],
-    "duration": 3,
+    "duration": 2,
     "color": "228 110 213",
     "key": "warlock",
     "heroes": [
@@ -5688,7 +4763,7 @@
         ],
         "healthRegen": 0,
         "id": 27,
-        "keywords": "beast warlock",
+        "keywords": "savage warlock",
         "magicResist": 20,
         "maxmana": 100,
         "model": "models/heroes/venomancer/venomancer.vmdl",
@@ -5803,7 +4878,7 @@
         ],
         "armor": 5,
         "attackAnimationPoint": 0.5,
-        "attackRange": 4,
+        "attackRange": 3,
         "attackRate": 1.1,
         "damageMin": [
           70,
@@ -5922,7 +4997,7 @@
         ],
         "healthRegen": 0,
         "id": 47,
-        "keywords": "orc shaman warlock",
+        "keywords": "brawny shaman warlock",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -6043,7 +5118,7 @@
         ],
         "healthRegen": 0,
         "id": 1,
-        "keywords": "orc warrior",
+        "keywords": "brawny warrior",
         "magicResist": 0,
         "maxmana": 50,
         "model": "models/heroes/axe/axe.vmdl",
@@ -6087,7 +5162,7 @@
         ],
         "healthRegen": 0,
         "id": 12,
-        "keywords": "element warrior",
+        "keywords": "primordial warrior",
         "magicResist": 0,
         "maxmana": 100,
         "model": [
@@ -6131,7 +5206,7 @@
         ],
         "healthRegen": 0,
         "id": 4,
-        "keywords": "beast warrior",
+        "keywords": "savage warrior",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/tuskarr/tuskarr.vmdl",
@@ -6179,7 +5254,7 @@
         ],
         "healthRegen": 0,
         "id": 15,
-        "keywords": "orc warrior",
+        "keywords": "brawny warrior",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/juggernaut/juggernaut.vmdl",
@@ -6608,5 +5683,1060 @@
     ],
     "key": "megademon",
     "heroes": []
+  },
+  "primordial": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20059,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      },
+      {
+        "id": 20060,
+        "unitcount": 4,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "rank": [
+      1,
+      2
+    ],
+    "amount": [
+      1,
+      1
+    ],
+    "color": "0 128 128",
+    "key": "primordial",
+    "heroes": [
+      {
+        "abilities": [
+          "razor_plasma_field"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 3,
+        "attackRate": 1.1,
+        "damageMin": [
+          40,
+          80,
+          160
+        ],
+        "damageMax": [
+          50,
+          100,
+          200
+        ],
+        "displayName": "dac_hero_name_razor",
+        "dota_unit_name": "npc_dota_hero_razor",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 29,
+        "keywords": "primordial mage",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/razor/razor.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "razor",
+        "soundSet": "Hero_Razor",
+        "projectile_speed": 2000,
+        "projectile_model": "particles/units/heroes/hero_razor/razor_base_attack.vpcf",
+        "movespeed": 285,
+        "healthBarOffset": -80,
+        "aiAura": true,
+        "key": "razor"
+      },
+      {
+        "abilities": [
+          "tiny_toss"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 1,
+        "attackRate": 1.9,
+        "damageMin": [
+          60,
+          120,
+          240
+        ],
+        "damageMax": [
+          100,
+          200,
+          400
+        ],
+        "displayName": "dac_hero_name_tiny",
+        "dota_unit_name": "npc_dota_hero_tiny",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          650,
+          1300,
+          2600
+        ],
+        "healthRegen": 0,
+        "id": 12,
+        "keywords": "primordial warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": [
+          "models/heroes/tiny_01/tiny_01.vmdl",
+          "models/heroes/tiny_02/tiny_02.vmdl",
+          "models/heroes/tiny_03/tiny_03.vmdl"
+        ],
+        "model_scale": 0.85,
+        "texturename": "tiny",
+        "soundSet": "Hero_Tiny",
+        "movespeed": 290,
+        "healthBarOffset": 95,
+        "key": "tiny"
+      },
+      {
+        "abilities": [
+          "morphling_waveform"
+        ],
+        "baseclass": "dac_npc_assassin",
+        "armor": 5,
+        "attackAnimationPoint": 0.5,
+        "attackRange": 3,
+        "attackRate": 1.1,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          60,
+          120,
+          240
+        ],
+        "displayName": "dac_hero_name_morphling",
+        "dota_unit_name": "npc_dota_hero_morphling",
+        "draftTier": 2,
+        "goldCost": 2,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 23,
+        "keywords": "primordial assassin",
+        "magicResist": 0,
+        "maxmana": 75,
+        "model": "models/heroes/morphling/morphling.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "morphling",
+        "soundSet": "Hero_Morphling",
+        "projectile_speed": 1300,
+        "projectile_model": "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf",
+        "useConstantAnimationLayer": true,
+        "movespeed": 280,
+        "healthBarOffset": -10,
+        "assassin_modifier": "assassin_modifier_morphling",
+        "precache": [
+          "particles/units/heroes/hero_morphling/morphling_dissolve.vpcf",
+          "particles/units/heroes/hero_morphling/morphling_apear.vpcf"
+        ],
+        "key": "morphling"
+      },
+      {
+        "abilities": [
+          "arc_warden_tempest_double"
+        ],
+        "baseclass": "dac_npc_arc_warden",
+        "armor": 5,
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
+        "attackAnimationPoint": 0.3,
+        "attackRange": 4,
+        "attackRate": [
+          1,
+          1,
+          1
+        ],
+        "damageMin": [
+          75,
+          150,
+          300
+        ],
+        "damageMax": [
+          85,
+          170,
+          350
+        ],
+        "displayName": "dac_hero_name_arc_warden",
+        "dota_unit_name": "npc_dota_hero_arc_warden",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 84,
+        "keywords": "primordial shaman",
+        "magicResist": 5,
+        "maxmana": 0,
+        "model": "models/heroes/arc_warden/arc_warden.vmdl",
+        "model_scale": [
+          0.66,
+          0.75,
+          0.9
+        ],
+        "texturename": "arcwarden",
+        "soundSet": "Hero_ArcWarden",
+        "movespeed": 280,
+        "precache": [],
+        "healthBarOffset": 20,
+        "key": "arc_warden"
+      },
+      {
+        "abilities": [
+          "enigma_midnight_pulse"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 3,
+        "attackRate": 1.5,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_enigma",
+        "dota_unit_name": "npc_dota_hero_enigma",
+        "draftTier": 5,
+        "goldCost": 5,
+        "health": [
+          1000,
+          2000,
+          4000
+        ],
+        "healthRegen": 5,
+        "id": 54,
+        "keywords": "primordial shaman",
+        "magicResist": 40,
+        "maxmana": 100,
+        "model": "models/heroes/enigma/enigma.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "enigma",
+        "soundSet": "Hero_Enigma",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": -70,
+        "key": "enigma"
+      }
+    ]
+  },
+  "brawny": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20061,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      },
+      {
+        "id": 20062,
+        "unitcount": 4,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "hp_bonus": [
+      30,
+      60
+    ],
+    "color": "166 27 27",
+    "precache": [
+      "particles/items/orc_brutality/orc_brutality.vpcf"
+    ],
+    "key": "brawny",
+    "heroes": [
+      {
+        "abilities": [
+          "axe_berserkers_call"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.5,
+        "attackRange": 1,
+        "attackRate": 1.5,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_axe",
+        "dota_unit_name": "npc_dota_hero_axe",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 1,
+        "keywords": "brawny warrior",
+        "magicResist": 0,
+        "maxmana": 50,
+        "model": "models/heroes/axe/axe.vmdl",
+        "model_scale": [
+          0.75,
+          0.8,
+          0.9
+        ],
+        "texturename": "axe",
+        "soundSet": "Hero_Axe",
+        "movespeed": 295,
+        "healthBarOffset": -30,
+        "key": "axe"
+      },
+      {
+        "abilities": [
+          "beastmaster_wild_axes"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 1,
+        "attackRate": 1.1,
+        "damageMin": [
+          60,
+          120,
+          240
+        ],
+        "damageMax": [
+          70,
+          140,
+          280
+        ],
+        "displayName": "dac_hero_name_beast_master",
+        "dota_unit_name": "npc_dota_hero_beastmaster",
+        "draftTier": 2,
+        "goldCost": 2,
+        "health": [
+          600,
+          1200,
+          2400
+        ],
+        "healthRegen": 0,
+        "id": 14,
+        "keywords": "brawny hunter",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/beastmaster/beastmaster.vmdl",
+        "model_scale": [
+          0.55,
+          0.65,
+          0.8
+        ],
+        "soundSet": "Hero_Beastmaster",
+        "texturename": "beastmaster",
+        "movespeed": 305,
+        "healthBarOffset": -40,
+        "key": "beastmaster"
+      },
+      {
+        "abilities": [
+          "juggernaut_blade_fury"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.33,
+        "attackRange": 1,
+        "attackRate": [
+          1.1,
+          1,
+          0.8
+        ],
+        "damageMin": [
+          65,
+          140,
+          280
+        ],
+        "damageMax": [
+          70,
+          150,
+          300
+        ],
+        "displayName": "dac_hero_name_juggernaut",
+        "dota_unit_name": "npc_dota_hero_juggernaut",
+        "draftTier": 2,
+        "goldCost": 2,
+        "health": [
+          600,
+          1200,
+          2400
+        ],
+        "healthRegen": 0,
+        "id": 15,
+        "keywords": "brawny warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/juggernaut/juggernaut.vmdl",
+        "model_scale": [
+          0.75,
+          0.8,
+          0.9
+        ],
+        "texturename": "juggernaut",
+        "soundSet": "Hero_Juggernaut",
+        "movespeed": 300,
+        "healthBarOffset": 10,
+        "key": "juggernaut"
+      },
+      {
+        "abilities": [
+          "disruptor_static_storm"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          50,
+          100,
+          200
+        ],
+        "displayName": "dac_hero_name_disruptor",
+        "dota_unit_name": "npc_dota_hero_disruptor",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 47,
+        "keywords": "brawny shaman warlock",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/disruptor/disruptor.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "disruptor",
+        "soundSet": "Hero_Disruptor",
+        "projectile_speed": 1200,
+        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
+        "movespeed": 295,
+        "healthBarOffset": -90,
+        "key": "disruptor"
+      }
+    ]
+  },
+  "inventor": {
+    "type": "Class",
+    "levels": [
+      {
+        "id": 20063,
+        "unitcount": 2,
+        "affects_all_allies_with_keyword": true
+      },
+      {
+        "id": 20064,
+        "unitcount": 4,
+        "affects_all_allies_with_keyword": true
+      }
+    ],
+    "damage_hp_pct": [
+      15,
+      30
+    ],
+    "color": "251 142 20",
+    "precache": [
+      "particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
+    ],
+    "key": "inventor",
+    "heroes": [
+      {
+        "abilities": [
+          "timbersaw_whirling_death"
+        ],
+        "armor": [
+          6,
+          8,
+          10
+        ],
+        "attackAnimationPoint": 0.36,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          55,
+          110,
+          220
+        ],
+        "damageMax": [
+          60,
+          120,
+          240
+        ],
+        "displayName": "dac_hero_name_timbersaw",
+        "dota_unit_name": "npc_dota_hero_shredder",
+        "draftTier": 2,
+        "goldCost": 2,
+        "health": [
+          800,
+          1600,
+          3200
+        ],
+        "healthRegen": 0,
+        "id": 16,
+        "keywords": "goblin inventor",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/shredder/shredder.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "shredder",
+        "soundSet": "Hero_Shredder",
+        "useConstantAnimationLayer": true,
+        "movespeed": 290,
+        "healthBarOffset": -15,
+        "aiAura": true,
+        "key": "timbersaw"
+      },
+      {
+        "abilities": [
+          "clockwerk_battery_assault"
+        ],
+        "armor": [
+          10,
+          13,
+          15
+        ],
+        "attackAnimationPoint": 0.33,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          55,
+          110,
+          220
+        ],
+        "damageMax": [
+          65,
+          130,
+          260
+        ],
+        "displayName": "dac_hero_name_clockwerk",
+        "dota_unit_name": "npc_dota_hero_rattletrap",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          950,
+          1800,
+          3500
+        ],
+        "healthRegen": 0,
+        "id": 7,
+        "keywords": "goblin inventor",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/rattletrap/rattletrap.vmdl",
+        "model_scale": [
+          0.75,
+          0.85,
+          1
+        ],
+        "texturename": "rattletrap",
+        "soundSet": "Hero_Rattletrap",
+        "movespeed": 310,
+        "healthBarOffset": 20,
+        "key": "clockwerk"
+      },
+      {
+        "abilities": [
+          "tinker_heat_seeking_missile"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 4,
+        "attackRate": 1.3,
+        "damageMin": [
+          60,
+          120,
+          270
+        ],
+        "damageMax": [
+          72,
+          144,
+          330
+        ],
+        "displayName": "dac_hero_name_tinker",
+        "dota_unit_name": "npc_dota_hero_tinker",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3500
+        ],
+        "healthRegen": 0,
+        "id": 10,
+        "keywords": "goblin inventor",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tinker/tinker.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tinker",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_tinker/tinker_base_attack.vpcf",
+        "movespeed": 290,
+        "healthBarOffset": 15,
+        "key": "tinker"
+      },
+      {
+        "abilities": [
+          "gyrocopter_call_down"
+        ],
+        "baseclass": "dac_npc_dwarf",
+        "armor": 15,
+        "attackAnimationPoint": 0.2,
+        "attackRange": 6,
+        "attackRate": 0.9,
+        "damageMin": [
+          75,
+          150,
+          300
+        ],
+        "damageMax": [
+          80,
+          160,
+          320
+        ],
+        "displayName": "dac_hero_name_gyrocopter",
+        "dota_unit_name": "npc_dota_hero_gyrocopter",
+        "draftTier": 5,
+        "goldCost": 5,
+        "health": [
+          900,
+          1800,
+          3600
+        ],
+        "healthRegen": 0,
+        "id": 51,
+        "keywords": "dwarf inventor",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/gyro/gyro.vmdl",
+        "model_scale": [
+          0.8,
+          0.85,
+          0.95
+        ],
+        "texturename": "gyrocopter",
+        "soundSet": "Hero_Gyrocopter",
+        "projectile_speed": 3000,
+        "projectile_model": "particles/units/heroes/hero_gyrocopter/gyro_base_attack.vpcf",
+        "useConstantAnimationLayer": true,
+        "movespeed": 315,
+        "healthBarOffset": -35,
+        "key": "gyrocopter"
+      },
+      {
+        "abilities": [
+          "techies_bomb"
+        ],
+        "armor": 10,
+        "attackAnimationPoint": 0.5,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          45,
+          90,
+          180
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_techies",
+        "dota_unit_name": "npc_dota_hero_techies",
+        "draftTier": 5,
+        "goldCost": 5,
+        "health": [
+          1000,
+          2000,
+          4000
+        ],
+        "healthRegen": 5,
+        "id": 55,
+        "keywords": "goblin inventor",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/techies/techies.vmdl",
+        "model_scale": [
+          0.4,
+          0.5,
+          0.6
+        ],
+        "texturename": "techies",
+        "soundSet": "Hero_Techies",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+        "movespeed": 310,
+        "healthBarOffset": -50,
+        "aiIsMelee": true,
+        "key": "techies"
+      }
+    ]
+  },
+  "savage": {
+    "type": "Race",
+    "levels": [
+      {
+        "id": 20065,
+        "unitcount": 2,
+        "affects_all_allied_units": true
+      },
+      {
+        "id": 20066,
+        "unitcount": 4,
+        "affects_all_allied_units": true
+      },
+      {
+        "id": 20067,
+        "unitcount": 6,
+        "affects_all_allied_units": true
+      }
+    ],
+    "dot_damage": [
+      5,
+      10,
+      15
+    ],
+    "dot_duration": [
+      3,
+      3,
+      3
+    ],
+    "precache": [
+      "particles/generic_gameplay/generic_bleed.vpcf"
+    ],
+    "color": "178 65 26",
+    "key": "savage",
+    "heroes": [
+      {
+        "abilities": [
+          "enchantress_natures_attendants"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 2,
+        "attackRate": 1.5,
+        "damageMin": [
+          60,
+          110,
+          210
+        ],
+        "damageMax": [
+          70,
+          130,
+          250
+        ],
+        "displayName": "dac_hero_name_enchantress",
+        "dota_unit_name": "npc_dota_hero_enchantress",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          400,
+          800,
+          1500
+        ],
+        "healthRegen": 0,
+        "id": 2,
+        "keywords": "savage druid",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/enchantress/enchantress.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "enchantress",
+        "soundSet": "Hero_Enchantress",
+        "projectile_model": "particles/units/heroes/hero_enchantress/enchantress_base_attack.vpcf",
+        "movespeed": 315,
+        "projectile_speed": 900,
+        "healthBarOffset": -40,
+        "key": "enchantress"
+      },
+      {
+        "abilities": [
+          "tusk_walrus_punch"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.36,
+        "attackRange": 1,
+        "attackRate": 1.2,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_tusk",
+        "dota_unit_name": "npc_dota_hero_tusk",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          700,
+          1400,
+          2800
+        ],
+        "healthRegen": 0,
+        "id": 4,
+        "keywords": "savage warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/tuskarr/tuskarr.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "tusk",
+        "soundSet": "Hero_Tusk",
+        "movespeed": 300,
+        "healthBarOffset": -50,
+        "key": "tusk"
+      },
+      {
+        "abilities": [
+          "venomancer_plague_ward"
+        ],
+        "armor": 0,
+        "attackAnimationPoint": 0.3,
+        "attackRange": 3,
+        "attackRate": 1.2,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          55,
+          110,
+          220
+        ],
+        "displayName": "dac_hero_name_venomancer",
+        "dota_unit_name": "npc_dota_hero_venomancer",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 27,
+        "keywords": "savage warlock",
+        "magicResist": 20,
+        "maxmana": 100,
+        "model": "models/heroes/venomancer/venomancer.vmdl",
+        "model_scale": [
+          0.45,
+          0.5,
+          0.6
+        ],
+        "texturename": "venomancer",
+        "soundSet": "Hero_Venomancer",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf",
+        "movespeed": 275,
+        "healthBarOffset": -30,
+        "key": "venomancer"
+      },
+      {
+        "abilities": [
+          "lycan_wolf_spawn_shift"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.55,
+        "attackRange": 1,
+        "attackRate": 1.1,
+        "damageMin": [
+          50,
+          100,
+          240
+        ],
+        "damageMax": [
+          60,
+          120,
+          288
+        ],
+        "displayName": "dac_hero_name_lycan",
+        "dota_unit_name": "npc_dota_hero_lycan",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          750,
+          1500,
+          3600
+        ],
+        "healthRegen": 0,
+        "id": 26,
+        "keywords": "human savage hunter",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/lycan/lycan.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "lycan",
+        "soundSet": "Hero_Lycan",
+        "movespeed": 315,
+        "healthBarOffset": -40,
+        "key": "lycan"
+      },
+      {
+        "abilities": [
+          "lone_druid_summon_bear"
+        ],
+        "armor": 0,
+        "attackAnimationPoint": 0.33,
+        "attackRange": 3,
+        "attackRate": 1.3,
+        "damageMin": [
+          50,
+          100,
+          200
+        ],
+        "damageMax": [
+          60,
+          120,
+          240
+        ],
+        "displayName": "dac_hero_name_lone_druid",
+        "dota_unit_name": "npc_dota_hero_lone_druid",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          800,
+          1600,
+          3000
+        ],
+        "healthRegen": 0,
+        "id": 50,
+        "keywords": "savage druid",
+        "magicResist": 20,
+        "maxmana": 60,
+        "model": "models/heroes/lone_druid/lone_druid.vmdl",
+        "model_scale": [
+          0.7,
+          0.75,
+          0.85
+        ],
+        "texturename": "lone_druid",
+        "soundSet": "Hero_LoneDruid",
+        "projectile_speed": 900,
+        "projectile_model": "particles/units/heroes/hero_lone_druid/lone_druid_base_attack.vpcf",
+        "movespeed": 325,
+        "healthBarOffset": -20,
+        "aiIsMelee": true,
+        "key": "lone_druid"
+      },
+      {
+        "abilities": [
+          "sandking_burrowstrike",
+          "sandking_caustic_finale"
+        ],
+        "baseclass": "dac_npc_assassin",
+        "armor": 10,
+        "attackAnimationPoint": 0.53,
+        "attackRange": 1,
+        "attackRate": 1.4,
+        "damageMin": [
+          70,
+          140,
+          270
+        ],
+        "damageMax": [
+          80,
+          160,
+          320
+        ],
+        "displayName": "dac_hero_name_sand_king",
+        "dota_unit_name": "npc_dota_hero_sand_king",
+        "draftTier": 4,
+        "goldCost": 4,
+        "health": [
+          750,
+          1500,
+          3200
+        ],
+        "healthRegen": 5,
+        "id": 33,
+        "keywords": "savage assassin",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/sand_king/sand_king.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "sand_king",
+        "soundSet": "Hero_SandKing",
+        "movespeed": 290,
+        "healthBarOffset": 0,
+        "assassin_modifier": "assassin_modifier_sand_king",
+        "precache": [
+          "particles/units/heroes/hero_sandking/sandking_burrow.vpcf"
+        ],
+        "key": "sand_king"
+      }
+    ]
   }
 }
