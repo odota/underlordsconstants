@@ -3109,24 +3109,17 @@
         "unitcount": 2,
         "cumulative": true,
         "affects_all_allies_with_keyword": true,
-        "special_keyword": "demon",
+        "special_keyword": [
+          "demon",
+          "demonhunter"
+        ],
         "modifier_name": "demonhunter_demon_buff"
-      },
-      {
-        "id": 20068,
-        "unitcount": 1,
-        "cumulative": true,
-        "hidden": true,
-        "affects_all_allies_with_keyword": true,
-        "special_keyword": "demonhunter",
-        "modifier_name": "demonhunter_demon_self_buff"
       }
     ],
     "damage_bonus_pct": [
       0,
       50
     ],
-    "demon_damage_bonus_pct": 30,
     "color": "139 0 139",
     "key": "demonhunter",
     "heroes": [
@@ -3450,8 +3443,8 @@
       }
     ],
     "chance": [
-      20,
-      35
+      25,
+      40
     ],
     "num_attacks": [
       2,
@@ -5706,6 +5699,7 @@
       1,
       1
     ],
+    "unitID": 87,
     "color": "0 128 128",
     "key": "primordial",
     "heroes": [
@@ -6431,17 +6425,17 @@
       {
         "id": 20065,
         "unitcount": 2,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       },
       {
         "id": 20066,
         "unitcount": 4,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       },
       {
         "id": 20067,
         "unitcount": 6,
-        "affects_all_allied_units": true
+        "affects_all_allies_with_keyword": true
       }
     ],
     "dot_damage": [
