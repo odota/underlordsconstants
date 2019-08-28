@@ -864,8 +864,8 @@
     ],
     "displayName": "dac_hero_name_juggernaut",
     "dota_unit_name": "npc_dota_hero_juggernaut",
-    "draftTier": 2,
-    "goldCost": 2,
+    "draftTier": 3,
+    "goldCost": 3,
     "health": [
       600,
       1200,
