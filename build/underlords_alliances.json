@@ -496,7 +496,7 @@
         ],
         "healthRegen": 0,
         "id": 35,
-        "keywords": "dwarf hunter",
+        "keywords": "goblin dwarf hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/sniper/sniper.vmdl",
@@ -1226,6 +1226,57 @@
       },
       {
         "abilities": [
+          "sniper_assassinate"
+        ],
+        "baseclass": "dac_npc_dwarf",
+        "armor": 5,
+        "attackAnimationPoint": 0.17,
+        "attackRange": 7,
+        "attackRate": [
+          1.6,
+          1.6,
+          1.3
+        ],
+        "damageMin": [
+          125,
+          180,
+          396
+        ],
+        "damageMax": [
+          150,
+          210,
+          432
+        ],
+        "displayName": "dac_hero_name_sniper",
+        "dota_unit_name": "npc_dota_hero_sniper",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          450,
+          900,
+          2160
+        ],
+        "healthRegen": 0,
+        "id": 35,
+        "keywords": "goblin dwarf hunter",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/sniper/sniper.vmdl",
+        "model_scale": [
+          0.7,
+          0.85,
+          1
+        ],
+        "texturename": "sniper",
+        "soundSet": "Hero_Sniper",
+        "projectile_speed": 3000,
+        "projectile_model": "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf",
+        "movespeed": 285,
+        "healthBarOffset": 10,
+        "key": "sniper"
+      },
+      {
+        "abilities": [
           "tinker_heat_seeking_missile"
         ],
         "armor": 5,
@@ -1895,28 +1946,28 @@
         "abilities": [
           "tidehunter_ravage"
         ],
-        "armor": 5,
+        "armor": 10,
         "attackAnimationPoint": 0.6,
         "attackRange": 1,
         "attackRate": 2,
         "damageMin": [
-          45,
-          90,
-          180
+          60,
+          120,
+          250
         ],
         "damageMax": [
-          55,
-          110,
-          220
+          70,
+          150,
+          300
         ],
         "displayName": "dac_hero_name_tide_hunter",
         "dota_unit_name": "npc_dota_hero_tidehunter",
         "draftTier": 4,
         "goldCost": 4,
         "health": [
-          850,
-          1700,
-          3400
+          1100,
+          2700,
+          5500
         ],
         "healthRegen": 0,
         "id": 53,
@@ -2031,7 +2082,7 @@
         "id": 3,
         "keywords": "ogre mage",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 0,
         "model": "models/heroes/ogre_magi/ogre_magi.vmdl",
         "model_scale": [
           0.7,
@@ -3670,7 +3721,7 @@
         ],
         "healthRegen": 0,
         "id": 35,
-        "keywords": "dwarf hunter",
+        "keywords": "goblin dwarf hunter",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/sniper/sniper.vmdl",
@@ -4155,7 +4206,7 @@
         "id": 3,
         "keywords": "ogre mage",
         "magicResist": 0,
-        "maxmana": 100,
+        "maxmana": 0,
         "model": "models/heroes/ogre_magi/ogre_magi.vmdl",
         "model_scale": [
           0.7,
@@ -5216,54 +5267,6 @@
       },
       {
         "abilities": [
-          "juggernaut_blade_fury"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.33,
-        "attackRange": 1,
-        "attackRate": [
-          1.1,
-          1,
-          0.8
-        ],
-        "damageMin": [
-          65,
-          140,
-          280
-        ],
-        "damageMax": [
-          70,
-          150,
-          300
-        ],
-        "displayName": "dac_hero_name_juggernaut",
-        "dota_unit_name": "npc_dota_hero_juggernaut",
-        "draftTier": 2,
-        "goldCost": 2,
-        "health": [
-          600,
-          1200,
-          2400
-        ],
-        "healthRegen": 0,
-        "id": 15,
-        "keywords": "brawny warrior",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/juggernaut/juggernaut.vmdl",
-        "model_scale": [
-          0.75,
-          0.8,
-          0.9
-        ],
-        "texturename": "juggernaut",
-        "soundSet": "Hero_Juggernaut",
-        "movespeed": 300,
-        "healthBarOffset": 10,
-        "key": "juggernaut"
-      },
-      {
-        "abilities": [
           "slardar_amplify_damage"
         ],
         "armor": 5,
@@ -5349,6 +5352,54 @@
         "movespeed": 280,
         "healthBarOffset": -40,
         "key": "pudge"
+      },
+      {
+        "abilities": [
+          "juggernaut_blade_fury"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.33,
+        "attackRange": 1,
+        "attackRate": [
+          1.1,
+          1,
+          0.8
+        ],
+        "damageMin": [
+          65,
+          140,
+          280
+        ],
+        "damageMax": [
+          70,
+          150,
+          300
+        ],
+        "displayName": "dac_hero_name_juggernaut",
+        "dota_unit_name": "npc_dota_hero_juggernaut",
+        "draftTier": 3,
+        "goldCost": 3,
+        "health": [
+          600,
+          1200,
+          2400
+        ],
+        "healthRegen": 0,
+        "id": 15,
+        "keywords": "brawny warrior",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/juggernaut/juggernaut.vmdl",
+        "model_scale": [
+          0.75,
+          0.8,
+          0.9
+        ],
+        "texturename": "juggernaut",
+        "soundSet": "Hero_Juggernaut",
+        "movespeed": 300,
+        "healthBarOffset": 10,
+        "key": "juggernaut"
       },
       {
         "abilities": [
@@ -5442,28 +5493,28 @@
         "abilities": [
           "tidehunter_ravage"
         ],
-        "armor": 5,
+        "armor": 10,
         "attackAnimationPoint": 0.6,
         "attackRange": 1,
         "attackRate": 2,
         "damageMin": [
-          45,
-          90,
-          180
+          60,
+          120,
+          250
         ],
         "damageMax": [
-          55,
-          110,
-          220
+          70,
+          150,
+          300
         ],
         "displayName": "dac_hero_name_tide_hunter",
         "dota_unit_name": "npc_dota_hero_tidehunter",
         "draftTier": 4,
         "goldCost": 4,
         "health": [
-          850,
-          1700,
-          3400
+          1100,
+          2700,
+          5500
         ],
         "healthRegen": 0,
         "id": 53,
@@ -6083,8 +6134,8 @@
         ],
         "displayName": "dac_hero_name_juggernaut",
         "dota_unit_name": "npc_dota_hero_juggernaut",
-        "draftTier": 2,
-        "goldCost": 2,
+        "draftTier": 3,
+        "goldCost": 3,
         "health": [
           600,
           1200,

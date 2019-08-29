@@ -832,7 +832,6 @@
     "castPoint": 0.45,
     "castAnimation": "ACT_DOTA_CAST_ABILITY_3",
     "cooldown": 5,
-    "manaCost": 100,
     "animationlength": 1.03,
     "modelscale": 25,
     "bonus_movement_speed": [
@@ -1270,10 +1269,10 @@
       12,
       16
     ],
-    "damage_max": [
-      100,
-      150,
-      200
+    "damage_total": [
+      115,
+      250,
+      425
     ],
     "duration": [
       3,
@@ -1748,18 +1747,18 @@
     "maxLevel": 3,
     "radius_cell": 1,
     "damage_aoe": [
-      60,
-      110,
-      160
+      50,
+      100,
+      200
     ],
     "damage_expired": [
-      55,
-      100,
-      190
+      25,
+      50,
+      100
     ],
     "duration": 3.5,
     "attack_slow": -35,
-    "slow_duration": 3.5,
+    "slow_duration": 1.75,
     "damageType": "#DAC_InGame_DamageType_Magical",
     "precache": [
       "particles/items2_fx/orb_of_venom.vpcf",
