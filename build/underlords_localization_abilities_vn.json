@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Thủ Vệ Ánh Sáng vận năng lượng với sức công phá tỷ lệ thuận theo thời gian. Khi giải phóng, gây ra một làn sóng với sức công phá theo tỉ lệ [150/200/250] sát thương cho mỗi giây vận pháp.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Thủ Vệ Ánh Sáng mạnh hơn nhiều so với vẻ bề ngoài, không áp chế lão thì chúng ta đi tong cả nút. - <i>Turath, Kẻ hủy diệt ánh sáng</i> ",
   "dac_ability_medusa_stone_gaze": "Ánh Mắt Hóa Đá",
-  "dac_ability_medusa_stone_gaze_description": "Mọi kẻ địch trong phạm vi 4 ô khi nhìn vào Medusa sẽ bị giảm tốc độ chạy và tấn công đi 30%.\n\nNếu nhìn Medusa tổng cộng 2 giây, đơn vị đó sẽ hóa đá.\n\nCác đối tượng hóa đá sẽ bị choáng, nhận thêm 20% sát thương vật lý.",
+  "dac_ability_medusa_stone_gaze_description": "Mọi kẻ địch trong phạm vi 3 ô khi nhìn vào Medusa sẽ bị giảm tốc độ chạy và tấn công đi 30%.\n\nNếu nhìn Medusa tổng cộng 2 giây, đơn vị đó sẽ hóa đá.\n\nCác đối tượng hóa đá sẽ bị choáng, nhận thêm 20% sát thương vật lý.",
   "dac_ability_medusa_stone_gaze_lore": "Nàng ấy quả đúng gu của tôi, nhưng tiếc là đây đã có Mireska rồi. - <i>Hobgen, Tội phạm với tình yêu sét đánh</i>",
   "dac_ability_medusa_split_shot": "Đa Mục Tiêu",
   "dac_ability_medusa_split_shot_description": "NỘI TẠI: Medusa hóa phép và bắn ra thêm tối đa [2/3/4] mũi tên, tấn công các mục tiêu khác trong phạm vi 1 ô tính từ mục tiêu chính. Các mũi tên thêm này chỉ gây -20 phần trăm sát thương so với mũi tên chính.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Cuồng Huyết",
   "dac_ability_thunder_lizard_bloodlust_description": "Quái thú này khiến một đơn vị đồng minh trở nên điên dại, tăng tốc độ chạy lên [8/10/12]% và tốc độ tấn công lên [30/40/50]%. Nếu dùng lên chính bản thân, tốc độ tấn công tăng sẽ là [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Hào quang trị thương",
+  "dac_ability_healing_ward_healing_aura_description": "Các đơn vị đồng minh trong phạm vi 1 ô được hồi 20 máu mỗi giây.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Gọi xác sống",
+  "dac_ability_tombstone_raise_zombies_description": "Các đơn vị chết trong phạm vi 2 ô sẽ triệu tập một xác sống.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Rào Chắn",
+  "dac_ability_barricade_aura_description": "Rào chắn bảo vệ các đơn vị ở gần. Nó cũng miễn nhiễm với phép thuật.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Khiêu khích",
+  "dac_ability_target_dummy_taunt_description": "Bù nhìn khiêu khích.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

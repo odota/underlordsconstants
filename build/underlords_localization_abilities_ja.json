@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "光の守護者は光のエネルギーを呼び出す。 詠唱時間が長いほど、エネルギーが蓄えられる。放出された波は、詠唱した秒数につき[150/200/250]ダメージを与えながら進む。",
   "dac_ability_keeper_of_the_light_illuminate_lore": "守護者は見かけよりずっと強力だ。放っておけば私たち全員に破滅をもたらすだろう。— <i>トゥラス、光の破壊者</i>",
   "dac_ability_medusa_stone_gaze": "石化光線",
-  "dac_ability_medusa_stone_gaze_description": "メドゥーサの4マス以内でメドゥーサを見ている敵ユニットの移動速度と攻撃速度が30%低下する。\n\nメドゥーサを2秒間見つめたユニットは石に変わる。\n\n石化したユニットはスタンを受け、20%のボーナス物理ダメージを受ける。",
+  "dac_ability_medusa_stone_gaze_description": "メドゥーサの3マス以内でメドゥーサを見ている敵ユニットの移動速度と攻撃速度が30%低下する。\n\nメドゥーサを2秒間見つめたユニットは石に変わる。\n\n石化したユニットはスタンを受け、20%のボーナス物理ダメージを受ける。",
   "dac_ability_medusa_stone_gaze_lore": "好みのタイプだが、俺にはミレスカしかいないんでね。 — <i>ホブゲン、恋する犯罪者</i>",
   "dac_ability_medusa_split_shot": "分裂ショット",
   "dac_ability_medusa_split_shot_description": "パッシブ：メドゥーサは魔力で最大[2/3/4]本の追加の矢を放ち、標的の1マス以内にいる対象を追加攻撃する。追加の矢は最初の矢の-20%のダメージを与える。",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "ブラッドラスト",
   "dac_ability_thunder_lizard_bloodlust_description": "この生物は味方ユニットの熱狂を扇動し、移動速度を[8/10/12]%、攻撃速度を[30/40/50]%上昇させる。自身にキャストした場合は攻撃速度ボーナス[35/55/75]%を得る。",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "癒やしのオーラ",
+  "dac_ability_healing_ward_healing_aura_description": "1マス以内の味方ユニットのヘルスを毎秒20回復する。",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "ゾンビ召喚",
+  "dac_ability_tombstone_raise_zombies_description": "2マス以内で死んだユニットはゾンビを召喚する。",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "バリケード",
+  "dac_ability_barricade_aura_description": "バリケードは近隣のユニットを守りスペルを無効にする。",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "挑発",
+  "dac_ability_target_dummy_taunt_description": "ターゲットダミーが挑発する。",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

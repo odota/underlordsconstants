@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Işığın Koruyucusu ışık enerjisi oluşturup yönlendirir, yönlendirme uzadıkça güç toplar. Salıverildikten sonra yönlendirildiği saniye başına [150/200/250] hasar veren bir dalga gönderilir.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Koruyucu göründüğünden çok daha güçlü, eğer kontrol altında tutmazsak hepimizin sonunu getirebilir. - <i>Işığın Yok Edicisi Turath</i> ",
   "dac_ability_medusa_stone_gaze": "Taşlaştırıcı Bakış",
-  "dac_ability_medusa_stone_gaze_description": "Gorgon'un maksimum 4 hücre mesafesinde bulunan ve ona bakan düşmanların saldırı ve hareket hızları %30 yavaşlar.\n\nGorgon'a toplamda 2 saniyeden fazla bakan birimler taşa dönüşür.\n\nTaşlaştırılmış birimler sersemler ve fazladan %20 fiziksel hasar alır.",
+  "dac_ability_medusa_stone_gaze_description": "Gorgon'un maksimum 3 hücre mesafesinde bulunan ve ona bakan düşmanların saldırı ve hareket hızları %30 yavaşlar.\n\nGorgon'a toplamda 2 saniyeden fazla bakan birimler taşa dönüşür.\n\nTaşlaştırılmış birimler sersemler ve fazladan %20 fiziksel hasar alır.",
   "dac_ability_medusa_stone_gaze_lore": "İşte tam benlik bir kadın ama benim gözüm Mireska'da. - <i>Sevdalı Suçlu Hobgen</i>",
   "dac_ability_medusa_split_shot": "Çoklu Atış",
   "dac_ability_medusa_split_shot_description": "PASİF: Gorgon maksimum [2/3/4] büyülü ok daha atar ve ana hedefe 1 hücre mesafedeki diğer hedefleri vurur. Fazladan atılan oklar, asıl okun verdiği hasarın yüzde -20 kadarını verir.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Kana Susama",
   "dac_ability_thunder_lizard_bloodlust_description": "Yaratık dost bir birimi çıldırtarak hareket hızını %[8/10/12] ve saldırı hızını da %[30/40/50] artırır. Eğer bu, yaratık üzerinde kullanılırsa fazladan saldırı hızı %[35/55/75] olur.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "İyileştirme Aurası",
+  "dac_ability_healing_ward_healing_aura_description": "1 hücre mesafedeki dost birimleri saniye başına 20 iyileştirir.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Zombi Çağırma",
+  "dac_ability_tombstone_raise_zombies_description": "2 hücre mesafede ölen birimler zombi çağırır.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barikat",
+  "dac_ability_barricade_aura_description": "Barikat yakındaki birimleri korur ve büyülere bağışıklığı vardır.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Kışkırtma",
+  "dac_ability_target_dummy_taunt_description": "Hedef mankeni düşmanları kışkırtır.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

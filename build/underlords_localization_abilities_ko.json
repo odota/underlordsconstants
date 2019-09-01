@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "빛의 수호자가 집중된 에너지를 내뿜습니다. 집중 시간이 길수록 더 강력한 힘을 모을 수 있습니다. 방출하면 파동이 앞으로 뿜어져 나와 집중 시간 1초당 [150/200/250]의 피해를 줍니다.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "그 수호자는 알려진 것보다 더 강하다. 만약 손쓰지 않고 그대로 둔다면 우리 모두를 끝장낼 것이다. - <i>빛의 파괴자 투라스</i> ",
   "dac_ability_medusa_stone_gaze": "석화의 시선",
-  "dac_ability_medusa_stone_gaze_description": "최대 4칸 안의 적 유닛이 메두사를 바라보면 이동 및 공격 속도가 30% 둔화합니다.\n\n 메두사를 누적 시간으로 총 2초 이상 바라보면 해당 유닛은 돌로 변합니다\n\n석화한 유닛은 기절하고 20%의 보너스 물리 피해를 받습니다.",
+  "dac_ability_medusa_stone_gaze_description": "최대 3칸 안의 적 유닛이 메두사를 바라보면 이동 및 공격 속도가 30% 둔화합니다.\n\n 메두사를 누적 시간으로 총 2초 이상 바라보면 해당 유닛은 돌로 변합니다\n\n석화한 유닛은 기절하고 20%의 보너스 물리 피해를 받습니다.",
   "dac_ability_medusa_stone_gaze_lore": "진짜 내가 좋아하는 분위기의 아가씨지만, 난 미레스카만 바라볼 뿐이라고. - <i>사랑에 빠진 범죄자 홉겐</i>",
   "dac_ability_medusa_split_shot": "분산 사격",
   "dac_ability_medusa_split_shot_description": "지속 효과: 메두사가 마법으로 최대 [2/3/4]개의 화살을 쏘아 보내 주 대상의 1칸 범위 안에 있는 대상을 추가로 공격합니다. 추가 화살은 메두사가 쏜 주 화살의 -20%에 해당하는 피해를 줍니다.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "피의 욕망",
   "dac_ability_thunder_lizard_bloodlust_description": "생명체가 아군 유닛을 광란에 빠뜨려 이동 속도를 [8/10/12]%, 공격 속도를 [30/40/50]% 증가시킵니다. 자신에게 시전하면 [35/55/75]%의 공격 속도 보너스가 적용됩니다.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "치유 오라",
+  "dac_ability_healing_ward_healing_aura_description": "1칸 범위에 있는 아군 유닛의 체력을 초당 20 치유합니다.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "좀비 일으키기",
+  "dac_ability_tombstone_raise_zombies_description": "2 범위 안에서 유닛이 죽으면 좀비 하나가 소환됩니다.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "장벽",
+  "dac_ability_barricade_aura_description": "장벽 근처에 있는 유닛을 보호하며 주문에 면역입니다.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "도발",
+  "dac_ability_target_dummy_taunt_description": "표적 모형이 도발합니다.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

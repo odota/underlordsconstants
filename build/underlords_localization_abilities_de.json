@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Der Hüter des Lichts kanalisiert Lichtenergie und lädt sich mit zunehmender Dauer immer weiter auf. Wird die Energie entfesselt, breitet sie sich in Form einer geradlinigen Welle aus und verursacht pro Sekunde Aufladezeit [150/200/250] Schaden.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Dieser Hüter ist mächtiger, als er sich ausgibt. Wenn wir nicht aufpassen, wird er unser aller Ende sein. – <i>Turath, Zerstörer des Lichts</i>",
   "dac_ability_medusa_stone_gaze": "Steinerner Blick",
-  "dac_ability_medusa_stone_gaze_description": "Alle gegnerischen Einheiten im Umkreis von 4 Zellen verlieren 30 % Bewegungs- und Angriffstempo, wenn sie in Medusas Richtung blicken.\n\nEinheiten, die Medusa für insgesamt 2 Sekunden ansehen, verwandeln sich in Stein.\n\nVersteinerte Einheiten sind betäubt und erleiden 20 % mehr physischen Schaden.",
+  "dac_ability_medusa_stone_gaze_description": "Alle gegnerischen Einheiten im Umkreis von 3 Zellen verlieren 30 % Bewegungs- und Angriffstempo, wenn sie in Medusas Richtung blicken.\n\nEinheiten, die Medusa für insgesamt 2 Sekunden ansehen, verwandeln sich in Stein.\n\nVersteinerte Einheiten sind betäubt und erleiden 20 % mehr physischen Schaden.",
   "dac_ability_medusa_stone_gaze_lore": "Sie ist genau mein Typ Frau, aber ich hab nur Augen für Mireska. – <i>Hobgen, verliebter Gauner</i>",
   "dac_ability_medusa_split_shot": "Spaltschuss",
   "dac_ability_medusa_split_shot_description": "PASSIV: Medusa spaltet Ihren Schuss auf magische Weise in [2/3/4] zusätzliche Pfeile, die andere Ziele innerhalb von 1 Zelle um ihr primäres Ziel treffen. Diese zusätzlichen Pfeile fügen -20 % des Schadens des Hauptpfeils zu.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Blutrausch",
   "dac_ability_thunder_lizard_bloodlust_description": "Die Kreatur treibt eine verbündete Einheit in Raserei, was ihr Bewegungstempo um [8/10/12] % und ihr Angriffstempo um [30/40/50] % erhöht. Wenn auf sich selbst gezaubert, erhöht sich das Angriffstempo um [35/55/75] %.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Heilaura",
+  "dac_ability_healing_ward_healing_aura_description": "Heilt befreundete Einheiten im Umkreis von 1 um 20 LP/s.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Zombies beschwören",
+  "dac_ability_tombstone_raise_zombies_description": "Einheiten, die im Umkreis von 2 sterben, stehen als Zombie wieder auf.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barrikade",
+  "dac_ability_barricade_aura_description": "Beschützt Einheiten in der Nähe und ist zauberimmun.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Spott",
+  "dac_ability_target_dummy_taunt_description": "Dummy-Ziel spottet.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

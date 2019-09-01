@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Хранитель Світла чаклує світлову хвилю, яка з часом набирає сили. Коли хвиля вивільнюється, вона завдає [150/200/250] шкоди за секунду чаклування.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Хранитель Світла сильніший, ніж здається. Дай йому волю, і він знищить нас усіх. — <i>Турат, Руйнівник Світла</i> ",
   "dac_ability_medusa_stone_gaze": "Кам’яний погляд",
-  "dac_ability_medusa_stone_gaze_description": "Будь-яка ворожа істота в радіусі 4, що дивиться на Медузу, отримає зниження швидкості руху й атаки на 30%.\n\nЯкщо істота дивитиметься на Медузу довше 2 с під час дії здібності, то вона перетвориться на камінь.\n\nСкам’янілі істоти приголомшені та отримують 20% додаткової фізичної шкоди.",
+  "dac_ability_medusa_stone_gaze_description": "Будь-яка ворожа істота в радіусі 3, що дивиться на Медузу, отримає зниження швидкості руху й атаки на 30%.\n\nЯкщо істота дивитиметься на Медузу довше 2 с під час дії здібності, то вона перетвориться на камінь.\n\nСкам’янілі істоти приголомшені та отримують 20% додаткової фізичної шкоди.",
   "dac_ability_medusa_stone_gaze_lore": "Мені подобаються такі жінки, але дивитися я можу лише на Міреску. — <i>Гобґен, закоханий поганець</i>",
   "dac_ability_medusa_split_shot": "Роздільний постріл",
   "dac_ability_medusa_split_shot_description": "ПАСИВНО: за допомогою магії Медуза вистрілює ще кілька додаткових стріл ([2/3/4]), які влучають в істот довкола цілі в радіусі 1. Ці додаткові стріли завдають шкоду, що дорівнює -20% шкоди від її головної стріли.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Жага крові",
   "dac_ability_thunder_lizard_bloodlust_description": "Істота пробуджує лють у союзника, чим збільшує його швидкість руху на [8/10/12]% та швидкість атаки на [30/40/50]%. Якщо чаклується на себе, то швидкість атаки збільшується на [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Цілюща аура",
+  "dac_ability_healing_ward_healing_aura_description": "Зцілює 20 здоров’я за секунду союзнику в радіусі 1.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Прикликання зомбі",
+  "dac_ability_tombstone_raise_zombies_description": "Істоти, що помирають у радіусі 2, прикликають зомбі.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Барикади",
+  "dac_ability_barricade_aura_description": "Барикади захищають союзників поблизу та мають імунітет до чарів.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Провокація",
+  "dac_ability_target_dummy_taunt_description": "Манекен-мішень провокує ворогів.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

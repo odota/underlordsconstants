@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "The Keeper of the Light channels energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals [150/200/250] damage per second channeled.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "The Keeper is more powerful than he lets on, if left unchecked he'll be the end of us all. - <i>Turath, Destroyer of Light</i> ",
   "dac_ability_medusa_stone_gaze": "Stone Gaze",
-  "dac_ability_medusa_stone_gaze_description": "Any enemy unit up to 4 cells away looking at Medusa will have their movement and attack speed slowed by 30%.\n\nIf 2 seconds of total time is accumulated looking at Medusa, that unit will turn to stone.\n\nPetrified units are stunned, and take bonus 20% physical damage.",
+  "dac_ability_medusa_stone_gaze_description": "Any enemy unit up to 3 cells away looking at Medusa will have their movement and attack speed slowed by 30%.\n\nIf 2 seconds of total time is accumulated looking at Medusa, that unit will turn to stone.\n\nPetrified units are stunned, and take bonus 20% physical damage.",
   "dac_ability_medusa_stone_gaze_lore": "She's my type of lady, but I only have eyes for Mireska. - <i>Hobgen, Love-Struck Criminal</i>",
   "dac_ability_medusa_split_shot": "Split Shot",
   "dac_ability_medusa_split_shot_description": "PASSIVE: Medusa magically shoots up to [2/3/4] extra arrows, hitting additional targets within 1 cell of her primary target. The additional arrows deal -20 percent of her primary arrow's damage.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Bloodlust",
   "dac_ability_thunder_lizard_bloodlust_description": "The creature incites a frenzy in a friendly unit, increasing its movement speed by [8/10/12]% and attack speed by [30/40/50]%. If cast on itself, the attack speed bonus is [35/55/75]% instead.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Healing Aura",
+  "dac_ability_healing_ward_healing_aura_description": "Heal friendly units within 1 range for 20 hp/s.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Raise Zombies",
+  "dac_ability_tombstone_raise_zombies_description": "Units that die within 2 range summon a zombie.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barricade",
+  "dac_ability_barricade_aura_description": "Barricade protects nearby units and is immune to spells.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Taunt",
+  "dac_ability_target_dummy_taunt_description": "Target dummy taunts.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

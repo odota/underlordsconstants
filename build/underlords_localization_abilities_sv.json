@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Keeper of the Light kanaliserar energi och bygger upp styrka ju längre tid som går. När energivågen släpps lös gör den [150/200/250] skada per sekund som den kanaliserades.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Väktaren har större krafter än man tror. Hålls han inte i schack kan det innebära slutet för oss alla. – <i>Turath, ljusförgörare </i>",
   "dac_ability_medusa_stone_gaze": "Stone Gaze",
-  "dac_ability_medusa_stone_gaze_description": "Medusa saktar ned attack- och förflyttningshastighet med 30 % hos alla fiendeenheter som ser på henne inom 4 rutor.\n\nOm de ser på Medusa i sammanlagt 2 sekunder förvandlas enheten till sten.\n\nFörstenade enheter är lamslagna och tar 20 % extra fysisk skada.",
+  "dac_ability_medusa_stone_gaze_description": "Medusa saktar ned attack- och förflyttningshastighet med 30 % hos alla fiendeenheter som ser på henne inom 3 rutor.\n\nOm de ser på Medusa i sammanlagt 2 sekunder förvandlas enheten till sten.\n\nFörstenade enheter är lamslagna och tar 20 % extra fysisk skada.",
   "dac_ability_medusa_stone_gaze_lore": "Hon är min typ av dam, men jag suktar bara efter Mireska. – <i>Hobgen, förälskad kriminell</i>",
   "dac_ability_medusa_split_shot": "Split Shot",
   "dac_ability_medusa_split_shot_description": "PASSIV: Medusa delar magiskt upp sina skott till [2/3/4] pilar, som träffar extra mål inom 1 ruta/rutor från hennes primära mål. Dessa pilar delar ut -20 % av skadan från sin primära pils skada.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Bloodlust",
   "dac_ability_thunder_lizard_bloodlust_description": "Varelsen får en allierad enhet att bli rosenrasande, vilket ökar dess förflyttningshastighet med [8/10/12] % och attackhastighet med [30/40/50] %. Om den förtrollar sig själv får den [35/55/75] % extra attackhastighet.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Helande aura",
+  "dac_ability_healing_ward_healing_aura_description": "Helar allierade enheter inom 1 rutor med 20 HP/s.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Frammana zombier",
+  "dac_ability_tombstone_raise_zombies_description": "Enheter som dör inom 2 rutor frammanar en zombie.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barrikad",
+  "dac_ability_barricade_aura_description": "Barrikaden skyddar enheter i närheten och är immun mot förmågor.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Taunt",
+  "dac_ability_target_dummy_taunt_description": "Måltavlan hånar.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

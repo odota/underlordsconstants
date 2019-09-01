@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Veghetorul Luminii concentrează energie, aceasta devenind mai puternică cu fiecare secundă de concentrare. După ce este eliberată, este trimis un val care cauzează [150/200/250] de daune per fiecare secundă concentrată.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Veghetorul este mai puternic decât pare, dacă nu e controlat, ne va aduce sfârșitul. - <i>Turath, distrugătorul luminii</i> ",
   "dac_ability_medusa_stone_gaze": "Privire pietrificatoare",
-  "dac_ability_medusa_stone_gaze_description": "Orice unitate inamică aflată la o distanță de 4 celule care se uită la Medusa va avea viteza de mișcare și atac reduse cu 30%.\n\nDacă este acumulat un timp total de 2 secunde în care unitățile s-au uitat la Medusa, unitățile acelea se vor transforma în piatră.\n\nUnitățile pietrificate sunt năucite și încasează un bonus de 20% daune fizice.",
+  "dac_ability_medusa_stone_gaze_description": "Orice unitate inamică aflată la o distanță de 3 celule care se uită la Medusa va avea viteza de mișcare și atac reduse cu 30%.\n\nDacă este acumulat un timp total de 2 secunde în care unitățile s-au uitat la Medusa, unitățile acelea se vor transforma în piatră.\n\nUnitățile pietrificate sunt năucite și încasează un bonus de 20% daune fizice.",
   "dac_ability_medusa_stone_gaze_lore": "E tipul meu de domnișoară, dar eu am ochi numai pentru Mireska. - <i>Hobgen, criminalul amorezat</i>",
   "dac_ability_medusa_split_shot": "Săgeată despicată",
   "dac_ability_medusa_split_shot_description": "PASIV: Medusa trage până la [2/3/4] săgeți suplimentare folosind magia, lovind mai multe unități aflate la o distanță de cel mult 1 celulă față de ținta ei principală. Săgețile suplimentare cauzează un procentaj de -20 din daunele săgeții sale principale.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Sete de sânge",
   "dac_ability_thunder_lizard_bloodlust_description": "Creatura vrăjește o unitate aliată, mărindu-i viteza de mișcare cu [8/10/12]% și viteza de atac cu [30/40/50]%. Dacă este invocată pe ea însăși, viteza de atac bonus este de [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Aură vindecătoare",
+  "dac_ability_healing_ward_healing_aura_description": "Vindecă unitățile aliate aflate la o distanță de cel mult 1 cu 20 viață/s.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Scoală zombi",
+  "dac_ability_tombstone_raise_zombies_description": "Unitățile care mor aflate la o distanță de 2 vor invoca un zombi.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Baricadă",
+  "dac_ability_barricade_aura_description": "Baricada protejează unitățile din apropiere și este imună la vrăji.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Batjocură",
+  "dac_ability_target_dummy_taunt_description": "Momâia țintă batjocorește.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "O Guardião da Luz concentra energia, que se torna mais poderosa com o passar do tempo. Ao libertar a energia, é lançada uma onda que causa [150/200/250] de dano por cada segundo passado a concentrar a habilidade.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "O Guardião é mais poderoso do que aparenta. Se não fizermos nada, ele vai ser o nosso fim. - <i>Turath, destruidor da luz</i> ",
   "dac_ability_medusa_stone_gaze": "Olhar Petrificante",
-  "dac_ability_medusa_stone_gaze_description": "Inimigos que olharem para a Medusa dentro de até 4 espaços de distância terão as suas velocidades de movimento e de ataque reduzidas em 30%.\n\nSe o inimigo estiver a olhar para a Medusa durante um total de 2 segundos, ele irá transformar-se em pedra.\n\nUnidades petrificadas são atordoadas e sofrem mais 20% de dano físico.",
+  "dac_ability_medusa_stone_gaze_description": "Inimigos que olharem para a Medusa dentro de até 3 espaços de distância terão as suas velocidades de movimento e de ataque reduzidas em 30%.\n\nSe o inimigo estiver a olhar para a Medusa durante um total de 2 segundos, ele irá transformar-se em pedra.\n\nUnidades petrificadas são atordoadas e sofrem mais 20% de dano físico.",
   "dac_ability_medusa_stone_gaze_lore": "Ela é o meu tipo de mulher, mas eu só tenho olhos para a Mireska. - <i>Hobgen, criminoso apaixonado</i>",
   "dac_ability_medusa_split_shot": "Disparo Dividido",
   "dac_ability_medusa_split_shot_description": "PASSIVA: Medusa dispara até [2/3/4] flechas secundárias, que atingem alvos adicionais a 1 espaço de distância do alvo principal. As flechas adicionais causam -20% do dano da flecha principal.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Sede de Sangue",
   "dac_ability_thunder_lizard_bloodlust_description": "A criatura incita um frenesim numa unidade aliada, aumentando a sua velocidade de movimento em [8/10/12]% e a sua velocidade de ataque em [30/40/50]%. Se o alvo for a própria criatura, o bónus de velocidade de ataque é de [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Aura Curativa",
+  "dac_ability_healing_ward_healing_aura_description": "Cura 20 de vida por segundo a unidades aliadas a 1 espaço de distância.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Zombies!",
+  "dac_ability_tombstone_raise_zombies_description": "Unidades que morrerem dentro de até 2 espaços de distância da lápide são transformadas em zombies.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barricada",
+  "dac_ability_barricade_aura_description": "A barricada protege unidades por perto e é imune a feitiços.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Provocar",
+  "dac_ability_target_dummy_taunt_description": "O saco de pancada obriga inimigos a atacá-lo.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

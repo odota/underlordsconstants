@@ -464,9 +464,58 @@
     "heroes": [
       {
         "abilities": [
+          "bloodseeker_blood_rage"
+        ],
+        "baseclass": "dac_npc_bloodseeker",
+        "armor": 5,
+        "attackAnimationPoint": 0.43,
+        "attackRange": 1,
+        "attackRate": 1.7,
+        "damageMin": [
+          40,
+          100,
+          160
+        ],
+        "damageMax": [
+          60,
+          120,
+          190
+        ],
+        "displayName": "dac_hero_name_bloodseeker",
+        "dota_unit_name": "npc_dota_hero_bloodseeker",
+        "draftTier": 1,
+        "goldCost": 1,
+        "health": [
+          500,
+          1000,
+          2000
+        ],
+        "healthRegen": 0,
+        "id": 83,
+        "keywords": "human dwarf assassin",
+        "magicResist": 20,
+        "maxmana": 100,
+        "model": "models/heroes/blood_seeker/bloodseeker.vmdl",
+        "model_scale": [
+          0.6,
+          0.75,
+          0.9
+        ],
+        "texturename": "bloodseker",
+        "soundSet": "Hero_BloodSeeker",
+        "movespeed": 850,
+        "ignore_ms_limit": 1,
+        "precache": [
+          "particles/units/heroes/hero_bloodseeker/bloodseeker_rupture.vpcf"
+        ],
+        "healthBarOffset": 20,
+        "aiPassiveAbility": true,
+        "key": "bloodseeker"
+      },
+      {
+        "abilities": [
           "sniper_assassinate"
         ],
-        "baseclass": "dac_npc_dwarf",
         "armor": 5,
         "attackAnimationPoint": 0.17,
         "attackRange": 7,
@@ -515,9 +564,9 @@
       },
       {
         "abilities": [
-          "gyrocopter_call_down"
+          "gyrocopter_call_down",
+          "gyrocopter_deadeye_bonus"
         ],
-        "baseclass": "dac_npc_dwarf",
         "armor": 15,
         "attackAnimationPoint": 0.2,
         "attackRange": 6,
@@ -559,6 +608,12 @@
         "useConstantAnimationLayer": true,
         "movespeed": 315,
         "healthBarOffset": -35,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "dwarf",
+          "description": "#dac_legendary_gyrocopter_desc",
+          "title": "#dac_legendary_title_gyrocopter"
+        },
         "key": "gyrocopter"
       }
     ]
@@ -598,17 +653,11 @@
         "id": 20009,
         "unitcount": 6,
         "affects_all_allies_with_keyword": true
-      },
-      {
-        "id": 20010,
-        "unitcount": 9,
-        "affects_all_allied_units": true
       }
     ],
     "evasion_bonus": [
-      20,
-      45,
-      75
+      25,
+      50
     ],
     "color": "95 151 208",
     "key": "elf",
@@ -1086,14 +1135,14 @@
         "attackRange": 1,
         "attackRate": 1,
         "damageMin": [
-          45,
-          90,
-          180
+          50,
+          100,
+          200
         ],
         "damageMax": [
-          60,
-          120,
-          240
+          70,
+          140,
+          280
         ],
         "displayName": "dac_hero_name_bounty_hunter",
         "dota_unit_name": "npc_dota_hero_bounty_hunter",
@@ -1228,7 +1277,6 @@
         "abilities": [
           "sniper_assassinate"
         ],
-        "baseclass": "dac_npc_dwarf",
         "armor": 5,
         "attackAnimationPoint": 0.17,
         "attackRange": 7,
@@ -1371,7 +1419,8 @@
       },
       {
         "abilities": [
-          "techies_bomb"
+          "techies_bomb",
+          "techies_inventor_bonus"
         ],
         "armor": 10,
         "attackAnimationPoint": 0.5,
@@ -1414,6 +1463,12 @@
         "movespeed": 310,
         "healthBarOffset": -50,
         "aiIsMelee": true,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "inventor",
+          "description": "#dac_legendary_techies_desc",
+          "title": "#dac_legendary_title_techies"
+        },
         "key": "techies"
       }
     ]
@@ -1476,7 +1531,7 @@
         ],
         "healthRegen": 0,
         "id": 83,
-        "keywords": "human assassin",
+        "keywords": "human dwarf assassin",
         "magicResist": 20,
         "maxmana": 100,
         "model": "models/heroes/blood_seeker/bloodseeker.vmdl",
@@ -1990,11 +2045,12 @@
       {
         "abilities": [
           "medusa_stone_gaze",
-          "medusa_split_shot"
+          "medusa_split_shot",
+          "medusa_naga_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.3,
-        "attackRange": 4,
+        "attackRange": 3,
         "attackRate": 1,
         "damageMin": [
           75,
@@ -2032,6 +2088,12 @@
         "projectile_model": "particles/units/heroes/hero_medusa/medusa_base_attack.vpcf",
         "movespeed": 275,
         "healthBarOffset": -10,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "naga",
+          "description": "#dac_legendary_medusa_desc",
+          "title": "#dac_legendary_title_medusa"
+        },
         "key": "medusa"
       }
     ]
@@ -2049,6 +2111,7 @@
       125
     ],
     "color": "85 107 47",
+    "appliesToItems": true,
     "key": "ogre",
     "heroes": [
       {
@@ -2333,12 +2396,13 @@
       },
       {
         "abilities": [
-          "troll_warlord_fervor"
+          "troll_warlord_fervor",
+          "troll_warlord_troll_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.3,
         "attackRange": 3,
-        "attackRate": 1,
+        "attackRate": 1.3,
         "damageMin": [
           180,
           360,
@@ -2376,6 +2440,12 @@
         "movespeed": 290,
         "healthBarOffset": -30,
         "aiPassiveAbility": true,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "troll",
+          "description": "#dac_legendary_warlord_desc",
+          "title": "#dac_legendary_title_warlord"
+        },
         "key": "troll_warlord"
       }
     ]
@@ -2405,6 +2475,7 @@
       15
     ],
     "color": "79 213 101",
+    "appliesToItems": true,
     "key": "undead",
     "heroes": [
       {
@@ -2590,7 +2661,8 @@
       },
       {
         "abilities": [
-          "lich_chain_frost"
+          "lich_chain_frost",
+          "lich_mage_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.46,
@@ -2632,6 +2704,12 @@
         "projectile_model": "particles/units/heroes/hero_lich/lich_base_attack.vpcf",
         "movespeed": 295,
         "healthBarOffset": -80,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "mage",
+          "description": "#dac_legendary_lich_desc",
+          "title": "#dac_legendary_title_lich"
+        },
         "key": "lich"
       }
     ]
@@ -2660,22 +2738,15 @@
         "id": 20028,
         "unitcount": 6,
         "affects_all_allies_with_keyword": true
-      },
-      {
-        "id": 20029,
-        "unitcount": 9,
-        "affects_all_allies_with_keyword": true
       }
     ],
     "crit_chance": [
-      10,
-      20,
-      30
+      15,
+      25
     ],
     "crit_bonus": [
       300,
-      400,
-      500
+      400
     ],
     "blind_duration": 2,
     "blind_chance": 50,
@@ -2693,14 +2764,14 @@
         "attackRange": 1,
         "attackRate": 1,
         "damageMin": [
-          45,
-          90,
-          180
+          50,
+          100,
+          200
         ],
         "damageMax": [
-          60,
-          120,
-          240
+          70,
+          140,
+          280
         ],
         "displayName": "dac_hero_name_bounty_hunter",
         "dota_unit_name": "npc_dota_hero_bounty_hunter",
@@ -2763,7 +2834,7 @@
         ],
         "healthRegen": 0,
         "id": 83,
-        "keywords": "human assassin",
+        "keywords": "human dwarf assassin",
         "magicResist": 20,
         "maxmana": 100,
         "model": "models/heroes/blood_seeker/bloodseeker.vmdl",
@@ -3691,7 +3762,6 @@
         "abilities": [
           "sniper_assassinate"
         ],
-        "baseclass": "dac_npc_dwarf",
         "armor": 5,
         "attackAnimationPoint": 0.17,
         "attackRange": 7,
@@ -3787,11 +3857,12 @@
       {
         "abilities": [
           "medusa_stone_gaze",
-          "medusa_split_shot"
+          "medusa_split_shot",
+          "medusa_naga_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.3,
-        "attackRange": 4,
+        "attackRange": 3,
         "attackRate": 1,
         "damageMin": [
           75,
@@ -3829,6 +3900,12 @@
         "projectile_model": "particles/units/heroes/hero_medusa/medusa_base_attack.vpcf",
         "movespeed": 275,
         "healthBarOffset": -10,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "naga",
+          "description": "#dac_legendary_medusa_desc",
+          "title": "#dac_legendary_title_medusa"
+        },
         "key": "medusa"
       }
     ]
@@ -4173,6 +4250,7 @@
       100
     ],
     "color": "88 221 233",
+    "appliesToItems": true,
     "key": "mage",
     "heroes": [
       {
@@ -4464,7 +4542,8 @@
       },
       {
         "abilities": [
-          "lich_chain_frost"
+          "lich_chain_frost",
+          "lich_mage_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.46,
@@ -4506,6 +4585,12 @@
         "projectile_model": "particles/units/heroes/hero_lich/lich_base_attack.vpcf",
         "movespeed": 295,
         "healthBarOffset": -80,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "mage",
+          "description": "#dac_legendary_lich_desc",
+          "title": "#dac_legendary_title_lich"
+        },
         "key": "lich"
       }
     ]
@@ -4540,7 +4625,7 @@
     "levels": [
       {
         "id": 20043,
-        "unitcount": 3,
+        "unitcount": 2,
         "affects_all_allies_with_keyword": true
       }
     ],
@@ -4548,7 +4633,7 @@
       "modifier_bonus_mana_per_hit"
     ],
     "hops": 4,
-    "percent_chance": 17,
+    "percent_chance": 10,
     "color": "52 159 100",
     "key": "shaman",
     "heroes": [
@@ -4597,52 +4682,6 @@
         "movespeed": 285,
         "healthBarOffset": 60,
         "key": "shadow_shaman"
-      },
-      {
-        "abilities": [
-          "disruptor_static_storm"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_disruptor",
-        "dota_unit_name": "npc_dota_hero_disruptor",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 47,
-        "keywords": "brawny shaman warlock",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/disruptor/disruptor.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "disruptor",
-        "soundSet": "Hero_Disruptor",
-        "projectile_speed": 1200,
-        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
-        "movespeed": 295,
-        "healthBarOffset": -90,
-        "key": "disruptor"
       },
       {
         "abilities": [
@@ -4698,7 +4737,8 @@
       },
       {
         "abilities": [
-          "enigma_midnight_pulse"
+          "enigma_midnight_pulse",
+          "enigma_shaman_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.4,
@@ -4740,6 +4780,12 @@
         "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
         "movespeed": 290,
         "healthBarOffset": -70,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "shaman",
+          "description": "#dac_legendary_enigma_desc",
+          "title": "#dac_legendary_title_enigma"
+        },
         "key": "enigma"
       }
     ]
@@ -5014,52 +5060,6 @@
       },
       {
         "abilities": [
-          "disruptor_static_storm"
-        ],
-        "armor": 5,
-        "attackAnimationPoint": 0.4,
-        "attackRange": 4,
-        "attackRate": 1.5,
-        "damageMin": [
-          45,
-          90,
-          180
-        ],
-        "damageMax": [
-          50,
-          100,
-          200
-        ],
-        "displayName": "dac_hero_name_disruptor",
-        "dota_unit_name": "npc_dota_hero_disruptor",
-        "draftTier": 4,
-        "goldCost": 4,
-        "health": [
-          700,
-          1400,
-          2800
-        ],
-        "healthRegen": 0,
-        "id": 47,
-        "keywords": "brawny shaman warlock",
-        "magicResist": 0,
-        "maxmana": 100,
-        "model": "models/heroes/disruptor/disruptor.vmdl",
-        "model_scale": [
-          0.55,
-          0.7,
-          0.85
-        ],
-        "texturename": "disruptor",
-        "soundSet": "Hero_Disruptor",
-        "projectile_speed": 1200,
-        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
-        "movespeed": 295,
-        "healthBarOffset": -90,
-        "key": "disruptor"
-      },
-      {
-        "abilities": [
           "necrophos_death_pulse"
         ],
         "armor": 5,
@@ -5103,6 +5103,59 @@
         "movespeed": 280,
         "healthBarOffset": -10,
         "key": "necrophos"
+      },
+      {
+        "abilities": [
+          "disruptor_static_storm",
+          "disruptor_warlock_bonus"
+        ],
+        "armor": 5,
+        "attackAnimationPoint": 0.4,
+        "attackRange": 4,
+        "attackRate": 1.5,
+        "damageMin": [
+          54,
+          108,
+          216
+        ],
+        "damageMax": [
+          60,
+          120,
+          240
+        ],
+        "displayName": "dac_hero_name_disruptor",
+        "dota_unit_name": "npc_dota_hero_disruptor",
+        "draftTier": 5,
+        "goldCost": 5,
+        "health": [
+          900,
+          1600,
+          3400
+        ],
+        "healthRegen": 0,
+        "id": 47,
+        "keywords": "brawny warlock",
+        "magicResist": 0,
+        "maxmana": 100,
+        "model": "models/heroes/disruptor/disruptor.vmdl",
+        "model_scale": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "texturename": "disruptor",
+        "soundSet": "Hero_Disruptor",
+        "projectile_speed": 1200,
+        "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
+        "movespeed": 295,
+        "healthBarOffset": -90,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "warlock",
+          "description": "#dac_legendary_disruptor_desc",
+          "title": "#dac_legendary_title_disruptor"
+        },
+        "key": "disruptor"
       }
     ]
   },
@@ -5118,17 +5171,11 @@
         "id": 20048,
         "unitcount": 6,
         "affects_all_allies_with_keyword": true
-      },
-      {
-        "id": 20049,
-        "unitcount": 9,
-        "affects_all_allies_with_keyword": true
       }
     ],
     "armor_bonus": [
       10,
-      15,
-      25
+      20
     ],
     "color": "28 103 180",
     "key": "warrior",
@@ -5536,12 +5583,13 @@
       },
       {
         "abilities": [
-          "troll_warlord_fervor"
+          "troll_warlord_fervor",
+          "troll_warlord_troll_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.3,
         "attackRange": 3,
-        "attackRate": 1,
+        "attackRate": 1.3,
         "damageMin": [
           180,
           360,
@@ -5579,6 +5627,12 @@
         "movespeed": 290,
         "healthBarOffset": -30,
         "aiPassiveAbility": true,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "troll",
+          "description": "#dac_legendary_warlord_desc",
+          "title": "#dac_legendary_title_warlord"
+        },
         "key": "troll_warlord"
       }
     ]
@@ -5952,7 +6006,8 @@
       },
       {
         "abilities": [
-          "enigma_midnight_pulse"
+          "enigma_midnight_pulse",
+          "enigma_shaman_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.4,
@@ -5994,6 +6049,12 @@
         "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
         "movespeed": 290,
         "healthBarOffset": -70,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "shaman",
+          "description": "#dac_legendary_enigma_desc",
+          "title": "#dac_legendary_title_enigma"
+        },
         "key": "enigma"
       }
     ]
@@ -6160,34 +6221,35 @@
       },
       {
         "abilities": [
-          "disruptor_static_storm"
+          "disruptor_static_storm",
+          "disruptor_warlock_bonus"
         ],
         "armor": 5,
         "attackAnimationPoint": 0.4,
         "attackRange": 4,
         "attackRate": 1.5,
         "damageMin": [
-          45,
-          90,
-          180
+          54,
+          108,
+          216
         ],
         "damageMax": [
-          50,
-          100,
-          200
+          60,
+          120,
+          240
         ],
         "displayName": "dac_hero_name_disruptor",
         "dota_unit_name": "npc_dota_hero_disruptor",
-        "draftTier": 4,
-        "goldCost": 4,
+        "draftTier": 5,
+        "goldCost": 5,
         "health": [
-          700,
-          1400,
-          2800
+          900,
+          1600,
+          3400
         ],
         "healthRegen": 0,
         "id": 47,
-        "keywords": "brawny shaman warlock",
+        "keywords": "brawny warlock",
         "magicResist": 0,
         "maxmana": 100,
         "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -6202,6 +6264,12 @@
         "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
         "movespeed": 295,
         "healthBarOffset": -90,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "warlock",
+          "description": "#dac_legendary_disruptor_desc",
+          "title": "#dac_legendary_title_disruptor"
+        },
         "key": "disruptor"
       }
     ]
@@ -6375,9 +6443,9 @@
       },
       {
         "abilities": [
-          "gyrocopter_call_down"
+          "gyrocopter_call_down",
+          "gyrocopter_deadeye_bonus"
         ],
-        "baseclass": "dac_npc_dwarf",
         "armor": 15,
         "attackAnimationPoint": 0.2,
         "attackRange": 6,
@@ -6419,11 +6487,18 @@
         "useConstantAnimationLayer": true,
         "movespeed": 315,
         "healthBarOffset": -35,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "dwarf",
+          "description": "#dac_legendary_gyrocopter_desc",
+          "title": "#dac_legendary_title_gyrocopter"
+        },
         "key": "gyrocopter"
       },
       {
         "abilities": [
-          "techies_bomb"
+          "techies_bomb",
+          "techies_inventor_bonus"
         ],
         "armor": 10,
         "attackAnimationPoint": 0.5,
@@ -6466,6 +6541,12 @@
         "movespeed": 310,
         "healthBarOffset": -50,
         "aiIsMelee": true,
+        "legendary": {
+          "bonus": 15,
+          "synergy": "inventor",
+          "description": "#dac_legendary_techies_desc",
+          "title": "#dac_legendary_title_techies"
+        },
         "key": "techies"
       }
     ]

@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "O Guardião da Luz canaliza energia, que se torna mais poderosa conforme é canalizada. Quando lançada, uma onda avança em frente, causando [150/200/250] de dano por cada segundo canalizado.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "O Guardião é mais poderoso do que deixa aparentar... se passar batido, ele será o nosso fim. — <i>Turath, destruidor da luz</i>",
   "dac_ability_medusa_stone_gaze": "Olhar Petrificante",
-  "dac_ability_medusa_stone_gaze_description": "Unidades inimigas em até 4 casas de distância olhando para Medusa terão as suas velocidades de movimento e ataque reduzidas em 30%.\n\nCaso passe 2 segundos olhando para Medusa, a unidade se transformará em pedra.\n\nUnidades petrificadas são atordoadas e sofrem 20% de dano físico adicional.",
+  "dac_ability_medusa_stone_gaze_description": "Unidades inimigas em até 3 casas de distância olhando para Medusa terão as suas velocidades de movimento e ataque reduzidas em 30%.\n\nCaso passe 2 segundos olhando para Medusa, a unidade se transformará em pedra.\n\nUnidades petrificadas são atordoadas e sofrem 20% de dano físico adicional.",
   "dac_ability_medusa_stone_gaze_lore": "Ela faz o meu tipo, mas eu só tenho olhos para Mireska. — <i>Hobgen, criminoso apaixonado</i>",
   "dac_ability_medusa_split_shot": "Disparo Dividido",
   "dac_ability_medusa_split_shot_description": "PASSIVA: Medusa dispara até [2/3/4] flechas secundárias magicamente, atingindo alvos adicionais em 1 casa de distância do alvo principal. As flechas secundárias causam -20% do dano causado pela flecha principal.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Sede de Sangue",
   "dac_ability_thunder_lizard_bloodlust_description": "A criatura faz com que uma unidade aliada entre em estado de fúria, aumentando a sua velocidade de movimento em [8/10/12]% e a de ataque em [30/40/50]%. Caso o alvo seja o próprio usuário, a velocidade de ataque adicional é de [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Aura de Cura",
+  "dac_ability_healing_ward_healing_aura_description": "Cura unidades aliadas em 1 casa de distância em 20 de vida por segundo.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Despertar Zumbis",
+  "dac_ability_tombstone_raise_zombies_description": "Unidades que morrem em até 2 casas de distância invocam um zumbi.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barricada",
+  "dac_ability_barricade_aura_description": "A barricada protege unidades próximas e é imune a magias.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Provocar",
+  "dac_ability_target_dummy_taunt_description": "O saco de pancada provoca inimigos a atacá-lo.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

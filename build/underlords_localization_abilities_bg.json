@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Пазителят на светлината призовава енергия, надграждаща мощта си при продължително изпълнение. Щом бъде отприщена, изпраща вълна, която нанася [150/200/250] щети за всяка секунда изпълнение.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Пазителят е по-могъщ, отколкото дава да се разбере, ако остане необуздан ще докара кончината на всинца ни. — <i>Турат, унищожител на светлината</i> ",
   "dac_ability_medusa_stone_gaze": "Каменен взор",
-  "dac_ability_medusa_stone_gaze_description": "Всяка вражеска единица на разстояние до 4 клетки, гледаща към Медуза, ще получи забавяне на скоростта за движение и атака с 30%.\n\nАко се натрупат 2 секунди гледане към Медуза, тази единица ще се вкамени.\n\nВцепенените единици биват зашеметени и поемат бонус 20% физически щети.",
+  "dac_ability_medusa_stone_gaze_description": "Всяка вражеска единица на разстояние до 3 клетки, гледаща към Медуза, ще получи забавяне на скоростта за движение и атака с 30%.\n\nАко се натрупат 2 секунди гледане към Медуза, тази единица ще се вкамени.\n\nВцепенените единици биват зашеметени и поемат бонус 20% физически щети.",
   "dac_ability_medusa_stone_gaze_lore": "Моят тип дама е, но очите ми са привлечени само от Мирешка. — <i>Хобген, лудо влюбен престъпник</i>",
   "dac_ability_medusa_split_shot": "Разцепващ изстрел",
   "dac_ability_medusa_split_shot_description": "ПАСИВНО: Медуза магически изстрелва до [2/3/4] екстра стрели, удряйки допълнителните цели в рамките на 1 клетка от основната ѝ цел. Допълнителните стрели нанасят -20 процента от щетите на основната ѝ.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Кръвожадност",
   "dac_ability_thunder_lizard_bloodlust_description": "Създанието подбужда яростта на съюзническа единица, увеличавайки скоростта ѝ на движение с [8/10/12]%, а тази на атаката с [30/40/50]%. Ако се изпълни върху самия него самото, вместо това бонус скоростта на атаката е [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Лечебна аура",
+  "dac_ability_healing_ward_healing_aura_description": "Лекува приятелските единици в рамките на обсег от 1 за 20 здр./сек.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Призоваване на зомбита",
+  "dac_ability_tombstone_raise_zombies_description": "Единиците, които умират в рамките на обсег от 2, призовават зомби.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Барикада",
+  "dac_ability_barricade_aura_description": "Барикадата защитава единиците наблизо и има имунитет срещу заклинания.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Присмех",
+  "dac_ability_target_dummy_taunt_description": "Бутафорната цел се присмива.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

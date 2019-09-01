@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "光之守卫积攒光的能量，积攒时间越长，威力越大。释放后，光波每秒造成 [150/200/250] 伤害。",
   "dac_ability_keeper_of_the_light_illuminate_lore": "守卫真人不露相。要是不防着点，他会把我们所有人都解决掉的。- <i> 光之毁灭者塔拉什 </i>",
   "dac_ability_medusa_stone_gaze": "石化凝视",
-  "dac_ability_medusa_stone_gaze_description": "在周围最多 4 格内凝视美杜莎的任何敌方单位的移动与攻击速度降低 30%。\n\n如果总凝视时间达到 2 秒，该单位将被石化。\n\n石化的单位被眩晕，并承受额外 20% 的物理伤害。",
+  "dac_ability_medusa_stone_gaze_description": "在周围最多 3 格内凝视美杜莎的任何敌方单位的移动与攻击速度降低 30%。\n\n如果总凝视时间达到 2 秒，该单位将被石化。\n\n石化的单位被眩晕，并承受额外 20% 的物理伤害。",
   "dac_ability_medusa_stone_gaze_lore": "她是我喜欢的类型，不过我眼里只有米瑞斯嘉。- <i>意乱情迷的罪犯哈伯根</i>",
   "dac_ability_medusa_split_shot": "分裂箭",
   "dac_ability_medusa_split_shot_description": "被动：美杜莎施展魔法射出 [2/3/4] 支额外箭矢，额外击中她首要目标 1 格内的目标。额外箭造成的伤害为首要箭伤害的 -20%。",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "嗜血术",
   "dac_ability_thunder_lizard_bloodlust_description": "激起一个友方单位的狂暴，使其移动速度增加 [8/10/12]%，攻击速度增加 [30/40/50]%。如果对自身施加，攻击速度加成则为 [35/55/75]%。",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "治疗灵气",
+  "dac_ability_healing_ward_healing_aura_description": "对周围 1 格内的友方单位进行每秒 20 生命值治疗。",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "唤出僵尸",
+  "dac_ability_tombstone_raise_zombies_description": "在周围 2 格内死亡的单位召唤一具僵尸。",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "隔墙",
+  "dac_ability_barricade_aura_description": "隔墙保护附近的单位并对技能免疫。",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "嘲讽",
+  "dac_ability_target_dummy_taunt_description": "傀儡目标嘲讽。",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

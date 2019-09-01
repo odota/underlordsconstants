@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "A Fény Őrzője energiát gyűjt, ami annál erősebb lesz, minél tovább van fenntartva. Kibocsátáskor energiahullám indul el, amely a fenntartási idő minden másodperce után [150/200/250] sebzést okoz.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Az Őrző erősebb, mint amilyennek mutatja magát; ha nem tartjuk kordában, ő lesz mindannyiunk veszte. - <i>Turath, a Fénypusztító</i>",
   "dac_ability_medusa_stone_gaze": "Kővé dermesztő tekintet",
-  "dac_ability_medusa_stone_gaze_description": "A Meduszától 4 mezőn belül levő bármely rá néző ellenséges egység mozgási és támadási sebessége 30%-kal csökken.\n\nHa összesen 2 másodpercen át nézett Meduszára, az egység kővé válik.\n\nA kővé vált egységek megbénulnak, és 20% fizikai többletsebzést szenvednek.",
+  "dac_ability_medusa_stone_gaze_description": "A Meduszától 3 mezőn belül levő bármely rá néző ellenséges egység mozgási és támadási sebessége 30%-kal csökken.\n\nHa összesen 2 másodpercen át nézett Meduszára, az egység kővé válik.\n\nA kővé vált egységek megbénulnak, és 20% fizikai többletsebzést szenvednek.",
   "dac_ability_medusa_stone_gaze_lore": "Kedvemre való hölgy, de az én szívem csak Mireskáért repes. - <i>Hobgen, a szerelmes bűnöző</i>",
   "dac_ability_medusa_split_shot": "Széthasított nyíl",
   "dac_ability_medusa_split_shot_description": "PASSZÍV: Medusza legfeljebb további [2/3/4] mágikus nyilat lő ki, további célpontokat találva el elsődleges célpontjától 1 mezőn belül. A plusz nyilak az elsődleges nyíl sebzésének -20%-át okozzák.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Vérszomj",
   "dac_ability_thunder_lizard_bloodlust_description": "A teremtmény dühöngésre késztet egy baráti egységet, [8/10/12]%-kal növelve mozgási, és [30/40/50]%-kal támadási sebességét. Ha magára varázsolja, a támadási sebességbónusz [35/55/75]% lesz.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Gyógyító aura",
+  "dac_ability_healing_ward_healing_aura_description": "Másodpercenként 20 ÉP-vel gyógyítja a(z) 1 mezőn belüli baráti egységeket.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Zombiidézés",
+  "dac_ability_tombstone_raise_zombies_description": "A(z) 2 mezőn belül meghaló egységekből zombi születik.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barikád",
+  "dac_ability_barricade_aura_description": "Egy, a közeli egységeket védő barikád, ami varázsimmunis.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Gúnyolódás",
+  "dac_ability_target_dummy_taunt_description": "A próbacélpont gúnyolódik.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

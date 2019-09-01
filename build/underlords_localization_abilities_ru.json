@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Хранитель света создаёт перед собой волну светлой энергии, постепенно набирающую силу. Выпущенная волна нанесёт урон, увеличивающийся на [150/200/250] за каждую секунду её создания.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "«Хранитель куда сильнее, чем кажется. Он всех нас уничтожит, лишь дай ему волю». <i>(Турат, уничтожитель света)</i>",
   "dac_ability_medusa_stone_gaze": "Каменный взгляд",
-  "dac_ability_medusa_stone_gaze_description": "На 30% снижает скорость передвижения и атаки всех врагов в радиусе 4, которые смотрят на Медузу.\n\nЕсли существо смотрит на неё более 2 сек., оно превратится в камень.\n\nОкаменевшие враги оглушаются и получают на 20% больше физического урона.",
+  "dac_ability_medusa_stone_gaze_description": "На 30% снижает скорость передвижения и атаки всех врагов в радиусе 3, которые смотрят на Медузу.\n\nЕсли существо смотрит на неё более 2 сек., оно превратится в камень.\n\nОкаменевшие враги оглушаются и получают на 20% больше физического урона.",
   "dac_ability_medusa_stone_gaze_lore": "«Дама она, конечно, роскошная, но моё сердце уже украла Миреска». <i>(Хобген, влюблённый преступник)</i>",
   "dac_ability_medusa_split_shot": "Веерный выстрел",
   "dac_ability_medusa_split_shot_description": "ПАССИВНАЯ: Медуза магически расщепляет свои стрелы, атакуя до [2/3/4] дополнительных целей в радиусе 1 от основной. Эти стрелы наносят -20 процентов урона от обычных атак.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Жажда крови",
   "dac_ability_thunder_lizard_bloodlust_description": "Существо заставляет союзника впасть в бешенство, ускоряя его атаку на [30/40/50]%, а передвижение — на [8/10/12]%. Если оно применит способность на себя, то скорость атаки повысится на [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Целительная аура",
+  "dac_ability_healing_ward_healing_aura_description": "Излечивает 20 здоровья в секунду существам в радиусе 1.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Призыв зомби",
+  "dac_ability_tombstone_raise_zombies_description": "Существа, погибшие в радиусе 2, призывают зомби.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Баррикада",
+  "dac_ability_barricade_aura_description": "Баррикада защищает ближайших существ и невосприимчива к заклинаниям.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Провокация",
+  "dac_ability_target_dummy_taunt_description": "Мишень провоцирует врагов.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

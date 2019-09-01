@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Keeper of the Light canaliza energía lumínica, acumulando más poder cuanto más canalice. Al lanzarla, se envía una onda que inflige [150/200/250] de daño por cada segundo de canalización.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Keeper es más poderoso de lo que aparenta. Si no se controla, será el final de todos nosotros. <i>&#8213;Turath, destructor de la luz</i> ",
   "dac_ability_medusa_stone_gaze": "Mirada Pétrea",
-  "dac_ability_medusa_stone_gaze_description": "La velocidad de ataque y movimiento de cualquiera de las unidades enemigas a una distancia de hasta 4 casillas que miren a Medusa se ralentizan en un 30%.\n\nSi el total de tiempo acumulado de mirar a Medusa es de 2 segundos, esa unidad se convertirá en piedra.\n\nLas unidades petrificadas quedarán aturdidas y recibirán 20% de ataque físico adicional.",
+  "dac_ability_medusa_stone_gaze_description": "La velocidad de ataque y movimiento de cualquiera de las unidades enemigas a una distancia de hasta 3 casillas que miren a Medusa se ralentizan en un 30%.\n\nSi el total de tiempo acumulado de mirar a Medusa es de 2 segundos, esa unidad se convertirá en piedra.\n\nLas unidades petrificadas quedarán aturdidas y recibirán 20% de ataque físico adicional.",
   "dac_ability_medusa_stone_gaze_lore": "Es mi tipo de mujer, pero yo solo tengo ojos para Mireska. <i>&#8213;Hobgen, criminal locamente enamorado</i>",
   "dac_ability_medusa_split_shot": "Disparo Dividido",
   "dac_ability_medusa_split_shot_description": "PASIVA: Medusa dispara mágicamente hasta [2/3/4] flechas extras alcanzando a objetivos adicionales en un radio de 1 casillas alrededor del objetivo principal. Estas flechas infligen el -20 por ciento de daño de su flecha primaria.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Sed de Sangre",
   "dac_ability_thunder_lizard_bloodlust_description": "La criatura incita al frenesí en una unidad aliada, aumentando su velocidad de movimiento un [8/10/12]% y su velocidad de ataque un [30/40/50]%. Si se lanza en sí misma, en vez de lo anterior, su velocidad de ataque aumenta un [35/55/75]% adicional.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Aura curativa",
+  "dac_ability_healing_ward_healing_aura_description": "Cura 20 de vida por segundo a unidades aliadas en un área de 1 casillas.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Invocar zombis",
+  "dac_ability_tombstone_raise_zombies_description": "Las unidades que mueren a 2 casillas invocan un zombi.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barricada",
+  "dac_ability_barricade_aura_description": "La barricada protege a las unidades cercanas y es inmune a hechizos.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Burla",
+  "dac_ability_target_dummy_taunt_description": "Burlas del muñeco de práctica.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

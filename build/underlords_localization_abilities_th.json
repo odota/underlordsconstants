@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "คีปเปอร์ออฟเดอะไลต์ยืนร่ายมนต์ สร้างพลังงานแสงซึ่งจะมีพลังมากขึ้นตามระยะเวลาที่ใช้ยืนร่าย เมื่อปล่อยออกไป คลื่นแสงจะสร้างความเสียหาย [150/200/250] หน่วยต่อวินาทีที่ยืนร่าย",
   "dac_ability_keeper_of_the_light_illuminate_lore": "คีปเปอร์ครอบครองอำนาจมากเกินกว่าที่ควร หากไม่ขัดขวาง มันจะทำให้เราทุกคนจบสิ้นได้ - <i>ทูราธ ผู้ทำลายแสง</i> ",
   "dac_ability_medusa_stone_gaze": "เหลือบศิลา",
-  "dac_ability_medusa_stone_gaze_description": "ยูนิตศัตรูใดก็ตามที่อยู่ในระยะ 4 ช่องซึ่งจ้องมองเมดูซาจะถูกลดความเร็วในการเคลื่อนที่และการโจมตี 30%\n\nถ้าจ้องมองเมดูซาจนเวลาสะสมครบ 2 วินาทีแล้ว ยูนิตดังกล่าวจะถูกสาปกลายเป็นหิน\n\nยูนิตที่เป็นหินจะถูกสตัน และได้รับความเสียหายกายภาพเพิ่มขึ้น 20%",
+  "dac_ability_medusa_stone_gaze_description": "ยูนิตศัตรูใดก็ตามที่อยู่ในระยะ 3 ช่องซึ่งจ้องมองเมดูซาจะถูกลดความเร็วในการเคลื่อนที่และการโจมตี 30%\n\nถ้าจ้องมองเมดูซาจนเวลาสะสมครบ 2 วินาทีแล้ว ยูนิตดังกล่าวจะถูกสาปกลายเป็นหิน\n\nยูนิตที่เป็นหินจะถูกสตัน และได้รับความเสียหายกายภาพเพิ่มขึ้น 20%",
   "dac_ability_medusa_stone_gaze_lore": "นางเป็นสาวตรงตามสเปกข้าเลย แต่ข้าก็มีใจให้มีเรสกาเท่านั้น - <i>ฮอบเกน จอมโจรใจง่าย</i>",
   "dac_ability_medusa_split_shot": "มนตร์แยกลูกศร",
   "dac_ability_medusa_split_shot_description": "ติดตัว: เมดูซาใช้เวทมนตร์ยิงลูกศรเพิ่มเติม [2/3/4] ดอก โจมตีเป้าหมายเพิ่มเติมที่อยู่ในระยะ 1 ช่องจากเป้าหมายหลักของเธอ ลูกศรเพิ่มเติมเหล่านี้จะสร้างความเสียหาย -20 เปอร์เซ็นต์ของความเสียหายลูกศรหลักของเธอ",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "ตัณหาโลหิต",
   "dac_ability_thunder_lizard_bloodlust_description": "สิ่งมีชีวิตกระตุ้นความบ้าคลั่งของยูนิตฝ่ายเดียวกัน เพิ่มความเร็วในการเคลื่อนที่ [8/10/12]% และความเร็วในการโจมตี [30/40/50]% หากร่ายใส่ตัวมันเอง ความเร็วในการโจมตีจะเพิ่ม [35/55/75]% แทน",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "ออรารักษา",
+  "dac_ability_healing_ward_healing_aura_description": "รักษาพลังชีวิตยูนิตฝ่ายเดียวกันภายในระยะ 1 ช่องเป็นจำนวน 20 หน่วย/วินาที",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "ปลุกซอมบี้",
+  "dac_ability_tombstone_raise_zombies_description": "ยูนิตที่ตายในระยะ 2 หน่วยจะอัญเชิญซอมบี้",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "เสากั้น",
+  "dac_ability_barricade_aura_description": "เสากั้นปกป้องยูนิตใกล้เคียงและต้านทานต่อเวทมนตร์ทุกชนิด",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "ยั่วยุ",
+  "dac_ability_target_dummy_taunt_description": "หุ่นเล็งเป้ายั่วยุศัตรู",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

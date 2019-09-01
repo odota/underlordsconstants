@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Lysets verge kanaliserer energi som bygger opp styrke jo lengre den kanaliseres. Når den slippes ut, sendes det ut en bølge som gjør [150/200/250] skade per kanaliserte sekund.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Vergen er mektigere enn han utgir seg for å være. Hvis han ikke holdes i sjakk, vil han bety slutten for oss alle. – <i>Turath, lyseslukker</i>",
   "dac_ability_medusa_stone_gaze": "Steinblikk",
-  "dac_ability_medusa_stone_gaze_description": "Alle fiendtlige enheter opptil 4 ruter unna, som ser på Medusa, får 30% redusert bevegelses- og angrepshastighet.\n\nHvis en enhet ser på Medusa i 2 sekunder til sammen, forvandles enheten til stein.\n\nForsteinede enheter lammes og tar 20% ekstra fysisk skade.",
+  "dac_ability_medusa_stone_gaze_description": "Alle fiendtlige enheter opptil 3 ruter unna, som ser på Medusa, får 30% redusert bevegelses- og angrepshastighet.\n\nHvis en enhet ser på Medusa i 2 sekunder til sammen, forvandles enheten til stein.\n\nForsteinede enheter lammes og tar 20% ekstra fysisk skade.",
   "dac_ability_medusa_stone_gaze_lore": "Hun er en kvinne etter min smak, men jeg har kun øye for Mireska. – <i>Hobgen, forelsket kriminell</i>",
   "dac_ability_medusa_split_shot": "Flerskudd",
   "dac_ability_medusa_split_shot_description": "PASSIV: Medusa skyter på magisk opptil [2/3/4] ekstra piler og treffer ytterligere mål, som er innen 1 rute unna hovedmålet. De ekstra pilene gjør -20% av hovedpilens skade.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Blodtørst",
   "dac_ability_thunder_lizard_bloodlust_description": "Skapningen vekker et raseri i en alliert enhet, noe som øker dens bevegelseshastighet med [8/10/12]% og angrepshastighet med [30/40/50]%. Hvis den brukes på seg selv, er den ekstra angrepshastigheten [35/55/75]% i stedet.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Helbredelsesaura",
+  "dac_ability_healing_ward_healing_aura_description": "Helbreder allierte enheter innen 1 rute med 20 helse/sekund.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Vekk til live",
+  "dac_ability_tombstone_raise_zombies_description": "Enheter skaper en zombie når de dør opptil 2 ruter unna.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barrikade",
+  "dac_ability_barricade_aura_description": "Barrikaden beskytter enheter i nærheten og er immun mot formler.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Hån",
+  "dac_ability_target_dummy_taunt_description": "Treningskompisen håner.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Keeper of the Light canalizza dell'energia luminosa, aumentandone il potere quanto più a lungo è canalizzata. Una volta rilasciata, l'energia infligge [150/200/250] punti danno per ogni secondo per cui è stata canalizzata.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Keeper of the Light è più potente di quanto non lasci intendere. Se lo lasciassimo incontrollato potrebbe essere la nostra fine. - <i>Turath, distruttore della luce</i>",
   "dac_ability_medusa_stone_gaze": "Sguardo pietrificante",
-  "dac_ability_medusa_stone_gaze_description": "Ogni unità nemica nel raggio di 4 caselle rivolta verso Medusa subirà una riduzione della velocità di movimento e della velocità di attacco del 30%.\n\nSe si guarda Medusa per un totale di 2 secondi, quell'unità verrà trasformata in pietra.\n\nLe unità pietrificate sono stordite e subiscono il 20% di danni fisici aggiuntivi.",
+  "dac_ability_medusa_stone_gaze_description": "Ogni unità nemica nel raggio di 3 caselle rivolta verso Medusa subirà una riduzione della velocità di movimento e della velocità di attacco del 30%.\n\nSe si guarda Medusa per un totale di 2 secondi, quell'unità verrà trasformata in pietra.\n\nLe unità pietrificate sono stordite e subiscono il 20% di danni fisici aggiuntivi.",
   "dac_ability_medusa_stone_gaze_lore": "È il mio tipo di donna, ma ho occhi solo per Mireska. - <i>Hobgen, criminale dal cuore tenero</i>",
   "dac_ability_medusa_split_shot": "Colpo diviso",
   "dac_ability_medusa_split_shot_description": "PASSIVA: Medusa scocca magicamente [2/3/4] frecce in più, colpendo ulteriori nemici nel raggio di 1 casella dal bersaglio principale. Queste frecce aggiuntive infliggono il -20% dei punti danno inflitti normalmente.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Brama sanguinaria",
   "dac_ability_thunder_lizard_bloodlust_description": "La creatura incita alla frenesia un'unità alleata, aumentandone le velocità di attacco del [30/40/50]% e di movimento del [8/10/12]%. Se utilizzata su sé stessa, la velocità di attacco aggiuntiva è del [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Aura lenitiva",
+  "dac_ability_healing_ward_healing_aura_description": "Cura le unità alleate nel raggio di 1 caselle di 20 punti salute al secondo.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Evocazione zombi",
+  "dac_ability_tombstone_raise_zombies_description": "Le unità che muoiono entro un raggio di 2 caselle evocano uno zombi.",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barricata",
+  "dac_ability_barricade_aura_description": "La barricata protegge le unità vicine ed è immune agli incantesimi.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Provocazione",
+  "dac_ability_target_dummy_taunt_description": "Il bersaglio inanimato provoca gli avversari.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

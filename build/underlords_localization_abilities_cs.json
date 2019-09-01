@@ -147,7 +147,7 @@
   "dac_ability_keeper_of_the_light_illuminate_description": "Strážce Světla začne vyvolávat energii, jejíž síla stoupá podle toho, jak dlouho je vyvolávána. Jakmile je energie vypuštěna, udělí [150/200/250] bodů poškození za každou sekundu vyvolávání.",
   "dac_ability_keeper_of_the_light_illuminate_lore": "Strážce je mnohem mocnější, než si sám uvědomuje. – <i>Turath, který zničil Světlo</i>",
   "dac_ability_medusa_stone_gaze": "Zkameňující pohled",
-  "dac_ability_medusa_stone_gaze_description": "Pokud se nepřátelé v okruhu 4 políček dívají na Medúsu, rychlost jejich pohybu a útoku je snížena o 30 %.\n\nJestliže se nepřítel dívá na Medúsu celkem 2 sekundy, promění se v kámen.\n\nZkamenělí nepřátelé jsou omráčení a dostávají 20% bonusové fyzické poškození.",
+  "dac_ability_medusa_stone_gaze_description": "Pokud se nepřátelé v okruhu 3 políček dívají na Medúsu, rychlost jejich pohybu a útoku je snížena o 30 %.\n\nJestliže se nepřítel dívá na Medúsu celkem 2 sekundy, promění se v kámen.\n\nZkamenělí nepřátelé jsou omráčení a dostávají 20% bonusové fyzické poškození.",
   "dac_ability_medusa_stone_gaze_lore": "Ačkoli je můj typ, mé srdce patří Miresce. – <i>Hobgen, zamilovaný zločinec</i>",
   "dac_ability_medusa_split_shot": "Rozdělené šípy",
   "dac_ability_medusa_split_shot_description": "PASIVNÍ: Medúsa vystřeluje až [2/3/4] šípy navíc, které zasahují další nepřátele v okruhu 1 políčka od primárního cíle. Tyto šípy udělují o -20 % nižší poškození než běžné šípy.",
@@ -211,5 +211,17 @@
   "dac_ability_lone_druid_spirit_bear_entangle_lore": " ",
   "dac_ability_thunder_lizard_bloodlust": "Krvežíznivost",
   "dac_ability_thunder_lizard_bloodlust_description": "Jednotka podnítí ve spojenci krvežíznivost, čímž mu zajistí [8/10/12]% bonus k rychlosti pohybu a [30/40/50]% bonus k rychlosti útoku. Pokud jednotka použije schopnost sama na sebe, bonus k rychlosti útoku je [35/55/75]%.",
-  "dac_ability_thunder_lizard_bloodlust_lore": " "
+  "dac_ability_thunder_lizard_bloodlust_lore": " ",
+  "dac_ability_healing_ward_healing_aura": "Léčivá aura",
+  "dac_ability_healing_ward_healing_aura_description": "Léčí spojence v okruhu 1 políčka rychlostí 20 bodů zdraví za sekundu.",
+  "dac_ability_healing_ward_healing_aura_lore": "",
+  "dac_ability_tombstone_raise_zombies": "Úsvit mrtvých",
+  "dac_ability_tombstone_raise_zombies_description": "Hrdinové, kteří zemřou v okruhu 2 políček, se vrátí jako zombie",
+  "dac_ability_tombstone_raise_zombies_lore": "",
+  "dac_ability_barricade_aura": "Barikáda",
+  "dac_ability_barricade_aura_description": "Barikáda imunní vůči kouzlům, která chrání jednotky poblíž.",
+  "dac_ability_barricade_aura_lore": "",
+  "dac_ability_target_dummy_taunt": "Naštvání",
+  "dac_ability_target_dummy_taunt_description": "Slaměný panák nutí nepřátele, aby na něj útočili.",
+  "dac_ability_target_dummy_taunt_lore": ""
 }

@@ -284,14 +284,14 @@
     "attackRange": 1,
     "attackRate": 1,
     "damageMin": [
-      45,
-      90,
-      180
+      50,
+      100,
+      200
     ],
     "damageMax": [
-      60,
-      120,
-      240
+      70,
+      140,
+      280
     ],
     "displayName": "dac_hero_name_bounty_hunter",
     "dota_unit_name": "npc_dota_hero_bounty_hunter",
@@ -469,34 +469,35 @@
   },
   "disruptor": {
     "abilities": [
-      "disruptor_static_storm"
+      "disruptor_static_storm",
+      "disruptor_warlock_bonus"
     ],
     "armor": 5,
     "attackAnimationPoint": 0.4,
     "attackRange": 4,
     "attackRate": 1.5,
     "damageMin": [
-      45,
-      90,
-      180
+      54,
+      108,
+      216
     ],
     "damageMax": [
-      50,
-      100,
-      200
+      60,
+      120,
+      240
     ],
     "displayName": "dac_hero_name_disruptor",
     "dota_unit_name": "npc_dota_hero_disruptor",
-    "draftTier": 4,
-    "goldCost": 4,
+    "draftTier": 5,
+    "goldCost": 5,
     "health": [
-      700,
-      1400,
-      2800
+      900,
+      1600,
+      3400
     ],
     "healthRegen": 0,
     "id": 47,
-    "keywords": "brawny shaman warlock",
+    "keywords": "brawny warlock",
     "magicResist": 0,
     "maxmana": 100,
     "model": "models/heroes/disruptor/disruptor.vmdl",
@@ -511,6 +512,12 @@
     "projectile_model": "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf",
     "movespeed": 295,
     "healthBarOffset": -90,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "warlock",
+      "description": "#dac_legendary_disruptor_desc",
+      "title": "#dac_legendary_title_disruptor"
+    },
     "key": "disruptor"
   },
   "doom": {
@@ -702,7 +709,8 @@
   },
   "enigma": {
     "abilities": [
-      "enigma_midnight_pulse"
+      "enigma_midnight_pulse",
+      "enigma_shaman_bonus"
     ],
     "armor": 5,
     "attackAnimationPoint": 0.4,
@@ -744,6 +752,12 @@
     "projectile_model": "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf",
     "movespeed": 290,
     "healthBarOffset": -70,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "shaman",
+      "description": "#dac_legendary_enigma_desc",
+      "title": "#dac_legendary_title_enigma"
+    },
     "key": "enigma"
   },
   "furion": {
@@ -794,9 +808,9 @@
   },
   "gyrocopter": {
     "abilities": [
-      "gyrocopter_call_down"
+      "gyrocopter_call_down",
+      "gyrocopter_deadeye_bonus"
     ],
-    "baseclass": "dac_npc_dwarf",
     "armor": 15,
     "attackAnimationPoint": 0.2,
     "attackRange": 6,
@@ -838,6 +852,12 @@
     "useConstantAnimationLayer": true,
     "movespeed": 315,
     "healthBarOffset": -35,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "dwarf",
+      "description": "#dac_legendary_gyrocopter_desc",
+      "title": "#dac_legendary_title_gyrocopter"
+    },
     "key": "gyrocopter"
   },
   "juggernaut": {
@@ -980,7 +1000,8 @@
   },
   "lich": {
     "abilities": [
-      "lich_chain_frost"
+      "lich_chain_frost",
+      "lich_mage_bonus"
     ],
     "armor": 5,
     "attackAnimationPoint": 0.46,
@@ -1022,6 +1043,12 @@
     "projectile_model": "particles/units/heroes/hero_lich/lich_base_attack.vpcf",
     "movespeed": 295,
     "healthBarOffset": -80,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "mage",
+      "description": "#dac_legendary_lich_desc",
+      "title": "#dac_legendary_title_lich"
+    },
     "key": "lich"
   },
   "lina": {
@@ -1214,11 +1241,12 @@
   "medusa": {
     "abilities": [
       "medusa_stone_gaze",
-      "medusa_split_shot"
+      "medusa_split_shot",
+      "medusa_naga_bonus"
     ],
     "armor": 5,
     "attackAnimationPoint": 0.3,
-    "attackRange": 4,
+    "attackRange": 3,
     "attackRate": 1,
     "damageMin": [
       75,
@@ -1256,6 +1284,12 @@
     "projectile_model": "particles/units/heroes/hero_medusa/medusa_base_attack.vpcf",
     "movespeed": 275,
     "healthBarOffset": -10,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "naga",
+      "description": "#dac_legendary_medusa_desc",
+      "title": "#dac_legendary_title_medusa"
+    },
     "key": "medusa"
   },
   "morphling": {
@@ -1888,7 +1922,6 @@
     "abilities": [
       "sniper_assassinate"
     ],
-    "baseclass": "dac_npc_dwarf",
     "armor": 5,
     "attackAnimationPoint": 0.17,
     "attackRange": 7,
@@ -1937,7 +1970,8 @@
   },
   "techies": {
     "abilities": [
-      "techies_bomb"
+      "techies_bomb",
+      "techies_inventor_bonus"
     ],
     "armor": 10,
     "attackAnimationPoint": 0.5,
@@ -1980,6 +2014,12 @@
     "movespeed": 310,
     "healthBarOffset": -50,
     "aiIsMelee": true,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "inventor",
+      "description": "#dac_legendary_techies_desc",
+      "title": "#dac_legendary_title_techies"
+    },
     "key": "techies"
   },
   "templar_assassin": {
@@ -2316,12 +2356,13 @@
   },
   "troll_warlord": {
     "abilities": [
-      "troll_warlord_fervor"
+      "troll_warlord_fervor",
+      "troll_warlord_troll_bonus"
     ],
     "armor": 5,
     "attackAnimationPoint": 0.3,
     "attackRange": 3,
-    "attackRate": 1,
+    "attackRate": 1.3,
     "damageMin": [
       180,
       360,
@@ -2359,6 +2400,12 @@
     "movespeed": 290,
     "healthBarOffset": -30,
     "aiPassiveAbility": true,
+    "legendary": {
+      "bonus": 15,
+      "synergy": "troll",
+      "description": "#dac_legendary_warlord_desc",
+      "title": "#dac_legendary_title_warlord"
+    },
     "key": "troll_warlord"
   },
   "tusk": {
@@ -2712,7 +2759,7 @@
     ],
     "healthRegen": 0,
     "id": 83,
-    "keywords": "human assassin",
+    "keywords": "human dwarf assassin",
     "magicResist": 20,
     "maxmana": 100,
     "model": "models/heroes/blood_seeker/bloodseeker.vmdl",
@@ -3493,5 +3540,192 @@
     "projectile_speed": 600,
     "player_dmg_override": 0,
     "key": "eidolon"
+  },
+  "healing_ward": {
+    "abilities": [
+      "healing_ward_healing_aura"
+    ],
+    "armor": 0,
+    "keywords": "",
+    "displayName": "dac_name_healing_ward",
+    "dota_unit_name": "npc_dota_healing_ward",
+    "draftTier": 0,
+    "goldCost": 0,
+    "health": [
+      200,
+      220,
+      240
+    ],
+    "model_scale": [
+      1,
+      1,
+      1
+    ],
+    "healthRegen": 0,
+    "id": 91,
+    "magicResist": 0,
+    "model": "models/heroes/juggernaut/jugg_healing_ward.vmdl",
+    "movespeed": 0,
+    "player_dmg_override": 0,
+    "disable_attack": 1,
+    "attackRange": 1,
+    "disable_movement": 1,
+    "disable_items": 1,
+    "ignoreForRoundEnd": true,
+    "aiAura": true,
+    "aiIsMelee": false,
+    "ambient_effect": "particles/items/healing_ward/healing_ward_ambient.vpcf",
+    "death_effect": "particles/items/healing_ward/healing_ward_destruction.vpcf",
+    "precache": [
+      "particles/units/heroes/hero_juggernaut/juggernaut_healing_ward.vpcf"
+    ],
+    "key": "healing_ward"
+  },
+  "barricade": {
+    "abilities": [
+      "barricade_aura"
+    ],
+    "armor": 20,
+    "keywords": "",
+    "displayName": "dac_name_barricade",
+    "dota_unit_name": "npc_dota_barricade",
+    "draftTier": 0,
+    "goldCost": 0,
+    "health": [
+      400,
+      400,
+      400
+    ],
+    "model_scale": [
+      1,
+      1,
+      1
+    ],
+    "healthRegen": 0,
+    "id": 92,
+    "magicResist": 0,
+    "model": "models/props_gameplay/barricade/barricade.vmdl",
+    "movespeed": 0,
+    "player_dmg_override": 0,
+    "disable_attack": 1,
+    "disable_movement": 1,
+    "disable_items": 1,
+    "ignoreForRoundEnd": true,
+    "aiIsMelee": true,
+    "death_effect": "particles/items/barricade/barricade_destruction.vpcf",
+    "key": "barricade"
+  },
+  "tombstone": {
+    "abilities": [
+      "tombstone_raise_zombies"
+    ],
+    "armor": 20,
+    "keywords": "",
+    "displayName": "dac_name_tombstone",
+    "dota_unit_name": "npc_dota_tombstone",
+    "draftTier": 0,
+    "goldCost": 0,
+    "health": [
+      2000,
+      2000,
+      2000
+    ],
+    "model_scale": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "healthRegen": 0,
+    "id": 93,
+    "magicResist": 0,
+    "model": "models/heroes/undying/undying_tower.vmdl",
+    "movespeed": 0,
+    "player_dmg_override": 0,
+    "disable_attack": 1,
+    "attackRange": 2,
+    "disable_movement": 1,
+    "disable_items": 1,
+    "ignoreForRoundEnd": true,
+    "aiAura": true,
+    "aiIsMelee": false,
+    "healthBarOffset": -100,
+    "ambient_effect": "particles/items/tombstone/tombstone_ambient.vpcf",
+    "death_effect": "particles/items/tombstone/tombstone_destruction.vpcf",
+    "key": "tombstone"
+  },
+  "target_dummy": {
+    "abilities": [
+      "target_dummy_taunt"
+    ],
+    "armor": 10,
+    "keywords": "",
+    "displayName": "dac_name_target_dummy",
+    "dota_unit_name": "npc_dota_dummy_tidehunter",
+    "draftTier": 0,
+    "goldCost": 0,
+    "health": 1000,
+    "model_scale": [
+      3,
+      3,
+      3
+    ],
+    "scaleOnlyBaseModel": true,
+    "healthRegen": 0,
+    "id": 94,
+    "magicResist": 0,
+    "model": "models/props_gameplay/dummy/dummy.vmdl",
+    "movespeed": 0,
+    "player_dmg_override": 0,
+    "disable_attack": 1,
+    "attackRange": 1,
+    "disable_movement": 1,
+    "ignoreForRoundEnd": true,
+    "aiIsMelee": true,
+    "death_effect": "particles/items/target_dummy/target_dummy_destruction.vpcf",
+    "healthBarOffset": 160,
+    "key": "target_dummy"
+  },
+  "tombstone_zombie": {
+    "abilities": [],
+    "armor": 5,
+    "attackAnimationPoint": 0.3,
+    "attackRange": 1,
+    "attackRate": 1.2,
+    "damageMin": [
+      30,
+      50,
+      70
+    ],
+    "damageMax": [
+      50,
+      70,
+      90
+    ],
+    "keywords": "",
+    "displayName": "dac_name_tombstone_zombie",
+    "dota_unit_name": "npc_dota_tombstone_zombie",
+    "draftTier": 0,
+    "goldCost": 0,
+    "health": [
+      300,
+      500,
+      700
+    ],
+    "model_scale": [
+      1,
+      1,
+      1.5
+    ],
+    "healthRegen": 0,
+    "id": 95,
+    "magicResist": 0,
+    "model": [
+      "models/heroes/undying/undying_minion_torso.vmdl",
+      "models/heroes/undying/undying_minion.vmdl",
+      "models/heroes/undying/undying_minion.vmdl"
+    ],
+    "movespeed": 325,
+    "player_dmg_override": 0,
+    "key": "tombstone_zombie"
   }
 }
