@@ -1820,6 +1820,7 @@
   },
   "enigma_shaman_bonus": {
     "maxLevel": 3,
+    "mana_dampen": 200,
     "hidden": true,
     "iconName": "enigma_shaman_bonus"
   },

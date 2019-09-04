@@ -222,6 +222,6 @@
   "dac_ability_barricade_aura_description": "A barricada protege unidades por perto e é imune a feitiços.",
   "dac_ability_barricade_aura_lore": "",
   "dac_ability_target_dummy_taunt": "Provocar",
-  "dac_ability_target_dummy_taunt_description": "O saco de pancada obriga inimigos a atacá-lo.",
+  "dac_ability_target_dummy_taunt_description": "O boneco obriga inimigos a atacá-lo.",
   "dac_ability_target_dummy_taunt_lore": ""
 }
