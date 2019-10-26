@@ -220,7 +220,11 @@ function transformLocalization (resObj) {
 }
 
 function parseJson(text) {
+  // Remove trailing commas from JSON
+  let regex = /\,(?=\s*?[\}\]])/g;
+
   try {
+    text = text.replace(regex, "");
     return JSON.parse(text);
   }
   catch (err) {
